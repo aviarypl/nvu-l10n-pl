@@ -1,12 +1,12 @@
 <!-- extracted from content/pref-appearance.xul -->
 
 <!--LOCALIZATION NOTE : FILE The Appearance prefs dialog.  -->
-<!ENTITY lHeader "Appearance">
+<!ENTITY lHeader "Wygląd">
 <!--LOCALIZATION NOTE (onStartLegend.label): Don't translate "&brandShortName;".
     Place &brandShortName; in the phrase where the name of the application should
 	 appear
 -->
-<!ENTITY onStartLegend.label "Podczas uruchamiania programu &brandShortName; otw�rz">
+<!ENTITY onStartLegend.label "Podczas uruchamiania programu &brandShortName; otwórz">
 <!ENTITY appear "Wygląd">
 <!--LOCALIZATION NOTE (navCheck.label): DONT_TRANSLATE -->
 <!ENTITY navCheck.label "Navigator">
@@ -17,7 +17,7 @@
 <!ENTITY calCheck.label "Kalendarz">
 <!ENTITY calCheck.accesskey "a">
 <!ENTITY showToolsLegend.label "Pokaż paski narzędzi jako">
-<!ENTITY picsNtextRadio.label "Obrazki o tekst">
+<!ENTITY picsNtextRadio.label "Obrazki i tekst">
 <!ENTITY picsNtextRadio.accesskey "O">
 <!ENTITY picsOnlyRadio.label "Tylko obrazki">
 <!ENTITY picsOnlyRadio.accesskey "b">

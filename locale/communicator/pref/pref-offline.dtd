@@ -8,6 +8,6 @@
     Place "&brandShortName;" in the phrase where the name of the application should
 	 appear
 -->
-<!ENTITY textStart "Podczas uruchamiania Mozilli:" >
+<!ENTITY textStart "Podczas uruchamiania programu &brandShortName;:" >
 <!ENTITY radioAskMode "Zapytaj w jakim trybie (online/offline) rozpocząć pracę" >
 <!ENTITY radioUsePrev "Użyj trybu (online/offline), który był aktywny podczas zamykania programu" >

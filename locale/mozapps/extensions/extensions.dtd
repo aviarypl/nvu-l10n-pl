@@ -6,7 +6,7 @@
 
 <!-- Command Bar items -->
 <!ENTITY cmd.uninstall.label              "Odinstaluj">
-<!ENTITY cmd.uninstall.tooltip            "Odinstalowuje wybrane rozszerzenie">
+<!ENTITY cmd.uninstall.tooltip            "Odinstalowywuje wybrane rozszerzenie">
 <!ENTITY cmd.uninstall.accesskey          "i">
 <!ENTITY cmd.update.label                 "Aktualizuj">
 <!ENTITY cmd.update.accesskey             "u">
@@ -38,7 +38,7 @@
 <!ENTITY cmd.moveToTop.accesskey          "n">
 <!ENTITY cmd.moveUp.label                 "Przesuń w górę">
 <!ENTITY cmd.moveUp.accesskey             "g">
-<!ENTITY cmd.moveDn.label                 "Przesuń w dól">
+<!ENTITY cmd.moveDn.label                 "Przesuń w dół">
 <!ENTITY cmd.moveDn.accesskey             "d">
 
 <!-- Extension Items -->
@@ -47,10 +47,10 @@
 <!ENTITY about.tooltip                    "O rozszerzeniu">
 <!ENTITY homepage.tooltip                 "Strona domowa">
 
-<!ENTITY extensionItem.toBeDisabled.label     "Ten element będzie wyłączony po ponownym uruchomieniu Firefoksa.">
-<!ENTITY extensionItem.toBeEnabled.label      "Ten element będzie włączony po ponownym uruchomieniu Firefoksa.">
-<!ENTITY extensionItem.toBeInstalled.label    "Ten element zostanie zainstalowany po ponownym uruchomieniu Firefoksa.">
-<!ENTITY extensionItem.toBeUninstalled.label  "Ten element zostanie odinstalowany po ponownym uruchomieniu Firefoksa.">
+<!ENTITY extensionItem.toBeDisabled.label     "Ten element będzie wyłączony po ponownym uruchomieniu programu &brandShortName;.">
+<!ENTITY extensionItem.toBeEnabled.label      "Ten element będzie włączony po ponownym uruchomieniu programu &brandShortName;.">
+<!ENTITY extensionItem.toBeInstalled.label    "Ten element zostanie zainstalowany po ponownym uruchomieniu programu &brandShortName;.">
+<!ENTITY extensionItem.toBeUninstalled.label  "Ten element zostanie odinstalowany po ponownym uruchomieniu programu &brandShortName;.">
 <!ENTITY extensionItem.done.label             "Instalacja powiodła się">
 <!ENTITY extensionItem.waiting.label          "Oczekiwanie...">
 <!ENTITY extensionItem.installing.label       "Instalowanie...">

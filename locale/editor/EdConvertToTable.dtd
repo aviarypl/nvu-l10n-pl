@@ -23,7 +23,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Zamień na tabelę">
-<!ENTITY instructions1.label   "Kompozytor tworzy nowy wiersz dla każdego paragrafu w sekcji.">
+<!ENTITY instructions1.label   "&brandShortName; tworzy nowy wiersz dla każdego paragrafu w sekcji.">
 <!ENTITY instructions2.label   "Wybierz znak użyty do podzielenia sekcji na kolumny:">
 <!ENTITY commaRadio.label      "Przecinek">
 <!ENTITY spaceRadio.label      "Spacja">

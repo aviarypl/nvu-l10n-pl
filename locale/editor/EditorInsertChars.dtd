@@ -28,8 +28,8 @@
 <!ENTITY letter.accessKey "L" >
 <!ENTITY character.label "Znak:" >
 <!ENTITY character.accessKey "Z" >
-<!ENTITY accentUpper.label "Znak diaktryczny - Duże litery" >
-<!ENTITY accentLower.label "Znak diaktryczny - Małe litery" >
-<!ENTITY otherUpper.label "Inne znaki - Duże litery" >
+<!ENTITY accentUpper.label "Znak diakrytyczny - Wielkie litery" >
+<!ENTITY accentLower.label "Znak diakrytyczny - Małe litery" >
+<!ENTITY otherUpper.label "Inne znaki - Wielkie litery" >
 <!ENTITY otherLower.label "Inne znaki - Małe litery" >
 <!ENTITY commonSymbols.label "Typowe symbole" >

@@ -1,4 +1,4 @@
-<!ENTITY     div.walletdataonsystem.label   "Następujące dane formularza zostały zapisane dla Ciebie." >
+<!ENTITY     div.walletdataonsystem.label   "Następujące dane formularza zostały dla Ciebie zapisane." >
 <!ENTITY     treehead.schemaname.label      "Nazwa pola" >
 <!-- String is of the form: treehead.entries.label %value% treehead.entries1.label -->
 <!ENTITY     treehead.entries.label         "Wartości dla" >

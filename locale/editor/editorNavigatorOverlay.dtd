@@ -1,6 +1,6 @@
-<!ENTITY editPageCmd.label "Edytuj stronę w Kompozytorze Stron" >
-<!ENTITY editPageCmd.accesskey "e" >
+<!ENTITY editPageCmd.label "Edytuj stronę w programie &brandShortName;" >
+<!ENTITY editPageCmd.accesskey "E" >
 
-<!ENTITY editLinkCmd.label "Edytuj odnośnik w Kompozytorze Stron" >
-<!ENTITY editLinkCmd.accesskey "e" >
+<!ENTITY editLinkCmd.label "Edytuj odnośnik w programie &brandShortName;" >
+<!ENTITY editLinkCmd.accesskey "E" >
 

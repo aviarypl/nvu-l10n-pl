@@ -16,7 +16,7 @@
 <!ENTITY newPageFromDraftCmd.label "Nowa strona ze szkicu" >
 <!ENTITY newPageFromDraftCmd.accesskey "s" >
 <!-- LOCALIZATION NOTE  (newNavigatorCmd.label): Do NOT translate "Navigator" -->
-<!ENTITY newNavigatorCmd.label "Okno Nawigatora" >
+<!ENTITY newNavigatorCmd.label "Navigator Window" >
 <!ENTITY newNavigatorCmd.key "N" >
 <!ENTITY newNavigatorCmd.accesskey "N" >
 
@@ -66,8 +66,8 @@
 
 <!ENTITY releaseCmd.label "Informacje o wersji programu" >
 <!ENTITY releaseCmd.accesskey "I" >
-<!ENTITY aboutCmd.label "O Mozilli" >
-<!ENTITY aboutCmd.accesskey "M" >
+<!ENTITY aboutCmd.label "O &brandShortName;" >
+<!ENTITY aboutCmd.accesskey "O" >
 <!ENTITY aboutCommPluginsCmd.label "O wtyczkach" >
 <!ENTITY aboutCommPluginsCmd.accesskey "w" >
 

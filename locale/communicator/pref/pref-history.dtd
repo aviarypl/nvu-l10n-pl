@@ -2,7 +2,7 @@
 
 <!ENTITY header3.label "Przeglądanie Historii" >
 <!ENTITY historyPages.label "Informacje o wszystkich odwiedzonych przez użytkownika stronach WWW zapisywane są w Historii, co umożliwia wyświetlanie ich w trybie offline." >
-<!ENTITY pageHis.label "Mozilla zapamięta strony odwiedzone w ciągu ostatnich" >
+<!ENTITY pageHis.label "&brandShortName; zapamięta strony odwiedzone w ciągu ostatnich" >
 <!ENTITY pageHis.accesskey "p" >
 <!ENTITY days.label "dni." >
 <!ENTITY clearHistory.label "Wyczyść Historię" >

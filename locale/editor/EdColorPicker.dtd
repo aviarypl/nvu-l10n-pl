@@ -63,5 +63,5 @@
 <!ENTITY lastPickedColor.label "Ostatnio wybrany kolor">
 <!ENTITY lastPickedColor.accessKey "O">
 
-<!ENTITY hexColor.label            "Heks:">
+<!ENTITY hexColor.label            "Szesnastkowo:">
 <!ENTITY nameColor.label           "Nazwa:">

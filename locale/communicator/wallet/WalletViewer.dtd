@@ -92,8 +92,8 @@
 <!ENTITY miscLicense.accesskey "J" >
 <!ENTITY miscLicenseState.label "województwo:" >
 <!ENTITY miscLicenseState.accesskey "w" >
-<!ENTITY miscMaiden.label "Panieńskie nazwisko matki:" >
-<!ENTITY miscMaiden.accesskey "P" >
+<!ENTITY miscMaiden.label "Nazwisko panieńskie matki:" >
+<!ENTITY miscMaiden.accesskey "p" >
 <!ENTITY miscBirthday.label "Urodziny:" >
 <!ENTITY miscBirthday.accesskey "U" >
 <!ENTITY miscBirthdayMonth.label "miesiąc" >

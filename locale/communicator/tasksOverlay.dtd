@@ -4,8 +4,8 @@
 <!ENTITY navigatorCmd.accesskey "N" >
 <!ENTITY navigatorCmd.commandkey "1" >
 <!-- LOCALIZATION NOTE (editorCmd.label): DONT_TRANSLATE -->
-<!ENTITY editorCmd.label "Kompozytor Stron" >
-<!ENTITY editorCmd.accesskey "K" >
+<!ENTITY editorCmd.label "Composer">
+<!ENTITY editorCmd.accesskey "c">
 <!ENTITY editorCmd.commandkey "4" >
 <!ENTITY securityInfoCmd.label "Informacje o zabezpieczeniach" >
 <!ENTITY securityInfoCmd.accesskey "z" >
@@ -15,8 +15,8 @@
 <!ENTITY javaScriptConsoleCmd.accesskey "K" >
 
 <!-- LOCALIZATION NOTE (privacyMenu.label): DONT_TRANSLATE -->
-<!ENTITY privacyMenu.label "Prywatność i zabezpieczenia" >
-<!ENTITY privacyMenu.accesskey "z" >
+<!ENTITY privacyMenu.label "Privacy &amp; Security">
+<!ENTITY privacyMenu.accesskey "p">
 
 <!ENTITY taskNavigator.tooltip "Nawigator" >
 <!ENTITY taskComposer.tooltip "Kompozytor Stron" >

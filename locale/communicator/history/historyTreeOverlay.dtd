@@ -2,7 +2,7 @@
 <!ENTITY tree.header.name.akey               "T">
 <!ENTITY tree.header.url.label               "Adres">
 <!ENTITY tree.header.url.akey                "A">
-<!ENTITY tree.header.date.label              "Ostatnio odiwedzone">
+<!ENTITY tree.header.date.label              "Ostatnio odwiedzone">
 <!ENTITY tree.header.date.akey               "O">
 <!ENTITY tree.header.firstvisitdate.label    "Data pierwszych odwiedzin">
 <!ENTITY tree.header.firstvisitdate.akey     "D">

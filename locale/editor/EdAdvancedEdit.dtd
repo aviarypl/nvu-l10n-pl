@@ -26,7 +26,7 @@
 <!ENTITY AttValue.label                 "Wartość: ">
 <!ENTITY PropertyName.label             "Właściwość: ">
 <!ENTITY currentattributesfor.label     "Aktualne atrybuty dla: ">
-<!ENTITY tree.attributeHeader.label     "Attrybut">
+<!ENTITY tree.attributeHeader.label     "Atrybut">
 <!ENTITY tree.propertyHeader.label      "Właściwość">
 <!ENTITY tree.valueHeader.label         "Wartość">
 <!ENTITY tabHTML.label                  "Atrybuty HTML">

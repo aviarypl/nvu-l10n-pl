@@ -38,4 +38,4 @@
 <!ENTITY SOCKSport.accesskey "t" >
 <!ENTITY noproxy.label "Nie używaj proxy dla:" >
 <!ENTITY noproxy.accesskey "n" >
-<!ENTITY noproxyExplain.label "Przykład: .mozilla.org, .firma.com.pl" >
+<!ENTITY noproxyExplain.label "Przykład: .mozilla.org, .com.pl" >

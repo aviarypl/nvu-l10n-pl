@@ -22,7 +22,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Wybór zmian w edycji">
-<!ENTITY conflictWarning.label "Ta strona została zmodyfikowana przez inny program, ale istnieje również niezapisana wersja ze zmianami dokonanymi w Kompozytorze.">
-<!ENTITY conflictResolve.label "Wybierz, która wersję zachować:">
+<!ENTITY conflictWarning.label "Ta strona została zmodyfikowana przez inny program, ale istnieje również niezapisana wersja ze zmianami dokonanymi w programie &brandShortName;.">
+<!ENTITY conflictResolve.label "Wybierz, którą wersję zachować:">
 <!ENTITY keepCurrentPageButton.label "Zachowaj aktualne zmiany na stronie">
 <!ENTITY useOtherPageButton.label "Wprowadź zmiany z innego programu">

@@ -36,7 +36,7 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY pingerWindow.title         "Daj nam znać...">
-<!ENTITY pingerMainText1.desc        "Możesz pomóc Nvu jednym kliknięciem: naciśnij przycisk OK, aby dać nam znać, że pobrałeś Nvu. Zostanie wysłana tylko krótka informacja do serwera aby zwiększyć licznik pobrań. Żadne Twoje dane nie zostaną przesłane.">
+<!ENTITY pingerMainText1.desc        "Możesz pomóc Nvu jednym kliknięciem: naciśnij przycisk OK, aby dać nam znać, że pobrałeś Nvu. Zostanie wysłana tylko krótka informacja do serwera, aby zwiększyć licznik pobrań. Żadne Twoje dane nie zostaną przesłane.">
 <!ENTITY pingerMainText2.desc        "UWAGA: jeśli łączysz się z Internetem poprzez serwer proxy, skonfiguruj najpierw swoje połączenie.">
 <!ENTITY pingerMainText3.desc        "To okno dialogowe nie pojawi się już więcej (do czasu aktualizacji Nvu do nowszej wersji).">
 <!ENTITY nvuAuthors.label            "Autorzy Nvu">

@@ -4,7 +4,8 @@
 
 <!-- These entities are used on the "File Types" section of the dialog. -->
 <!ENTITY files.label "Typy plików" >
-<!ENTITY files.text "Zaznacz typy plików, do otwierania których system operacyjny Windows będzie używał Mozilli:" >
+<!ENTITY files.text "Zaznacz typy plików, do otwierania których system
+operacyjny Windows będzie używał programu &brandShortName;:" >
 <!ENTITY html.label "Dokumenty HTML" >
 <!ENTITY html.accesskey "H" >
 <!ENTITY jpeg.label "Obrazki JPEG" >
@@ -30,7 +31,7 @@
 
 <!-- These entities are used on the "Internet Shortcuts" section of the dialog. -->
 <!ENTITY shortcuts.label "Skróty internetowe" >
-<!ENTITY shortcuts.text "Zaznacz protokoły, do obsługi których system operacyjny Windows będzie używał Mozilli:" >
+<!ENTITY shortcuts.text "Zaznacz protokoły, do obsługi których system operacyjny Windows będzie używał programu &brandShortName;:" >
 <!ENTITY http.label "http: (Protokół transferu hipertekstów)" >
 <!ENTITY http.accesskey "H" >
 <!ENTITY https.label "https: (Bezpieczny protokół transferu hipertekstów)" >

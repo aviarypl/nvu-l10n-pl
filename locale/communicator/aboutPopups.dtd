@@ -1,7 +1,7 @@
 <!ENTITY windowtitle.label "Informacje o blokowaniu wyskakujących okien" >
 
-<!ENTITY popupDesc.label "Oglądana witryna otworzyła nowe okno przeglądarki, zwane wyskakującym, bez udziału lub pozwolenia użytkownika. Takie okna, zawierające najczęściej niezamawiane treści lub reklamy mogą być na życzenie użytkownika automatycznie blokowane przez Mozillę. W przypadku, gdy wyskakujące okno zostanie zablokowane, Mozilla może wyświetlić odpowiednią ikonę na pasku stanu, o ile zostanie zaznaczona odpowiednia opcja w preferencjach." >
-<!ENTITY popupDescAlt.label "Mozilla może automatycznie blokować wyświetlanie wyskakujących okien w odniesieniu do poszczególnych witryn. W przypadku, gdy wyskakujące okno zostanie zablokowane, Mozilla może wyświetlić odpowiednią ikonę na pasku stanu." >
+<!ENTITY popupDesc.label "Oglądana witryna otworzyła nowe okno przeglądarki, zwane wyskakującym, bez udziału lub pozwolenia użytkownika. Takie okna, zawierające najczęściej niezamawiane treści lub reklamy mogą być na życzenie użytkownika automatycznie blokowane przez program &brandShortName;. W przypadku, gdy wyskakujące okno zostanie zablokowane, &brandShortName; może wyświetlić odpowiednią ikonę na pasku stanu, o ile zostanie zaznaczona odpowiednia opcja w preferencjach." >
+<!ENTITY popupDescAlt.label "&brandShortName; może automatycznie blokować wyświetlanie wyskakujących okien w odniesieniu do poszczególnych witryn. W przypadku, gdy wyskakujące okno zostanie zablokowane, &brandShortName; może wyświetlić odpowiednią ikonę na pasku stanu." >
 <!ENTITY popupNote1.label "Aby zmienić lub wyświetlić bieżące ustawienia kontrolowania wyskakujących okien, należy wybrać Preferencje z menu Edycja, a następnie w kategorii Prywatność i zabezpieczenia wskazać Wyskakujące okna." >
 <!ENTITY popupNote2.label "Czy włączyć blokowanie wyskakujących okien i otworzyć ustawienia blokowania?" >
 

@@ -5,7 +5,6 @@
 <!ENTITY languages.customize.rHeader "Języki, w których oglądane są strony WWW" >
 <!ENTITY langtitle.label "Języki" >
 <!ENTITY languages.customize.prefAddLangDescript "Wybierz język, który zostanie dodany do listy preferencji." >
-<!ENTITY languages.customize.prefAddLangDescript "Wybierz język, który zostanie dodany do listy preferencji." >
 <!ENTITY languages.customize.engOrder.label "J" >
 <!ENTITY languages.customize.engOption.label "Angielski" >
 <!ENTITY languages.customize.addButton.label "Dodaj..." >

@@ -1,1 +1,35 @@
-<!-- extracted from content/preftree.xul --><!--LOCALIZATION NOTE : FILE Lists preferences categories that appear on the left of the preferences dialog --><!ENTITY appear.label "Wygląd"><!ENTITY fonts.label "Czcionki"><!ENTITY colors.label "Kolory"><!ENTITY themes.label "Motywy"><!--LOCALIZATION NOTE (navigator.label): DONT_TRANSLATE --><!ENTITY navigator.label "Navigator"><!ENTITY history.label "Historia"><!ENTITY bidi.label "Opcje tekstu dwukierunkowego"><!ENTITY languages.label "Języki"><!ENTITY applications.label "Aplikacje pomocnicze"><!--LOCALIZATION NOTE (smartBrowse.label): DONT_TRANSLATE --><!ENTITY smartBrowse.label "Przeglądanie" ><!ENTITY tabWindows.label "Przeglądanie w panelach"><!ENTITY compose.label "Kompozytor"><!ENTITY editing.label "Ustawienia nowej strony"><!ENTITY publish.label "Publikowanie"><!ENTITY offline.label "Tryb offline"><!ENTITY security.label "Prywatność i zabezpieczenia"><!ENTITY advance.label "Zaawansowane"><!ENTITY down.label "Pobierz"><!ENTITY cache.label "Pamięć podręczna"><!ENTITY proxies.label "Serwery proxy"><!ENTITY httpnetworking.label "Ustawienia HTTP"><!ENTITY smart.label "Instalacja oprogramowania"><!ENTITY debug.label  "Debug"><!ENTITY debug1.label "Events"><!ENTITY debug2.label "Networking"><!ENTITY download.label "Pobieranie plików"><!ENTITY keynav.label "Klawiatura"><!ENTITY search.label "Wyszukiwanie"><!ENTITY policies.label "Ustawienia bezpieczeństwa"><!ENTITY mousewheel.label "Przewijanie"><!ENTITY scriptsAndWindows.label "Skrytpy i wtyczki">
+<!-- extracted from content/preftree.xul -->
+<!--LOCALIZATION NOTE : FILE Lists preferences categories that appear on the left of the preferences dialog -->
+<!ENTITY appear.label "Wygląd">
+<!ENTITY fonts.label "Czcionki">
+<!ENTITY colors.label "Kolory">
+<!ENTITY themes.label "Motywy">
+<!--LOCALIZATION NOTE (navigator.label): DONT_TRANSLATE -->
+<!ENTITY navigator.label "Navigator">
+<!ENTITY history.label "Historia">
+<!ENTITY bidi.label "Opcje tekstu dwukierunkowego">
+<!ENTITY languages.label "Języki">
+<!ENTITY applications.label "Aplikacje pomocnicze">
+<!--LOCALIZATION NOTE (smartBrowse.label): DONT_TRANSLATE -->
+<!ENTITY smartBrowse.label "Smart Browsing" >
+<!ENTITY tabWindows.label "Przeglądanie w panelach">
+<!ENTITY compose.label "Kompozytor">
+<!ENTITY editing.label "Ustawienia nowej strony">
+<!ENTITY publish.label "Publikowanie">
+<!ENTITY offline.label "Tryb offline">
+<!ENTITY security.label "Prywatność i zabezpieczenia">
+<!ENTITY advance.label "Zaawansowane">
+<!ENTITY down.label "Pobierz">
+<!ENTITY cache.label "Pamięć podręczna">
+<!ENTITY proxies.label "Serwery proxy">
+<!ENTITY httpnetworking.label "Ustawienia HTTP">
+<!ENTITY smart.label "Instalacja oprogramowania">
+<!ENTITY debug.label  "Debug">
+<!ENTITY debug1.label "Events">
+<!ENTITY debug2.label "Networking">
+<!ENTITY download.label "Pobieranie plików">
+<!ENTITY keynav.label "Klawiatura">
+<!ENTITY search.label "Wyszukiwanie">
+<!ENTITY policies.label "Ustawienia bezpieczeństwa">
+<!ENTITY mousewheel.label "Przewijanie">
+<!ENTITY scriptsAndWindows.label "Skrytpy i wtyczki">

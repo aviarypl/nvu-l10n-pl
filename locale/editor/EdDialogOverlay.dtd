@@ -23,14 +23,14 @@
 
 <!ENTITY AdvancedEditButton.label "Edycja zaawansowana...">
 <!ENTITY AdvancedEditButton.accessKey "E">
-<!ENTITY AdvancedEditButton.tooltip "Dodaj lub modyfikuj atrybuty HTML, atrybuty stylów, oraz JavaScript">
+<!ENTITY AdvancedEditButton.tooltip "Dodaj lub modyfikuj atrybuty HTML, atrybuty stylów oraz JavaScript">
 <!ENTITY chooseButton.label "Wybierz plik...">
 <!ENTITY chooseFile.accessKey "W">
 <!ENTITY chooseFileLink.accessKey "W">
 <!ENTITY makeUrlRelative.label "Adres URL jest relatywny do adresu strony">
 <!ENTITY makeUrlRelative.accessKey "A">
-<!ENTITY makeUrlRelative.tooltip "Zmień między relatywnym i absolutnym adresem URL. Strona musi być najpierw zapisana.">
+<!ENTITY makeUrlRelative.tooltip "Zmiana adresu URL na relatywny lub absolutny. Aby użyć tej funkcji, należy najpierw zapisać stronę.">
 
 <!-- Shared by Link and Image dialogs -->
-<!ENTITY LinkURLEditField.label "Wprowadź adres strony WWW, lokalnego plik lub adres e-mail, albo zaznacz uchwyt lub nagłówek z listy:">
+<!ENTITY LinkURLEditField.label "Wprowadź adres strony WWW, nazwę pliku lokalnego lub wybierz Zakładkę albo Nagłówek z poniższej listy:">
 <!ENTITY LinkURLEditField.accessKey "o">

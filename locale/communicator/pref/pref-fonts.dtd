@@ -1,1 +1,87 @@
-<!-- extracted from content/pref-fonts.xul --><!-- LOCALIZATION NOTE : FILE 'Fonts' prefs dialog --><!ENTITY  lHeader                                 "Czcionki"><!ENTITY  language.label                          "Czcionki:"><!ENTITY  language.accesskey                      "C"><!ENTITY  typefaces.label                         "Krój czcionki"><!ENTITY  sizes.label                             "Rozmiar (piksele)"><!ENTITY  proportional.label                      "Proporcjonalna:"><!ENTITY  proportional.accesskey                  "P"><!ENTITY  serif.label                             "Szeryfowa:"><!ENTITY  serif.accesskey                         "S"><!ENTITY  sans-serif.label                        "Bezszeryfowa:"><!ENTITY  sans-serif.accesskey                    "B"><!ENTITY  monospace.label                         "O stałej szerokości:"><!ENTITY  monospace.accesskey                     "O"><!-- LOCALIZATION NOTE (fantasy.label): 'Fantasy' means 'Ornate' --><!ENTITY  fantasy.label                           "Fantazyjna:"><!ENTITY  fantasy.accesskey                       "F"><!ENTITY  cursive.label                           "Kursywa:"><!ENTITY  cursive.accesskey                       "K"><!ENTITY  fontsize.units                          "pikseli"><!ENTITY  font.langGroup.latin1                   "Zachodnie"><!ENTITY  font.langGroup.latin2                   "Środkowoeuropejskie"><!ENTITY  font.langGroup.japanese                 "Japońskie"><!ENTITY  font.langGroup.trad-chinese             "Chińskie tradycyjne (Tajwan)"><!ENTITY  font.langGroup.simpl-chinese            "Chińskie uproszczone"><!ENTITY  font.langGroup.trad-chinese-hk          "Chińskie tradycyjne (Hong Kong)"><!ENTITY  font.langGroup.korean                   "Koreańskie"><!ENTITY  font.langGroup.cyrillic                 "Cyrylica"><!ENTITY  font.langGroup.baltic                   "Bałtyckie"><!ENTITY  font.langGroup.el                       "Greckie"><!ENTITY  font.langGroup.turkish                  "Tureckie"><!ENTITY  font.langGroup.unicode                  "Unikod"><!ENTITY  font.langGroup.user-def                 "Użytkownika"><!ENTITY  font.langGroup.thai                     "Tajskie"><!ENTITY  font.langGroup.hebrew                   "Hebrajskie"><!ENTITY  font.langGroup.arabic                   "Arabskie"><!ENTITY  font.langGroup.devanagari               "Symboliczne: Devanagari"><!ENTITY  font.langGroup.tamil                    "Tamilskie"><!-- Minimum font size --><!ENTITY minSize.label                            "Minimalny rozmiar czcionki:"><!ENTITY minSize.accesskey                        "M"><!ENTITY minSize.none                             "Brak"><!-- default font type --><!ENTITY  useDefaultFontSerif.label               "Szeryfowe"><!ENTITY  useDefaultFontSansSerif.label           "Bezszeryfowe"><!ENTITY  newLanguages.label                      'Nowe języki mogą być skonfigurowane przy użyciu panelu "Języki".'><!ENTITY  useDocumentFonts.label                  "Zezwalaj na użycie czcionek zadeklarowanych w wyświetlanych dokumentach"><!ENTITY  useDocumentFonts.accesskey              "e"><!-- leaving this stuff in for now --><!ENTITY  header2                                 "Kiedy strona używa określonych przez jej twórcę czcionek"><!ENTITY  useDefaultFont.label                    "Use my default fonts, ignoring the fonts the page has chosen"><!ENTITY  useDefaultFont.accesskey                "u"><!-- LOCALIZATION NOTE (useDocFontNonDynamic): Translate 'Dynamic Fonts' according to Netscape Glossary --><!ENTITY  useDocFontNonDynamic.label              "Use the fonts chosen by the page"><!ENTITY  useDocFontNonDynamic.accesskey          "p"><!-- LOCALIZATION NOTE (useDocFontDynamic): Translate 'Dynamic Fonts' according to Netscape Glossary --><!ENTITY  useDocFontDynamic.label                 "Use all the fonts chosen by the page"><!ENTITY  useDocFontDynamic.accesskey             "a"><!-- font scaling --><!ENTITY  resolution.label                        "Rozdzielczość wyświetlania:"><!ENTITY  resolution.accesskey                    "R"><!-- LOCALIZATION NOTE (resolution.dpi): dpi stands for "dots per inch" --><!ENTITY  resolution.dpi                          "dpi"><!-- LOCALIZATION NOTE (resolution.dpi): $val will be replaced by a numeric dpi value. --><!ENTITY  resolution.dpival                       "$val &resolution.dpi;"><!ENTITY  resolution.system.label                 "Ustawienia systemu"><!ENTITY  resolution.other                        "Inna..."><!-- screen calibration dialog --><!ENTITY  calibrateDialog.title                   "Kalibracja rozdzielczości"><!ENTITY  calibrate.instructions                  "Długość powyższej linii jest równa:"><!ENTITY  units.inches                            "cali"><!ENTITY  units.centimetres                       "centymetrów">
+<!-- extracted from content/pref-fonts.xul -->
+
+<!-- LOCALIZATION NOTE : FILE 'Fonts' prefs dialog -->
+<!ENTITY  lHeader                                 "Czcionki">
+
+<!ENTITY  language.label                          "Czcionki:">
+<!ENTITY  language.accesskey                      "C">
+
+<!ENTITY  typefaces.label                         "Krój">
+<!ENTITY  sizes.label                             "Rozmiar (piksele)">
+
+<!ENTITY  proportional.label                      "Proporcjonalna:">
+<!ENTITY  proportional.accesskey                  "P">
+
+<!ENTITY  serif.label                             "Szeryfowa:">
+<!ENTITY  serif.accesskey                         "S">
+<!ENTITY  sans-serif.label                        "Bezszeryfowa:">
+<!ENTITY  sans-serif.accesskey                    "B">
+<!ENTITY  monospace.label                         "O stałej szerokości:">
+<!ENTITY  monospace.accesskey                     "O">
+<!-- LOCALIZATION NOTE (fantasy.label): 'Fantasy' means 'Ornate' -->
+<!ENTITY  fantasy.label                           "Ozdobna:">
+<!ENTITY  fantasy.accesskey                       "O">
+<!ENTITY  cursive.label                           "Kursywa:">
+<!ENTITY  cursive.accesskey                       "K">
+
+<!ENTITY  fontsize.units                          "pikseli">
+
+<!ENTITY  font.langGroup.latin1                   "Zachodnie">
+<!ENTITY  font.langGroup.latin2                   "Środkowoeuropejskie">
+<!ENTITY  font.langGroup.japanese                 "Japońskie">
+<!ENTITY  font.langGroup.trad-chinese             "Chińskie tradycyjne (Tajwan)">
+<!ENTITY  font.langGroup.simpl-chinese            "Chińskie uproszczone">
+<!ENTITY  font.langGroup.trad-chinese-hk          "Chińskie tradycyjne (Hong Kong)">
+<!ENTITY  font.langGroup.korean                   "Koreańskie">
+<!ENTITY  font.langGroup.cyrillic                 "Cyrylica">
+<!ENTITY  font.langGroup.baltic                   "Bałtyckie">
+<!ENTITY  font.langGroup.el                       "Greckie">
+<!ENTITY  font.langGroup.turkish                  "Tureckie">
+<!ENTITY  font.langGroup.unicode                  "Unikod">
+<!ENTITY  font.langGroup.user-def                 "Użytkownika">
+<!ENTITY  font.langGroup.thai                     "Tajskie">
+<!ENTITY  font.langGroup.hebrew                   "Hebrajskie">
+<!ENTITY  font.langGroup.arabic                   "Arabskie">
+<!ENTITY  font.langGroup.devanagari               "Symboliczne: Devanagari">
+<!ENTITY  font.langGroup.tamil                    "Tamilskie">
+<!-- Minimum font size -->
+<!ENTITY minSize.label                            "Minimalny rozmiar czcionki:">
+<!ENTITY minSize.accesskey                        "M">
+<!ENTITY minSize.none                             "Brak">
+
+<!-- default font type -->
+<!ENTITY  useDefaultFontSerif.label               "Szeryfowe">
+<!ENTITY  useDefaultFontSansSerif.label           "Bezszeryfowe">
+
+<!ENTITY  newLanguages.label                      'Nowe języki mogą być skonfigurowane przy użyciu panelu "Języki".'>
+
+<!ENTITY  useDocumentFonts.label                  "Zezwalaj na użycie czcionek zadeklarowanych w wyświetlanych dokumentach">
+<!ENTITY  useDocumentFonts.accesskey              "e">
+
+<!-- leaving this stuff in for now -->
+
+<!ENTITY  header2                                 "Kiedy strona używa określonych przez jej twórcę czcionek">
+<!ENTITY  useDefaultFont.label                    "Użyj moich domyślnych czcionek ignorując czcionki określone przez twórcę strony">
+<!ENTITY  useDefaultFont.accesskey                "m">
+<!-- LOCALIZATION NOTE (useDocFontNonDynamic): Translate 'Dynamic Fonts' according to Netscape Glossary -->
+<!ENTITY  useDocFontNonDynamic.label              "Użyj czcionek określonych przez twórcę strony">
+<!ENTITY  useDocFontNonDynamic.accesskey          "t">
+<!-- LOCALIZATION NOTE (useDocFontDynamic): Translate 'Dynamic Fonts' according to Netscape Glossary -->
+<!ENTITY  useDocFontDynamic.label                 "Użyj wszystkich czcionek określonych przez twórcę strony">
+<!ENTITY  useDocFontDynamic.accesskey             "w">
+
+<!-- font scaling -->
+<!ENTITY  resolution.label                        "Rozdzielczość wyświetlania:">
+<!ENTITY  resolution.accesskey                    "R">
+<!-- LOCALIZATION NOTE (resolution.dpi): dpi stands for "dots per inch" -->
+<!ENTITY  resolution.dpi                          "dpi">
+<!-- LOCALIZATION NOTE (resolution.dpi): $val will be replaced by a numeric dpi value. -->
+<!ENTITY  resolution.dpival                       "$val &resolution.dpi;">
+<!ENTITY  resolution.system.label                 "Ustawienia systemu">
+<!ENTITY  resolution.other                        "Inna...">
+
+<!-- screen calibration dialog -->
+<!ENTITY  calibrateDialog.title                   "Kalibracja rozdzielczości">
+<!ENTITY  calibrate.instructions                  "Długość powyższej linii jest równa:">
+<!ENTITY  units.inches                            "cali">
+<!ENTITY  units.centimetres                       "centymetrów">

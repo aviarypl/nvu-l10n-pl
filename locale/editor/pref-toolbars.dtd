@@ -35,38 +35,38 @@
    - ***** END LICENSE BLOCK ***** -->
 
 
-<!ENTITY header.title "Paski narzêdzi" >
+<!ENTITY header.title "Paski narzÄ™dzi" >
 
-<!ENTITY composition.caption "Wy¶wietl poni¿sze przyciski na pasku narzêdzi edycji:" >
+<!ENTITY composition.caption "WyÅ›wietl poniÅ¼sze przyciski na pasku narzÄ™dzi edycji:" >
 
 <!ENTITY new.label "Nowy" >
-<!ENTITY open.label "Otwórz" >
+<!ENTITY open.label "OtwÃ³rz" >
 <!ENTITY save.label "Zapisz" >
 <!ENTITY publish.label "Publikuj" >
-<!ENTITY preview.label "Podgl±d" >
+<!ENTITY preview.label "PodglÄ…d" >
 <!ENTITY cut.label "Wytnij" >
 <!ENTITY copy.label "Kopiuj" >
 <!ENTITY paste.label "Wklej" >
 <!ENTITY print.label "Drukuj" >
-<!ENTITY find.label "Znajd¼" >
+<!ENTITY find.label "ZnajdÅº" >
 <!ENTITY image.label "Obrazek" >
 <!ENTITY hline.label "Linia pozioma" >
 <!ENTITY table.label "Tabela" >
-<!ENTITY link.label "Odno¶nik" >
+<!ENTITY link.label "OdnoÅ›nik" >
 <!ENTITY anchor.label "Kotwica" >
 
-<!ENTITY formatting.caption "Wy¶wietl poni¿sze przyciski na pasku narzêdzi formatowania:" >
+<!ENTITY formatting.caption "WyÅ›wietl poniÅ¼sze przyciski na pasku narzÄ™dzi formatowania:" >
 
-<!ENTITY smaller.label "Pomniejsz czcionkê" >
-<!ENTITY larger.label "Powiêksz czcionkê" >
+<!ENTITY smaller.label "Pomniejsz czcionkÄ™" >
+<!ENTITY larger.label "PowiÄ™ksz czcionkÄ™" >
 <!ENTITY bold.label "Pogrubienie" >
 <!ENTITY bullets.label "Wypunktowanie" >
 <!ENTITY numbers.label "Numerowanie" >
 <!ENTITY italic.label "Kursywa" >
-<!ENTITY outdent.label "Zmniejsz wciêcie" >
-<!ENTITY indent.label "Zwiêksz wciêcie" >
-<!ENTITY underline.label "Podkre¶lenie" >
+<!ENTITY outdent.label "Zmniejsz wciÄ™cie" >
+<!ENTITY indent.label "ZwiÄ™ksz wciÄ™cie" >
+<!ENTITY underline.label "PodkreÅ›lenie" >
 
 <!ENTITY absolutePosition.label "Pozycjonowanie absolutne" >
-<!ENTITY decreaseZIndex.label "Przenie¶ pod spód" >
-<!ENTITY increaseZIndex.label "Przenie¶ na wierzch" >
+<!ENTITY decreaseZIndex.label "PrzenieÅ› pod spÃ³d" >
+<!ENTITY increaseZIndex.label "PrzenieÅ› na wierzch" >

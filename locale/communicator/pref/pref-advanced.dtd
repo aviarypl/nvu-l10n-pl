@@ -17,10 +17,10 @@
 <!ENTITY imageBlocking.accesskey      "B">
 
 <!ENTITY perfTitle.label              "Szybki start">
-<!ENTITY enableTurbo.label            "Utrzymuj biblioteki programu &brandShortName; w pamięci zminimalizować czas uruchamiania">
+<!ENTITY enableTurbo.label            "Utrzymuj biblioteki programu &brandShortName; w pamięci, by zminimalizować czas uruchamiania">
 <!ENTITY enableTurboCheck.accesskey   "S">
 
-<!ENTITY perfdescription.label        "Po włączeniu funkcji szybkiego startu niektóre biblioteki programu będą uruchomione w tle i przechowywane w pamięci RAM komputera, nawet gdy Mozilla nie będzie uruchomiona. Pozwala to na skrócenie czasu uruchamiania poszczególnych komponentów.">
+<!ENTITY perfdescription.label        "Po włączeniu funkcji szybkiego startu niektóre biblioteki programu będą uruchomione w tle i przechowywane w pamięci RAM komputera, nawet gdy program &brandShortName; nie będzie uruchomiony. Pozwala to na skrócenie czasu uruchamiania poszczególnych komponentów.">
 
 <!ENTITY jvm.configuration            "Wybierz wersję środowiska Java (wymaga ponownego uruchomienia programu)">
 <!ENTITY jvm.name                     "Wersja">
