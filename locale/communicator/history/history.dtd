@@ -20,7 +20,7 @@
 <!ENTITY groupBy.accesskey          "G">
 <!ENTITY groupByDay.label           "Dnia">
 <!ENTITY groupByDay.accesskey       "D">
-<!ENTITY groupBySite.label          "Witryby">
+<!ENTITY groupBySite.label          "Witryny">
 <!ENTITY groupBySite.accesskey      "W">
 <!ENTITY groupByNone.label          "Bez grupowania">
 <!ENTITY groupByNone.accesskey      "B">
