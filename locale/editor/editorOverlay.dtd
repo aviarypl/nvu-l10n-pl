@@ -137,9 +137,9 @@
 <!ENTITY checkSpellingCmd.label "Sprawdź pisownię" >
 <!ENTITY markupCleanerCmd.label "Oczyść kod">
 <!ENTITY markupcleaner.accesskey "z">
-<!ENTITY validateCmd.label "Weryfikuj poprawność kodu" >
+<!ENTITY validateCmd.label "Sprawdź poprawność kodu" >
 <!ENTITY validate.accesskey "W" >
-<!ENTITY checkLinksCmd.label "Sprawdź odnośnik" >
+<!ENTITY checkLinksCmd.label "Sprawdź odnośniki" >
 <!ENTITY editcheckspelling.accesskey "s" >
 <!ENTITY editcheckspelling.keybinding "k" >
 <!ENTITY viewToolbarsMenu.label "Pokaż/Ukryj" >
