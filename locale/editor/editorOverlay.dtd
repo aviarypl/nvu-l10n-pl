@@ -135,9 +135,9 @@
 <!ENTITY editfindprev.keybinding "g" >
 <!ENTITY editfindprev.keybinding2 "VK_F3" >
 <!ENTITY checkSpellingCmd.label "Sprawdź pisownię" >
-<!ENTITY markupCleanerCmd.label "Czyszczenie kodu">
+<!ENTITY markupCleanerCmd.label "Oczyść kod">
 <!ENTITY markupcleaner.accesskey "z">
-<!ENTITY validateCmd.label "Weryfikuj poprawność kodu HTML" >
+<!ENTITY validateCmd.label "Weryfikuj poprawność kodu" >
 <!ENTITY validate.accesskey "W" >
 <!ENTITY checkLinksCmd.label "Sprawdź odnośnik" >
 <!ENTITY editcheckspelling.accesskey "s" >

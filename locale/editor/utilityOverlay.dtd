@@ -19,9 +19,9 @@
 <!ENTITY selectAllCmd.label					"Zaznacz wszystko">  
 <!ENTITY selectAllCmd.key					"A">  
 <!ENTITY selectAllCmd.accesskey					"a">
-<!ENTITY preferencesCmd.label				"Preferencje...">
+<!ENTITY preferencesCmd.label				"Opcje...">
 <!ENTITY preferencesCmd.key					"E">  
-<!ENTITY preferencesCmd.accesskey			"r"> 
+<!ENTITY preferencesCmd.accesskey			"O"> 
 <!ENTITY findTypeTextCmd.label "Znajdź tekst wprowadzając">
 <!ENTITY findTypeTextCmd.accesskey "t">
 <!ENTITY findTypeLinksCmd.label "Znajdź odnośnik wprowadzając">

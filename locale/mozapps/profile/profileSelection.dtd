@@ -27,7 +27,7 @@
 
 <!ENTITY            profilename.label      "Nazwa profilu:">
 
-<!ENTITY            start.label            "Uruchom Firefoksa">
+<!ENTITY            start.label            "Uruchom program &brandShortName;">
 <!ENTITY            exit.label             "Wyjdź">
 
 <!ENTITY            availprofiles.label    "Dostępne profile">
