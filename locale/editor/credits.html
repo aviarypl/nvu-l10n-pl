@@ -1,0 +1,291 @@
+
+<html>
+  <head>
+    <title>Podziękowania Nvu</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+    <!--
+      * {
+        cursor: default;
+        -moz-user-select: none;
+      }
+      
+      #titleBox {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        right: 0px;
+        bottom: auto;
+        z-index: 999;
+      }
+      
+      #footerBox {
+        position: fixed;
+        left: 0px;
+        top: auto;
+        right: 0px;
+        bottom: 0px;
+        z-index: 999;
+      }
+      
+      #creditsBox {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        overflow: hidden;
+        z-index: 1;
+        height: 275px;
+        width: 280px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-family: Arial, sans-serif;
+        font-size: medium;
+      }
+      
+      h3 {
+        font-weight: bold;
+        font-size: small;
+        text-align: center;
+        margin: 15px 0px 5px 0px;
+      }
+      
+      .creditsGroup {
+        margin-bottom: 1px;
+      }
+      
+      .credit {
+        text-align: center;
+      } 
+      
+      .footnote {
+        font-size: x-small;
+        text-align: justify;
+      }
+      
+      h2.title {
+        margin-bottom: 2px;
+      }
+      
+      .motto {
+        font-style: italic;
+        padding-left: 10px;
+      }
+      
+      a {
+        color: blue;
+        text-decoration: underline;
+      }
+      .minititle {
+        font-variant: small-caps;
+      }
+    --> 
+    </style>
+    
+    <script type="application/x-javascript" src="chrome://global/content/globalOverlay.js"></script>
+    <script type="application/x-javascript">
+    <!--
+    
+      var gCreditsInterval = -1;
+
+      function uninit()
+      {
+        if (gCreditsInterval > -1) 
+          clearInterval(gCreditsInterval);
+      }
+
+      function init()
+      {
+        var cb = document.getElementById("creditsBox");
+        cb.scrollTop = 0;
+        setTimeout("runCredits()", 3000);
+      }
+      
+      function runCredits()
+      {
+        gCreditsInterval = setInterval("creditsCallback()", 25);  
+      }
+      
+      function creditsCallback()
+      {
+        var cb = document.getElementById("creditsBox");
+        var newtop = cb.scrollTop + 1;
+        cb.scrollTop = newtop;
+        if (cb.scrollTop != newtop) {
+          // we're at the bottom
+          clearInterval(gCreditsInterval);
+          setTimeout(function() { cb.scrollTop = 0 }, 3000);
+        }
+      }
+    
+    //-->
+    </script>
+  </head>
+  <body onload="init();" onunload="uninit();">
+    <div id="titleBox">
+      <img src="chrome://editor/content/about-credits.png"><br>
+      <img src="chrome://editor/content/about-header.png">
+    </div>
+    
+    <div id="creditsBox">
+        <br>
+        <br>  
+        <br>  
+        <br>  
+        <br>  
+        <br>
+        <div align="center">
+          <h2 class="title">N<span class="minititle">vu</span></h2>
+          <span class="motto">(wymawiaj En-wiu)</span>
+        </div>
+        <br>  
+        <br>  
+        <br>  
+        <br>  
+        <br>  
+        <br>  
+        <br>  
+        <br>  
+        <br>  
+
+        <div class="creditsGroup">
+          <h3>Główne wsparcie</h3>
+          <div class="credit"><img src="chrome://editor/content/linspire.gif"></div>
+        </div>
+        <br>  
+        <br>  
+        <div class="creditsGroup">
+          <h3>Programowanie</h3>
+          <div class="credit"><img src="chrome://editor/content/DI.png"></div>
+        </div>
+        <br>  
+        <br>  
+
+        <div class="creditsGroup">
+          <h3>Kierownictwo programistyczne</h3>
+          <div class="credit">Daniel Glazman</div>
+                  
+          <h3>Specjalne podziękowania dla</h3>
+          <div class="credit">
+            Neil Marshall<br>
+            Andrew Fedoniouk<br>
+            Neil Rashbrook<br>
+            Darin Fisher<br>
+            Doug Turner<br>
+            Philippe Goetz</br>
+            Boris Zbarsky<br>
+            Robert Accettura<br>
+            Ludovic Hirlimann<br>
+            Neil Deakin oraz grupy Mozdev<br>
+            Benjamin Smedberg<br>
+            R.J. Keller<br>
+            Kamal Deep Singh<br>
+            Michael Pyne<br>
+            <em>Idefix</em> na forach Nvu
+          </div>
+        </div>
+
+        <div class="creditsGroup">
+          <h3>Lokalizacja</h3>
+          <div class="credit">
+            grupa AviaryPL<br>
+          </div>
+        </div>
+
+        <div class="creditsGroup">
+          <h3>Skład AviaryPL</h3>
+          <div class="credit">
+            Zbigniew Braniecki<br>
+            Marek Stępień<br>
+            Piotr Komoda<br>
+            Stanisław Małolepszy<br>
+            Wadim Dziedzic<br>
+            Irek Chmielowiec<br>
+            Paweł Chmielewski<br>
+            Piotr Pielach<br>
+            </div>
+        </div>
+        
+        <div class="creditsGroup">
+          <h3>Marka</h3>
+          <div class="credit">Ingolfur Haraldsson</div>
+          
+          <h3>Strona internetowa</h3>
+          <div class="credit">Ingolfur Haraldsson</div>
+        </div>
+
+        <div class="creditsGroup">        
+          <h3>Kontrola jakości</h3>
+          <div class="credit">Georgi Damyanov</div>
+
+          <h3>Specjalne podziękowania dla</h3>
+          <div class="credit">Zespół Linspire</div>
+        </div>
+
+          <h3>Budowa i wydanie</h3>
+          <div class="credit">
+            Daniel Glazman<br>
+            Jeremy Norris<br>
+            Brian Thomason
+          </div>
+          
+        <div class="creditsGroup">
+          <h3>Kierownictwo projektu</h3>
+          <div class="credit">
+            Tom Welch<br>
+            Daniel Glazman<br>
+          </div>
+            
+          <h3>Zarządanie marketingiem</h3>
+          <div class="credit">Tom Welch</div>
+        </div>
+        
+        <br>  
+        <br>  
+        <br>  
+        <br>  
+        <br>  
+        <br>  
+        <p align="center">Na bazie Mozilli Firefox 1.0
+        <p align="center">Oparte na Gecko&trade;
+        <br>  
+        <br>  
+        <br>  
+        <br>  
+        <br>  
+        <br>  
+        
+        <p class="footnote">
+          Mozilla is Copyright &copy;1998-2004 by its contributors, 
+          according to terms set out in the Mozilla Public License and Netscape 
+          Public License. All Rights Reserved. For full Mozilla credits, type
+          "about:credits" into Mozilla's Location bar.</p>
+
+        <p class="footnote">
+          Portions of this software are Copyright &copy;1994 The Regents of the 
+          University of California. All Rights Reserved.</p>
+
+        <p class="footnote">
+          This software may contain portions that are Copyright &copy;1998-2004 
+          SupportSoft, Inc. All Rights Reserved.</p>
+
+        <p class="footnote">
+          <small>U.S. GOVERNMENT END USERS. The Software is a "commercial item," 
+          as that term is defined in 48 C.F.R. 2.101 (Oct. 1995), consisting of 
+          "commercial computer software" and "commercial computer software 
+          documentation," as such terms are used in 48 C.F.R. 12.212 (Sept. 1995). 
+          Consistent with 48 C.F.R. 12.212 and 48 C.F.R. 227.7202-1 through 
+          227.7202-4 (June 1995), all U.S. Government End Users acquire the 
+          Software with only those rights set forth herein.</small></p>
+
+        <br>  
+        <br>  
+        <br>  
+    </div>    
+    
+    <div id="footerBox">
+      <img src="chrome://editor/content/about-footer.png">
+    </div>
+
+  </body>
+</html>
+

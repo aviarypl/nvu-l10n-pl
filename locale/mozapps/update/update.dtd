@@ -1,0 +1,82 @@
+<!ENTITY  updateWizard.title              "&brandShortName; - Aktualizacja ">
+
+<!ENTITY  mismatch.title                  "Niekompatybilne komponenty">
+<!ENTITY  mismatch.intro1.label           "Poniższe komponenty są niezgodne z nową wersją 
+                                           Mozilli Firefox, która właśnie została zainstalowana:">
+<!ENTITY  mismatch.intro2.label           "Zostały one wyłączone do czasu zainstalowania kompatybilnych wersji.">
+<!ENTITY  mismatch.intro3.label           "&brandShortName; może sprawdzić, czy są już dostępne, i zainstalować nowe kompatybilne wersje tych komponentów.">
+
+<!ENTITY  checking.title                  "Sprawdzanie aktualizacji">
+<!ENTITY  checking.intro.label            "&brandShortName; sprawdza, czy są dostępne aktualizacje...">
+
+<!ENTITY  checking.status                 "Może to potrwać kilka minut...">
+
+<!ENTITY  version.title                   "Sprawdzanie aktualizacji kompatybilnościowych">
+<!ENTITY  version.intro.label             "&brandShortName; sprawdza, czy są dostępne aktualizacje kompatybilnościowe rozszerzeń i motywów...">
+<!ENTITY  version.status                  "Może to potrwać kilka minut...">
+
+<!ENTITY  found.title                     "Znaleziono aktualizacje">
+<!ENTITY  found.intro.label               "&brandShortName; znalazł następujące dostępne aktualizacje:">
+
+<!ENTITY  from.label                      "z: ">
+
+<!-- [marcoos] cholera, do czego są te 4 accesskeys? strzelam: łaTki, Komponenty, Rozszerzenia, pakiety Językowe -->
+<!ENTITY  found.updatetype.patches.accesskey    "t">
+<!ENTITY  found.updatetype.components.accesskey "k">
+<!ENTITY  found.updatetype.addons.accesskey     "r">
+<!ENTITY  found.updatetype.languages.accesskey  "j">
+
+<!ENTITY  found.criticalUpdates.label           "Dla programu Firefox dostępne są następujące krytyczne aktualizacje:">
+
+<!ENTITY  found.criticalUpdates.info            "Należy je zainstalować jak najszybciej, by chronić komputer przed niebezpieczeństwem ataku.">
+
+<!ENTITY  found.app.infoLink                    "Więcej informacji...">
+
+<!ENTITY  found.components.label                "Następujące komponenty i wtyczki są dostępne:">
+
+<!ENTITY  found.components.info                 "Instalacja tych komponentów może uprzyjemnić korzystanie z przeglądarki.">
+
+<!ENTITY  found.addons.label                    "Dostępne są następujące aktualizacje dla już zainstalowanych rozszerzeń i motywów">
+
+<!ENTITY  found.languages.label                 "Dostępne są następujące pakiety językowe:">
+
+<!ENTITY  installing.title                "Instalacja aktualizacji">
+<!ENTITY  installing.intro.label          "Trwa pobieranie i instalacja aktualizacji...">
+<!ENTITY  installing.disclaimer.label     "XXXben - this will not work until we have a scriptable API to XPInstall.">
+
+<!ENTITY  noupdates.title                 "Nie znaleziono aktualizacji">
+<!ENTITY  noupdates.intro.user.label      "&brandShortName; nie znalazł żadnych aktualizacji.">
+
+<!ENTITY  noupdates.intro.mismatch.label  "&brandShortName; nie znalazł żadnych aktualizacji - wersje kompatybilne mogę być w tym momencie niedostępne.">
+<!ENTITY  noupdates.intro2.mismatch.label "&brandShortName; będzie cyklicznie sprawdzał i informował jeśli pojawią sie jakieś aktualizacje.">
+<!ENTITY  noupdates.intro3.mismatch.label "&brandShortName; może sprawdzać cyklicznie i informować jeśli pojawią się wersje kompatybilne.">
+<!ENTITY  noupdates.enableChecking.label  "Zezwól programowi &brandShortName; na sprawdzanie aktualizacji.">
+
+<!ENTITY  finished.title                  "Aktualizacja zakończona">
+<!ENTITY  finished.updated.label          "Dostępne aktualizacje zostały zainstalowane. Aby dokończyć proces aktualizacji, konieczne może być ponowne uruchomienie programu.">
+<!ENTITY  finished.remaining.label        "Niektóre, niekompatybilne komponenty nie zostały zaktualizowane, prawdopodobnie nie są w tym momencie dostępne. &brandShortName; będzie cyklicznie sprawdzał i poinformuje kiedy pojawią się aktualizacje.">
+<!ENTITY  finished.remaining2.label       "Niektóre, niekompatybilne komponenty nie zostały zaktualizowane, prawdopodobnie nie są w tym momencie dostępne. &brandShortName; może cyklicznie sprawdzać i informować kiedy pojawią się aktualizacje.">
+<!ENTITY  finished.error.label            "Nie udało się pobrać i zainstalować niektórych aktualizacji.">
+<!ENTITY  finished.enableChecking.label   "Zezwól Firefoksowi na sprawdzanie aktualizacji.">
+<!ENTITY  finished.mismatch.label         "Naciśnij Zakończ, aby kontynuować uruchamianie Mozilli Firefox.">
+
+<!ENTITY  optional.title                  "Komponenty opcjonalne">
+<!ENTITY  optional.intro.label            "Wybierz dodatkowe komponenty, które chcesz zainstalować, a następnie kliknij przycisk 'Zainstaluj teraz'.">
+                                           
+<!ENTITY  errors.title                    "Problemy podczas aktualizacji">
+<!ENTITY  errors.intro.label              "&brandShortName; napotkał problemy podczas aktualizacji i w rezultacie nie wszystkie komponenty zostały zaktualizowane.">
+<!ENTITY  errors.details.label            "Szczegóły">
+<!ENTITY  errors.details.accesskey        "S">
+
+<!ENTITY  updateCheckError.description    "&brandShortName; napotkał problemy podczas próby znalezienia aktualizacji niektórych elementów.">
+<!ENTITY  updateCheckError.label          "Szczegóły">
+<!ENTITY  updateCheckError.accesskey      "S">
+
+<!ENTITY  resolveMaxVersion.title         "Sprawdzanie dostępności kompatybilnych rozszerzeń i motywów...">
+<!ENTITY  resolveMaxVersion.intro1.label  "&brandShortName; sprawdza dostępność aktualizacji kompatybilnościowych dla Twoich rozszerzeń i motywów...">
+
+<!ENTITY  restart.title                   "Aktualizacja zakończona">
+<!ENTITY  restart.updated.label           "Program &brandShortName; pobrał i zainstalował aktualizację. Musisz go jednak uruchomić ponownie, by dokończyć proces aktualizacji.">
+
+<!ENTITY  resetHomepage.label             "Ustaw Stronę startową programu &brandShortName; jako stronę domową">
+<!ENTITY  resetHomepage.accesskey         "U">

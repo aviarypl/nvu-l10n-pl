@@ -1,0 +1,14 @@
+<!ENTITY windowtitle.label "Wyskakujące okna - akceptowane witryny" >
+
+<!ENTITY allowPopups.label "Wyskakujące okna, otwierane przez witryny znajdujące się na poniższej liście, będą wyświetlane:" >
+
+<!ENTITY addSite.label "Dodaj witrynę" >
+<!ENTITY addSite.accesskey "D" >
+
+<!ENTITY treehead.sitename.label "Nazwa witryny" >
+
+<!ENTITY remove.label "Usuń witrynę" >
+<!ENTITY remove.accesskey "R" >
+
+<!ENTITY removeAll.label "Usuń wszystkie witryny" >
+<!ENTITY removeAll.accesskey            "e">

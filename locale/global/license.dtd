@@ -1,0 +1,7 @@
+<!ENTITY license.part0     "jest">
+<!ENTITY license.part1     "">
+<!ENTITY license.contrib   "Współtwórcy">
+<!ENTITY license.part2     "zgodnie z warunkami licencji">
+<!ENTITY license.and       "i">
+<!ENTITY license.part3     ". Wszelkie prawa zastrzeżone.">
+<!ENTITY license.credits   'Szczegółowe informacje - napisz "about:credits" w pasku adresu.'>

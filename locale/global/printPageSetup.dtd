@@ -1,0 +1,37 @@
+<!ENTITY printSetup.title "Ustawienia strony" >
+<!ENTITY basic.tab "Opcje formatowania" >
+<!ENTITY formatGroup.label "Format" >
+<!ENTITY orientation.label "Orientacja:" >
+<!ENTITY portrait "Pionowa" >
+<!ENTITY landscape "Pozioma" >
+<!ENTITY scale.label "Skala:" >
+<!ENTITY scalePercent "&#037;" >
+<!ENTITY shrinkToFit.label "Dostosuj do szerokości strony" >
+<!ENTITY optionsGroup.label "Opcje" >
+<!ENTITY printBG.label "Drukuj tło (kolory oraz obrazki)" >
+<!ENTITY advanced.tab "Marginesy oraz nagłówek i stopka" >
+<!ENTITY marginGroup.label "Marginesy (w #1)" >
+<!ENTITY marginUnits.inches "calach" >
+<!ENTITY marginUnits.metric "milimetrach" >
+<!ENTITY marginTop.label "Górny:" >
+<!ENTITY marginBottom.label "Dolny:" >
+<!ENTITY marginLeft.label "Lewy:" >
+<!ENTITY marginRight.label "Prawy:" >
+<!ENTITY headerFooter.label "Nagłówki i stopki" >
+<!ENTITY hfLeft.label "Lewa strona:" >
+<!ENTITY hfCenter.label "Środek:" >
+<!ENTITY hfRight.label "Prawa strona:" >
+<!ENTITY hfTitle "Tytuł" >
+<!ENTITY hfTitle.code "[&amp;T]" >
+<!ENTITY hfURL "URL" >
+<!ENTITY hfURL.code "[&amp;U]" >
+<!ENTITY hfDateAndTime "Data/czas" >
+<!ENTITY hfDateAndTime.code "&amp;D" >
+<!ENTITY hfPage "Strona #" >
+<!ENTITY hfPage.code "[&amp;P]" >
+<!ENTITY hfPageAndTotal "Strona # z #" >
+<!ENTITY hfPageAndTotal.code "[&amp;PT]" >
+<!ENTITY hfBlank "--brak--" >
+<!ENTITY hfCustom "Własny..." >
+<!ENTITY customPrompt.title "Własny tekst nagłówka lub stopki..." >
+<!ENTITY customPrompt.prompt "Wprowadź własny tekst nagłówka lub stopki" >

@@ -1,0 +1,4 @@
+<!ENTITY  windowtitle.label 	"Automatyczne wypełnianie formularza" >
+<!ENTITY  heading.label 		"Zaznacz dane, które automatycznie zostaną wprowadzone do formularza:" >
+<!ENTITY  viewdata.label 		"Pokaż zachowane dane formularza" >
+<!ENTITY  bypass.label 			"Pomiń ten ekran podczas ponownego uzupełniania tego formularza." >

@@ -1,0 +1,18 @@
+<!ENTITY intro.label "Rozpoczęto pobieranie pliku:" >
+<!ENTITY from.label "adres:" >
+<!ENTITY actionQuestion.label "Po zakończeniu pobierania:" >
+<!ENTITY openWith.label "Otwórz za pomocą" >
+<!ENTITY openWith.accesskey "o" >
+<!ENTITY other.label "Inna aplikacja..." >
+<!ENTITY save.label "Zachowaj plik na dysku" >
+<!ENTITY save.accesskey "s" >
+<!ENTITY rememberChoice.label "Zapamiętaj tę decyzję dla wszystkich plików tego typu" >
+<!ENTITY rememberChoice.accesskey "a" >
+<!ENTITY settingsChange.label "Ustawienia mogą być zmienione w kategorii Pobieranie plików po wybraniu polecenia Opcje w menu Narzędzia." >
+<!ENTITY settingsChangeMac.label     "Ustawienia mogą być zmienione w kategorii Pobieranie plików po wybraniu polecenia Preferencje w menu &brandShortName;.">
+<!ENTITY settingsChangeUnix.label    "Ustawienia mogą być zmienione w kategorii Pobieranie plików po wybraniu polecenia Preferencje w menu Edycja.">
+<!ENTITY whichIsA.label "Typ pliku:" >
+<!ENTITY  chooseHandlerMac.label      "Wybierz...">
+<!ENTITY  chooseHandlerMac.accesskey  "W">
+<!ENTITY  chooseHandler.label         "Przeglądaj...">
+<!ENTITY  chooseHandler.accesskey     "P">

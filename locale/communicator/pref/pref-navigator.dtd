@@ -1,0 +1,33 @@
+<!ENTITY lHeader "Nawigator" >
+
+<!ENTITY navRadio "Wyświetl" >
+<!ENTITY navStartPageMenu.label "przy starcie przeglądarki" >
+<!ENTITY newWinPageMenu.label "po otwarciu okna" >
+<!ENTITY newTabPageMenu.label "po otwarciu panelu" >
+
+<!ENTITY blankPageRadio.label "Pustą stronę" >
+<!ENTITY blankPageRadio.accesskey "n" >
+<!ENTITY homePageRadio.label "Stronę domową" >
+<!ENTITY homePageRadio.accesskey "d" >
+<!ENTITY lastPageRadio.label "Ostatnio odwiedzoną stronę" >
+<!ENTITY lastPageRadio.accesskey "O" >
+
+<!ENTITY header2.label "Strona domowa" >
+<!ENTITY homePageIntro.label "Naciśnięcie przycisku Strona domowa wyświetli poniższą stronę lub grupę stron w oddzielnych panelach." >
+<!ENTITY location.label "Adres:" >
+<!ENTITY location.accesskey "a" >
+<!ENTITY useCurrent.label "Użyj bieżącej strony" >
+<!ENTITY useCurrent.accesskey "u" >
+<!ENTITY useCurrentGroup.label "Użyj bieżących paneli" >
+<!ENTITY useCurrentGroup.accesskey "p" >
+<!ENTITY browseFile.label "Wybierz plik..." >
+<!ENTITY browseFile.accesskey "W" >
+<!ENTITY useDefault.label "Przywróć domyślne" >
+<!ENTITY useDefault.accesskey "r" >
+<!ENTITY toolbarIntro.label "Wybierz przyciski, które będą wyświetlane na pasku narzędzi:" >
+
+<!ENTITY bookmarksButton.label "Zakładki" >
+<!ENTITY goButton.label "Idź" >
+<!ENTITY homeButton.label "Strona domowa" >
+<!ENTITY printButton.label "Drukuj" >
+<!ENTITY searchButton.label "Szukaj" >

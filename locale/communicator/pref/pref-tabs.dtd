@@ -1,0 +1,10 @@
+<!ENTITY tabHeader.label "Przeglądanie przy użyciu paneli" >
+<!ENTITY tabDisplay.label "Wyświetlanie paneli" >
+<!ENTITY autoHide.label "Ukryj pasek paneli, jeżeli otwarty jest tylko jeden panel" >
+<!ENTITY background.label "Wczytaj strony otwierane w nowych panelach w tle" >
+<!ENTITY loadGroup.label "Podczas otwierania grupy zakładek" >
+<!ENTITY loadGroupAppend.label "Otwórz wszystkie jako nowe panele" >
+<!ENTITY loadGroupAppend.accesskey "O" >
+<!ENTITY loadGroupReplace.label "Otwórz w bieżących panelach" >
+<!ENTITY loadGroupReplace.accesskey "P" >
+<!ENTITY openTabs.label "Otwórz strony w nowym panelu zamiast w nowym oknie, jeżeli:" >

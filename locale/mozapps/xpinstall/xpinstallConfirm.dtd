@@ -1,0 +1,4 @@
+<!ENTITY dialog.title "Instalacja oprogramowania" >
+<!ENTITY warningText2.label "Pobierane oprogramowanie może zawierać wirusy oraz kod wykonujący szkodliwe operacje, jak na przykład usuwanie plików lub naruszanie prywatności użytkownika." >
+<!ENTITY warningText3.label "Należy instalować oprogramowanie pochodzące wyłącznie ze źródeł godnych zaufania." >
+<!ENTITY from.label "Adres pliku:" >

@@ -1,0 +1,29 @@
+<!ENTITY linkToolbar.label "Pasek narzędzi nawigacyjnych witryny" >
+<!ENTITY linkToolbar.accesskey "a" >
+<!ENTITY linkToolbarAlways.label "Zawsze pokazuj" >
+<!ENTITY linkToolbarAlways.accesskey "p" >
+<!ENTITY linkToolbarAsNeeded.label "Pokaż tylko wtedy, gdy potrzebny" >
+<!ENTITY linkToolbarAsNeeded.accesskey "t" >
+<!ENTITY linkToolbarNever.label "Zawsze ukrywaj" >
+<!ENTITY linkToolbarNever.accesskey "u" >
+<!ENTITY topButton.label "Początek" >
+<!ENTITY upButton.label "Do góry" >
+<!ENTITY firstButton.label "Pierwszy" >
+<!ENTITY prevButton.label "Poprzedni" >
+<!ENTITY nextButton.label "Następny" >
+<!ENTITY lastButton.label "Ostatni" >
+<!ENTITY documentButton.label "Dokument" >
+<!ENTITY tocButton.label "Spis treści" >
+<!ENTITY chapterButton.label "Rozdziały" >
+<!ENTITY sectionButton.label "Sekcje" >
+<!ENTITY subSectionButton.label "Podsekcje" >
+<!ENTITY appendixButton.label "Dodatki" >
+<!ENTITY glossaryButton.label "Słowniczek" >
+<!ENTITY indexButton.label "Indeks" >
+<!ENTITY moreButton.label "Więcej" >
+<!ENTITY helpButton.label "Pomoc" >
+<!ENTITY searchButton.label "Szukaj" >
+<!ENTITY authorButton.label "Autor" >
+<!ENTITY copyrightButton.label "Prawo autorskie" >
+<!ENTITY bookmarkButton.label "Zakładki" >
+<!ENTITY alternateButton.label "Inne wersje" >

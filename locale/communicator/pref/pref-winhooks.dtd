@@ -1,0 +1,49 @@
+<!-- LOCALIZATION NOTE : FILE "Windows integration" preferences -->
+
+<!ENTITY title.label "System">
+
+<!-- These entities are used on the "File Types" section of the dialog. -->
+<!ENTITY files.label "Typy plików" >
+<!ENTITY files.text "Zaznacz typy plików, do otwierania których system operacyjny Windows będzie używał Mozilli:" >
+<!ENTITY html.label "Dokumenty HTML" >
+<!ENTITY html.accesskey "H" >
+<!ENTITY jpeg.label "Obrazki JPEG" >
+<!ENTITY jpeg.accesskey "J" >
+<!ENTITY gif.label "Obrazki GIF" >
+<!ENTITY gif.accesskey "G" >
+<!ENTITY png.label "Obrazki PNG" >
+<!ENTITY png.accesskey "P" >
+<!ENTITY mng.label "Obrazki MNG" >
+<!ENTITY mng.accesskey "M" >
+<!ENTITY xbm.label "Obrazki XBM" >
+<!ENTITY xbm.accesskey "A" >
+<!ENTITY bmp.label "Obrazki BMP" >
+<!ENTITY bmp.accesskey "B" >
+<!ENTITY ico.label "Obrazki ICO" >
+<!ENTITY ico.accesskey "I" >
+<!ENTITY xml.label "Dokumenty XML" >
+<!ENTITY xml.accesskey "X" >
+<!ENTITY xhtml.label "Dokumenty XHTML" >
+<!ENTITY xhtml.accesskey "T" >
+<!ENTITY xul.label "Dokumenty XUL" >
+<!ENTITY xul.accesskey "U" >
+
+<!-- These entities are used on the "Internet Shortcuts" section of the dialog. -->
+<!ENTITY shortcuts.label "Skróty internetowe" >
+<!ENTITY shortcuts.text "Zaznacz protokoły, do obsługi których system operacyjny Windows będzie używał Mozilli:" >
+<!ENTITY http.label "http: (Protokół transferu hipertekstów)" >
+<!ENTITY http.accesskey "H" >
+<!ENTITY https.label "https: (Bezpieczny protokół transferu hipertekstów)" >
+<!ENTITY https.accesskey "S" >
+<!ENTITY ftp.label "ftp: (Protokół transferu plików)" >
+<!ENTITY ftp.accesskey "F" >
+<!--LOCALIZATION NOTE (chrome.label): Don't translate 'chrome' -->
+<!ENTITY chrome.label "chrome: (Protokół Chrome)" >
+<!ENTITY chrome.accesskey "C" >
+<!ENTITY gopher.label "gopher: (Protokół Gopher)" >
+<!ENTITY gopher.accesskey "G" >
+
+<!-- This entity is for the "show this dialog" checkbox. -->
+<!ENTITY showDialog.label "Ostrzeż, gdy inne aplikacje zmienią powyższe ustawienia." >
+<!ENTITY showDialog.accesskey "A">
+

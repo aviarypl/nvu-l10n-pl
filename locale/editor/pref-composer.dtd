@@ -1,0 +1,80 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Mozilla.org
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation
+   - Portions created by the Initial Developer are Copyright (C) 1998-2003
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Daniel Glazman (glazman@disruptive-innovations.com), on behalf of Linspire Inc.
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!-- extracted from content/pref-composer.xul -->
+
+<!--LOCALIZATION NOTE : FILE 'Composer' prefs dialog. Similar to Communcator 4.x Document Properties/Colors and Background -->
+
+<!--LOCALIZATION NOTE (title.label): DONT_TRANSLATE -->
+<!ENTITY  title.label               "General">
+<!ENTITY  lHeader                   "Ogólne">
+<!ENTITY  rHeader                   "Ustawienia własności nowych stron WWW"><!--hmmm?-->
+
+<!ENTITY  tableEditing.label                    "Edycja tabel">
+<!ENTITY  maintainTableStructure.label          "Utrzymuj wygląd tabeli podczas dodawania i usuwania komórek">
+<!ENTITY  maintainTableStructure.tooltip        "Zachowuje prostokątny kształt tabeli poprzez automatyczne dodawanie komórek po wstawieniu lub usunięciu komórek">
+<!ENTITY  maintainStructure.accesskey           "Z">
+
+<!ENTITY  savingFiles.title           "Podczas zapisywania lub publikowania stron">
+<!ENTITY  preserveExistingFormatting  "Zachowaj formatowanie źródła">
+<!ENTITY  preserveExistingFormatting.accesskey  "o">
+<!ENTITY  preserveExistingFormatting.tooltip    "Zachowaj łamania linii i formatowanie">
+<!ENTITY  reformat.label              "Przeformatuj źródło HTML">
+<!ENTITY  reformat.accesskey          "r">
+<!ENTITY  reformat.tooltip            "Przeformatuj znaczniki HTML ustawiając łamanie linii i zagłębień">
+
+<!ENTITY  saveAssociatedFiles.label "Zachowaj obrazki i inne powiązane pliki podczas zapisywania strony">
+<!ENTITY  showPublishDialog.label   "Zawsze pokazuj ustawienia publikacji podczas publikowania stron">
+
+<!ENTITY  saving                    "Zapisywanie">
+<!ENTITY  AutoSaveCheck             "Automatycznie zapisuj co">
+<!ENTITY  minText                   "minut">
+
+<!ENTITY  exterLegend.label         "Zewnętrzne edytory">
+<!ENTITY  htmlSource                "Źródła HTML:">
+<!ENTITY  imageeditor               "Obrazków:">
+<!ENTITY  chooseButton.label        "Wybierz">
+
+<!ENTITY  recentFiles.title         "Menu ostatnio edytowanych stron">
+<!ENTITY  documentsInMenu.accesskey     "o">
+<!ENTITY  documentsInMenu           "Maksymalna liczba stron na liście:">
+
+<!ENTITY  cssEditing.label          "Edycja Stylów CSS">
+<!ENTITY  useCSS.label              "Użyj stylów CSS zamiast elementów HTML i atrybutów">
+
+<!ENTITY  siteManager.label         "Menedżer Stron">
+<!ENTITY  openInNewTab.label        "Zawsze otwieraj dokument w nowym panelu">

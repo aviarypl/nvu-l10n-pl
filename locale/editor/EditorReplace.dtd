@@ -1,0 +1,46 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+   -   Akkana Peck
+  -->
+
+<!-- extracted from EdReplace.xul -->
+
+<!ENTITY replaceDialog.title "Znajdź i zamień" >
+<!ENTITY findField.label "Znajdź tekst:" >
+<!ENTITY findField.accesskey "t" >
+<!ENTITY replaceField.label "Zamień na:" >
+<!ENTITY replaceField.accesskey "e" >
+<!ENTITY caseSensitiveCheckbox.label "Uwzględniaj wielkość liter" >
+<!ENTITY caseSensitiveCheckbox.accesskey "l" >
+<!ENTITY wrapCheckbox.label "W całym dokumencie" >
+<!ENTITY wrapCheckbox.accesskey "c" >
+<!ENTITY backwardsCheckbox.label "Szukaj wstecz" >
+<!ENTITY backwardsCheckbox.accesskey "w" >
+<!ENTITY findNextButton.label "Znajdź następny" >
+<!ENTITY findNextButton.accesskey "Z" >
+<!ENTITY replaceButton.label "Zamień" >
+<!ENTITY replaceButton.accesskey "m" >
+<!ENTITY replaceAndFindButton.label "Zamień i znajdź" >
+<!ENTITY replaceAndFindButton.accesskey "a" >
+<!ENTITY replaceAllButton.label "Zamień wszystko" >
+<!ENTITY replaceAllButton.accesskey "w" >
+<!ENTITY closeButton.label "Zamknij" >
+<!ENTITY notFoundWarning.label "Wprowadzony tekst nie został znaleziony." >

@@ -1,0 +1,89 @@
+<!-- 
+   - The contents of this file are subject to the Mozilla Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/MPL/
+   - 
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   - 
+   - The Original Code is mozilla.org code.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corp.  Portions created by Netscape are
+   - Copyright (C) 2001 Netscape Communications Corp.  All
+   - Rights Reserved.
+   - 
+   - Contributor(s):
+   -   Bob Lord <lord@netscape.com>
+   -   Terry Hayes <thayes@netscape.com>
+  -->
+
+<!ENTITY SSLProtocolVersions "Wersje protokołu SSL" >
+<!ENTITY SSLWarnings "Ostrzeżenia SSL" >
+<!ENTITY SSLClientAuthMethod "Sposób wyboru certyfikatu" >
+<!ENTITY prefheader.title "Szyfrowane połączenia (SSL)" >
+<!ENTITY enable.ssl2 "Włącz SSL wersję 2" >
+<!ENTITY enable.ssl3 "Włącz SSL wersję 3" >
+<!ENTITY enable.tls "Włącz TLS" >
+<!ENTITY edit.sslciphers "Edytuj szyfry..." >
+<!ENTITY edit.sslciphers.accesskey "E" >
+<!ENTITY warn.description "Mozilla może informować o poziomie bezpieczeństwa oglądanych stron WWW. Ostrzeżenie z pytaniem o kontynuację zostanie wyświetlone przed:" >
+<!ENTITY warn.enteringsecure "Wczytaniem strony, która używa szyfrowania" >
+<!ENTITY warn.enteringweak "Wczytaniem strony, która używa niskiego poziomu szyfrowania" >
+<!ENTITY warn.insecurepost "Przesyłaniem danych pomiędzy stronami, które nie używają szyfrowania" >
+<!ENTITY warn.leavingsecure "Opuszczeniem strony, która używa szyfrowania" >
+<!ENTITY warn.secureredirect "Przekierowaniem z szyfrowanej strony do innej strony" >
+<!ENTITY warn.secureredirecttoinsecure "Przekierowaniem z szyfrowanej strony do nieszyfrowanej strony" >
+<!ENTITY warn.viewmixed "Przeglądaniem strony tylko częściowo zaszyfrowanej" >
+<!ENTITY certselect.description "Określ sposób, w jaki Mozilla dokona wyboru certyfikatu do przedstawienia stronom WWW, które tego zażądają:" >
+<!ENTITY certselect.auto "Wybierz automatycznie" >
+<!ENTITY certselect.ask "Pytaj za każdym razem" >
+<!ENTITY cipher.title "SSL: Edytuj szyfry" >
+<!ENTITY cipher.ssl2.label "Szyfry SSL2" >
+<!ENTITY cipher.ssl3.label "Szyfry SSL3/TLS" >
+<!ENTITY cipher.ssl3_extra.label "Dodatkowe szyfry SSL3/TLS" >
+<!ENTITY cipher.tab.ssl2 "SSL2" >
+<!ENTITY cipher.tab.ssl3tls "SSL3/TLS" >
+<!ENTITY cipher.tab.ssl3tls_extra "Dodatkowe szyfry SSL3/TLS" >
+<!ENTITY cipher.ssl2.rc4_128 "Szyfrowanie RC4 kluczem 128-bitowym RSA i MD5 MAC" >
+<!ENTITY cipher.ssl2.rc2_128 "Szyfrowanie RC2 kluczem 128-bitowym RSA i MD5 MAC" >
+<!ENTITY cipher.ssl2.des_ede3_192 "Potrójne szyfrowanie DES kluczem 168-bitowym RSA i MD5 MAC" >
+<!ENTITY cipher.ssl2.des_64 "Szyfrowanie DES kluczem 56-bitowym RSA i MD5 MAC" >
+<!ENTITY cipher.ssl2.rc4_40 "Szyfrowanie RC4 kluczem 40-bitowym RSA i MD5 MAC (eksport)" >
+<!ENTITY cipher.ssl2.rc2_40 "Szyfrowanie RC2 kluczem 40-bitowym RSA i MD5 MAC (eksport)" >
+<!ENTITY cipher.ssl3.rsa_rc4_128_md5 "Szyfrowanie RC4 kluczem 128-bitowym RSA i MD5 MAC" >
+<!ENTITY cipher.ssl3.rsa_rc4_128_sha "Szyfrowanie RC4 kluczem 128-bitowym RSA i SHA1 MAC" >
+<!ENTITY cipher.ssl3.rsa_fips_des_ede3_sha "Potrójne szyfrowanie DES kluczem 168-bitowym RSA i SHA1 MAC (FIPS)" >
+<!ENTITY cipher.ssl3.rsa_des_ede3_sha "Potrójne szyfrowanie DES kluczem 168-bitowym RSA i SHA1 MAC" >
+<!ENTITY cipher.ssl3.rsa_fips_des_sha "Szyfrowanie DES kluczem 56-bitowym RSA i SHA1 MAC (FIPS)" >
+<!ENTITY cipher.ssl3.rsa_des_sha "Szyfrowanie DES kluczem 56-bitowym RSA i SHA1 MAC" >
+<!ENTITY cipher.ssl3.rsa_1024_rc4_56_sha "Szyfrowanie RC4 kluczem 56-bitowym RSA i SHA1 MAC (eksport)" >
+<!ENTITY cipher.ssl3.rsa_1024_des_cbc_sha "Szyfrowanie DES kluczem 56-bitowym RSA i SHA1 MAC (eksport)" >
+<!ENTITY cipher.ssl3.rsa_rc4_40_md5 "Szyfrowanie RC4 kluczem 40-bitowym RSA i MD5 MAC (eksport)" >
+<!ENTITY cipher.ssl3.rsa_rc2_40_md5 "Szyfrowanie RC2 kluczem 40-bitowym RSA i MD5 MAC (eksport)" >
+<!ENTITY cipher.ssl3.dhe_rsa_aes_256_sha "Szyfrowanie AES kluczem 256-bitowym RSA, DHE, oraz SHA1 MAC" >
+<!ENTITY cipher.ssl3.dhe_dss_aes_256_sha "Szyfrowanie AES kluczem 256-bitowym DSA, DHE, oraz SHA1 MAC" >
+<!ENTITY cipher.ssl3.rsa_aes_256_sha "Szyfrowanie AES kluczem 256-bitowym RSA i SHA1 MAC" >
+<!ENTITY cipher.ssl3.dhe_rsa_aes_128_sha "Szyfrowanie AES kluczem 128-bitowym RSA, DHE, oraz SHA1 MAC" >
+<!ENTITY cipher.ssl3.dhe_dss_aes_128_sha "Szyfrowanie AES kluczem 128-bitowym DSA, DHE, oraz SHA1 MAC" >
+<!ENTITY cipher.ssl3.rsa_aes_128_sha "Szyfrowanie AES kluczem 128-bitowym RSA i SHA1 MAC" >
+<!ENTITY cipher.ssl3.dhe_rsa_des_ede3_sha "Potrójne szyfrowanie DES kluczem 168-bitowym RSA, DHE, oraz SHA1 MAC" >
+<!ENTITY cipher.ssl3.dhe_dss_des_ede3_sha "Potrójne szyfrowanie DES kluczem 168-bitowym DSA, DHE, oraz SHA1 MAC" >
+<!ENTITY cipher.ssl3.dhe_rsa_des_sha "Szyfrowanie DES kluczem 168-bitowym RSA, DHE, oraz SHA1 MAC" >
+<!ENTITY cipher.ssl3.dhe_dss_des_sha "Szyfrowanie DES kluczem 56-bitowym DSA, DHE, oraz SHA1 MAC" >
+<!ENTITY cipher.ssl3.rsa_null_sha "Brak szyfrowania z uwierzytelnianiem RSA oraz SHA1 MAC" >
+<!ENTITY cipher.ssl3.rsa_null_md5 "Brak szyfrowania z uwierzytelnianiem RSA oraz MD5 MAC" >
+<!ENTITY cipher.name "Szyfr:" >
+<!ENTITY cipher.encryption "Algorytm szyfrowania:" >
+<!ENTITY cipher.authAlg "Algorytm uwierzytelniania:" >
+<!ENTITY cipher.keyAlg "Algorytm klucza:" >
+<!ENTITY cipher.keySize "Efektywna długość klucza:" >
+<!ENTITY cipher.macAlg "Algorytm MAC:" >
+<!ENTITY cipher.other "Inne atrybuty:" >
+<!ENTITY cipher.fips "FIPS" >
+<!ENTITY cipher.exportable "IsExportable" >
+<!ENTITY cipher.details "Szczegóły..." >
+<!ENTITY cipherinfo.title "Szczegóły szyfru" >

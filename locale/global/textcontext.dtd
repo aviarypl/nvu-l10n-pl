@@ -1,0 +1,14 @@
+<!ENTITY cutCmd.label "Wytnij" >
+<!ENTITY cutCmd.accesskey "t" >
+<!ENTITY copyCmd.label "Kopiuj" >
+<!ENTITY copyCmd.accesskey "K" >
+<!ENTITY pasteCmd.label "Wklej" >
+<!ENTITY pasteCmd.accesskey "e" >
+<!ENTITY undoCmd.label "Cofnij" >
+<!ENTITY undoCmd.accesskey "C" >
+<!ENTITY redoCmd.label "Przywróć" >
+<!ENTITY redoCmd.accesskey "r" >
+<!ENTITY selectAllCmd.label "Zaznacz wszystko" >
+<!ENTITY selectAllCmd.accesskey "a" >
+<!ENTITY deleteCmd.label "Usuń" >
+<!ENTITY deleteCmd.accesskey "U" >

@@ -1,0 +1,91 @@
+<!-- 
+   - The contents of this file are subject to the Mozilla Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/MPL/
+   - 
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   - 
+   - The Original Code is mozilla.org code.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corp.  Portions created by Netscape are
+   - Copyright (C) 2001 Netscape Communications Corp.  All
+   - Rights Reserved.
+   - 
+   - Contributor(s):
+   -   Ian McGreer <mcgreer@netscape.com>
+  -->
+
+<!ENTITY certmgr.title "Menedżer certyfikatów" >
+<!ENTITY certmgr.tab.mine "Twoje certyfikaty" >
+<!ENTITY certmgr.tab.others "Inne osoby" >
+<!ENTITY certmgr.tab.websites "Serwery WWW" >
+<!ENTITY certmgr.tab.ca "Ośrodki certyfikacji" >
+<!ENTITY certmgr.ca.builtins "Wbudowane CAs" >
+<!ENTITY certmgr.ca.mycas "CA zarządzane przez Ciebie" >
+<!ENTITY certmgr.mine "Posiadane certyfikaty z następujących organizacji, które identyfikują Ciebie:" >
+<!ENTITY certmgr.others "Posiadane certyfikaty, które identyfikują następujące osoby:" >
+<!ENTITY certmgr.websites "Posiadane certyfikaty, które identyfikują następujące witryny:" >
+<!ENTITY certmgr.cas "Posiadane certyfikaty, które identyfikują następujące ośrodki wydające certyfikaty:" >
+<!ENTITY certmgr.detail.general_tab.title "Ogólne" >
+<!ENTITY certmgr.detail.prettyprint_tab.title "Szczegóły" >
+<!ENTITY certmgr.subjectinfo.label "Wystawiony dla" >
+<!ENTITY certmgr.issuerinfo.label "Wystawiony przez" >
+<!ENTITY certmgr.validity.label "Ważność" >
+<!ENTITY certmgr.fingerprints.label "Odciski" >
+<!ENTITY certmgr.certdetail.title "Szczegóły certyfikatu" >
+<!ENTITY certmgr.certdetail.cn "Nazwa certyfikatu (CN)" >
+<!ENTITY certmgr.certdetail.o "Organizacja (O)" >
+<!ENTITY certmgr.certdetail.ou "Jednostka organizacyjna (OU)" >
+<!ENTITY certmgr.certdetail.serialnumber "Numer seryjny" >
+<!ENTITY certmgr.certdetail.sha1fingerprint "Odcisk SHA1" >
+<!ENTITY certmgr.certdetail.md5fingerprint "Odcisk MD5" >
+<!ENTITY certmgr.editcert.title "Edytuj ustawienia certyfikatów bezpieczeństwa" >
+<!ENTITY certmgr.editcacert.title "Edytuj ustawienia zaufania certyfikatu CA" >
+<!ENTITY certmgr.editsslcert.title "Edytuj ustawienia zaufania certyfikatu witryny" >
+<!ENTITY certmgr.editcert.edittrust "Edytuj ustawienia zaufania:" >
+<!ENTITY certmgr.editcert.trustssl "Ten certyfikat identyfikuje strony WWW." >
+<!ENTITY certmgr.editcert.trustemail "Ten certyfikat identyfikuje użytkowników poczty." >
+<!ENTITY certmgr.editcert.trustobjsign "Ten certyfikat identyfikuje twórców oprogramowania." >
+<!ENTITY certmgr.editsslcert.edittrust "Edytuj ustawienia zaufania certyfikatu:" >
+<!ENTITY certmgr.editsslcert.dotrust "Zaufaj autentyczności tego certyfikatu." >
+<!ENTITY certmgr.editsslcert.donttrust "Nie ufaj autentyczności tego certyfikatu." >
+<!ENTITY certmgr.editemailcert.title "Edytuj ustawienia zaufania tego certyfikatu wiadomości e-mail." >
+<!ENTITY certmgr.editemailcert.edittrust "Edytuj ustawienia zaufania tego certyfikatu:" >
+<!ENTITY certmgr.editemailcert.dotrust "Ufaj autentyczności tego certyfikatu." >
+<!ENTITY certmgr.editemailcert.donttrust "Nie ufaj autentyczności tego certyfikatu." >
+<!ENTITY certmgr.deletecert.title "Usuń certyfikat" >
+<!ENTITY certmgr.deletecert.beforename "Zażądano usunięcia certyfikatu:" >
+<!ENTITY certmgr.deletecert.aftername "Czy na pewno usunąć wybrany certyfikat?" >
+<!ENTITY certmgr.deleteusercert.title "Usuń Twój certyfikat" >
+<!ENTITY certmgr.deleteusercert.beforename "Zażądano usunięcia certyfikatu:" >
+<!ENTITY certmgr.deleteusercert.aftername "Po usunięciu tego certyfikatu nie będzie można odczytać wiadomości zaszyfrowanych tym certyfikatem." >
+<!ENTITY certmgr.certname "Nazwa certyfikatu" >
+<!ENTITY certmgr.tokenname "Urządzenie zabezpieczające" >
+<!ENTITY certmgr.purpose "Cel" >
+<!ENTITY certmgr.issued "Wystawiony dnia" >
+<!ENTITY certmgr.expires "Wygasa dnia" >
+<!ENTITY certmgr.email "Adres e-mail" >
+<!ENTITY certmgr.serial "Numer seryjny" >
+<!ENTITY certmgr.ocsp_info "Certyfikaty nie zostały zweryfikowane przez OCSP. Kliknij Widok aby zweryfikować certyfikat." >
+<!ENTITY certmgr.help.label "Pomoc" >
+<!ENTITY certmgr.ok.label "OK" >
+<!ENTITY certmgr.close.label "Zamknij" >
+<!ENTITY certmgr.cancel.label "Anuluj" >
+<!ENTITY certmgr.view.label "Wyświetl" >
+<!ENTITY certmgr.edit.label "Edytuj" >
+<!ENTITY certmgr.editca.label "Edytuj ustawienia zaufania ośrodka certyfikacji" >
+<!ENTITY certmgr.add.label "Dodaj" >
+<!ENTITY certmgr.delete.label "Usuń" >
+<!ENTITY certmgr.backup.label "Kopia Zapasowa" >
+<!ENTITY certmgr.backupall.label "Wykonaj kopię zapasową" >
+<!ENTITY certmgr.restore.label "Importuj" >
+<!ENTITY certmgr.details.label "Pola certyfikatu" >
+<!ENTITY certmgr.fields.label "Wartość pola" >
+<!ENTITY certmgr.hierarchy.label "Hierarchia certyfikatu" >
+<!ENTITY certmgr.helpButtonAccessKey "P" >
+<!ENTITY certmgr.closeWindowAccessKey "Z" >

@@ -1,0 +1,54 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Właściwości strony" >
+
+<!ENTITY general.label "Ogólne informacje">
+<!ENTITY location.label "Adres:" >
+<!ENTITY lastModified.label "Ostatnio zmodyfikowano:" >
+<!ENTITY titleInput.label "Tytuł:" >
+<!ENTITY titleInput.accessKey "T" >
+<!ENTITY authorInput.label "Autor:" >
+<!ENTITY authorInput.accessKey "A" >
+<!ENTITY descriptionInput.label "Opis:" >
+<!ENTITY descriptionInput.accessKey "O" >
+<!ENTITY locationNewPage.label "[Ta strona nie została jeszcze zapisana]" >
+<!ENTITY EditHEADSource1.label "Zaawansowani użytkownicy:" >
+<!ENTITY EditHEADSource2.label 'W celu edycji innych elementów nagłówka &lt;head&gt;, należy przełączyć się do trybu edycji źródła wybierając "Źródło HTML" w menu Widok lub klikając zakładkę "Źródło" na Pasku trybu edycji.' >
+
+<!ENTITY template.label "Szablony">
+<!ENTITY templateCheckbox.label "Ta strona jest szablonem">
+<!ENTITY fromTemplate.label "Ten dokument posiada załączony szablon">
+
+<!ENTITY i18nHeader                  "Ustawienia językowe">
+
+<!ENTITY writingDirection.label      "Kierunek pisania:">
+<!ENTITY defaultDirectionRadio.label "Brak">
+<!ENTITY ltrDirectionRadio.label     "Od lewej do prawej">
+<!ENTITY rtlDirectionRadio.label     "Od prawej do lewej">
+
+<!ENTITY language.label              "Język:">
+<!ENTITY languageChoiceButton.label  "Wybierz język">
+
+<!ENTITY defaultCharset.label        "Kodowanie:">
+<!ENTITY chooseCharsetButton.label   "Wybierz kodowanie">

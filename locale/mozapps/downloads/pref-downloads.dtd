@@ -1,0 +1,21 @@
+<!ENTITY lHeader "Pobieranie plików" >
+<!ENTITY askOnSave.label " Rozpoczynając pobieranie plików:" >
+<!ENTITY alwaysAsk.label "Pytaj, gdzie zapisać każdy plik" >
+<!ENTITY neverAsk.label "Zapisz wszystkie pliki w katalogu:" >
+<!ENTITY desktop.label "Pulpit" >
+<!ENTITY downloads.label "Pobrane pliki" >
+<!ENTITY choose.label "Inny..." >
+<!ENTITY showFolder.label "Pokaż katalog" >
+<!ENTITY downloadManagerWindow.label "Menedżer pobierania plików" >
+<!ENTITY showWhenStarting.label "Rozpoczynając pobieranie plików wyświetl Menedżera pobierania plików." >
+<!ENTITY closeWhenDone.label "Zamknij Menedżera pobierania plików, gdy wszystkie pliki zostaną już pobrane." >
+<!ENTITY fileTypes.label "Typy plików" >
+<!ENTITY fileTypesDescription.label "Otwierając pliki poniższego typu automatycznie wykonaj przypisaną czynność:" >
+<!ENTITY fileTypeColName.label "Typ pliku" >
+<!ENTITY fileHandlerColName.label "Aplikacja" >
+<!ENTITY editFileHandler.label "Zmień czynność..." >
+<!ENTITY editFileHandler.accesskey "c" >
+<!ENTITY removeFileHandler.label "Usuń" >
+<!ENTITY removeFileHandler.accesskey "U" >
+<!ENTITY plugins.label "Wtyczki..." >
+<!ENTITY plugins.accesskey "W" >

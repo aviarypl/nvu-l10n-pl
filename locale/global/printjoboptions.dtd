@@ -1,0 +1,12 @@
+<!ENTITY printJobOptions.title "Właściwości drukarki" >
+<!ENTITY paperInput.label "Rozmiar papieru:" >
+<!ENTITY plexInput.label "Tryb:" >
+<!ENTITY cmdInput.label "Komenda drukowania:" >
+<!ENTITY colorGroup.label "Ustawienia koloru:" >
+<!ENTITY grayRadio.label "Skala szarości" >
+<!ENTITY colorRadio.label "W kolorze" >
+<!ENTITY edgeMarginInput.label "Odstęp pomiędzy brzegiem kartki a marginesem (w calach)" >
+<!ENTITY topInput.label "Górny:" >
+<!ENTITY bottomInput.label "Dolny:" >
+<!ENTITY leftInput.label "Lewy:" >
+<!ENTITY rightInput.label "Prawy:" >

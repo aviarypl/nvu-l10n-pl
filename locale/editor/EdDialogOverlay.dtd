@@ -1,0 +1,36 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-2000 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+   -     AviaryPL Team members <team@aviary.pl>
+  -->
+
+<!ENTITY AdvancedEditButton.label "Edycja zaawansowana...">
+<!ENTITY AdvancedEditButton.accessKey "E">
+<!ENTITY AdvancedEditButton.tooltip "Dodaj lub modyfikuj atrybuty HTML, atrybuty stylów, oraz JavaScript">
+<!ENTITY chooseButton.label "Wybierz plik...">
+<!ENTITY chooseFile.accessKey "W">
+<!ENTITY chooseFileLink.accessKey "W">
+<!ENTITY makeUrlRelative.label "Adres URL jest relatywny do adresu strony">
+<!ENTITY makeUrlRelative.accessKey "A">
+<!ENTITY makeUrlRelative.tooltip "Zmień między relatywnym i absolutnym adresem URL. Strona musi być najpierw zapisana.">
+
+<!-- Shared by Link and Image dialogs -->
+<!ENTITY LinkURLEditField.label "Wprowadź adres strony WWW, lokalnego plik lub adres e-mail, albo zaznacz uchwyt lub nagłówek z listy:">
+<!ENTITY LinkURLEditField.accessKey "o">

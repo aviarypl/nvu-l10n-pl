@@ -1,0 +1,11 @@
+<!ENTITY search.name.label              "tytuł">
+<!ENTITY search.url.label               "adres">
+<!ENTITY search.startswith.label        "początek nazwy">
+<!ENTITY search.endswith.label          "koniec nazwy">
+<!ENTITY search.is.label                "jest równe">
+<!ENTITY search.isnot.label             "nie jest równe">
+<!ENTITY search.contains.label          "zawiera">
+<!ENTITY search.doesntcontain.label     "nie zawiera">
+<!ENTITY search.for.label               "Znajdź odwiedzone dokumenty, których">
+<!ENTITY findHistory.title              "Znajdź w historii">
+

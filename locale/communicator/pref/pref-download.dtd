@@ -1,0 +1,8 @@
+<!ENTITY lHeader "Menedżer pobierania plików" >
+<!ENTITY downloadBehavior.label "Rozpoczynając pobieranie plików:" >
+<!ENTITY openDM.label "Otwórz Menedżera pobierania plików" >
+<!ENTITY openDM.accesskey "m" >
+<!ENTITY openProgressDialog.label "Wyświetl okno postępu" >
+<!ENTITY openProgressDialog.accesskey "p" >
+<!ENTITY doNothing.label "Nie otwieraj okna" >
+<!ENTITY doNothing.accesskey "N" >

@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Nvu.
+   -
+   - The Initial Developer of the Original Code is Linspire Inc.
+   - Portions created by the Initial Developer are Copyright (C) 2004
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Daniel Glazman (daniel.glazman@disruptive-innovations.com)
+   -   Polish translation: Zbigniew Braniecki (gandalf@e-gandalf.net)
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN"
+                     "http://my.netscape.com/publish/formats/rss-0.91.dtd">
+<rss version="0.91">
+  <channel>
+    <title>Porady Nvu</title>
+    <link>http://www.nvu.com/</link>
+    <description>Archiwum porad dnia Nvu</description>
+    <language>pl-pl</language>
+  
+    <item>
+      <title>...możesz przesuwać elementy?</title>
+      <description>Po prostu umieść kursor w bloku, który chciałbyś przesunąć, a następnie
+                  kliknij pojedyńczo na przycisku warstwy, aby blok mogł być poruszany.
+      </description>
+    </item>
+  
+    <item>
+      <title>...możesz dostosować paski narzędzi?</title>
+      <description>Wybierz z menu "Widok > Pokaż/Ukryj > Dostosuj paski narzędzi", aby otworzyć panel konfiguracji pasków narzędzi. Nasŧepnie użyj metody "przeciągnij i upuść", aby dodawać, przesuwać lub usuwać przyciski oraz separatory.
+      </description>
+    </item>
+  
+    <item>
+      <title>...możesz dodać własny pasek narzędzi?</title>
+      <description>Wybierz z menu "Widok > Pokaż/Ukryj > Dostosuj paski narzędzi > Sformatuj paski", aby otworzyć panel konfiguracji pasków narzędzi. Następnie kliknij na przycisku "Dodaj nowy pasek narzędzi". Puste paski narzędzi automatycznie są ukrywane kiedy panel konfiguracji pasków jest zamknięty.</description>
+    </item>
+  
+    <item>
+      <title>...Nvu posiada edytor CSS?</title>
+      <description>Nvu zawiera  edytor CSS CaScadeS. Można go otworzyć z menu Narzędzia->Edytor CSS.</description>
+    </item>
+  
+    <item>
+      <title>...Nvu posiada menedżera stron?</title>
+      <description>Wciśnij klawisz F9, lub z menu wybierz "Widok > Pokaż/Ukryj > Menedżer Stron", aby pokazać lub ukryć ten menedżer.</description>
+    </item>
+
+    <item>
+      <title>...możesz przypisać style CSS do dowolnego elementu?</title>
+      <description>Umieść kursor w elemencie, któremu chcesz nadać styl i wciśnij prawy przycisk myszy na znaczniku elementu w pasku struktury na dole głównego okna Nvu. Okno "Wewnętrznych styli" pozwoli przypisać dowolne style do tego elementu.
+      </description>
+    </item>
+
+    <item>
+      <title>...możesz kontrolować kierunek pisania?</title>
+      <description>Sprofiluj swoje paski narzędzi i dodaj przycisk kontroli kierunku pisania.</description>
+    </item>
+
+    <item>
+      <title>...możesz zmieniać rozmiar tabeli przy użyciu myszy?</title>
+      <description>Wybierz z menu Widok > Pokaż/Ukryj > Linijki i umieść kursor wewnątrz komórki tabeli, aby zobaczyć przyciski zmiany rozmiaru.
+      </description>
+    </item>
+
+    <item>
+      <title>...możesz bardzo łatwo dostosować pasek narzędzi?</title>
+      <description>Po prostu kliknij na nim prawym klawiszem myszy...</description>
+    </item>
+
+    <item>
+      <title>masz bezpośredni dostęp do społeczności użytkowników Nvu?</title>
+      <description>Wybierz z menu Pomoc > Fora.</description>
+    </item>
+
+    <item>
+      <title>...Nvu może automatycznie otworzyć dokument przy starcie?</title>
+      <description>Skorzystaj z opcji linii komend -edit:      nvu -edit adres</description>
+    </item>
+
+    <item>
+      <title>...możesz edytować więcej niż jedną stronę na raz?</title>
+      <description>Menedżer Stron może otwierać i pokazywać zawartość wielu stron interentowych w tym samym czasie.</description>
+    </item>
+
+    <item>
+      <title>...Nvu jest wieloplatformowy?</title>
+      <description>Nvu istnieje na wielu systemach operacyjnych, takich jak
+                   Windows, Mac OS X, wielu odmianach Linuksa, OS/2, ...</description>
+    </item>
+
+    <item>
+      <title>...możesz otworzyć nowy panel naciskając kombinację klawiszy?</title>
+      <description>Control+t (Command+t w Mac OS X) otworzy nowy, pusty panel.</description>
+    </item>
+
+  </channel>
+</rss>
+

@@ -1,0 +1,4 @@
+<!ENTITY exitWarningMsg.label 'Funkcja szybkiego startu jest włączona. Niektóre biblioteki Mozilli są uruchomione i będą przechowywane w pamięci komputera, aby przyspieszyć uruchamianie programu. Aby całkowicie zamknąć program, należy nacisnąć prawym klawiszem na ikonie Mozilli w pasku systemowym, w prawym dolnym rogu okna, a następnie wybrać "Zakończ".' >
+<!ENTITY exitWarningTitle.label "Szybki start" >
+<!ENTITY exitWarningCheckbox.label "Nie pokazuj tego komunikatu ponownie" >
+<!ENTITY exitWarningCheckbox.accesskey "N" >

@@ -1,0 +1,22 @@
+<!--LOCALIZATION NOTE : FILE UI for Software Updates prefs -->
+<!ENTITY lHeader "Instalacja oprogramowania" >
+<!ENTITY smartTitle.label "Instalacja wtyczek i dodatkowego oprogramowania" >
+<!ENTITY enableSU.label "Włącz instalację oprogramowania. Przed rozpoczęciem każdej instalacji zostanie wyświetlone powiadomienie." >
+
+<!ENTITY enableSU.accesskey "e" >
+<!ENTITY enableNotification.label "Włącz powiadamianie o nowych wersjach oprogramowania" >
+<!ENTITY enableNotification.accesskey "n" >
+<!ENTITY requireConfirmation.label "Żądaj potwierdzenia przed instalacją" >
+<!--LOCALIZATION NOTE (selectUninstall.label): A large list box appears below this label -->
+<!ENTITY selectUninstall.label "Aby odinstalować program wybierz go z listy, a następnie użyj przycisku Odinstaluj" >
+<!ENTITY uninstallButton.label "Odinstaluj" >
+<!ENTITY uninstallButton.accesskey "u" >
+
+<!ENTITY updateNotifications.label "Automatyczna aktualizacja" >
+<!ENTITY updateNotifications.desc "Sprawdź automatycznie, czy są dostępne nowe wersje Mozilli. Uwaga: Podczas wykonywania tej operacji nie zostaną wysłane żadne poufne lub prywatne informacje." >
+<!ENTITY enableUN.label "Sprawdź, czy dostępne są nowe wersje:" >
+<!ENTITY enableUN.accesskey "c" >
+<!ENTITY weekly.label "co tydzień" >
+<!ENTITY weekly.accesskey "t" >
+<!ENTITY monthly.label "co miesiąc." >
+<!ENTITY monthly.accesskey "m" >

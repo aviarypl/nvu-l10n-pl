@@ -1,0 +1,20 @@
+<!-- extracted from content/pref-scripts.xul -->
+
+<!--LOCALIZATION NOTE : FILE The 'Scripts & Plug-ins' preferences dialog -->
+<!ENTITY lHeader "Skrypty i wtyczki" >
+
+<!--LOCALIZATION NOTE (enableJsCheck.label): 'JavaScript' should never be translated -->
+<!ENTITY navigator.label "Nawigator" >
+<!ENTITY navigator.accesskey "r" >
+
+<!ENTITY enableJavaScript.label "Włącz interpretację kodu JavaScript w komponentach" >
+<!ENTITY allowScripts.label "Pozwól skryptom na wykonanie następujących czynności:" >
+<!ENTITY allowWindowOpen.label "Otwieranie wyskakujących okien bez wiedzy użytkownika" >
+<!ENTITY allowWindowMoveResize.label "Zmianę rozmiaru lub położenia istniejących okien" >
+<!ENTITY allowWindowFlip.label "Zmianę aktywnego okna, przenoszenie nieaktywnego okna do przodu" >
+<!ENTITY allowWindowStatusChange.label "Zmianę domyślnego tekstu, wyświetlanego na pasku stanu" >
+<!ENTITY allowWindowImageSrcChange.label "Zmianę obrazków po wskazaniu na nie myszką" >
+<!ENTITY allowContextmenuDisable.label "Wyłączanie lub zmianę menu kontekstowego" >
+<!ENTITY allowHideStatusBar.label "Ukrywanie paska stanu" >
+
+<!ENTITY enablePlugin.label "Włącz obsługę wtyczek w komponencie:" >

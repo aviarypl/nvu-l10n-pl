@@ -1,0 +1,18 @@
+<!ENTITY formbarCmd.label "Pasek narzędzi formularzy" >
+<!ENTITY formbarCmd.accesskey "f" >
+<!ENTITY formPrefill.label "Wypełnij formularz" >
+<!ENTITY formCapture.label "Przechwyć dane formularza" >
+<!ENTITY formView.label "Zarządzaj zachowanymi danymi" >
+<!ENTITY formPrefill.tooltip "Wypełnij ten formularz, używając zachowanych danych" >
+<!ENTITY formCapture.tooltip "Zapisz dane wprowadzone w tym formularzu" >
+<!ENTITY formView.tooltip "Wyświetl poprzednio zapisane dane dla tego formularza" >
+<!ENTITY captureCmd.label "Przechwyć dane formularza" >
+<!ENTITY captureCmd.accesskey "d" >
+<!ENTITY prefillCmd.label "Wypełnij formularz" >
+<!ENTITY prefillCmd.accesskey "f" >
+<!ENTITY walletContentsCmd.label "Menedżer formularzy" >
+<!ENTITY walletContentsCmd.accesskey "M" >
+<!ENTITY walletSitesCmd.label "Menedżer witryn" >
+<!ENTITY walletSitesCmd.accesskey "w" >
+<!ENTITY walletFormManager.label "Zarządzaj formularzami" >
+<!ENTITY walletFormManager.accesskey "f" >

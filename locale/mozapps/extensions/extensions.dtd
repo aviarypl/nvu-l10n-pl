@@ -1,0 +1,64 @@
+<!ENTITY extensions.title                 "Rozszerzenia">
+
+<!ENTITY cmd.info.commandKey              "i">
+<!ENTITY cmd.options.commandKey           ",">
+<!ENTITY cmd.close.commandKey             "w">
+
+<!-- Command Bar items -->
+<!ENTITY cmd.uninstall.label              "Odinstaluj">
+<!ENTITY cmd.uninstall.tooltip            "Odinstalowuje wybrane rozszerzenie">
+<!ENTITY cmd.uninstall.accesskey          "i">
+<!ENTITY cmd.update.label                 "Aktualizuj">
+<!ENTITY cmd.update.accesskey             "u">
+<!ENTITY cmd.update.tooltip               "Sprawdza, czy dostępne są nowsze wersje zainstalowanych rozszerzeń">
+<!ENTITY cmd.useTheme.label               "Zastosuj">
+<!ENTITY cmd.useTheme.accesskey           "S">
+<!ENTITY cmd.useTheme.tooltip             "Zmienia motyw programu &brandShortName;.">
+
+<!-- the following command bar items are used by thunderbird only -->
+<!ENTITY cmd.install.label              "Instaluj">
+<!ENTITY cmd.install.tooltip            "Zainstaluj rozszerzenie">
+<!ENTITY cmd.install.accesskey          "n">
+
+<!-- Context Menu Options: Extension -->
+<!ENTITY cmd.options.label                "Opcje">
+<!ENTITY cmd.options.accesskey            "O">
+<!ENTITY cmd.options.tooltip              "Skonfiguruj zainstalowane rozszerzenie">
+<!ENTITY cmd.optionsUnix.label            "Preferencje">
+<!ENTITY cmd.optionsUnix.accesskey        "r">
+<!ENTITY cmd.homepage.label               "Odwiedź stronę domową">
+<!ENTITY cmd.homepage.accesskey           "s">
+<!ENTITY cmd.about.label                  "Informacje o rozszerzeniu">
+<!ENTITY cmd.about.accesskey              "O">
+<!ENTITY cmd.enable.label                 "Włącz">
+<!ENTITY cmd.enable.accesskey             "W">
+<!ENTITY cmd.disable.label                "Wyłącz">
+<!ENTITY cmd.disable.accesskey            "y">
+<!ENTITY cmd.moveToTop.label              "Przesuń na górę">
+<!ENTITY cmd.moveToTop.accesskey          "n">
+<!ENTITY cmd.moveUp.label                 "Przesuń w górę">
+<!ENTITY cmd.moveUp.accesskey             "g">
+<!ENTITY cmd.moveDn.label                 "Przesuń w dól">
+<!ENTITY cmd.moveDn.accesskey             "d">
+
+<!-- Extension Items -->
+<!ENTITY options.tooltip                  "Opcje">
+<!ENTITY optionsUnix.tooltip              "Preferencje">
+<!ENTITY about.tooltip                    "O rozszerzeniu">
+<!ENTITY homepage.tooltip                 "Strona domowa">
+
+<!ENTITY extensionItem.toBeDisabled.label     "Ten element będzie wyłączony po ponownym uruchomieniu Firefoksa.">
+<!ENTITY extensionItem.toBeEnabled.label      "Ten element będzie włączony po ponownym uruchomieniu Firefoksa.">
+<!ENTITY extensionItem.toBeInstalled.label    "Ten element zostanie zainstalowany po ponownym uruchomieniu Firefoksa.">
+<!ENTITY extensionItem.toBeUninstalled.label  "Ten element zostanie odinstalowany po ponownym uruchomieniu Firefoksa.">
+<!ENTITY extensionItem.done.label             "Instalacja powiodła się">
+<!ENTITY extensionItem.waiting.label          "Oczekiwanie...">
+<!ENTITY extensionItem.installing.label       "Instalowanie...">
+
+<!ENTITY getMoreExtensions.label          "Pobierz więcej rozszerzeń">
+<!ENTITY getMoreExtensions.tooltip        "Pobierz więcej rozszerzeń z update.mozilla.org">
+<!ENTITY getMoreThemes.label              "Pobierz więcej motywów">
+<!ENTITY getMoreThemes.tooltip            "Pobierz więcej motywów z update.mozilla.org">
+
+<!ENTITY previewNoThemeSelected.label     "Nie wybrano motywu">
+<!ENTITY previewNoPreviewImage.label      "Ten motyw nie posiada obrazka podglądu">

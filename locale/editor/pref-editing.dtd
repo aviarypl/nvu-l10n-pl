@@ -1,0 +1,41 @@
+<!ENTITY  lHeader                   "Ustawienia nowej strony">
+<!ENTITY  rHeader                   "Domyślne ustawienia nowej strony">
+
+<!ENTITY  authorName.label          "Autor:">
+<!ENTITY  authorName.accesskey      "A">
+<!ENTITY  pageColorHeader           "Domyślny wygląd strony">
+
+<!ENTITY defaultColorsRadio.label   "Domyślne kolory przeglądarki (Nie definiuj kolorów na stronie)">
+<!ENTITY defaultColors.accesskey    "D">
+<!ENTITY customColorsRadio.label    "Użyj własnych kolorów:">
+<!ENTITY customColors.accesskey     "w">
+
+<!ENTITY normalText.label           "Zwykły tekst">
+<!ENTITY normalText.accesskey       "Z">
+<!ENTITY linkText.label             "Tekst odnośnika">
+<!ENTITY linkText.accesskey         "o">
+<!ENTITY activeLinkText.label       "Tekst aktywnego odnośnika">
+<!ENTITY activeLinkText.accesskey   "a">
+<!ENTITY visitedLinkText.label      "Tekst odwiedzonego odnośnika">
+<!ENTITY visitedLinkText.accesskey  "i">
+<!ENTITY background.label           "Tło:">
+<!ENTITY background.accesskey       "T">
+<!ENTITY colon.character            ":">
+
+<!ENTITY backgroundImage.label      "Obrazek tła:">
+<!ENTITY backgroundImage.accesskey  "b">
+<!ENTITY chooseFile.label           "Wybierz plik...">
+<!ENTITY chooseFile.accesskey       "p">
+
+<!ENTITY i18nHeader                  "Ustawienia językowe"> <!--  Internationalization -->
+
+<!ENTITY writingDirection.label      "Kierunek pisania:">
+<!ENTITY defaultDirectionRadio.label "Nieokreślony">
+<!ENTITY ltrDirectionRadio.label     "Od lewej do prawej">
+<!ENTITY rtlDirectionRadio.label     "Od prawej do lewej">
+
+<!ENTITY language.label              "Język:">
+<!ENTITY languageChoiceButton.label  "Wybierz język">
+
+<!ENTITY defaultCharset.label        "Kodowanie:">
+<!ENTITY chooseCharsetButton.label   "Wybierz kodowanie">

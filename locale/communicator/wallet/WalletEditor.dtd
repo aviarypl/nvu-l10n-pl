@@ -1,0 +1,15 @@
+<!ENTITY     div.walletdataonsystem.label   "Następujące dane formularza zostały zapisane dla Ciebie." >
+<!ENTITY     treehead.schemaname.label      "Nazwa pola" >
+<!-- String is of the form: treehead.entries.label %value% treehead.entries1.label -->
+<!ENTITY     treehead.entries.label         "Wartości dla" >
+<!ENTITY     treehead.entries1.label         "">
+<!-- String is of the form: treehead.synonyms.label %value% treehead.synonyms1.label -->
+<!ENTITY     treehead.synonyms.label        "Synonimy dla" >
+<!ENTITY     treehead.synonyms1.label        "">
+<!ENTITY     treehead.synonymsoff.label     "Zaznacz wartość powyżej, aby zobaczyć jej synonimy" >
+<!ENTITY     button.remove.label            "Usuń" >
+<!ENTITY     button.addschema.label         "Dodaj nowe pole ..." >
+<!ENTITY     button.addentry.label          "Dodaj nową wartość ..." >
+<!ENTITY     button.addsynonym.label        "Dodaj nowy synonim ..." >
+<!ENTITY     windowtitle.label              "Zachowane dane formularza" >								
+                                        

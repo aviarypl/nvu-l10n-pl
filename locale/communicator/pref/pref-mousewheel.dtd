@@ -1,0 +1,21 @@
+<!-- LOCALIZATION NOTE : FILE Mouse-wheel management prefs, for those lucky OSes that support mouse wheels -->
+
+<!ENTITY title.label "Przewijanie" >
+<!ENTITY mouseWheelTitle.label "Konfiguracja rolki myszki" >
+<!ENTITY mouseWheelPanel.label "Przewijanie dokumentów za pomocą rolki myszki może zostać zmodyfikowane przez dodatkowe użycie jednego z systemowych przycisków. Użycie rolki myszy z następującym modyfikatorem spowoduje: " >
+<!ENTITY mouseWheelPanel.accesskey "w" >
+<!ENTITY usingJustTheWheel.label "Bez modyfikatora" >
+<!ENTITY usingWheelAndAlt.label "Z klawiszem &altKey.label;" >
+<!ENTITY usingWheelAndCtrl.label "Z klawiszem &ctrlKey.label;" >
+<!ENTITY usingWheelAndShft.label "Z klawiszem &shiftKey.label;" >
+<!ENTITY scroll.label "Przewinięcie dokumentu o" >
+<!ENTITY scroll.accesskey "r" >
+<!ENTITY scrollLines.label " linii" >
+<!ENTITY useSystemDefault.label "Użyj domyślnych ustawień systemu" >
+<!ENTITY useSystemDefault.accesskey "y" >
+<!ENTITY scrollPgUpPgDn.label "Przewinięcie dokumentu o jedną stronę w górę/dół" >
+<!ENTITY scrollPgUpPgDn.accesskey "p" >
+<!ENTITY history.label "Przejście do następnej/poprzednio odwiedzonej strony" >
+<!ENTITY history.accesskey "o" >
+<!ENTITY textsize.label "Powiększenie/pomniejszenie tekstu" >
+<!ENTITY textsize.accesskey "t" >

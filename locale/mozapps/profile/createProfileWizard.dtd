@@ -1,0 +1,19 @@
+<!ENTITY newprofile.title             "Menedżer Tworzenia Profilu">
+<!ENTITY window.size                  "width: 54em; height: 38em;">
+
+<!-- First wizard page -->
+<!ENTITY profileCreationExplanation_1.text  "&brandShortName; przechowuje informacje o Twoich ustawieniach i preferencjach w Twoim prywatnym profilu.">
+<!ENTITY profileCreationExplanation_2.text  "Jeżeli dzielisz tę kopię Firefoksa z innymi użytkownikami, możesz używać profili, aby odseparować dane użytkowników. Aby tego dokonać, każdy użytkownik powinien posiadać własny profil.">
+<!ENTITY profileCreationExplanation_3.text  "Jeżeli jesteś jedyną osobą korzystającą z tej kopii Firefoksa musisz posiadać przynajmniej jeden profil. Jeśli chcesz, możesz stworzyć kilka profili dla siebie samego, aby trzymać w nich różne zestawy ustawień i preferencji. Na przykład, możesz chcieć posiadać osobne profile służbowy i prywatny.">
+<!ENTITY profileCreationExplanation_4.text  "Aby rozpocząć tworzenie swojego profilu, naciśnij przycisk Dalej.">
+
+<!-- Second wizard page -->
+<!ENTITY profileCreationIntro.text      "Tworzony profil musi mieć nazwę różną od już istniejących profili. Użyj nazwy podanej poniżej lub wprowadź własną.">
+<!ENTITY profilePrompt.label            "Wprowadź nazwę nowego profilu:">
+<!ENTITY profilePrompt.accesskey        "N">
+<!ENTITY profileDirExplanation.text     "Twoje ustawienia, preferencje, zakładki i poczta będą przechowywane w:">
+<!ENTITY profileDefaultName             "Domyślny użytkownik">
+<!ENTITY button.choosefolder.label      "Wybierz folder...">
+<!ENTITY button.choosefolder.accesskey  "W">
+<!ENTITY button.usedefault.label        "Użyj domyślnego katalogu">
+<!ENTITY button.usedefault.accesskey    "U">

@@ -1,0 +1,18 @@
+
+<!--LOCALIZATION NOTE : FILE Theme management prefs -->
+<!ENTITY lHeader "Schematy" >
+
+<!ENTITY skinIntro.label "Wybór nowego motywu powoduje zmianę wyglądu programu (przycisków, pól dialogowych, menu, pasków narzędziowych i innych elementów). Nie zmienia jednak sposobu działania żadnej funkcji, ani nie powoduje utraty ustawień osobistych." >
+<!ENTITY installedThemes.label "Dostępne motywy:" >
+
+<!ENTITY selectSkin.label "Zastosuj motyw" >
+<!ENTITY selectSkin.accesskey "a" >
+
+<!ENTITY uninstallSkin.label "Odinstaluj motyw" >
+<!ENTITY uninstallSkin.accesskey "O" >
+
+<!ENTITY general.label "Ogólne" >
+<!ENTITY preview.label "Podgląd motywu" >
+<!ENTITY author.label "Autor:" >
+
+<!ENTITY getNewThemes.label "Pobierz nowe motywy" >

@@ -1,0 +1,41 @@
+<!ENTITY done.label "Zakończono" >
+<!ENTITY canceled.label "Anulowano" >
+<!ENTITY installing.label "Instalowanie..." >
+<!ENTITY starting.label "Rozpoczynanie..." >
+<!ENTITY failed.label "Nie powiodło się" >
+<!ENTITY downloads.title "Pobieranie plików" >
+<!ENTITY cmd.pause.label "Wstrzymaj" >
+<!ENTITY cmd.pause.accesskey "s" >
+<!ENTITY cmd.resume.label "Kontynuuj" >
+<!ENTITY cmd.resume.accesskey "K" >
+<!ENTITY cmd.cancel.label "Anuluj" >
+<!ENTITY cmd.cancel.accesskey "A" >
+<!ENTITY cmd.show.label "Otwórz folder zawierający" >
+<!ENTITY cmd.show.accesskey "f" >
+<!ENTITY cmd.open.label "Otwórz" >
+<!ENTITY cmd.open.accesskey "O" >
+<!ENTITY cmd.openWith.label "Otwórz za pomocą..." >
+<!ENTITY cmd.openWith.accesskey "z" >
+<!ENTITY cmd.retry.label "Pobierz ponownie" >
+<!ENTITY cmd.retry.accesskey "p" >
+<!ENTITY cmd.remove.label "Usuń" >
+<!ENTITY cmd.remove.accesskey "U" >
+<!ENTITY cmd.properties.label "Właściwości" >
+<!ENTITY cmd.properties.accesskey "i" >
+<!ENTITY cmd.info.commandKey "i" >
+<!ENTITY cmd.close.commandKey "w" >
+<!ENTITY cmd.close2.commandKey            "j">
+<!ENTITY cmd.close2Unix.commandKey        "y">
+<!ENTITY cmd.cleanUp.label "Wyczyść" >
+<!ENTITY cmd.cleanUp.tooltip "Usuń z listy pliki, których pobieranie zostało zakończone, anulowane lub nie powiodło się" >
+<!ENTITY cmd.cleanUp.accesskey "w" >
+
+<!ENTITY cmd.change.label                 "Zmień...">
+<!ENTITY cmd.change.accesskey             "m">
+<!ENTITY cmd.change.tooltip               "Zdecyduj, gdzie i jak zapisywać pliki">
+
+<!ENTITY closeWhenDone.label "Zamknij okno po zakończeniu pobierania" >
+<!ENTITY closeWhenDone.tooltip "Zamknij okno po zakończeniu pobierania wszystkich plików" >
+
+<!ENTITY filesSavedTo.label               "Wszystkie pliki zapisywane w:">
+<!ENTITY showFolder.label                 "Wyświetl ten folder">

@@ -1,0 +1,30 @@
+<!-- extracted from content/pref-smart_browsing.xul -->
+
+<!--LOCALIZATION NOTE : FILE The SmartBrowsing prefs dialog -->
+<!ENTITY lHeader "Ułatwienia przeglądania stron WWW" >
+
+<!--LOCALIZATION NOTE (internetKeywordsHeader.label): DONT_TRANSLATE -->
+<!ENTITY internetKeywordsHeader.label "Internetowe słowa kluczowe" >
+<!ENTITY internetKeywordsDescription.label "Aby uzyskać szybki dostęp do takich usług, jak notowania giełdowe, wyszukiwanie oraz innych informacji wprost z paska adresowego, należy zaznaczyć poniższe pole wyboru:" >
+<!ENTITY moreInformation.label "Więcej informacji..." >
+<!ENTITY moreInformation.accesskey "W" >
+<!--LOCALIZATION NOTE (enableKeyCheck.label): Do not translate 'Internet Keywords' -->
+<!ENTITY keywordsEnabled.label "Włącz internetowe słowa kluczowe" >
+<!ENTITY keywordsEnabled.accesskey "k" >
+
+
+<!ENTITY autoCompleteHeader.label "Autouzupełnianie paska adresów" >
+<!ENTITY autoCompleteEnabled.label "Automatycznie uzupełniaj tekst wprowadzany do paska adresów" >
+<!ENTITY autoCompleteEnabled.accesskey "a" >
+
+<!ENTITY autoCompleteAdvanced.label "Zaawansowane..." >
+<!ENTITY autoCompleteAdvanced.accesskey "A" >
+<!ENTITY autoCompleteAdvanced.title "Preferencje autouzupełniania" >
+<!ENTITY autoCompleteAutoFill.label "Używaj autouzupełniania w trakcie wprowadzania adresów URL" >
+<!ENTITY autoCompleteShowPopup.label "Pokaż listę pasujących adresów" >
+<!ENTITY autoCompleteShowSearch.label "Pokaż domyślną wyszukiwarkę internetową" >
+<!ENTITY autoCompleteMatchOnlyTyped.label "Uwzględniaj tylko witryny, które zostały poprzednio odwiedzone" >
+<!ENTITY autocompletePreview.label "Podgląd" >
+
+<!ENTITY domainGuessingHeader.label "Dopasowywanie nazw domen" >
+<!ENTITY domainGuessingEnabled.label "Automatycznie dodaj &quot;www.&quot; oraz &quot;.com&quot; do wprowadzonego adresu, jeżeli odnalezienie witryny nie będzie możliwe." >

@@ -1,0 +1,12 @@
+<!ENTITY lHeader "Formularze" >
+<!ENTITY rHeader "Menedżer danych osobowych" >
+<!ENTITY walletHeader.label "Menedżer formularzy" >
+<!ENTITY walletDescription.label "Wprowadzane na stronach WWW informacje osobiste mogą zostać zapamiętane przez Menedżera formularzy. Podczas odwiedzania stron WWW zawierających formularze, zgromadzone dane zostaną automatycznie wprowadzone w odpowiednie pola, przyspieszając wypełnianie formularzy." >
+<!ENTITY walletServer.label "Serwer tabel Menedżera formularzy" >
+<!ENTITY walletServer.accesskey "s" >
+<!ENTITY walletEnabled.label "Zachowuj informacje pochodzące z formularzy wypełnianych na stronach WWW." >
+<!ENTITY walletEnabled.accesskey "f" >
+<!ENTITY viewWallet.label "Menedżer formularzy" >
+<!ENTITY viewWallet.accesskey "M" >
+<!ENTITY viewWalletSites.label "Menedżer witryn" >
+<!ENTITY viewWalletSites.accesskey "w" >

@@ -1,0 +1,10 @@
+
+<!ENTITY prefWindow.size "width: 52.3em; height: 37em;">
+<!ENTITY prefWindow.title "Opcje">
+
+<!ENTITY general.label "Ogólne">
+<!ENTITY extensions.label "Rozszerzenia">
+<!ENTITY advanced.label "Zaawansowane">
+<!ENTITY newpagesettings.label "Ustawienia nowej strony">
+<!ENTITY fonts.label   "Czcionki">
+<!ENTITY i18n.label    "Ustawienia językowe">

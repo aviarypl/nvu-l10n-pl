@@ -1,0 +1,11 @@
+<!ENTITY dialog.title "Dostosuj pasek narzędziowy" >
+<!ENTITY instructions.description "Możesz dodawać lub usuwać elementy przeciągając je z lub na paski narzędziowe.">
+<!ENTITY show.label "Pokaż:" >
+<!ENTITY iconsAndText.label "Ikony i tekst" >
+<!ENTITY icons.label "Ikony" >
+<!ENTITY text.label "Tekst" >
+<!ENTITY useSmallIcons.label "Użyj małych ikon" >
+<!ENTITY restoreDefaultSet.label "Domyślny układ" >
+<!ENTITY addNewToolbar.label "Nowy pasek" >
+<!ENTITY saveChanges.label "Zakończ" >
+<!ENTITY undoChanges.label "Cofnij zmiany" >

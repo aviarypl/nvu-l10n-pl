@@ -1,0 +1,56 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Sprawdź pisownię" >
+
+<!ENTITY misspelledWord.label "Błędne słowo:" >
+<!ENTITY wordEditField.label "Zamień na:" >
+<!ENTITY wordEditField.accessKey "m" >
+<!ENTITY checkwordButton.label "Sprawdź słowo" >
+<!ENTITY checkwordButton.accessKey "S" >
+<!ENTITY suggestions.label "Sugestie:" >
+<!ENTITY suggestions.accessKey "u" >
+<!ENTITY ignoreButton.label "Ignoruj" >
+<!ENTITY ignoreButton.accessKey "I" >
+<!ENTITY ignoreAllButton.label "Ignoruj wszystkie" >
+<!ENTITY ignoreAllButton.accessKey "w" >
+<!ENTITY replaceButton.label "Zamień" >
+<!ENTITY replaceButton.accessKey "a" >
+<!ENTITY replaceAllButton.label "Zamień wszystkie" >
+<!ENTITY replaceAllButton.accessKey "w" >
+<!ENTITY stopButton.label "Nie wysyłaj" >
+<!ENTITY stopButton.accessKey "N" >
+<!ENTITY userDictionary.label "Osobisty słownik:" >
+<!ENTITY moreDictionaries.label "Pobierz więcej" >
+<!ENTITY addToUserDictionaryButton.label "Dodaj słowo" >
+<!ENTITY addToUserDictionaryButton.accessKey "D" >
+<!ENTITY editUserDictionaryButton.label "Edytuj..." >
+<!ENTITY editUserDictionaryButton.accessKey "E" >
+<!ENTITY recheckButton.label "Sprawdź ponownie" >
+<!ENTITY recheckButton.accessKey "p" >
+<!ENTITY closeButton.label "Zamknij" >
+<!ENTITY closeButton.accessKey "Z" >
+<!ENTITY sendButton.label "Wyślij" >
+<!ENTITY sendButton.accessKey "l" >
+<!ENTITY languagePopup.label "Język:" >
+<!ENTITY languagePopup.accessKey "J" >

@@ -1,0 +1,20 @@
+<!ENTITY caption.label "Pobieranie pliku: #1" >
+<!ENTITY intro.label "Rozpoczęto pobieranie pliku &quot;#3&quot; nieznanego typu MIME #2 (#1), z lokalizacji:" >
+<!ENTITY intro.noDesc.label "Rozpoczęto pobieranie pliku &quot;#3&quot; nieznanego typu MIME #2, z lokalizacji:" >
+<!ENTITY intro.attachment.label "Zgodnie z deklaracją witryny, pobierany plik &quot;#3&quot; powinien być traktowany jako załącznik. Typ MIME pliku: #2 (#1), adres:" >
+<!ENTITY intro.attachment.noDesc.label "Zgodnie z deklaracją witryny, pobierany plik &quot;#3&quot; powinien być traktowany jako załącznik. Typ MIME pliku: #2, adres:" >
+<!ENTITY prompt.label "Po zakończeniu pobierania" >
+<!ENTITY alwaysHandle.label "Zawsze wykonuj następującą akcję po pobraniu pliku tego typu" >
+<!ENTITY alwaysHandle.accesskey "a" >
+<!ENTITY saveToDisk.label "Zachowaj plik na dysku" >
+<!ENTITY saveToDisk.accesskey "a" >
+<!ENTITY useSystemDefault.label "Otwórz plik za pomocą domyślnej aplikacji (#1)" >
+<!ENTITY useSystemDefault.noDesc.label "Otwórz plik za pomocą domyślnej aplikacji" >
+<!ENTITY useSystemDefault.accesskey "o" >
+<!ENTITY openUsing.label "Otwórz go za pomocą" >
+<!ENTITY openUsing.accesskey "O" >
+<!ENTITY chooseApp.label "Wybierz..." >
+<!ENTITY chooseApp.accesskey "W" >
+<!ENTITY chooseAppFilePickerTitle "Wybierz aplikację pomocniczą" >
+<!ENTITY badApp "Wybrana aplikacja (&quot;#1&quot;) nie może zostać odnaleziona. Należy sprawdzić poprawność wprowadzonej nazwy pliku lub wybrać inną aplikację." >
+<!ENTITY badApp.title "Nie znaleziono aplikacji" >

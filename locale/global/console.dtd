@@ -1,0 +1,25 @@
+<!ENTITY console.title "Konsola JavaScript" >
+<!ENTITY errFile.label "Plik źródłowy:" >
+<!ENTITY errLine.label "Wiersz:" >
+<!ENTITY errColumn.label "Kolumna:" >
+<!ENTITY all.label "Wszystkie" >
+<!ENTITY all.accesskey "s" >
+<!ENTITY errors.label "Błędy" >
+<!ENTITY errors.accesskey "B" >
+<!ENTITY warnings.label "Ostrzeżenia" >
+<!ENTITY warnings.accesskey "n" >
+<!ENTITY messages.label "Wiadomości" >
+<!ENTITY messages.accesskey "M" >
+<!ENTITY clear.label "Wyczyść" >
+<!ENTITY clear.accesskey "W" >
+<!ENTITY evaluate.label "Analizuj" >
+<!ENTITY copyCmd.label "Kopiuj" >
+<!ENTITY copyCmd.accesskey "K" >
+<!ENTITY copyCmd.commandkey "C" >
+<!ENTITY sortFirst.label "Sortowanie od pierwszego do ostatniego" >
+<!ENTITY sortFirst.accesskey "p" >
+<!ENTITY sortLast.label "Sortowanie od ostatniego do pierwszego" >
+<!ENTITY sortLast.accesskey "o" >
+<!ENTITY closeCmd.commandkey "W" >
+<!ENTITY focus1.commandkey "l" >
+<!ENTITY focus2.commandkey "d" >

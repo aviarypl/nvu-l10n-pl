@@ -1,0 +1,27 @@
+<!ENTITY walletPasswordManager.label "Zarządzaj hasłami" >
+<!ENTITY walletPasswordManager.accesskey "h" >
+<!ENTITY walletSafeFillCmd.label "Wypełnij formularz" >
+<!ENTITY walletSafeFillCmd.accesskey "f" >
+<!ENTITY walletQuickFillCmd.label "Szybkie wypełnianie formularza" >
+<!ENTITY walletQuickFillCmd.accesskey "S" >
+<!ENTITY walletRequestToCaptureCmd.label "Przechwyć dane formularza" >
+<!ENTITY walletRequestToCaptureCmd.accesskey "P" >
+<!ENTITY walletDisplaySignonsCmd.label "Menedżer haseł" >
+<!ENTITY walletDisplaySignonsCmd.accesskey "M" >
+<!ENTITY walletInterviewCmd.label "Wywiad" >
+<!ENTITY walletInterviewCmd.accesskey "W" >
+<!ENTITY walletSamplesCmd.label "Demonstracja" >
+<!ENTITY walletSamplesCmd.accesskey "d" >
+<!ENTITY walletChangePasswordCmd.label "Zmień główne hasło..." >
+<!ENTITY walletChangePasswordCmd.accesskey "Z" >
+<!ENTITY walletExpirePasswordCmd.label "Wyloguj" >
+<!ENTITY walletExpirePasswordCmd.accesskey "l" >
+<!ENTITY walletEncryptCmd.label "Włącz szyfrowanie poufnych danych" >
+<!ENTITY walletEncryptCmd.accesskey "S" >
+<!ENTITY walletObscureCmd.label "Utajniaj poufne dane" >
+<!ENTITY walletObscureCmd.accesskey "U" >
+<!ENTITY walletClearCmd.label "Zresetuj główne hasło" >
+<!ENTITY walletClearCmd.accesskey "W" >
+<!ENTITY PasswordNotChanged "Zmiana hasła jest niemożliwa." >
+<!ENTITY PasswordExpired "Użytkownik został pomyślnie wylogowany." >
+<!ENTITY PasswordNotExpired "Nie można wylogować." >

@@ -1,0 +1,104 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-2000 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!-- These strings are for use specifically in the editor's image and form image dialogs. -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Właściwości obrazka">
+
+<!ENTITY pixelsPopup.value "pikseli">
+<!ENTITY percentPopup.value "procenty">
+
+<!-- These are in the Location tab panel -->
+<!ENTITY locationEditField.label "Adres obrazka:" >
+<!ENTITY locationEditField.accessKey "A" >
+<!ENTITY locationEditField.tooltip "Wprowadź nazwę pliku obrazka lub lokację" >
+<!ENTITY title.label "Podpowiedź:">
+<!ENTITY title.accessKey "o">
+<!ENTITY title.tooltip "Atrybut 'title', który wyświetlany jest jako podwpowiedź">
+<!ENTITY altText.label "Alternatywny tekst:">
+<!ENTITY altText.accessKey "A">
+<!ENTITY altTextEditField.tooltip "Wpisz tekst jaki ma być wyświetlany w miejsce obrazka">
+<!ENTITY noAltText.label "Nie używaj alternatywnego tekstu">
+<!ENTITY noAltText.accessKey "N">
+
+<!ENTITY previewBox.label "Podgląd obrazka">
+<!ENTITY MoreFewerButton.tooltip "Wyświetl mniej lub więcej właściwości do edycji" >
+
+<!-- These controls are in the Dimensions tab panel -->
+<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!ENTITY actualSize.label "Oryginalny rozmiar:" >
+<!ENTITY actualSizeRadio.label "Oryginalny rozmiar" >
+<!ENTITY actualSizeRadio.accessKey "O" >
+<!ENTITY actualSizeRadio.tooltip "Przywróć oryginalny rozmiar" >
+<!ENTITY customSizeRadio.label "Rozmiar niestandardowy" >
+<!ENTITY customSizeRadio.accessKey "s" >
+<!ENTITY customSizeRadio.tooltip "Zmień rozmiar obrazka wyświetlanego na stronie" >
+<!ENTITY heightEditField.label "Wysokość:" >
+<!ENTITY heightEditField.accessKey "W" >
+<!ENTITY widthEditField.label "Szerokość:" >
+<!ENTITY widthEditField.accessKey "S" >
+<!ENTITY constrainCheckbox.label "Zachowaj skalę" >
+<!ENTITY constrainCheckbox.accessKey "Z" >
+<!ENTITY constrainCheckbox.tooltip "Zachowaj współczynnik kształtu obrazka" >
+
+<!-- These controls are in the Image Map box of the expanded area -->
+<!ENTITY imagemapBox.label "Mapa obrazka" >
+<!ENTITY removeImageMapButton.label "Usuń" >
+<!ENTITY removeImageMapButton.accessKey "U" >
+<!ENTITY editImageMapButton.label "Edytuj..." >
+<!ENTITY editImageMapButton.tooltip "Utwórz aktywne obszary dla tego obrazka" >
+
+<!-- These are the options for image alignment -->
+<!ENTITY alignment.label "Wyrównaj tekst względem obrazka" >
+<!ENTITY bottomPopup.value "Na dole" >
+<!ENTITY topPopup.value "U góry" >
+<!ENTITY centerPopup.value "Na środku" >
+<!ENTITY wrapRightPopup.value "Zawijaj do prawej" >
+<!ENTITY wrapLeftPopup.value "Zawijaj do lewej" >
+
+<!-- These controls are in the Spacing Box -->
+<!ENTITY spacingBox.label "Odstępy" >
+<!ENTITY spacingBox.tooltip "Wprowadź liczbę określającą wielkość odstępu obrazka od otaczających go elementów" >
+<!ENTITY leftRightEditField.label "Z lewej i prawej:" >
+<!ENTITY leftRightEditField.accessKey "l" >
+<!ENTITY topBottomEditField.label "Z góry i dołu:" >
+<!ENTITY topBottomEditField.accessKey "g" >
+<!ENTITY borderEditField.label "Szerokość obramowania:" >
+<!ENTITY borderEditField.accessKey "O" >
+
+<!-- These controls are in the Link Box -->
+<!ENTITY showImageLinkBorder.label "Pokaż obramowanie wokół obrazka z odnośnikiem" >
+<!ENTITY showImageLinkBorder.accessKey "a" >
+
+<!-- These controls may be added some day; currently not used -->
+<!ENTITY makePageBackgroundCheckbox.label "Wybierz jako obrazek tła" >
+<!ENTITY makePageBackgroundCheckbox.tooltip "Użyj obrazka jako tło dla Twojej strony" >
+<!ENTITY editImageButton.label "Edytuj obrazek" >
+<!ENTITY editImageButton.tooltip "Edytuj obrazek w innym programie" >
+
+<!-- These tabs are currently used in the image input dialog -->
+<!ENTITY imageInputTab.label "Formularz" >
+<!ENTITY imageLocationTab.label "Adres" >
+<!ENTITY imageDimensionsTab.label "Wymiary" >
+<!ENTITY imageAppearanceTab.label "Wygląd" >
+<!ENTITY imageLinkTab.label "Odnośnik" >

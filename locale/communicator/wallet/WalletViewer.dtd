@@ -1,0 +1,155 @@
+<!ENTITY windowtitle.label "Menedżer formularzy: Edytor" >
+<!ENTITY categoryHeader "Kategoria" >
+<!ENTITY primary.label "Podstawowe dane kontaktowe" >
+<!ENTITY pname.label "Nazwa" >
+<!ENTITY paddress.label "Adres" >
+<!ENTITY pphone.label "Numery telefonów" >
+<!ENTITY pcredit.label "Karta kredytowa" >
+<!ENTITY pemploy.label "Zatrudnienie" >
+<!ENTITY pmisc.label "Osobiste" >
+<!ENTITY shipping.label "Dane o spedycji" >
+<!ENTITY sname.label "Nazwa" >
+<!ENTITY saddress.label "Adres" >
+<!ENTITY sphone.label "Telefon" >
+<!ENTITY billing.label "Dane bilingowe" >
+<!ENTITY bname.label "Nazwa" >
+<!ENTITY baddress.label "Adres" >
+<!ENTITY bphone.label "Telefon" >
+<!ENTITY other.label "Inne zapisane dane" >
+<!ENTITY concatenated.label "Powiązania" >
+<!ENTITY urlspecific.label "Dane związane z URL" >
+<!ENTITY experimental.label "Eksperymentalne" >
+<!ENTITY removeall.label "Usuń wszystkie dane" >
+<!ENTITY removeall.accesskey "U" >
+<!ENTITY name.title "Nazwa" >
+<!ENTITY namePrefix.label "Tytuł:" >
+<!ENTITY namePrefix.accesskey "T" >
+<!ENTITY nameFirst.label "Imię:" >
+<!ENTITY nameFirst.accesskey "I" >
+<!ENTITY nameMiddle.label "Drugie imię:" >
+<!ENTITY nameMiddle.accesskey "m" >
+<!ENTITY nameLast.label "Nazwisko:" >
+<!ENTITY nameLast.accesskey "N" >
+<!ENTITY nameSuffix.label "Sufiks:" >
+<!ENTITY nameSuffix.accesskey "S" >
+<!ENTITY address.title "Adres" >
+<!ENTITY addressLine1.label "Linia 1:" >
+<!ENTITY addressLine1.accesskey "L" >
+<!ENTITY addressLine2.label "Linia 2:" >
+<!ENTITY addressLine2.accesskey "n" >
+<!ENTITY addressLine3.label "Linia 3:" >
+<!ENTITY addressLine3.accesskey "a" >
+<!ENTITY addressCity.label "Miasto:" >
+<!ENTITY addressCity.accesskey "M" >
+<!ENTITY addressState.label "Województwo:" >
+<!ENTITY addressState.accesskey "W" >
+<!ENTITY addressZipcode.label "Kod pocztowy:" >
+<!ENTITY addressZipcode.accesskey "K" >
+<!ENTITY addressCountry.label "Państwo:" >
+<!ENTITY addressCountry.accesskey "P" >
+<!ENTITY email.label "E-mail:" >
+<!ENTITY email.accesskey "m" >
+<!ENTITY homepage.label "Strona domowa:" >
+<!ENTITY homepage.accesskey "d" >
+<!ENTITY phone.title "Numery telefonów" >
+<!ENTITY phoneDay.label "Dzień:" >
+<!ENTITY phoneDay.accesskey "D" >
+<!ENTITY phoneDayExt.label "zewn:" >
+<!ENTITY phoneDayExt.accesskey "w" >
+<!ENTITY phoneEve.label "Wieczór:" >
+<!ENTITY phoneEve.accesskey "i" >
+<!ENTITY phoneEveExt.label "zewn:" >
+<!ENTITY phoneEveExt.accesskey "e" >
+<!ENTITY phoneFax.label "Faks:" >
+<!ENTITY phoneFax.accesskey "F" >
+<!ENTITY phoneCell.label "Komórka:" >
+<!ENTITY phoneCell.accesskey "K" >
+<!ENTITY phonePager.label "Pager:" >
+<!ENTITY phonePager.accesskey "P" >
+<!ENTITY credit.title "Karty kredytowa" >
+<!ENTITY creditType.label "Typ karty:" >
+<!ENTITY creditType.accesskey "T" >
+<!ENTITY creditNumber.label "Numer karty:" >
+<!ENTITY creditNumber.accesskey "N" >
+<!ENTITY creditExpires.label "Wygasa:" >
+<!ENTITY creditExpiresMonth.label "miesiąc:" >
+<!ENTITY creditExpiresMonth.accesskey "m" >
+<!ENTITY creditExpiresYear.label "rok:" >
+<!ENTITY creditExpiresYear.accesskey "r" >
+<!ENTITY creditName.label "Imię i nazwisko na karcie:" >
+<!ENTITY creditName.accesskey "I" >
+<!ENTITY employ.title "Zatrudnienie" >
+<!ENTITY employName.label "Nazwa firmy:" >
+<!ENTITY employName.accesskey "F" >
+<!ENTITY employTitle.label "Stanowisko:" >
+<!ENTITY employTitle.accesskey "S" >
+<!ENTITY employDepartment.label "Dział:" >
+<!ENTITY employDepartment.accesskey "D" >
+<!ENTITY misc.title "Osobiste" >
+<!ENTITY miscSS.label "Numer ubezpieczenia:" >
+<!ENTITY miscSS.accesskey "U" >
+<!ENTITY miscLicense.label "Numer prawa jazdy:" >
+<!ENTITY miscLicense.accesskey "J" >
+<!ENTITY miscLicenseState.label "województwo:" >
+<!ENTITY miscLicenseState.accesskey "w" >
+<!ENTITY miscMaiden.label "Panieńskie nazwisko matki:" >
+<!ENTITY miscMaiden.accesskey "P" >
+<!ENTITY miscBirthday.label "Urodziny:" >
+<!ENTITY miscBirthday.accesskey "U" >
+<!ENTITY miscBirthdayMonth.label "miesiąc" >
+<!ENTITY miscBirthdayDay.label "dzień" >
+<!ENTITY miscBirthdayYear.label "rok" >
+<!ENTITY miscAnniv.label "Rocznica:" >
+<!ENTITY miscAnniv.accesskey "A" >
+<!ENTITY miscAnnivMonth.label "miesiąc" >
+<!ENTITY miscAnnivDay.label "dzień" >
+<!ENTITY miscAnnivYear.label "rok" >
+<!ENTITY urlspecific.title "Dane związane z URL" >
+<!ENTITY urlspecificUrl.label "URL" >
+<!ENTITY urlspecificField.label "Pole" >
+<!ENTITY urlspecificValue.label "Wartość" >
+<!ENTITY concatPrimary.title "Powiązania dla podstawowego kontaktu" >
+<!ENTITY concatShipping.title "Powiązania dla spedycji" >
+<!ENTITY concatBilling.title "Powiązania dla bilingu" >
+<!ENTITY concatOther.title "Inne powiązania" >
+<!ENTITY concatName.label "Nazwa:" >
+<!ENTITY concatName.accesskey "N" >
+<!ENTITY concatZipcode.label "Kod pocztowy:" >
+<!ENTITY concatPhone.label "Telefon (dzień) z numerem kierunkowym:" >
+<!ENTITY concatPhonenumber.label "Telefon (dzień):" >
+<!ENTITY concatAltPhone.label "Telefon (wieczór) z numerem kierunkowym:" >
+<!ENTITY concatAltPhonenumber.label "Telefon (wieczór):" >
+<!ENTITY concatFax.label "Faks z numerem kierunkowym:" >
+<!ENTITY concatFaxnumber.label "Faks:" >
+<!ENTITY concatMobile.label "Komórka z numerem kierunkowym:" >
+<!ENTITY concatMobilenumber.label "Komórka:" >
+<!ENTITY concatPager.label "Pager z numerem kierunkowym:" >
+<!ENTITY concatPagernumber.label "Pager:" >
+<!ENTITY concatShiptoName.label "Nazwa:" >
+<!ENTITY concatShiptoZipcode.label "Kod pocztowy:" >
+<!ENTITY concatShiptoPhone.label "Telefon z numerem kierunkowym:" >
+<!ENTITY concatShiptoPhonenumber.label "Telefon:" >
+<!ENTITY concatShiptoAltPhone.label "Telefon (wieczór) z numerem kierunkowym:" >
+<!ENTITY concatShiptoAltPhonenumber.label "Telefon (wieczór):" >
+<!ENTITY concatShiptoFax.label "Faks z numerem kierunkowym:" >
+<!ENTITY concatShiptoFaxnumber.label "Faks:" >
+<!ENTITY concatShiptoMobile.label "Komórka z numerem kierunkowym:" >
+<!ENTITY concatShiptoMobilenumber.label "Komórka:" >
+<!ENTITY concatShiptoPager.label "Pager z numerem kierunkowym:" >
+<!ENTITY concatShiptoPagernumber.label "Pager:" >
+<!ENTITY concatBilltoName.label "Nazwa:" >
+<!ENTITY concatBilltoZipcode.label "Kod pocztowy:" >
+<!ENTITY concatBilltoPhone.label "Telefon z numerem kierunkowym:" >
+<!ENTITY concatBilltoPhonenumber.label "Telefon:" >
+<!ENTITY concatBilltoAltPhone.label "Telefon (wieczór) z numerem kierunkowym:" >
+<!ENTITY concatBilltoAltPhonenumber.label "Telefon (wieczór):" >
+<!ENTITY concatBilltoFax.label "Faks z numerem kierunkowym:" >
+<!ENTITY concatBilltoFaxnumber.label "Faks:" >
+<!ENTITY concatBilltoMobile.label "Komórka z numerem kierunkowym:" >
+<!ENTITY concatBilltoMobilenumber.label "Komórka:" >
+<!ENTITY concatBilltoPager.label "Pager z numerem kierunkowym:" >
+<!ENTITY concatBilltoPagernumber.label "Pager:" >
+<!ENTITY concatCardExpdate.label "Data wygaśnięcia karty kredytowej:" >
+<!ENTITY concatSocSec.label "Numer ubezpieczenia:" >
+<!ENTITY concatBdate.label "Urodziny:" >
+<!ENTITY concatAnniv.label "Rocznice:" >

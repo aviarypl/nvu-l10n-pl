@@ -1,0 +1,64 @@
+<!-- 
+   - The contents of this file are subject to the Mozilla Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/MPL/
+   - 
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   - 
+   - The Original Code is mozilla.org code.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corp.  Portions created by Netscape are
+   - Copyright (C) 2001 Netscape Communications Corp.  All
+   - Rights Reserved.
+   - 
+   - Contributor(s):
+   - David P. Drinan (ddrinan@netscape.com)
+  -->
+
+<!ENTITY validation.title "Weryfikacja" >
+<!ENTITY validation.crl.label "Lista unieważnionych certyfikatów CRL" >
+<!ENTITY validation.crl.description "Kliknij poniżej, aby zarządzać listą unieważnionych certyfikatów CRL, przechowywaną w bazie certyfikatów, za pomocą Menedżera CRL." >
+<!ENTITY validation.managecrls.button "Menedżer CRL..." >
+<!ENTITY validation.managecrls.accesskey "M" >
+<!ENTITY validation.crlmanager.label "Menedżer CRL" >
+<!ENTITY validation.crlname.label "Nazwa" >
+<!ENTITY validation.crllastupdate.label "Ostatnia aktualizacja" >
+<!ENTITY validation.crlnextupdate.label "Następna aktualizacja" >
+<!ENTITY validation.crlautoupdateenabled.label "Automatyczna aktualizacja" >
+<!ENTITY validation.crlautoupdatestatus.label "Status automatycznej aktualizacji" >
+<!ENTITY validation.deletecrl.label "Usuń" >
+<!ENTITY validation.updatecrl.label "Aktualizacja" >
+<!ENTITY validation.advanced.label "Ustawienia" >
+<!ENTITY validation.crl.autoupdate.title "Preferencje automatycznej aktualizacji" >
+<!ENTITY validation.crl.autoupdate.enable.label "Włącz automatyczną aktualizację dla tej listy CRL" >
+<!ENTITY validation.crl.autoupdate.time.label1 "Aktualizuj" >
+<!ENTITY validation.crl.autoupdate.time.label2 "dni przed następną datą aktualizacji" >
+<!ENTITY validation.crl.autoupdate.freq.label1 "Aktualizuj co" >
+<!ENTITY validation.crl.autoupdate.freq.label2 "dni" >
+<!ENTITY validation.crl.autoupdate.url.label "Lista CRL będzie zaimportowana z:" >
+<!ENTITY crl.import.status.title "Status importu listy CRL" >
+<!ENTITY crl.import.success.message "Lista unieważnionych certyfikatów (CRL) została pomyślnie zaimportowana." >
+<!ENTITY crl.issuer.label "CRL wystawiony przez:" >
+<!ENTITY crl.issuer.org.label "Organizacja: " >
+<!ENTITY crl.issuer.orgunit.label "Jednostka: " >
+<!ENTITY crl.import.nextupdate.label "Następna aktualizacja: " >
+<!ENTITY crl.autoupdate.fail.cnt.label "Poprzednie, kolejne błędne aktualizacje: " >
+<!ENTITY crl.autoupdate.fail.reason.label "Szczegóły ostatniej błędnej aktualizacji: " >
+<!ENTITY ok.button "OK" >
+<!ENTITY cancel.button "Anuluj" >
+<!ENTITY help.button "Pomoc" >
+<!ENTITY edit.button "Ustawienia" >
+<!ENTITY validation.ocsp.label "Weryfikacja certyfikatów" >
+<!ENTITY validation.ocsp.description "Możliwe jest wykorzystanie Protokołu Weryfikacji Certyfikatu Online (OCSP) w celu weryfikacji przedstawianych certyfikatów. Ustal poniżej sposób weryfikacji certyfikatów za pomocą protokołu OCSP:" >
+<!ENTITY disableOCSP.label "Nie używaj OCSP do weryfikacji certyfikatów" >
+<!ENTITY certOCSP.label "Użyj OCSP do weryfikacji wyłącznie tych certyfikatów, które zawierają odnośnik do usługi OCSP" >
+<!ENTITY proxyOCSP.label "Użyj poniższego ośrodka OCSP do weryfikacji wszystkich certyfikatów:" >
+<!ENTITY serviceURL.label "Adres URL Usługi:" >
+<!ENTITY serviceURL.accesskey "S" >
+<!ENTITY signingCA.label "Urząd weryfikujący:" >
+<!ENTITY signingCA.accesskey "R" >

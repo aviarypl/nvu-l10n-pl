@@ -1,0 +1,33 @@
+
+<!--LOCALIZATION NOTE : FILE 'Advanced' prefs settings -->
+<!ENTITY lHeader                      "Zaawansowane">
+
+<!ENTITY advancedTitle.label          "Funkcje pomagające w interpretacji stron WWW">
+
+<!ENTITY autoLoadImgCheck.label       "Automatycznie pobieraj obrazki"> 
+<!ENTITY autoLoadImgCheck.accesskey   "o">
+
+<!ENTITY enbJavaCheck.label           "Włącz obsługę języka Java">
+<!ENTITY enbJavaCheck.accesskey       "J">
+
+<!ENTITY sendAddFtpCheck.label        "Użyj poniższego adresu e-mail jako hasła przy logowaniu się na anonimowe serwery FTP">
+<!ENTITY sendAddFtpCheck.accesskey    "e">
+
+<!ENTITY imageBlocking.label          "Blokowanie obrazków...">
+<!ENTITY imageBlocking.accesskey      "B">
+
+<!ENTITY perfTitle.label              "Szybki start">
+<!ENTITY enableTurbo.label            "Utrzymuj biblioteki programu &brandShortName; w pamięci zminimalizować czas uruchamiania">
+<!ENTITY enableTurboCheck.accesskey   "S">
+
+<!ENTITY perfdescription.label        "Po włączeniu funkcji szybkiego startu niektóre biblioteki programu będą uruchomione w tle i przechowywane w pamięci RAM komputera, nawet gdy Mozilla nie będzie uruchomiona. Pozwala to na skrócenie czasu uruchamiania poszczególnych komponentów.">
+
+<!ENTITY jvm.configuration            "Wybierz wersję środowiska Java (wymaga ponownego uruchomienia programu)">
+<!ENTITY jvm.name                     "Wersja">
+<!ENTITY jvm.home                     "Ścieżka">
+
+<!ENTITY systemPrefCaption.label           "Ustawienia systemowe">
+<!ENTITY systemPrefCheck.label             "Pobierz ustawienia z systemu">
+<!ENTITY systemPrefCheck.accesskey         "P">
+<!ENTITY systemPrefDescription.label       "Aby ustawienia były pobierane z systemu operacyjnego, zaznacz pole wyboru. Ustawienia &brandShortName; będą nadpisywane przez ustawienia systemowe.">
+

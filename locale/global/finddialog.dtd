@@ -1,0 +1,20 @@
+<!ENTITY findDialog.title "Znajdź na tej stronie" >
+<!ENTITY findDialogFrame.title "Znajdź w tej ramce" >
+<!ENTITY findField.label "Znajdź tekst:" >
+<!ENTITY findField.accesskey "t" >
+<!ENTITY caseSensitiveCheckbox.label "Uwzględniaj wielkość liter" >
+<!ENTITY caseSensitiveCheckbox.accesskey "l" >
+<!ENTITY wrapCheckbox.label "W całym dokumencie" >
+<!ENTITY wrapCheckbox.accesskey "c" >
+<!ENTITY backwardsCheckbox.label "Szukaj wstecz" >
+<!ENTITY backwardsCheckbox.accesskey "w" >
+<!ENTITY findField.tooltip "Wprowadź jedno lub więcej słów, które zostaną wyszukane" >
+<!ENTITY cancelButton.label "Anuluj" >
+<!ENTITY findButton.label "Znajdź następny" >
+<!ENTITY findButton.accesskey "Z" >
+<!ENTITY cancelButton.label "Anuluj" >
+<!ENTITY up.label "W górę" >
+<!ENTITY up.accesskey "g" >
+<!ENTITY down.label "W dół" >
+<!ENTITY down.accesskey "d" >
+<!ENTITY direction.label "Kierunek" >

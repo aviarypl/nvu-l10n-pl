@@ -1,0 +1,59 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-2000 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Wstaw tabelę" >
+
+<!ENTITY size.label "Rozmiar" >
+<!ENTITY numRowsEditField.label "Liczba wierszy:" >
+<!ENTITY numRowsEditField.accessKey "W" >
+<!ENTITY numColumnsEditField.label "Kolumny:" >
+<!ENTITY numColumnsEditField.accessKey "K" >
+<!ENTITY widthEditField.label "Szerokość:" >
+<!ENTITY widthEditField.accessKey "S" >
+<!ENTITY borderEditField.label "Obramowanie:" >
+<!ENTITY borderEditField.accessKey "O" >
+<!ENTITY borderEditField.tooltip "Wprowadź liczbę określającą szerokość obramowania tabeli, wprowadź zero, aby nie tworzyć obramowania" >
+<!ENTITY pixels.label "pikseli" >
+
+<!ENTITY quicklyTab.label "Szybko">
+<!ENTITY preciselyTab.label "Dokładnie">
+<!ENTITY cellTab.label "Komórka">
+
+<!ENTITY horizAlignment.label "położenie poziome:">
+<!ENTITY unspecifiedHAlignment.label "Nieokreślone">
+<!ENTITY leftHAlignment.label "Lewo">
+<!ENTITY centerHAlignment.label "Centrum">
+<!ENTITY rightHAlignment.label "Prawo">
+
+<!ENTITY vertAlignment.label "położenie pionowe:">
+<!ENTITY unspecifiedVAlignment.label "Nieokreślone">
+<!ENTITY topVAlignment.label "Góra">
+<!ENTITY middleVAlignment.label "Środek">
+<!ENTITY bottomVAlignment.label "Dół">
+
+<!ENTITY textWrapping.label "Łamanie tekstu:">
+<!ENTITY wrapWrapping.label "Łam">
+<!ENTITY nowrapWrapping.label "Nie łam">
+
+<!ENTITY cellSpacing.label "Odstęp między komórkami"> <!--sta-->
+<!ENTITY cellPadding.label "Wewnętrzny margines komórek"> <!--sta-->

@@ -1,0 +1,41 @@
+<!ENTITY undoCmd.label						"Cofnij">  
+<!ENTITY undoCmd.key						"Z">  
+<!ENTITY undoCmd.accesskey					"C">
+<!ENTITY redoCmd.label						"Przywróć">
+<!ENTITY redoCmd.key						"Y">  
+<!ENTITY redoCmd.accesskey					"r"> 
+<!ENTITY cutCmd.label						"Wytnij">
+<!ENTITY cutCmd.key						"X">  
+<!ENTITY cutCmd.accesskey					"W">
+<!ENTITY copyCmd.label						"Kopiuj">  
+<!ENTITY copyCmd.key						"C">  
+<!ENTITY copyCmd.accesskey					"K">
+<!ENTITY pasteCmd.label						"Wklej">
+<!ENTITY pasteCmd.key						"V">  
+<!ENTITY pasteCmd.accesskey					"e"> 
+<!ENTITY deleteCmd.label					"Usuń">  
+<!ENTITY deleteCmd.key						"D">  
+<!ENTITY deleteCmd.accesskey					"U"> 
+<!ENTITY selectAllCmd.label					"Zaznacz wszystko">  
+<!ENTITY selectAllCmd.key					"A">  
+<!ENTITY selectAllCmd.accesskey					"a">
+<!ENTITY preferencesCmd.label				"Preferencje...">
+<!ENTITY preferencesCmd.key					"E">  
+<!ENTITY preferencesCmd.accesskey			"r"> 
+<!ENTITY findTypeTextCmd.label "Znajdź tekst wprowadzając">
+<!ENTITY findTypeTextCmd.accesskey "t">
+<!ENTITY findTypeLinksCmd.label "Znajdź odnośnik wprowadzając">
+<!ENTITY findTypeLinksCmd.accesskey "o">
+
+<!ENTITY viewToolbarsMenu.label				"Pokaż/ukryj"> 
+<!ENTITY viewToolbarsMenu.accesskey			"P"> 
+
+<!ENTITY newBlankPageCmd.label "Strona">
+<!ENTITY newBlankPageCmd.accesskey "S" >
+<!ENTITY newBlankPageCmd.key "n" >
+<!ENTITY newPageFromTemplateCmd.label "Strona używająca szablonu">
+<!ENTITY newPageFromTemplateCmd.accesskey "b">
+
+<!ENTITY newNavigatorCmd.label				"Okno Navigatora">
+<!ENTITY newNavigatorCmd.key				"N">
+<!ENTITY newNavigatorCmd.accesskey			"N">

@@ -1,0 +1,43 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-2000 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+   -   Dan Haddix (dan6992@hotmail.com)
+   -   Brian King (briano9@yahoo.com)
+  -->
+
+<!-- Window title -->
+<!-- hmmm? -->
+<!ENTITY windowTitle.label "Właściwości aktywnego obszaru" >
+
+<!ENTITY link.label "Odnośnik aktywnego obszaru" >
+<!ENTITY urlFieldset.label "URL aktywnego obszaru:" >
+<!ENTITY altFieldset.label "Tekst alternatywny aktywnego obszaru:" >
+<!ENTITY browseButton.label "Przeglądaj..." >
+<!ENTITY targetFieldset.label "Ustawienia celu" >
+<!ENTITY target.label "Cel aktywnego obszaru:" >
+
+<!-- Targets -->
+<!ENTITY commonFieldset.label "Common Targets" >
+<!ENTITY none.value "(brak)" >
+<!ENTITY same.value "Ta sama ramka" >
+<!ENTITY whole.value "Cała strona" >
+<!ENTITY new.value "Nowe okno" >
+<!ENTITY parent.value "Nadrzędna ramka" >
+

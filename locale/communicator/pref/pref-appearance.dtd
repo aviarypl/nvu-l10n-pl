@@ -1,0 +1,44 @@
+<!-- extracted from content/pref-appearance.xul -->
+
+<!--LOCALIZATION NOTE : FILE The Appearance prefs dialog.  -->
+<!ENTITY lHeader "Appearance">
+<!--LOCALIZATION NOTE (onStartLegend.label): Don't translate "&brandShortName;".
+    Place &brandShortName; in the phrase where the name of the application should
+	 appear
+-->
+<!ENTITY onStartLegend.label "Podczas uruchamiania programu &brandShortName; otw�rz">
+<!ENTITY appear "Wygląd">
+<!--LOCALIZATION NOTE (navCheck.label): DONT_TRANSLATE -->
+<!ENTITY navCheck.label "Navigator">
+<!ENTITY navCheck.accesskey "n">
+<!--LOCALIZATION NOTE (compCheck.label): DONT_TRANSLATE -->
+<!ENTITY compCheck.label "Composer">
+<!ENTITY compCheck.accesskey "c">
+<!ENTITY calCheck.label "Kalendarz">
+<!ENTITY calCheck.accesskey "a">
+<!ENTITY showToolsLegend.label "Pokaż paski narzędzi jako">
+<!ENTITY picsNtextRadio.label "Obrazki o tekst">
+<!ENTITY picsNtextRadio.accesskey "O">
+<!ENTITY picsOnlyRadio.label "Tylko obrazki">
+<!ENTITY picsOnlyRadio.accesskey "b">
+<!ENTITY textonlyRadio.label "Tylko tekst">
+<!ENTITY textonlyRadio.accesskey "t">
+<!ENTITY showHideTooltips.label "Pokaż podpowiedzi dla narzędzi">
+<!ENTITY showHideTooltips.accesskey "p">
+<!ENTITY useSiteIcons.label "Pokaż ikony stron WWW">
+<!ENTITY useSiteIcons.accesskey "i">
+<!ENTITY enableAutomaticImageResizing.label "Dostosuj rozmiar dużych obrazków do okna przeglądarki">
+<!ENTITY enableAutomaticImageResizing.accesskey "r">
+<!ENTITY useSmoothScroll.label "Używaj płynnego przewijania">
+<!ENTITY useSmoothScroll.accesskey "y">
+
+<!--LOCALIZATION NOTE (languageList.txt.label): Don't translate "&brandShortName;".
+    Place &brandShortName; in the phrase where the name of the application should appear
+-->
+<!ENTITY languageList.txt.label "Wybierz preferowany język programu &brandShortName;. Zmiana poniższych ustawień wpłynie na domyślny język okien dialogowych, menu, pasków narzędzi, nazw przycisków i innych elementów. Nowe ustawienia zostaną zaktualizowane po ponownym uruchomieniu programu.">
+
+<!--LOCALIZATION NOTE (languageList.label): Don't translate "&brandShortName;".
+    Place &brandShortName; in the phrase where the name of the application should appear
+-->
+<!ENTITY languageList.label "Domyślny język programu &brandShortName;:">
+

@@ -1,0 +1,40 @@
+<!-- 
+   - The contents of this file are subject to the Mozilla Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/MPL/
+   - 
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   - 
+   - The Original Code is mozilla.org code.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corp.  Portions created by Netscape are
+   - Copyright (C) 2001 Netscape Communications Corp.  All
+   - Rights Reserved.
+   - 
+   - Contributor(s):
+   -   Ian McGreer <mcgreer@netscape.com>
+  -->
+
+<!ENTITY devmgr.title "Menedżer urządzeń" >
+<!ENTITY devmgr.devlist.label "Urządzenia i moduły zabezpieczeń" >
+<!ENTITY devmgr.details.title "Szczegóły" >
+<!ENTITY devmgr.details.title2 "Wartość" >
+<!ENTITY devmgr.status.label "Status" >
+<!ENTITY devmgr.version.label "Wersja" >
+<!ENTITY devmgr.button.changeslotname.label "Zmień nazwę gniazda" >
+<!ENTITY devmgr.button.login.label "Zaloguj" >
+<!ENTITY devmgr.button.logout.label "Wyloguj" >
+<!ENTITY devmgr.button.changepw.label "Zmień hasło" >
+<!ENTITY devmgr.button.load.label "Załaduj" >
+<!ENTITY devmgr.button.unload.label "Usuń z pamięci" >
+<!ENTITY loaddevice.info "Wprowadź informacje dla modułu, który zostanie dodany." >
+<!ENTITY loaddevice.modname "Nazwa modułu:" >
+<!ENTITY loaddevice.modname.default "Nowy moduł PKCS#11" >
+<!ENTITY loaddevice.filename "Nazwa pliku modułu:" >
+<!ENTITY loaddevice.browse "Przeglądaj..." >
+<!ENTITY loaddevice.title "Załaduj urządzenie PKCS#11" >

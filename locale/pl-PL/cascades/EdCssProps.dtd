@@ -1,0 +1,246 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is CaScadeS, a stylesheet editor for Composer.
+   -
+   - The Initial Developer of the Original Code is
+   - Daniel Glazman.
+   - Portions created by the Initial Developer are Copyright (C) 2002
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Original author: Daniel Glazman (daniel@glazman.org)
+   -   Polish translator: Zbigniew Braniecki (gandalf@e-gandalf.net)
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+
+<!ENTITY Window.title						"Arkusze Stylów CSS">
+
+<!ENTITY sheetsTreeColumn.label				"Arkusze i reguły">
+<!ENTITY expertModeChecbox.label			"Tryb eksperta">
+<!ENTITY importRuleButton.label				"@import">
+<!ENTITY mediaRuleButton.label				"@media">
+<!ENTITY linkedSheetButton.label			"Zewnętrzny"><!--sta-->
+<!ENTITY styleSheetButton.label				"Wewnętrzny"><!--sta-->
+<!ENTITY ruleButton.label					"Reguła">
+<!ENTITY upButton.label						"Góra">
+<!ENTITY downButton.label					"Dół">
+<!ENTITY refreshButton.label				"Odśwież">
+<!ENTITY removeButton.label					"Usuń">
+<!ENTITY sheetInfoTab.label					"Ogólnie">
+<!ENTITY textTab.label						"Tekst">
+<!ENTITY borderTab.label					"Obramowanie"> <!--sta-->
+<!ENTITY marginsTab.label					"Marginesy">
+<!ENTITY boxTab.label						"Blok">
+<!ENTITY auralTab.label						"Dźwięk">
+<!ENTITY fontFamily.label					"Rodzina kroju pisma:"><!--sta-->
+<!ENTITY inheritedFontFamily.label			"dziedziczone">
+<!ENTITY useCustomFontFamily.label			"Użyj własnego kroju:"><!--sta-->
+<!ENTITY fontData.label						"Dane kroju"><!--sta-->
+<!ENTITY exampleSentence.label				"Zażółć gęślą jaźń">
+<!ENTITY backgroundTab.label				"Tło">
+
+<!ENTITY unspecifiedValue.label				"niezdefiniowane">
+<!ENTITY predefFontFamilyRadio.label		"zdefiniowane:">
+<!ENTITY fontSize.label						"Rozmiar fontu:">
+<!ENTITY lineHeight.label                   "Wysokość linii:">
+<!ENTITY normalLineHeight.label             "normalna">
+<!ENTITY color.label						"Kolor:">
+<!ENTITY fontWeight.label					"Grubość pisma:"><!--sta-->
+<!ENTITY normalValue.label					"Normalne">
+<!ENTITY boldValue.label					"Grube">
+<!ENTITY bolderValue.label					"Grubsze">
+<!ENTITY lighterValue.label					"Cieńsze">
+<!ENTITY inheritedValue.label				"Dziedziczony">
+<!ENTITY fontStyle.label					"Styl pisma:"><!--sta-->
+<!ENTITY italicValue.label					"Kursywa (Italic)">
+<!ENTITY obliqueValue.label					"Pochylone (Oblique)"><!--sta-->
+<!ENTITY textTransform.label				"Wielkość liter:"><!--sta-->
+<!ENTITY noneTextTransformValue.label		"Bez zmiany">
+<!ENTITY lowercaseValue.label				"Małe litery">
+<!ENTITY uppercaseValue.label				"Wielkie litery">
+<!ENTITY capitalizeValue.label				"Od wielkich liter">
+
+<!ENTITY closeButton.label					"Zamknij">
+
+<!ENTITY largerFontSize.label				"większe">
+<!ENTITY smallerFontSize.label				"mniejsze">
+<!ENTITY xxsmallFontSize.label				"najmniejszy (xx-small)"> <!--sta-->
+<!ENTITY xsmallFontSize.label				"bardzo mały (x-small)"> <!--sta-->
+<!ENTITY smallFontSize.label				"mały (small)">
+<!ENTITY mediumFontSize.label				"średnie (medium)">
+<!ENTITY largeFontSize.label				"duże (large)">
+<!ENTITY xlargeFontSize.label				"bardzo duże (x-large)"> <!--sta-->
+<!ENTITY xxlargeFontSize.label				"największe (xx-large)"> <!--sta-->
+
+<!ENTITY textAlign.label					"Rozmieszczenie:">
+<!ENTITY rightTextAlign.label				"Prawo">
+<!ENTITY leftTextAlign.label				"Lewo">
+<!ENTITY centerTextAlign.label				"Środek">
+<!ENTITY justifyTextAlign.label				"Justowanie"> <!--sta-->
+
+<!ENTITY textDecoration.label				"Dekoracje tekstu:">
+<!ENTITY overlineTextDecoration.label		"Linia nad tekstem">
+<!ENTITY underlineTextDecoration.label		"Podkreślenie"><!--sta-->
+<!ENTITY linethroughTextDecoration.label	"Przekreślenie"><!--sta-->
+<!ENTITY blinkTextDecoration.label			"Migotanie">
+<!ENTITY noneTextDecoration.label			"Brak">
+
+<!ENTITY backgroundColor.label				"Kolor:">
+<!ENTITY backgroundImage.label              "Obrazek:">
+<!ENTITY chooseFileButton.label             "Wybierz plik">
+<!ENTITY backgroundRepeat.label             "Tytuł:">
+<!ENTITY norepeatBackgroundRepeat.label     "nie powtarzaj">
+<!ENTITY repeatxBackgroundRepeat.label      "horyzontalnie">
+<!ENTITY repeatyBackgroundRepeat.label      "wertykalnie">
+<!ENTITY repeatBackgroundRepeat.label       "horyzontalnie i wertykalnie">
+<!ENTITY backgroundPosition.label           "Pozycja:">
+<!ENTITY leftXBackgroundPosition.label      "Lewo">
+<!ENTITY centerXBackgroundPosition.label    "Środek">
+<!ENTITY rightXBackgroundPosition.label     "Prawo">
+<!ENTITY topYBackgroundPosition.label       "Góra">
+<!ENTITY centerYBackgroundPosition.label    "Środek">
+<!ENTITY bottomYBackgroundPosition.label    "Dół">
+<!ENTITY backgroundAttachmentCheckbox.label "Obrazek przewija się razem ze stroną">
+
+
+<!ENTITY useBorderShorthand.label           "Wszystkie cztery strony używają tego samego stylu obramowania">
+<!ENTITY borderStyle.label                  "Styl:">
+<!ENTITY borderWidth.label                  "Szerokość:">
+<!ENTITY borderColor.label                  "Kolor:">
+<!ENTITY topBorder.label                    "Góra:">
+<!ENTITY leftBorder.label                   "Lewo:">
+<!ENTITY rightBorder.label                  "Prawo:">
+<!ENTITY bottomBorder.label                 "Dół:">
+<!ENTITY borderPreview.label                "Podgląd">
+<!ENTITY noneBorderStyle.label              "brak">
+<!ENTITY hiddenBorderStyle.label            "ukryty">
+<!ENTITY solidBorderStyle.label             "ciągły">
+<!ENTITY dottedBorderStyle.label            "kropkowany">
+<!ENTITY dashedBorderStyle.label            "przerywany">
+<!ENTITY doubleBorderStyle.label            "podwójny">
+<!ENTITY grooveBorderStyle.label            "groove"><!--Hmm?-->
+<!ENTITY ridgeBorderStyle.label             "ridge"><!--Hmm?-->
+<!ENTITY insetBorderStyle.label             "wklęsły (inset)"><!--Hmm?-->
+<!ENTITY outsetBorderStyle.label            "wypukły (outset)"><!--Hmm?-->
+
+<!ENTITY display.label                      "Tryb wyświetlania:">
+<!ENTITY noneDisplay.label                  "brak">
+<!ENTITY inlineDisplay.label                "liniowy">
+<!ENTITY blockDisplay.label                 "blokowy">
+<!ENTITY runinDisplay.label                 "run-in"><!--Hmm?-->
+<!ENTITY compactDisplay.label               "kompaktowy">
+<!ENTITY listitemDisplay.label              "lista-elementów">
+<!ENTITY tableDisplay.label                 "tabela">
+<!ENTITY tablerowDisplay.label              "wiersz tabeli">
+<!ENTITY tablecellDisplay.label             "komórka tabeli">
+<!ENTITY tablecaptionDisplay.label          "opis tabeli">
+<!ENTITY inlinetableDisplay.label           "liniowy tabela">
+<!ENTITY tablecolumnDisplay.label           "kolumna tabeli">
+<!ENTITY tablerowgroupDisplay.label         "grupa wierszy tabeli">
+<!ENTITY tableheadergroupDisplay.label      "grupa nagłówków tabeli">
+<!ENTITY tablefootergroupDisplay.label      "grupa stopki tabeli">
+<!ENTITY tablecolumngroupDisplay.label      "grupa kolumn tabeli">
+
+<!ENTITY visibility.label                   "Widoczność:">
+<!ENTITY visibleVisibility.label            "widoczne">
+<!ENTITY hiddenVisibility.label             "ukryte">
+<!ENTITY collapseVisibility.label           "collapse"><!--Hmm?-->
+
+<!ENTITY float.label                        "Pływający (Float):"><!--sta-->
+<!ENTITY leftFloat.label                    "po lewej">
+<!ENTITY rightFloat.label                   "po prawej">
+<!ENTITY noneFloat.label                    "brak">
+
+<!ENTITY clear.label                        "Nie opływaj (Clear):"><!--sta-->
+<!ENTITY noneClear.label                    "brak">
+<!ENTITY leftClear.label                    "z lewej">
+<!ENTITY rightClear.label                   "z prawej">
+<!ENTITY bothClear.label                    "z obu">
+
+
+<!ENTITY position.label                     "Pozycja:">
+<!ENTITY staticPosition.label               "stała">
+<!ENTITY fixedPosition.label                "dopasowana">
+<!ENTITY absolutePosition.label             "bezwzględna">
+<!ENTITY relativePosition.label             "względna">
+
+<!ENTITY overflow.label                     "Nadmiar (Overflow):"><!--sta-->
+<!ENTITY visibleOverflow.label              "widoczny">
+<!ENTITY hiddenOverflow.label               "ukryty">
+<!ENTITY scrollOverflow.label               "przewijanie">
+<!ENTITY autoOverflow.label                 "auto">
+
+<!ENTITY zIndex.label                       "Z-index:">
+
+<!ENTITY width.label                        "Szerokość:">
+<!ENTITY minWidth.label                     "Min. szerokość:">
+<!ENTITY maxWidth.label                     "Max. szerokość:">
+<!ENTITY height.label                       "Wysokość:">
+<!ENTITY minHeight.label                    "Min. wysokość:">
+<!ENTITY maxHeight.label                    "Max. wysokość:">
+
+<!ENTITY margins.label                      "Marginesy zewnętrzne:">
+<!ENTITY paddings.label                     "Marginesy wewnętrzne (Paddings):"><!--sta-->
+<!ENTITY offsets.label                      "Przesunięcie (Offsets):"><!--sta-->
+<!ENTITY top.label                          "Góra:">
+<!ENTITY left.label                         "Lewo:">
+<!ENTITY right.label                        "Prawo:">
+<!ENTITY bottom.label                       "Dół:">
+
+
+<!ENTITY volume.label                       "Głośność:">
+<!ENTITY xsoftVolume.label                  "bardzo cicho (x-soft)">
+<!ENTITY softVolume.label                   "cicho (soft)">
+<!ENTITY mediumVolume.label                 "średnio (medium)">
+<!ENTITY loudVolume.label                   "głośno (loud)">
+<!ENTITY xloudVolume.label                  "bardzo głośno (x-loud)">
+<!ENTITY muteVolume.label                   "Wycisz">
+
+<!ENTITY speak.label                        "Mów:">
+<!ENTITY noneSpeak.label                    "nic">
+<!ENTITY normalSpeak.label                  "normalnie">
+<!ENTITY spelloutSpeak.label                "literuj">
+
+<!ENTITY speechRate.label                   "Prędkość mówienia:">
+<!ENTITY slowerSpeechRate.label             "wolniej">
+<!ENTITY fasterSpeechRate.label             "szybciej">
+<!ENTITY xslowSpeechRate.label              "bardzo wolno (x-slow)">
+<!ENTITY slowSpeechRate.label               "wolno (slow)">
+<!ENTITY mediumSpeechRate.label             "średnio (medium)">
+<!ENTITY fastSpeechRate.label               "szybko (fast)">
+<!ENTITY xfastSpeechRate.label              "bardzo szybko (x-fast)">
+
+<!ENTITY opacity.label                      "Przezroczystość:">
+
+<!ENTITY compatibilityTab.label             "Zgodność">
+
+<!ENTITY transparentOpacity.label           "przezroczysty">
+
+<!ENTITY pauseBefore.label                  "Pauza przed:">
+<!ENTITY cueBefore.label                    "Utnij przed:">
+<!ENTITY pauseAfter.label                   "Pauza po:">
+<!ENTITY cueAfter.label                     "Utnij po:">

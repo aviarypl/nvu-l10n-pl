@@ -1,0 +1,12 @@
+<!ENTITY untitledTab "(Bez nazwy)" >
+<!ENTITY newTab.label "Nowy panel" >
+<!ENTITY newTab.accesskey "N" >
+<!ENTITY closeTab.label "Zamknij panel" >
+<!ENTITY closeTab.accesskey "Z" >
+<!ENTITY closeOtherTabs.accesskey "i" >
+<!ENTITY closeOtherTabs.label "Zamknij inne panele" >
+<!ENTITY reloadAllTabs.label "Odśwież wszystkie panele" >
+<!ENTITY reloadAllTabs.accesskey "w" >
+<!ENTITY reloadTab.label "Odśwież panel" >
+<!ENTITY reloadTab.accesskey "p" >
+<!ENTITY newTabButton.tooltip "Otwórz nowy panel" >

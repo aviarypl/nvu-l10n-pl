@@ -1,0 +1,10 @@
+<!ENTITY changeAction.title "Zmień czynność" >
+<!ENTITY whenDownloading.label "Pobierając pliki typu:" >
+<!ENTITY always.label "automatycznie:" >
+<!ENTITY openDefault.label "Otwórz plik za pomocą domyślnej aplikacji:" >
+<!ENTITY openApplication.label "Otwórz plik za pomocą:" >
+<!ENTITY changeApp.label "Zmień..." >
+<!ENTITY changeApp.accesskey "Z" >
+<!ENTITY customAppPath.label 'Naciśnij przycisk "Zmień...", aby wybrać aplikację.' >
+<!ENTITY saveToDisk.label "Zachowaj plik na dysku" >
+<!ENTITY changeAppWindowTitle.label "Wybierz aplikację...">

@@ -1,0 +1,63 @@
+<!ENTITY preface "Informacje dla: " >
+<!ENTITY title "Informacje o stronie" >
+<!ENTITY description "Informacje o bieżącej stronie" >
+<!ENTITY pageInfoWindow.width "425" >
+<!ENTITY pageInfoWindow.height "470" >
+<!ENTITY copy.key "c" >
+<!ENTITY closeWindow.key "w" >
+<!ENTITY generalTab "Ogólne" >
+<!ENTITY generalTitle "Tytuł:" >
+<!ENTITY generalURL "URL:" >
+<!ENTITY generalMode "Tryb wyświetlania:" >
+<!ENTITY generalType "Typ:" >
+<!ENTITY generalSize "Rozmiar:" >
+<!ENTITY generalReferrer "Odsyłający URL:" >
+<!ENTITY generalSource "Źródło:" >
+<!ENTITY generalSent "Wysłany:" >
+<!ENTITY generalModified "Zmodyfikowany:" >
+<!ENTITY generalExpires "Wygasa:" >
+<!ENTITY generalEncoding "Kodowanie:" >
+<!ENTITY generalMeta "Meta:" >
+<!ENTITY generalMetaName "Nazwa" >
+<!ENTITY generalMetaContent "Treści" >
+<!ENTITY formsTab "Formularze" >
+<!ENTITY formAction "Akcja formularza" >
+<!ENTITY formMethod "Metoda" >
+<!ENTITY formName "Nazwa" >
+<!ENTITY formNo "Indeks" >
+<!ENTITY formEncoding "Kodowanie:" >
+<!ENTITY formTarget "Cel:" >
+<!ENTITY formFields "Pola:" >
+<!ENTITY formLabel "Etykieta" >
+<!ENTITY formFName "Nazwa pola" >
+<!ENTITY formType "Typ" >
+<!ENTITY formCValue "Bieżąca wartość" >
+<!ENTITY linksTab "Odnośniki" >
+<!ENTITY linkNo "Indeks" >
+<!ENTITY linkName "Nazwa" >
+<!ENTITY linkAddress "Adres" >
+<!ENTITY linkType "Typ" >
+<!ENTITY linkTarget 'Atrybut "Target"' >
+<!ENTITY linkAccessKey "Klawisz dostępu" >
+<!ENTITY mediaTab "Media" >
+<!ENTITY mediaHeader "Obrazki na tej stronie" >
+<!ENTITY mediaURL "URL:" >
+<!ENTITY mediaBase "Podstawowy URL:" >
+<!ENTITY mediaAlt "Tekst alternatywny:" >
+<!ENTITY mediaAltHeader "Tekst alternatywny" >
+<!ENTITY mediaNo "Indeks" >
+<!ENTITY mediaName "Nazwa" >
+<!ENTITY mediaAddress "Adres" >
+<!ENTITY mediaType "Typ" >
+<!ENTITY mediaPlugin "Wtyczka:" >
+<!ENTITY mediaCharset "Kodowanie:" >
+<!ENTITY mediaDimensions "Wymiary:" >
+<!ENTITY mediaEncryption "Szyfrowanie:" >
+<!ENTITY mediaTitle "Tytuł:" >
+<!ENTITY mediaLongdesc "Długi opis:" >
+<!ENTITY mediaSaveAs "Zapisz jako..." >
+<!ENTITY mediaSaveAs.accesskey "S" >
+<!ENTITY framesTab "Ramki" >
+<!ENTITY frameName "Nazwa" >
+<!ENTITY frameAddress "Adres" >
+<!ENTITY frameType "Typ" >
