@@ -49,7 +49,7 @@
 <!ENTITY  maintainTableStructure.tooltip        "Zachowuje prostokątny kształt tabeli poprzez automatyczne dodawanie komórek po wstawieniu lub usunięciu komórek">
 <!ENTITY  maintainStructure.accesskey           "Z">
 
-<!ENTITY  savingFiles.title           "Podczas zapisywania lub publikowania stron">
+<!ENTITY  savingFiles.title           "Zapisywanie i publikowanie stron">
 <!ENTITY  preserveExistingFormatting  "Zachowaj formatowanie źródła">
 <!ENTITY  preserveExistingFormatting.accesskey  "o">
 <!ENTITY  preserveExistingFormatting.tooltip    "Zachowaj łamania linii i formatowanie">
@@ -69,12 +69,12 @@
 <!ENTITY  imageeditor               "Obrazków:">
 <!ENTITY  chooseButton.label        "Wybierz">
 
-<!ENTITY  recentFiles.title         "Menu ostatnio edytowanych stron">
+<!ENTITY  recentFiles.title         "Lista ostatnio edytowanych stron">
 <!ENTITY  documentsInMenu.accesskey     "o">
 <!ENTITY  documentsInMenu           "Maksymalna liczba stron na liście:">
 
-<!ENTITY  cssEditing.label          "Edycja Stylów CSS">
+<!ENTITY  cssEditing.label          "Edycja stylów CSS">
 <!ENTITY  useCSS.label              "Użyj stylów CSS zamiast elementów HTML i atrybutów">
 
-<!ENTITY  siteManager.label         "Menedżer Stron">
+<!ENTITY  siteManager.label         "Otwieranie stron">
 <!ENTITY  openInNewTab.label        "Zawsze otwieraj dokument w nowym panelu">

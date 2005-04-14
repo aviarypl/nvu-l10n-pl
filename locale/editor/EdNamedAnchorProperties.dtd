@@ -20,9 +20,9 @@
    - Contributor(s): 
   -->
 
-<!ENTITY windowTitle.label "Właściwości Nazwanych uchwytów">
-<!ENTITY anchorNameEditField.label "Nazwa uchwytu:">
+<!ENTITY windowTitle.label "Właściwości kotwicy">
+<!ENTITY anchorNameEditField.label "Nazwa kotwicy:">
 <!ENTITY anchorNameEditField.accessKey "N">
-<!ENTITY nameInput.tooltip "Wpisz unikatową nazwę tego uchwytu (cel)">
+<!ENTITY nameInput.tooltip "Wpisz unikatową nazwę tworzonej kotwicy (cel dla odnośników)">
 
 

@@ -30,7 +30,7 @@
 <!ENTITY tree.propertyHeader.label      "Właściwość">
 <!ENTITY tree.valueHeader.label         "Wartość">
 <!ENTITY tabHTML.label                  "Atrybuty HTML">
-<!ENTITY tabCSS.label                   "Styl w tekście"><!--hmm?-->
+<!ENTITY tabCSS.label                   "Styl osadzony w znaczniku">
 <!ENTITY tabJSE.label                   "Zdarzenia JavaScript">
 
 <!ENTITY editAttribute.label    "Kliknij na elemencie powyżej, aby edytować jego wartość">

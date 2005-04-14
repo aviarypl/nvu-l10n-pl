@@ -46,7 +46,7 @@
 <!-- File menu items -->
 <!ENTITY fileMenu.label "Plik" >
 <!ENTITY filemenu.accesskey "P" >
-<!ENTITY newBlankPageCmd.label "Strona Nvu" >
+<!ENTITY newBlankPageCmd.label "Strona w nowym oknie" >
 <!ENTITY newBlankPage.accesskey "s" >
 <!ENTITY newOtherCmd.label "Więcej opcji...">
 
@@ -406,7 +406,7 @@
 <!ENTITY grid.accesskey "t" >
 <!ENTITY pageProperties.label "Właściwości i tytuł strony..." >
 <!ENTITY pageproperties.accesskey "o" >
-<!ENTITY colorsAndBackground.label "Kolory strony i tła..." >
+<!ENTITY colorsAndBackground.label "Kolory strony i tło..." >
 <!ENTITY colorsandbackground.accesskey "y" >
 <!ENTITY tableMenu.label "Tabela" >
 <!ENTITY tablemenu.accesskey "T" >
@@ -545,7 +545,7 @@
 <!ENTITY NormalMode.label "Normalny tryb edycji" >
 <!ENTITY NormalMode.accesskey "N" >
 <!ENTITY NormalMode.tooltip "Pokaż obramowanie tabeli oraz kotwice" >
-<!ENTITY AllTagsMode.label "Pokaż znaczniki" >
+<!ENTITY AllTagsMode.label "Znaczniki HTML" >
 <!ENTITY AllTagsMode.accesskey "z" >
 <!ENTITY AllTagsMode.tooltip "Wyświetl ikony dla wszystkich znaczników HTML" >
 <!ENTITY HTMLSourceMode.label "Źródło HTML" >

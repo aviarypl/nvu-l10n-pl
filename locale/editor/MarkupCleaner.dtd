@@ -35,14 +35,14 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY window.title "Czyszczenie składni">
+<!ENTITY window.title "Czyszczenie kodu">
 
 <!ENTITY trailingBR.label "Usuń nadmiarowe znaki &lt;br&gt;">
 <!ENTITY emptyBlocks.label "Usuń puste bloki">
 <!ENTITY emptyCells.label "Usuń określenie położenia w pustych komórkach tabel">
 <!ENTITY nestedLists.label "Napraw zagnieżdzone listy">
 
-<!ENTITY cleanUp.label "Wyszyść">
+<!ENTITY cleanUp.label "Oczyść">
 
 <!ENTITY actionColumnHeader.label "Akcja">
 <!ENTITY reportColumnHeader.label "Raport">

@@ -37,20 +37,20 @@
 
 <!-- extracted from content/openLocation.xul -->
 
-<!ENTITY enter.label "Wprowadź adres internetowy (URL) strony WWW, pliku lub zasobu, który ma zostać otworzony:" >
+<!ENTITY enter.label "Wprowadź lokację strony WWW (URL), pliku lub zasobu, który chcesz otworzyć:" >
 <!ENTITY enter.accesskey "E" >
 <!ENTITY chooseFile.label "Wybierz plik..." >
 <!ENTITY chooseFile.accesskey "W" >
 <!ENTITY cancel.label "Anuluj" >
 <!ENTITY caption.label "Otwórz adres internetowy" >
-<!ENTITY openWhere.label "W którym oknie otworzyć:" >
+<!ENTITY openWhere.label "Otwórz w:" >
 <!ENTITY openWhere.accesskey "O" >
-<!ENTITY newTab.label "Nowy panel">
-<!ENTITY editNewWindow.label "Nowe okno">
+<!ENTITY newTab.label "nowym panelu">
+<!ENTITY editNewWindow.label "nowym oknie">
 
 <!ENTITY documentTypeCaption.label "Jaki rodzaj dokumentu chcesz utworzyć?">
 <!ENTITY blankDocument.label     "Pusty dokument">
 <!ENTITY newFromTemplate.label   "Pusty dokument oparty na szablonie">
 <!ENTITY blankTemplate.label     "Pusty szablon">
 
-<!ENTITY xhtmlDocument.label     "stwórz nowy dokument XHTML">
+<!ENTITY xhtmlDocument.label     "utwórz dokument XHTML">

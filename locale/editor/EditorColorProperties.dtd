@@ -21,18 +21,18 @@
   -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label "Kolory strony oraz tło">
+<!ENTITY windowTitle.label "Kolory strony i tło">
 <!ENTITY pageColors.label "Kolory strony">
-<!ENTITY defaultColorsRadio.label "Użyj domyślnych kolorów użytkownika (Nie wstawiaj własnych)">
+<!ENTITY defaultColorsRadio.label "Użyj domyślnych kolorów użytkownika (nie definiuj własnych)">
 <!ENTITY defaultColorsRadio.accessKey "U">
-<!ENTITY defaultColorsRadio.tooltip "Użyj ustawień kolorystycznych przeglądarki użytkownika (czytelnika) strony">
+<!ENTITY defaultColorsRadio.tooltip "Użyj ustawień kolorystycznych przeglądarek użytkownikow (odwiedzających stronę)">
 <!ENTITY customColorsRadio.label "Użyj własnych kolorów:">
 <!ENTITY customColorsRadio.accessKey "w">
-<!ENTITY customColorsRadio.tooltip "Te ustawienia kolorów nadpisują ustawienia przeglądarki użytkownika strony">
+<!ENTITY customColorsRadio.tooltip "Te ustawienia kolorów nadpisują ustawienia przeglądarek użytkowników">
 
 <!ENTITY normalText.label "Tekst Normalny">
 <!ENTITY normalText.accessKey "N">
-<!ENTITY linkText.label "Tekst z odnośnika">
+<!ENTITY linkText.label "Tekst odnośnika">
 <!ENTITY linkText.accessKey "O">
 <!ENTITY activeLinkText.label "Tekst aktywnego odnośnika">
 <!ENTITY activeLinkText.accessKey "A">
@@ -43,4 +43,4 @@
 <!ENTITY colon.character ":">
 <!ENTITY backgroundImage.label "Obrazek tła:">
 <!ENTITY backgroundImage.accessKey "b">
-<!ENTITY backgroundImage.tooltip "Użyj pliku obrazka jako tła dla swojej strony">
+<!ENTITY backgroundImage.tooltip "Użyj pliku obrazka jako tła dla strony">

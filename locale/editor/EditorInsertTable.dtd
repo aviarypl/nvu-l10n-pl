@@ -26,26 +26,26 @@
 <!ENTITY size.label "Rozmiar" >
 <!ENTITY numRowsEditField.label "Liczba wierszy:" >
 <!ENTITY numRowsEditField.accessKey "W" >
-<!ENTITY numColumnsEditField.label "Kolumny:" >
+<!ENTITY numColumnsEditField.label "Liczba kolumny:" >
 <!ENTITY numColumnsEditField.accessKey "K" >
 <!ENTITY widthEditField.label "Szerokość:" >
 <!ENTITY widthEditField.accessKey "S" >
-<!ENTITY borderEditField.label "Obramowanie:" >
+<!ENTITY borderEditField.label "Szerokość obramowania (w pikselach):" >
 <!ENTITY borderEditField.accessKey "O" >
 <!ENTITY borderEditField.tooltip "Wprowadź liczbę określającą szerokość obramowania tabeli, wprowadź zero, aby nie tworzyć obramowania" >
 <!ENTITY pixels.label "pikseli" >
 
 <!ENTITY quicklyTab.label "Szybko">
 <!ENTITY preciselyTab.label "Dokładnie">
-<!ENTITY cellTab.label "Komórka">
+<!ENTITY cellTab.label "Właściwości komórek">
 
-<!ENTITY horizAlignment.label "położenie poziome:">
+<!ENTITY horizAlignment.label "Położenie poziome:">
 <!ENTITY unspecifiedHAlignment.label "Nieokreślone">
 <!ENTITY leftHAlignment.label "Lewo">
 <!ENTITY centerHAlignment.label "Centrum">
 <!ENTITY rightHAlignment.label "Prawo">
 
-<!ENTITY vertAlignment.label "położenie pionowe:">
+<!ENTITY vertAlignment.label "Położenie pionowe:">
 <!ENTITY unspecifiedVAlignment.label "Nieokreślone">
 <!ENTITY topVAlignment.label "Góra">
 <!ENTITY middleVAlignment.label "Środek">
@@ -55,5 +55,5 @@
 <!ENTITY wrapWrapping.label "Łam">
 <!ENTITY nowrapWrapping.label "Nie łam">
 
-<!ENTITY cellSpacing.label "Odstęp między komórkami"> <!--sta-->
-<!ENTITY cellPadding.label "Wewnętrzny margines komórek"> <!--sta-->
+<!ENTITY cellSpacing.label "Odstęp między komórkami (w pikselach)">
+<!ENTITY cellPadding.label "Wewnętrzny margines komórek (w pikselach)">

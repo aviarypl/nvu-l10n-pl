@@ -40,7 +40,7 @@
 <!ENTITY tablePadding.accessKey "M" >
 <!ENTITY tablePxBetwCells.label "pikseli pomiędzy komórkami" >
 <!ENTITY tablePxBetwBrdrCellContent.label "pikseli pomiędzy obramowaniem a zawartością komórki" >
-<!ENTITY tableAlignment.label "Położenie tabeli:" >
+<!ENTITY tableAlignment.label "Wyrównanie tabeli:" >
 <!ENTITY tableAlignment.accessKey "t" >
 <!ENTITY tableCaption.label "Podpis:" >
 <!ENTITY tableCaption.accessKey "P" >
@@ -49,7 +49,7 @@
 <!ENTITY tableCaptionLeft.label "Po lewej stronie" >
 <!ENTITY tableCaptionRight.label "Po prawej stronie" >
 <!ENTITY tableCaptionNone.label "Brak" >
-<!ENTITY tableInheritColor.label "(Pozwól, aby widoczny był kolor strony)" >
+<!ENTITY tableInheritColor.label "(Brak - pozwól, by widoczne było tło strony)" >
 
 <!ENTITY cellPercent.label "procent tabeli" >
 <!ENTITY cellSelection.label "Zaznaczenie" >
@@ -62,8 +62,8 @@
 <!ENTITY cellSelectPrevious.accessKey "P" >
 <!ENTITY cellApplyBeforeMove.label "Zastosuj zmiany przed zmianą zaznaczenia" >
 <!ENTITY cellKeepCurrentData.label "Zachowaj bieżące ustawienia" >
-<!ENTITY applyBeforeChange1.label "Bieżące zmiany będą zastosowane" >
-<!ENTITY applyBeforeChange2.label "przed zmianą sekcji." >
+<!ENTITY applyBeforeChange1.label "Bieżące zmiany zostaną zastosowane" >
+<!ENTITY applyBeforeChange2.label "przed zmianą zaznaczenia." >
 <!ENTITY cellRowSpan.label "Rozpiętość wiersza:" >
 <!ENTITY cellColSpan.label "Rozpiętość kolumny:" >
 <!ENTITY cellContentAlignment.label "Wyrównanie zawartości" >
@@ -71,21 +71,21 @@
 <!ENTITY cellHorizontal.accessKey "p" >
 <!ENTITY cellVertical.label "W pionie:" >
 <!ENTITY cellVertical.accessKey "i" >
-<!ENTITY cellStyle.label "Styl komórki:" >
+<!ENTITY cellStyle.label "Typ komórki:" >
 <!ENTITY cellStyle.accessKey "k" >
 <!ENTITY cellNormal.label "Normalny" >
 <!ENTITY cellHeader.label "Nagłówek" >
 <!ENTITY cellTextWrap.label "Zawijanie tekstu:" >
 <!ENTITY cellTextWrap.accessKey "Z" >
 <!ENTITY cellWrap.label "Zawijaj" >
-<!ENTITY cellNoWrap.label "Nie zawijaj tekstu" >
+<!ENTITY cellNoWrap.label "Nie zawijaj" >
 <!ENTITY cellAlignTop.label "Do góry" >
 <!ENTITY cellAlignMiddle.label "Do środka" >
 <!ENTITY cellAlignBottom.label "Do dołu" >
 <!ENTITY cellAlignJustify.label "Wyjustowana" >
 <!ENTITY cellAlignAtChar.label "Do znaku:" >
-<!ENTITY cellInheritColor.label "(Pozwól, aby widoczny był kolor tabeli)" >
-<!ENTITY cellUseCheckboxHelp.label "Użyj pól wyboru, aby wybrać, które z powyższych właściwości zostaną zastosowane do zaznaczonych komórek" >
+<!ENTITY cellInheritColor.label "(Brak - pozwól, by widoczne było tło tabeli)" >
+<!ENTITY cellUseCheckboxHelp.label "Użyj pól wyboru, aby wybrać które z powyższych właściwości zostaną zastosowane do zaznaczonych komórek" >
 
 <!-- Used in both Table and Cell panels  -->
 <!ENTITY size.label "Rozmiar" >

@@ -62,5 +62,5 @@
 
 <!ENTITY realtimeSpellCheck.label      "Sprawdzanie pisowni">
 
-<!ENTITY spellCheckRealTime.label      "Podkreślaj błędnie zapisane wyrazy">
+<!ENTITY spellCheckRealTime.label      "Podkreślaj błędnie napisane wyrazy">
 <!ENTITY spellCheckRealTime.accesskey  "P">
