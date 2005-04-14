@@ -54,3 +54,4 @@
 <!ENTITY blankTemplate.label     "Pusty szablon">
 
 <!ENTITY xhtmlDocument.label     "utwórz dokument XHTML">
+<!ENTITY strictDtd.label         "zastosuj DTD Strict">

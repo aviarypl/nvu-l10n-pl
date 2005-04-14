@@ -34,3 +34,5 @@
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField.label "Wprowadź adres strony WWW, nazwę pliku lokalnego lub wybierz Zakładkę albo Nagłówek z poniższej listy:">
 <!ENTITY LinkURLEditField.accessKey "o">
+
+<!ENTITY isMailAddress.label "Tekst wprowadzony powyżej jest adresem e-mail">

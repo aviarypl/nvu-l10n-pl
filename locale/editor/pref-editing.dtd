@@ -5,6 +5,14 @@
 <!ENTITY  authorName.accesskey      "A">
 <!ENTITY  pageColorHeader           "Domyślny wygląd strony">
 
+<!ENTITY dialect.label              "Kod">
+<!ENTITY markupLanguage.label       "Język:">
+<!ENTITY dtd.label                  "DTD:">
+<!ENTITY htmlMarkupLanguage.label   "HTML 4">
+<!ENTITY xhtmlMarkupLanguage.label  "XHTML 1">
+<!ENTITY looseDTD.label             "Transitional">
+<!ENTITY strictDTD.label            "Strict">
+
 <!ENTITY defaultColorsRadio.label   "Domyślne kolory przeglądarki (Nie definiuj kolorów na stronie)">
 <!ENTITY defaultColors.accesskey    "D">
 <!ENTITY customColorsRadio.label    "Użyj własnych kolorów:">

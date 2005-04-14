@@ -15,12 +15,11 @@
    -
    - The Initial Developer of the Original Code is
    - Linspire Inc..
-   - Portions created by the Initial Developer are Copyright (C) 2004
+   - Portions created by the Initial Developer are Copyright (C) 2005
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
-   -   Daniel Glazman (glazman@disruptive-innovations.com), on behalf of Linspire Inc.
-   -   Polish translation: Zbigniew Braniecki (gandalf@e-gandalf.net)
+   -   Daniel Glazman <glazman@disruptive-innovations.com>, on behalf of Linspire Inc.
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -36,11 +35,6 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-
-<!ENTITY aboutDialog.title      "O &brandShortName;">
-<!ENTITY copyright              "Informacje o prawach i współtwórcach">
-<!ENTITY copyrightLink          "http://nvu.com/about.html">
-<!ENTITY credits                "Podziękowania">
-<!ENTITY aboutVersion           "wersja">
-<!ENTITY copyrightText          "&#169;1998-2005 Współtwórcy. Wszelkie prawa zastrzeżone.">
-<!ENTITY aboutLink              "&lt; O &brandShortName;">
+<!ENTITY window.title                     "Potwierdź">
+<!ENTITY confirmInlineSpellChecking.label "Moduł sprawdzania pisowni jest włączony. Przed opuszczeniem widoku edycji źródła &branShortName; sprawdzi pisownię w edytowanym dokumencie. W zależności od długości i stopnia skomplikowania dokumentu proces ten może znacznie obciążyć komputer. Możesz kontynuować i sprawdzić pisownię lub wyłączyć moduł sprawdzania pisowni.">
+<!ENTITY exitWarningCheckbox.label        "Nie pokazuj tego okna w przyszłości">

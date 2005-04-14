@@ -97,13 +97,13 @@
     </item>
 
     <item>
-      <title>masz bezpośredni dostęp do społeczności użytkowników Nvu?</title>
+      <title>...masz bezpośredni dostęp do społeczności użytkowników Nvu?</title>
       <description>Wybierz z menu Pomoc > Fora.</description>
     </item>
 
     <item>
       <title>...Nvu może automatycznie otworzyć dokument przy starcie?</title>
-      <description>Skorzystaj z opcji linii komend -edit:      nvu -edit adres</description>
+      <description>Skorzystaj z opcji linii komend: nvu adres</description>
     </item>
 
     <item>
@@ -120,6 +120,11 @@
     <item>
       <title>...możesz otworzyć nowy panel naciskając kombinację klawiszy?</title>
       <description>Control+t (Command+t w Mac OS X) otworzy nowy, pusty panel.</description>
+    </item>
+    
+    <item>
+      <title>...możesz otworzyć nowe okno naciskając kombinację klawiszy?</title>
+      <description>Control++shift+t (Command+shift+t w Mac OS X) otworzy nowe, puste okno.</description>
     </item>
 
   </channel>

@@ -186,6 +186,9 @@
 <!ENTITY insertBreakAllCmd.label "Linię podziału poniżej obrazka" >
 <!ENTITY insertbreakall.accesskey "p" >
 
+<!ENTITY insertNbspCmd.label "Twarda spacja...">
+<!ENTITY insertNbsp.accesskey "w">
+
 <!ENTITY insertPHPCode.label "Kod PHP">
 <!ENTITY insertphpcode.accesskey "p">
 <!ENTITY insertComment.label "Komentarz">
@@ -639,7 +642,8 @@
 <!ENTITY aboutmenu.accesskey      "O">
 <!ENTITY localizingnvu.accesskey  "L">
 <!ENTITY localizingNvu.label      "Lokalizacja Nvu">
-
+<!ENTITY userGuideMenu.label      "Przewodnik użytkownika (on-line)">
+<!ENTITY userguidemenu.accesskey  "u">
 
 <!ENTITY leftGlued.tooltip        "Przyklej do lewej krawędzi">
 <!ENTITY rightGlued.tooltip       "Przyklej do prawej krawędzi">
