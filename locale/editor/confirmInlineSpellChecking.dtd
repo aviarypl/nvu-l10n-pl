@@ -36,5 +36,5 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY window.title                     "Potwierdź">
-<!ENTITY confirmInlineSpellChecking.label "Moduł sprawdzania pisowni jest włączony. Przed opuszczeniem widoku edycji źródła &brandShortName; sprawdzi pisownię w edytowanym dokumencie. W zależności od długości i stopnia skomplikowania dokumentu proces ten może znacznie obciążyć komputer. Możesz kontynuować i sprawdzić pisownię lub wyłączyć moduł sprawdzania pisowni.">
+<!ENTITY confirmInlineSpellChecking.label "Moduł sprawdzania pisowni jest włączony. Przed opuszczeniem widoku edycji źródła sprawdzona zostanie pisownia w edytowanym dokumencie. W zależności od długości i stopnia skomplikowania dokumentu proces ten może znacznie obciążyć komputer. Możesz kontynuować i sprawdzić pisownię lub wyłączyć moduł sprawdzania pisowni.">
 <!ENTITY exitWarningCheckbox.label        "Nie pokazuj tego okna w przyszłości">
