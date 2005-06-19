@@ -100,7 +100,7 @@
 <!ENTITY pasteNoFormatting.accesskey "W" >
 <!ENTITY pasteAs.label "Wklej jako" >
 <!ENTITY pasteAs.accesskey "a" >
-<!ENTITY publishSettings.label "Ustawienia publikowanej witryny..." >
+<!ENTITY publishSettings.label "Ustawienia publikacji witryn..." >
 <!ENTITY publishSettings.accesskey "b" >
 <!ENTITY detachFromTemplate.label "Odłącz od szablonu">
 

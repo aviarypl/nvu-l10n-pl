@@ -23,7 +23,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Opublikuj stronę" >
-<!ENTITY windowTitleSettings.label "Ustawienia publikowanej witryny" >
+<!ENTITY windowTitleSettings.label "Ustawienia publikacji witryn" >
 
 <!ENTITY publishTab.label "Opublikuj" >
 <!ENTITY settingsTab.label "Ustawienia" >
