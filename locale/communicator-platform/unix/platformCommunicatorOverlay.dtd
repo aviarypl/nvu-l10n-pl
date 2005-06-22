@@ -6,8 +6,8 @@
 <!ENTITY closeCmd.accesskey		"Z">
 
 <!ENTITY quitApplicationCmd.label	"Zakończ"> 
-<!ENTITY quitApplicationCmd.key		"Q"> 
-<!ENTITY quitApplicationCmd.accesskey	"q">
+<!ENTITY quitApplicationCmd.key		"Z"> 
+<!ENTITY quitApplicationCmd.accesskey	"k">
 
 <!ENTITY redoCmd.label			"Przywróć">  
 <!ENTITY redoCmd.key			"Y">  

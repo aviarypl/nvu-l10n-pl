@@ -8,10 +8,10 @@
 <!ENTITY printSetupCmd.accesskey	"u">
 
 <!ENTITY quitApplicationCmd.label	"Zakończ"> 
-<!ENTITY quitApplicationCmd.key		"Q"> 
+<!ENTITY quitApplicationCmd.key		"Z"> 
 
 <!ENTITY redoCmd.label			"Przywróć">  
-<!ENTITY redoCmd.key			"Z">  
+<!ENTITY redoCmd.key			"r">  
 
 <!ENTITY historyCmd.key   "H">  
 
