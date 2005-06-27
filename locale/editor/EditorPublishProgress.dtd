@@ -35,4 +35,4 @@
 <!ENTITY troubleshooting.label "Rozwiązywanie problemów" >
 <!ENTITY troubleshooting.accessKey "R" >
 
-<!ENTITY keepOpen ",Nie zamykaj tego okna po ukończeniu publikowania." >
+<!ENTITY keepOpen "Nie zamykaj tego okna po ukończeniu publikowania." >
