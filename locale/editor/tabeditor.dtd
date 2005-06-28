@@ -41,3 +41,9 @@
 <!ENTITY closeTab.accesskey          "z">
 <!ENTITY closeOtherTabs.label        "Zamknij inne panele">
 <!ENTITY closeOtherTabs.accesskey    "a">
+<!ENTITY newTab.label                "Nowy panel">
+<!ENTITY newTab.accesskey            "N">
+<!ENTITY revert.label                "Przywróć">
+<!ENTITY revert.accesskey            "P">
+<!ENTITY refreshImages.label         "Odśwież obrazki">
+<!ENTITY refreshImages.accesskey     "O">

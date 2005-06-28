@@ -642,8 +642,12 @@
 <!ENTITY aboutmenu.accesskey      "O">
 <!ENTITY localizingnvu.accesskey  "L">
 <!ENTITY localizingNvu.label      "Lokalizacja Nvu">
-<!ENTITY userGuideMenu.label      "Przewodnik użytkownika (on-line)">
+<!ENTITY userGuideMenu.label      "Przewodnik użytkownika">
 <!ENTITY userguidemenu.accesskey  "u">
+<!ENTITY aboutLinspire.label      "O Linspire Inc.">
+<!ENTITY aboutlinspire.accesskey  "n">
+<!ENTITY aboutDI.label            "O Disruptive Innovations">
+<!ENTITY aboutDI.accesskey        "I">
 
 <!ENTITY leftGlued.tooltip        "Przyklej do lewej krawędzi">
 <!ENTITY rightGlued.tooltip       "Przyklej do prawej krawędzi">

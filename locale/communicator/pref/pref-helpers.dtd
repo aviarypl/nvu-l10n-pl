@@ -57,10 +57,21 @@
 <!ENTITY specialChars.description      "Zapisuj poniższe znaki za pomocą encji:">
 <!ENTITY basicEncoding.label           "Tylko &amp; &lt; &gt; ' i twarda spacja">
 <!ENTITY latin1EntitiesEncoding.label  "Powyższe oraz znaki z zestawu Latin-1">
-<!ENTITY htmlEntitiesEncoding.label    "Wszystkie znaki, które wg specyfikacji HTML można zapisać za pomocą encji">
+<!ENTITY htmlEntitiesEncoding.label    "Znaki specjalne HTML 4">
 <!ENTITY allEntitiesEncoding.label     "Użyj notacji &amp;#..; dla wszystkich znaków spoza tablicy ASCII">
 
 <!ENTITY realtimeSpellCheck.label      "Sprawdzanie pisowni">
 
 <!ENTITY spellCheckRealTime.label      "Podkreślaj błędnie napisane wyrazy">
 <!ENTITY spellCheckRealTime.accesskey  "P">
+
+<!ENTITY dialect.label                 "Składnia">
+<!ENTITY markupLanguage.label          "Język:">
+<!ENTITY dtd.label                     "DTD:">
+<!ENTITY htmlMarkupLanguage.label      "HTML 4">
+<!ENTITY xhtmlMarkupLanguage.label     "XHTML 1">
+<!ENTITY looseDTD.label                "Transitional">
+<!ENTITY strictDTD.label               "Strict">
+
+<!ENTITY noGTEncoding.label            "Nie konwertuj '&gt;' poza wartościami atrybutów">
+<!ENTITY noEscaping.label              "Nie konwertuj znaków specjalnych w wartościach atrybutów">

@@ -45,38 +45,38 @@
     <link>http://www.nvu.com/</link>
     <description>Archiwum porad dnia Nvu</description>
     <language>pl-pl</language>
-  
+
     <item>
       <title>...możesz przesuwać elementy?</title>
       <description>Po prostu umieść kursor w bloku, który chciałbyś przesunąć, a następnie
-                  kliknij pojedynczo na przycisku warstwy, aby blok mogł być poruszany.
+                  kliknij raz na przycisku warstwy, aby blok mógł być poruszany.
       </description>
     </item>
-  
+
     <item>
       <title>...możesz dostosować paski narzędzi?</title>
-      <description>Wybierz z menu "Widok > Pokaż/Ukryj > Dostosuj paski narzędzi", aby otworzyć panel konfiguracji pasków narzędzi. Nasŧepnie użyj metody "przeciągnij i upuść", aby dodawać, przesuwać lub usuwać przyciski oraz separatory.
+      <description>Wybierz z menu Widok > Pokaż/Ukryj > Dostosuj paski narzędzi, aby otworzyć panel konfiguracji pasków narzędzi. Następnie użyj metody "przeciągnij i upuść", aby dodawać, przesuwać lub usuwać przyciski oraz separatory.
       </description>
     </item>
-  
+
     <item>
       <title>...możesz dodać własny pasek narzędzi?</title>
-      <description>Wybierz z menu "Widok > Pokaż/Ukryj > Dostosuj paski narzędzi > Sformatuj paski", aby otworzyć panel konfiguracji pasków narzędzi. Następnie kliknij na przycisku "Dodaj nowy pasek narzędzi". Puste paski narzędzi automatycznie są ukrywane kiedy panel konfiguracji pasków jest zamknięty.</description>
+      <description>Wybierz z menu Widok > Pokaż/Ukryj > Dostosuj paski narzędzi > Sformatuj paski, aby otworzyć panel konfiguracji pasków narzędzi. Następnie kliknij na przycisku "Dodaj nowy pasek narzędzi". Puste paski narzędzi są automatycznie ukrywane, gdy panel konfiguracji pasków jest zamknięty.</description>
     </item>
-  
+
     <item>
       <title>...Nvu posiada edytor CSS?</title>
-      <description>Nvu zawiera  edytor CSS CaScadeS. Można go otworzyć z menu Narzędzia->Edytor CSS.</description>
+      <description>Nvu zawiera edytor CSS CaScadeS. Można go otworzyć z menu Narzędzia > Edytor CSS.</description>
     </item>
-  
+
     <item>
       <title>...Nvu posiada menedżera stron?</title>
-      <description>Wciśnij klawisz F9, lub z menu wybierz "Widok > Pokaż/Ukryj > Menedżer Stron", aby pokazać lub ukryć ten menedżer.</description>
+      <description>Aby pokazać lub ukryć menedżera stron, wciśnij klawisz F9 lub z menu wybierz Widok > Pokaż/Ukryj > Menedżer Stron.</description>
     </item>
 
     <item>
       <title>...możesz przypisać style CSS do dowolnego elementu?</title>
-      <description>Umieść kursor w elemencie, któremu chcesz nadać styl i wciśnij prawy przycisk myszy na znaczniku elementu w pasku struktury na dole głównego okna Nvu. Okno "Wewnętrznych styli" pozwoli przypisać dowolne style do tego elementu.
+      <description>Umieść kursor w elemencie, któremu chcesz nadać styl i wciśnij prawy przycisk myszy na znaczniku elementu w pasku struktury na dole głównego okna Nvu. Okno "Wewnętrznych stylów" pozwoli przypisać dowolne style do tego elementu.
       </description>
     </item>
 
@@ -93,7 +93,7 @@
 
     <item>
       <title>...możesz bardzo łatwo dostosować pasek narzędzi?</title>
-      <description>Po prostu kliknij na nim prawym klawiszem myszy...</description>
+      <description>Po prostu kliknij na nim prawym klawiszem myszy.</description>
     </item>
 
     <item>
@@ -102,7 +102,7 @@
     </item>
 
     <item>
-      <title>...Nvu może automatycznie otworzyć dokument przy starcie?</title>
+      <title>...Nvu może automatycznie otworzyć dokument podczas uruchomienia?</title>
       <description>Skorzystaj z opcji linii komend: nvu adres</description>
     </item>
 
@@ -114,17 +114,31 @@
     <item>
       <title>...Nvu jest wieloplatformowy?</title>
       <description>Nvu istnieje na wielu systemach operacyjnych, takich jak
-                   Windows, Mac OS X, wielu odmianach Linuksa, OS/2, ...</description>
+                   Windows, Mac OS X, wielu odmianach Linuksa, OS/2 i innych.</description>
     </item>
 
     <item>
       <title>...możesz otworzyć nowy panel naciskając kombinację klawiszy?</title>
       <description>Control+t (Command+t w Mac OS X) otworzy nowy, pusty panel.</description>
     </item>
-    
+
     <item>
       <title>...możesz otworzyć nowe okno naciskając kombinację klawiszy?</title>
-      <description>Control++shift+t (Command+shift+t w Mac OS X) otworzy nowe, puste okno.</description>
+      <description>Control+Shift+t (Command+Shift+t w Mac OS X) otworzy nowe, puste okno.</description>
+    </item>
+    <item>
+      <title>...możesz zmienić obramowanie pojedynczej komórki tabeli?</title>
+      <description>Wystarczy umieścić kursor w tej komórce, otworzyć menu kontekstowe klikając prawym przyciskiem myszy na jej znaczniku w pasku struktury na dole okna głównego i wybrać Styl w znaczniku &gt; Właściwości obramowania.</description>
+    </item>
+
+    <item>
+      <title>...możesz zamknąć panel jednym kliknięciem?</title>
+      <description>Wystarczy nacisnąć środkowy klawisz myszy na panelu.</description>
+    </item>
+
+    <item>
+      <title>...możesz zamknąć aktywny panel jedną kombinacją klawiszy?</title>
+      <description>Ctrl+F4 zamyka aktywny panel.</description>
     </item>
 
   </channel>

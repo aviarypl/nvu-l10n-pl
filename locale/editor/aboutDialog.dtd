@@ -37,10 +37,10 @@
    - ***** END LICENSE BLOCK ***** -->
 
 
-<!ENTITY aboutDialog.title      "O &brandShortName;">
+<!ENTITY aboutDialog.title      "O programie &brandShortName;">
 <!ENTITY copyright              "Informacje o prawach i współtwórcach">
 <!ENTITY copyrightLink          "http://nvu.com/about.html">
 <!ENTITY credits                "Podziękowania">
 <!ENTITY aboutVersion           "wersja">
-<!ENTITY copyrightText          "&#169;1998-2005 Współtwórcy. Wszelkie prawa zastrzeżone.">
-<!ENTITY aboutLink              "&lt; O &brandShortName;">
+<!ENTITY copyrightText          "&#169;1998-2005 Współtwórcy. Wszelkie prawa zastrzeżone. Nvu oraz logo Nvu są znakami zastrzeżonymi Linspire Inc.">
+<!ENTITY aboutLink              "&lt; O programie &brandShortName;">

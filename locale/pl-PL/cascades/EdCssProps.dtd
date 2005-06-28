@@ -244,3 +244,29 @@
 <!ENTITY cueBefore.label                    "Utnij przed:">
 <!ENTITY pauseAfter.label                   "Pauza po:">
 <!ENTITY cueAfter.label                     "Utnij po:">
+
+
+<!ENTITY listTab.label                      "Listy">
+
+<!ENTITY listStyleType.label                "Styl listy:">
+<!ENTITY noneListStyleType.label            "żaden (none)">
+<!ENTITY discListStyleType.label            "dysk (disc)">
+<!ENTITY circleListStyleType.label          "kółko (circle)">
+<!ENTITY squareListStyleType.label          "kwadrat (square)">
+<!ENTITY decimalListStyleType.label         "cyfry arabskie (decimal)">
+<!ENTITY decimalLeadingZeroListStyleType.label "cyfry arabskie z poprzedzającym zerem (decimal-leading-zero)">
+<!ENTITY lowerRomanListStyleType.label      "małe cyfry rzymskie (lower-roman)">
+<!ENTITY upperRomanListStyleType.label      "wielkie cyfry rzymskie (upper-roman)">
+<!ENTITY lowerGreekListStyleType.label      "małe litery greckie (lower-greek)">
+<!ENTITY lowerAlphaListStyleType.label      "małe litery łacińskie (lower-alpha)">
+<!ENTITY upperAlphaListStyleType.label      "wielkie litery łacińskie (upper-alpha)">
+<!ENTITY armenianListStyleType.label        "armeński">
+<!ENTITY georgianListStyleType.label        "gruźiński">
+
+
+<!ENTITY listStyleImage.label    "Styl obrazka listy:">
+
+<!ENTITY listStylePosition.label "Styl pozycji listy:">
+<!ENTITY insideListStylePosition.label   "wewnątrz (inside)">
+<!ENTITY outsideListStylePosition.label    "na zewnątrz (outside)">
+

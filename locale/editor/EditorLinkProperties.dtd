@@ -73,8 +73,11 @@
 
 <!ENTITY targetBox.label "Cel odnośnika">
 <!ENTITY userDefinedTarget.label "Odnośnik ma zostać otwarty">
-<!ENTITY topRadio.label "w tym samym oknie zamiast aktualnych zestawów ramek">
+<!ENTITY topRadio.label "w tym samym oknie bez zestawu ramek">
 <!ENTITY blankRadio.label "w nowym oknie">
 <!ENTITY parentRadio.label "w nadrzędnym zestawie ramek">
 <!ENTITY selfRadio.label "w aktualnej ramce">
 <!ENTITY userDefinedRadio.label "w ramce o nazwie:">
+
+<!ENTITY technoratiTag.label "Znaczniki Technorati">
+<!ENTITY technoratiTagCheckbox.label "To jest znacznik Technorati">
