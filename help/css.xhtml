@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Tworzenie stron WWW za pomocą &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Pokaż/Ukryj</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Centrum pomocy</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">W tym dokumencie opisano:
+  <a href="composer_help.xhtml#starting_a_new_page">Tworzenie nowej strony</a>
+  
+  <a href="formatting_webpages.xhtml">Formatowanie stron</a>
+  
+  <a href="css.xhtml">Korzystanie z arkuszy stylów</a>
+  
+  <a href="tables.xhtml">Tabele</a>
+  
+  <a href="images.xhtml">Obrazki</a>
+  
+  <a href="toc.xhtml">Automatyczny spis treści dokumentu</a>
+  
+  <a href="templates.xhtml">Szablony</a>
+  
+  <a href="page_properties.xhtml">Ustawianie właściwości strony</a>
+  
+  <a href="links.xhtml">Tworzenie odnośników</a>
+    
+  <a href="customize.xhtml">Dostosowywanie &brandShortName;</a>
+</div>
+
+<h2 id="using_style_sheets_for_your_web_pages">Korzystanie z arkuszy stylów</h2>
+
+<h3 id="using_cascade_style_sheets">Kaskadowe arkusze stylów</h3>
+
+<p>Kaskadowe arkusze stylów (Cascade Style Sheets - CSS) pozwalają na nadanie wyglądu
+dokumentom HTML. Można wyróżnić trzy typy stylów:</p>
+<ol>
+  <li>Style wewnątrz znaczników HTML.</li>
+
+  <li>Wewnętrzne arkusze stylów.</li>
+
+  <li>Zewnętrzne arkusze stylów.</li>
+</ol>
+
+<p>&brandShortName; posiada wbudowany edytor stylów zwany 
+<strong>CaScadeS</strong>, który może być użyty to tworzenia wewnętrznych
+i zewnętrznych arkuszy stylów. Arkusze stylów, w przeciwieństwie do stylów
+wewnątrz znaczników, pozwalają na oddzielenie treści (semantyki) dokumentu 
+(znaczników HTML) od jego wyglądu (stylów). Rozdział taki pozwala na łatwiejszą
+pracę i późniejszą aktualizację dokumentu i/lub jego wyglądu. Różnica pomiędzy
+wewnętrznym i zewnętrznym arkuszem stylów polega na miejscu jego przechowywania - 
+arkusz wewnętrzny zamieszczony jest w samym dokumencie HTML, a arkusz zewnętrzny
+znajduje się w osobnym pliku (zwykle z rozszerzeniem .css).</p>
+
+<p>Aby uruchomić edytor stylów, należy wybrać z menu pozycję
+<span class="menuPath">Narzędzia &gt; Edytor CSS</span>. Edytor posiada
+dwa tryby edycji arkusza stylów:</p>
+
+<ol>
+  <li><strong>Tryb początkującego</strong>: pozwala tworzyć i edytować
+  reguły dla selektorów klas lub typów znaczników.</li>
+
+  <li><strong>Tryb ekspercki</strong>: pozwala na tworzenie i edycję
+  stylów bez ograniczeń.</li>
+</ol>
+
+<p>W przypadku, gdy dokument nie posiada arkusza stylów, arkusz zostanie
+utworzony automatycznie.</p>
+
+<p class="returnToSection">[ <a
+href="#using_style_sheets_for_your_web_pages">Powrót do początku rozdziału</a> ]</p>
+
+<h3 id="creating_style_sheets_with_nvu">Tworzenie arkuszy stylów w &brandShortName;</h3>
+
+<p>Za pomocą Edytora CSS można utworzyć zewnętrzny lub wewnętrzny arkusz stylów dokumentu.
+Aby utworzyć w Edytorze CSS wewnętrzny arkusz stylów, należy:</p>
+<ol>
+  <li>Nacisnąć przycisk Utwórz wewnętrzny.
+  <ul>
+    <li>(Nieobowiązkowo) Podać listę mediów i tytuł arkusza w odpowiednich polach.</li>
+  </ul>
+  </li>
+
+  <li>Nacisnąć przycisk Utwórz arkusz.</li>
+</ol>
+
+<p>Aby utworzyć zewnętrzny arkusz stylów, należy:</p>
+
+<ol>
+  <li>Nacisnąć przycisk Utwórz zewnętrzny.</li>
+
+  <li>Wpisać adres URL (położenie) pliku arkusza stylów w polu po prawej stronie okna. 
+  Jeśli podany plik nie istnieje, zostanie od utworzony.
+
+  <ul>
+    <li>(Nieobowiązkowo) Podać listę mediów i tytuł arkusza w odpowiednich polach.</li>
+  </ul>
+  </li>
+
+  <li>Zaznaczyć "zaznacz, aby utworzyć alternatywny arkusz stylów" jeśli tworzony arkusz ma być
+  alternatywny (dodatkowy).</li>
+</ol>
+
+<p><strong>Podpowiedź:</strong> po dołączeniu arkusza stylów oraz po zamknięciu Edytora CSS, należy 
+zapisać dokument.</p>
+
+<p><strong>Podpowiedź:</strong> Jeśli arkusz stylów nie został wczytany do edytora natychmiast po wybraniu,
+należy nacisnąć przycisk Odśwież.</p>
+
+<p class="returnToSection">[ <a
+href="#using_style_sheets_for_your_web_pages">Powrót do początku rozdziału</a> ]</p>
+
+<h3 id="creating_rules_for_stylesheets">Tworzenie reguł arkusza stylów</h3>
+
+<p>Po utworzeniu arkusza stylów dla dokumentu, można tworzyć w nim reguły.
+Wyboru aktywnego arkusza dokonuje się w lewej części okna edytora. Prawa
+strona okna zawiera szczegóły dotyczące arkusza i reguł. 
+Aby utworzyć nowe reguły w arkuszu, należy:</p>
+
+<ol>
+  <li>Nacisnąć przycisk Reguła w lewej części okna.</li>
+
+  <li>Prawa strona okna zawiera opcje typu tworzonej reguły:
+
+  <ul>
+    <li>styl dla klasy (nazwę klasy należy wprowadzić do pola poniżej),</li>
+
+    <li>styl dla wszystkich elementów (znaczników) typu (nazwę znacznika należy wprowadzić to pola poniżej),</li>
+
+    <li>styl dla elementów pasujących do selektora (nazwę selektora należy wprowadzić to pola poniżej)</li>
+
+  </ul>
+  </li>
+<!--  <li>Fill in the name of the rule.</li> -->
+
+  <li>Nacisnąć przycisk Utwórz regułę.</li>
+</ol>
+
+<p>Szczegóły reguł można określić w poszczególnych zakładkach okna Edytora (Tekst, Tło,
+Obramowanie itp.) Aby zobaczyć wszystkie ustawienia reguły, należy zaznaczyć ją 
+w lewej części okna, a następnie wybrać zakładkę Ogólne.</p>
+
+<p class="returnToSection">[ <a
+href="#using_style_sheets_for_your_web_pages">Powrót do początku rozdziału</a> ]</p>
+
+<p>[<a href="tables.xhtml">Następny</a>] [<a href="formatting_webpages.xhtml">Poprzedni</a>]</p>
+
+<div class="copyrightBox"><em>20 czerwca 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the Nvu
+Help Documentation Project.</p>
+
+<p>Polskie tłumaczenie: Copyright &copy; 2003-2005 Mozillapl.org oraz AviaryPL.</p>
+
+</body>
+</html>

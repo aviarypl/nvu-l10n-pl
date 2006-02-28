@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Tworzenie stron WWW za pomocą &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Pokaż/Ukryj</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Centrum pomocy</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">W tym dokumencie omówiono:
+  <a href="composer_help.xhtml#starting_a_new_page">Tworzenie nowej strony</a>
+  
+  <a href="formatting_webpages.xhtml">Formatowanie stron</a>
+  
+  <a href="css.xhtml">Korzystanie z arkuszy stylów</a>
+  
+  <a href="tables.xhtml">Tabele</a>
+  
+  <a href="images.xhtml">Obrazki</a>
+  
+  <a href="toc.xhtml">Automatyczny spis treści dokumentu</a>
+  
+  <a href="templates.xhtml">Szablony</a>
+  
+  <a href="page_properties.xhtml">Ustawianie właściwości strony</a>
+  
+  <a href="links.xhtml">Tworzenie odnośników</a>
+    
+  <a href="customize.xhtml">Dostosowywanie &brandShortName;</a>
+</div>
+
+<h2 id="adding_pictures_to_your_web_page">Obrazki</h2>
+
+<h3 id="inserting_an_image_into_your_page">Wstawianie obrazka do dokumentu</h3>
+
+<p>W &brandShortName; na stronę można wstawiać obrazki w formatach GIF, JPEG i PNG. 
+Można także użyć ich jako <a href="#using_images_as_links">odnośników</a>. Po wstawieniu 
+obrazka &brandShortName; zachowuje na stronie tylko położenie obrazka na dysku.</p>
+
+<p><strong>Uwaga</strong>: W przypadku dokumentów publikowanych w Internecie,
+należy unikać obrazków w formacie BMP.</p>
+
+<p><strong>Podpowiedź</strong>: Przed wstawieniem obrazków dobrze jest
+zapisać lub opublikować stronę. &brandShortName; może wtedy użyć
+względnych ścieżek do plików obrazków.</p>
+
+<p>Wstawianie obrazka:</p>
+
+<ol>
+  <li>Ustawić kursor w miejscu gdzie ma pojawić się obrazek.</li>
+
+  <li>Wcisnąć przycisk <img src="images/image.png" alt="" /> Obrazek na pasku narzędzi lub wybrać
+  z menu programu pozycję <span class="menuPath">Wstaw &gt; Obrazek...</span>
+  Wyświetlone zostanie okno dialogowe.</li>
+
+  <li>Podać położenie i nazwę pliku obrazka lub nacisnąć przycisk Wybierz plik 
+  aby znaleźć plik na dysku lub w sieci.</li>
+
+  <li>Wpisać Tekst alternatywny, który pojawia się w przeglądarkach tekstowych, podczas 
+  ładowania obrazka lub gdy wyświetlanie obrazków jest wyłączone.
+
+  <p>Można także zaznaczyć opcję "Nie używaj alternatywnego tekstu."</p></li>
+
+  <li>W razie potrzeby można ustawić dodatkowe własności obrazka na pozostałych
+  zakładkach <a href="#editing_image_properties"></a>.</li> </ol>
+
+<p><strong>Podpowiedź</strong>: Aby szybko wstawić na stronę obrazek, wystarczy przeciągnąć go do okna &brandShortName;.</p>
+
+<p><strong>Podpowiedź</strong>: Aby wstawić znak końca linii po obrazku w akapicie należy z 
+menu <span class="menuPath">Wstaw</span> wybrać pozycję <span class="menuPath">Linię podziału poniżej obrazka</span>.
+</p>
+
+<p class="returnToSection">[ <a
+href="#adding_pictures_to_your_web_page">Powrót do początku rozdziału</a> ]</p>
+
+<h3 id="editing_image_properties">Edycja właściwości obrazka</h3>
+
+<p>Po wstawieniu obrazka można zmienić jego właściwości i wygląd na stronie 
+(jak np. wysokość, szerokość, odstęp od tekstu). Aby wyświetlić okno 
+Właściwości należy:
+</p>
+
+<ol>
+
+  <li>Kliknąć dwukrotnie na dany obrazek lub zaznaczyć go i nacisnąć przycisk
+  <img src="images/image.png" alt="" /> Obrazek na pasku
+  narzędzi, aby otworzyć okno właściwości obrazka.</li>
+
+  <li>Zakładka Adres pozwala na edycję następujących właściwości:
+
+  <ul>
+    <li><strong>Adres obrazka</strong>: można określić nazwę pliku obrazka.</li>
+    
+    <li><strong>Adres URL jest relatywny do adresu strony</strong>: gdy opcja jest zaznaczona
+	&brandShortName; automatycznie przekształca adres pliku obrazka na adres relatywny (względny).
+	Adresy względne pozwalają na łatwe przenoszenie dokumentu i obrazków w nim zawartych.
+	<p>Opcja dostępna jest tylko w zapisanych wcześniej dokumentach.</p></li>
+
+    <li><strong>Tekst alternatywny</strong>: określa tekst, który pojawi się
+	zamiast obrazka w przeglądarkach tekstowych lub u użytkowników, którzy wyłączyli
+	w swoich przeglądarkach ładowanie obrazków. Podanie tekstu alternatywnego jest
+	zalecane.</li>
+    
+    <li><strong>Nie używaj alternatywnego tekstu</strong>: wyłącza tekst alternatywny dla 
+	danego obrazka.</li>
+    
+  </ul>
+  </li>
+  <li>Zakładka Wymiary:
+  <ul>
+    <li><strong>Rozmiar oryginalny</strong>: obrazek będzie prezentowany w swoim oryginalnym rozmiarze.</li>
+    
+    <li><strong>Rozmiar niestandardowy</strong>: pozwala na określenie
+	rozmiarów obrazka wyświetlanego na stronie. Obrazek nie jest fizycznie zmniejszany,
+	a tylko skalowany przez przeglądarkę.</li>
+    
+    <li><strong>Zachowaj skalę</strong>: pozwala zachować proporcję wysokości i szerokości
+	obrazka przy zmianie rozmiaru.</li>
+    
+  </ul>
+  </li>
+  <li>Zakładka Wygląd:
+  <ul>
+    <li><strong>Odstępy</strong>: pozawala określić rozmiary odstępów pomiędzy obrazkiem
+	a sąsiednimi elementami strony. Można także włączyć obramowanie dla obrazka. </li>
+
+    <li><strong>Wyrównaj tekst względem obrazka</strong>: dla obrazków zamieszczonych
+	w tekście można wybrać sposób wyrównania. Możliwości prezentowane są za pomocą
+	ikon na liście rozwijalnej.</li>
+
+    <li><strong>Mapa obrazka</strong>: za pomocą przycisku Usuń można usunąć mapę.</li>
+
+  </ul>
+  </li>
+  <li>Zakładka Odnośnik:
+  <ul>
+    <li><strong>Wprowadź adres strony WWW...</strong>: aby obrazek stał
+	się odnośnikiem wystarczy podać adres elementu docelowego odnośnika.
+	Adres można wpisać, wybrać nazwę kotwicy z listy rozwijalnej lub skorzystać
+	z przycisku Wybierz plik.</li>
+
+	<li><strong>Adres URL jest relatywny do adresu strony</strong>: gdy opcja jest zaznaczona
+	&brandShortName; automatycznie przekształca adres pliku docelowego na adres relatywny (względny).
+	W przypadku elementu docelowego przechowywanego razem z dokumentem zaleca się
+	korzystać z adresu relatywnego. W przypadku elementów na innych serwerach lub dyskach trzeba
+	skorzystać z adresu absolutnego.
+	<p>Opcja dostępna jest tylko dla zapisanych wcześniej dokumentów.</p></li>
+
+    <li><strong>Pokaż obramowanie wokół obrazka z odnośnikiem</strong>: pozwala
+	określić, czy zaznaczyć za pomocą obramowania, że obrazek jest odnośnikiem.</li>
+  </ul>
+  </li>
+  
+  <p><strong>Uwaga</strong>: Aby nadać inne atrybuty lub zdarzenia 
+	JavaScript należy kliknąć przycisk <a href="#using_the_advanced_property_editor">
+	Edycja zaawansowana</a>.</p>
+
+  <li>Nacisnąć OK, aby zatwierdzić zmiany.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#adding_pictures_to_your_web_page">Powrót do początku rozdziału</a> ]</p>
+
+<p>[<a href="toc.xhtml">Następny</a>] [<a href="tables.xhtml">Poprzedni</a>]</p>
+
+<div class="copyrightBox"><em>20 czerwca 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the Nvu
+Help Documentation Project.</p>
+
+<p>Polskie tłumaczenie: Copyright &copy; 2003-2005 Mozillapl.org oraz AviaryPL.</p>
+
+</body>
+</html>

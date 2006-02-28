@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" [
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD;
+]>
+
+<!--
+Original Author:
+"KDS Sahambi" <kds.sahambi AT gmail DOT com>
+Contributor(s):
+Wadim Dziedzic <nikdo@aviary.pl> (polish translation)
+Piotr Pielach <cleriic@aviary.pl> (polish translation)
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>&brandShortName; - Skróty klawiaturowe</title>
+    <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+  </head>
+  <body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Pokaż/Ukryj</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Centrum pomocy</span></td>
+</tr>
+</table>
+<div id="contentsBox">W tym rozdziale:
+    <a href="#using_shortcuts">Korzystanie ze skrótów klawiaturowych</a>
+    <a href="#general_shortcuts">Skróty ogólne</a>
+    <a href="#nvu_composition_shortcuts">Skróty edycyjne</a>
+    <a href="#help_window_shortcuts">Skróty okna pomocy</a>
+</div>
+
+    <h1>&brandShortName; - Skróty klawiaturowe</h1>
+
+    <h2 id="using_shortcuts">Korzystanie ze skrótów klawiaturowych</h2>
+
+    <p>W niniejszym dokumencie zastosowano poniższy format zapisu skrótów klawiaturowych:</p>
+
+    <p><strong>Przykład:</strong></p>
+
+    <table class="defaultTable">
+      <colgroup>
+	<col class="commandColumn"></col>
+	<col class="osFirstColumn"></col>
+      </colgroup>
+      <thead>
+	<tr>
+	  <th>Polecenie</th>
+	  <th><span class="win">Windows</span><span class="mac">Mac
+	  OS</span><span class="unix">Unix/Linux</span></th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Kopiuj</td>
+	  <td><span class="noMac">Ctrl+C</span><span
+	  class="mac">Cmd+C</span></td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p>Aby wykonać polecenie, należy wcisnąć i przytrzymać klawisz <kbd
+    class="noMac">Ctrl</kbd><kbd class="mac">Cmd</kbd>, a następnie
+	nacisnąć raz klawisz skrótu <kbd>C</kbd>.</p>
+
+    <p><strong>Podpowiedź</strong>: Znak plus (+) oznacza, że należy nacisnąć
+	opisane klawisze jednocześnie. Gdy znaków + jest więcej (np. Ctrl+Shift+C), 
+	należy nacisnąć jednocześnie więcej klawiszy.</p>
+
+    <p><strong>Notacja:</strong></p>
+
+    <ul>
+      <li><span class="noMac">Ctrl</span><span class="mac">Cmd</span> =
+      <span class="noMac">klawisz Control</span><span class="mac">
+	  klawisz Command na klawiaturze Maca</span></li>
+    </ul>
+
+    <p><strong>Uwaga</strong>: Niektóre skróty działają różnie w zależności
+	od położenia kursora. Na przykład klawisz Home podczas przeglądania
+	strony przenosi widok do początek dokumentu, a gdy program jest w trybue
+	edycji naciśnięcie Home powoduje przeniesienie kursora na początek linii (pola tekstowego).</p>
+
+    <p class="returnToSection">[ <a
+    href="#using_shortcuts">Powrót do poczatku rozdziału</a> ]</p>
+
+    <h2 id="general_shortcuts">Skróty ogólne</h2>
+
+    <table class="defaultTable">
+      <colgroup>
+	<col class="commandColumn"></col>
+	<col class="osFirstColumn"></col>
+      </colgroup>
+      <thead>
+	<tr>
+	  <th>Polecenie</th>
+	  <th><span class="win">Windows</span><span
+	  class="unix">Unix/Linux</span><span class="mac">MacOS</span></th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Otwórz plik</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+O</td>
+	</tr>
+	<tr>
+	  <td>Nowa strona/szablon</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+N</td>
+	</tr>
+	<tr>
+	  <td>Nowy panel</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+T</td>
+	</tr>
+	<tr>
+	  <td>Zapisz plik</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+S</td>
+	</tr>
+	<tr>
+	  <td>Kopiuj</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+C</td>
+	</tr>
+	<tr class="even">
+	  <td>Wklej</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+V</td>
+	</tr>
+	<tr>
+	  <td>Wytnij</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+X</td>
+	</tr>
+	<tr class="even">
+	  <td>Zaznacz wszystko</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+A</td>
+	</tr>
+	<tr>
+	  <td>Zamknij okno</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+W</td>
+	</tr>
+	<tr class="even">
+	  <td>Usuń następny wyraz</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Del</td>
+	</tr>
+	<tr>
+	  <td>Poprzednia strona</td>
+	  <td>Page Up</td>
+	</tr>
+	<tr class="even">
+	  <td>Następna strona</td>
+	  <td>Page Down</td>
+	</tr>
+	<tr>
+	  <td>Poprzednia linia</td>
+	  <td>Up Arrow</td>
+	</tr>
+	<tr class="even">
+	  <td>Następna linia</td>
+	  <td>Down Arrow</td>
+	</tr>
+	<tr>
+	  <td>Cofnij</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Z</td>
+	</tr>
+	<tr class="even">
+	  <td>Ponów</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+Z</td>
+	</tr>
+	<tr>
+	  <td>Znajdź i zamień</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+F</td>
+	</tr>
+	<tr class="even">
+	  <td>Znajdź następne</td>
+	  <td><span class="noMac">Ctrl+G</span><span class="win"> or
+	  F3</span><span class="mac">Cmd+G</span></td>
+	</tr>
+	<tr>
+	  <td>Znajdź poprzednie</td>
+	  <td><span class="noMac">Ctrl+Shift+F</span><span
+	  class="mac">?</span></td>
+	</tr>
+	<tr>
+	  <td>Open Context Menu</td>
+	  <td><span class="noMac">Shift+F10</span><span
+	  class="mac">Ctrl+Space</span></td>
+	</tr>
+	<tr class="even">
+	  <td>
+	    Otwórz główne menu<span class="noMac">(otwiera pierwsze menu okna)</span>
+	  </td>
+	  <td><span class="win">Alt lub</span><span
+	  class="noMac">F10</span><span class="mac">W zależności os ustawień systemu.</span></td>
+	</tr>
+	<tr>
+	  <td>Początek linii</td>
+	  <td><span class="win">Home</span><span class="mac">Cmd+Lewa
+	  Strzałka</span><span class="unix">Ctrl+A</span></td>
+	</tr>
+	<tr class="even">
+	  <td>Koniec linii</td>
+	  <td><span class="win">End</span><span class="mac">Cmd+Prawa
+	  Strzałka</span><span class="unix">Ctrl+E</span></td>
+	</tr>
+	<tr>
+	  <td>Następny panel (gdy otwarte są conajmniej 2 panele)</td>
+	  <td>Ctrl+Page Down</td>
+	</tr>
+	<tr class="even">
+	  <td>Poprzedni panel(gdy otwarte są conajmniej 2 panele)</td>
+	  <td>Ctrl+Page Up</td>
+	</tr>
+	<tr>
+	  <td>Zamknij panel</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+W</td>
+	</tr>
+	<tr class="even">
+	  <td>Zakończ &brandShortName;</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Q</td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p class="returnToSection">[ <a
+    href="#using_shortcuts">Powrót do początku rozdziału</a> ]</p>
+
+    <h2 id="nvu_composition_shortcuts">Skróty edycyjne</h2>
+
+    <p>Skróty klawiaturowe przydatne podczas edycji dokumentów HTML w &brandShortName;.</p>
+
+    <table class="defaultTable">
+      <colgroup>
+	<col class="commandColumn"></col>
+	<col class="osFirstColumn"></col>
+      </colgroup>
+      <thead>
+	<tr>
+	  <th>Polecenie</th>
+	  <th><span class="win">Windows</span><span
+	  class="unix">Unix/Linux</span><span class="mac">MacOS</span></th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Otwóż adres internetowy</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+L</td>
+	</tr>
+	<tr>
+	  <td>Publikuj</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+S</td>
+	</tr>
+	<tr class="even">
+	  <td>Pomniejsz tekst</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+-</td>
+	</tr>
+	<tr>
+	  <td>Powiększ tekst</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+= OR
+	  <span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>++ (plus)</td>
+	</tr>
+	<tr class="even">
+	  <td>Rozmiar tekstu - 100%</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+O</td>
+	</tr>
+	<tr>
+	  <td>Wstaw/Edytuj odnośnik</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+L</td>
+	</tr>
+	<tr class="even">
+	  <td>Tekst <b>pogrubiony</b></td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+B</td>
+	</tr>
+	<tr>
+	  <td>Tekst <i>pochylony</i></td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+I</td>
+	</tr>
+	<tr class="even">
+	  <td>Tekst <u>podkreślony</u></td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+U</td>
+	</tr>
+	<tr>
+	  <td>Zwiększ wcięcie</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+[</td>
+	</tr>
+	<tr class="even">
+	  <td>Zmniejsz wcięcie</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+]</td>
+	</tr>
+	<tr>
+	  <td>Zakończ używanie stylów tekstu</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+Y</td>
+	</tr>
+	<tr class="even">
+	  <td>Zakończ odnośnik</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+K</td>
+	</tr>
+	<tr>
+	  <td>Zaznacz wiersz/kolumnę</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+przeciągnięcie kursora myszy</td>
+	</tr>
+	<tr class="even">
+	  <td>Zaznacz komórki</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Kliknięcie myszą (przeciągnąć lub klikać, aby zaznaczyć więcej komórek)</td>
+	</tr>
+	<tr>
+	  <td>Menedżer stron</td>
+	  <td>F9</td>
+	</tr>
+	<tr class="even">
+	  <td>Sprawdź pisownię</td>
+	  <td><span class="noMac">Ctrl+K</span><span
+	  class="mac">Cmd+K</span></td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p class="returnToSection">[ <a
+    href="#using_shortcuts">Powrót do początku rozdziału</a> ]</p>
+
+    <h2 id="help_window_shortcuts">Skróty klawiaturowe okna pomocy</h2>
+
+    <table class="defaultTable">
+      <colgroup>
+	<col class="commandColumn"></col>
+	<col class="osFirstColumn"></col>
+      </colgroup>
+      <thead>
+	<tr>
+	  <th>Polecenie</th>
+	  <th><span class="win">Windows</span><span class="mac">Mac
+	  OS</span><span class="unix">Unix/Linux</span></th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Przejście pomiędzy odnośnikami w oknie treści</td>
+	  <td>Tab</td>
+	</tr>
+	<tr>
+	  <td>Włącz/wyłącz sidebar</td>
+	  <td>F9</td>
+	</tr>
+	<tr>
+	  <td>Powiększ tekst</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+= OR <span
+	  class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift++ (plus)</td>
+	</tr>
+	<tr>
+	  <td>Pomniejsz tekst</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+- (minus)</td>
+	</tr>
+	<tr>
+	  <td>Przejście między treścią a wyszukiwaniem/spisem treści/indeksem/słownikiem</td>
+	  <td>F6</td>
+	</tr>
+	<tr>
+	  <td>Przejście między terminami indeksu</td>
+	  <td>Strzałki w górę/w dół</td>
+	</tr>
+	<tr>
+	  <td>Przewijanie</td>
+	  <td>Strzałki w górę/w dół</td>
+	</tr>
+	<tr>
+	  <td>Zwijanie/rozwijanie elementów drzewa</td>
+	  <td>Strzałki w prawo/w lewo</td>
+	</tr>
+	<tr>
+	  <td>Drukuj stronę</td>
+	  <td><span class="noMac">Ctrl+P</span><span
+	  class="mac">Cmd+P</span></td>
+	</tr>
+	<tr>
+	  <td>Poprzednia strona</td>
+	  <td><span class="noMac">Alt</span><span
+	  class="mac">Cmd</span>+strzałka w lewo</td>
+	</tr>
+	<tr>
+	  <td>Następna strona</td>
+	  <td><span class="noMac">Alt</span><span
+	  class="mac">Cmd</span>+strzałka w prawo</td>
+	</tr>
+	<tr>
+	  <td>Zamknij okno pomocy</td>
+	  <td><span class="noMac">Ctrl</span><span class="mac">Cmd</span>+W</td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p class="returnToSection">[ <a
+    href="#using_shortcuts">Powrót do początku rozdziału</a> ]</p>
+
+    <div class="copyrightBox"><em>30 maja 2005</em></div>
+
+    <p>Copyright &copy; 2004-2005 Contributors to the Nvu
+    Help Documentation Project.</p>
+	<p>Polskie tłumaczenie: Copyright &copy; 2004-2005 Mozillapl.org oraz AviaryPL.</p>
+
+  </body>
+</html>

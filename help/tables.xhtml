@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Tworzenie stron WWW za pomocą &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Pokaż/Ukryj</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Centrum pomocy</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">W tym dokumencie opisano:
+  <a href="composer_help.xhtml#starting_a_new_page">Tworzenie nowej strony</a>
+  
+  <a href="formatting_webpages.xhtml">Formatowanie stron</a>
+  
+  <a href="css.xhtml">Korzystanie z arkuszy stylów</a>
+  
+  <a href="tables.xhtml">Tabele</a>
+  
+  <a href="images.xhtml">Obrazki</a>
+  
+  <a href="toc.xhtml">Automatyczny spis treści dokumentu</a>
+  
+  <a href="templates.xhtml">Szablony</a>
+  
+  <a href="page_properties.xhtml">Ustawianie właściwości strony</a>
+  
+  <a href="links.xhtml">Tworzenie odnośników</a>
+    
+  <a href="customize.xhtml">Dostosowywanie &brandShortName;</a>
+</div>
+
+<h2 id="adding_tables_to_your_web_page">Tabele</h2>
+
+<h3 id="inserting_a_table">Wstawianie tabeli</h3>
+
+<p>Tabele są przydatne do organizowania tekstu, obrazków i innych danych w wiersze i kolumny.
+Aby wstawić do dokumentu tabelę, należy:</p>
+
+<ol>
+  <li>Ustawić kursor w miejscu gdzie ma pojawić się tabela.</li>
+
+  <li>Nacisnąć przycisk Tabela
+  <img src="images/table.png" alt="" /> na 
+  pasku narzędzi. Otwarte zostanie okno dialogowe.</li>
+
+  <li>Podać liczbę kolumn i wierszy tabeli.
+  <ul>
+    <li>(Nieobowiązkowo) Podać szerokość tabeli w procentach szerokości okna lub w pikselach.</li>
+  </ul>
+  </li>
+
+  <li>Podać szerokość krawędzi tabeli (w pikselach); wpisać zero dla tabeli bez widocznej krawędzi.
+  
+  <p><strong>Uwaga</strong>: &brandShortName; pokazuje tabele bez krawędzi 
+  za pomocą czerwonej kropkowanej linii. Linia ta jest niewidoczna przy przeglądaniu
+  dokumentu w przeglądarce internetowej.</p></li>
+
+  <li>Aby nadać inne atrybuty tabeli lub zdarzenia JavaScript należy kliknąć 
+  przycisk <a href="#using_the_advanced_property_editor">Zaawansowana edycja</a>.</li>
+
+  <li>Nacisnąć przycisk OK, aby utworzyć tabelę.</li>
+</ol>
+
+<p>Zmianę dodatkowych parametrów tabel opisano we fragmencie
+<a href="#changing_a_tables_properties">Zmiana właściwości tabeli</a>.</p>
+
+<p><strong>Podpowiedź</strong>: Tabele mogą zawierać w sobie kolejne tabele. Wstawia się je
+w taki sam sposób.</p>
+
+<p class="returnToSection">[ <a
+href="#adding_tables_to_your_web_page">Powrót do początku rozdziału</a> ]</p>
+
+<h3 id="changing_a_tables_properties">Zmiana właściwości tabeli</h3>
+
+<p>Fragment ten opisuje jak zmodyfikować właściwości tabeli, wiersza, 
+kolumny lub poszczególnych komórek w tabeli.
+Aby wyświetlić okno Właściwości tabeli, należy:</p>
+
+<ol>
+  <li>Zaznaczyć tabelę lub kliknąć w jej obrębie.</li>
+
+  <li>Nacisnąć przycisk Tabela
+  <img src="images/table.png" alt="" /> 
+  na pasku narzędzi lub z menu aplikacji wybrać <span class="menuPath">
+  Tabela &gt; Właściwości tabeli</span>.</li>
+
+  <li>W zakładce Tabela można zmienić następujące parametry:
+  <ul>
+    <li><strong>Rozmiar</strong>: pozwala ustalić liczbę kolumn i wierszy oraz szerokość tabeli.
+	W przypadku wyboru jednostki "% okna" rozmiar tabeli będzie 
+	się zmieniał z każdą zmianą rozmiaru okna &brandShortName; lub przeglądarki.</li>
+
+    <li><strong>Obramowanie i odstępy</strong>: 
+	pozwala określić szerokość krawędzi, odstęp pomiędzy komórkami i margines wewnątrz komórek.
+	<p><strong>Uwaga</strong>: &brandShortName; pokazuje tabele bez krawędzi 
+  za pomocą czerwonej kropkowanej linii. Linia ta jest niewidoczna przy przeglądaniu
+  dokumentu w przeglądarce internetowej.</p></li>
+
+    <li><strong>Wyrównanie tabeli</strong>: pozwala ustalić wyrównanie tabeli
+	względem strony; należy wybrać żądaną wartość z menu rozwijalnego.</li>
+
+    <li><strong>Podpis</strong>: pozwala wybrać z menu rozwijalnego położenie podpisu tabeli.</li>
+
+    <li><strong>Kolor tła</strong>: pozwala wybrać kolor tła dla tabeli lub pozostawić ją przezroczystą.</li>
+
+  </ul>
+  </li>
+
+  <li>Aby nadać inne atrybuty tabeli lub zdarzenia JavaScript należy kliknąć 
+  przycisk <a href="#using_the_advanced_property_editor">Zaawansowana edycja</a>.</li>
+
+  <li>Nacisnąć Zastosuj, aby przejrzeć zmiany bez zamykania okna dialogowego lub
+  OK, aby zatwierdzić zmiany.</li>
+</ol>
+
+<p>Aby przejrzeć, zmienić lub dodać właściwości jednej lub więcej komórek, należy:</p>
+
+<ol>
+  <li>Zaznaczyć wiersz, kolumnę lub komórkę, a następnie z menu <span class="menuPath">Tabela</span> 
+  wybrać pozycję <span class="menuPath">Właściwości tabeli</span>.</li>
+
+  <li>Wybrać zakładkę Komórki, aby zmienić następujące właściwości:
+  <ul>
+    <li><strong>Zaznaczenie</strong>: pozwala wybrać komórkę, wiersz lub kolumnę,
+	której właściwości będą edytowane. Naciskając przyciski Poprzedni i Następny można poruszać 
+	się pomiędzy poszczególnymi komórkami, wierszami i kolumnami.</li>
+
+    <li><strong>Rozmiar</strong>: pozwala ustalić Wysokość i Szerokość 
+	w pikselach lub procentach rozmiaru całej tabeli.</li>
+
+    <li><strong>Wyrównanie zawartości</strong>: pozwala ustalić pionowe i poziome wyrównanie 
+	dla zawartości każdej z komórek.</li>
+
+    <li><strong>Typ komórki</strong>: pozwala określić czy komórka jest nagłówkiem kolumny lub 
+	wiersza (tekst w nagłówku jest wyśrodkowany i pogrubiony) czy też jest to normalna komórka.</li>
+
+    <li><strong>Zawijanie tekstu</strong>: wybranie "Nie zawijaj" spowoduje, że tekst będzie 
+	wyświetlany w jednej linii aż do napotkania znaku końca akapitu; wybranie 
+	"Zawijaj" powoduje normalne zachowanie się tekstu w komórce.</li>
+
+    <li><strong>Kolor tła</strong>:  pozwala wybrać kolor tła komórki lub pozostawić ją przezroczystą.
+	
+	
+    <p><strong>Uwaga</strong>: Aby nadać inne atrybuty tabeli lub zdarzenia 
+	JavaScript należy kliknąć przycisk <a href="#using_the_advanced_property_editor">
+	Zaawansowana edycja</a>.</p></li>
+  </ul>
+  </li>
+  <li>Nacisnąć Zastosuj, aby przejrzeć zmiany bez zamykania okna dialogowego lub
+  OK, aby zatwierdzić zmiany.</li>
+</ol>
+
+<p><strong>Podpowiedź</strong>: Aby szybko zmienić kolor tekstu lub tła jednej lub więcej komórek
+należy zaznaczyć komórki i kliknąć przycisk Wybierz kolor tła lub Wybierz kolor tekstu
+na pasku narzędzi formatowania.</p>
+
+<p><strong>Podpowiedź</strong>: Aby szybko zmienić kolor komórki na ostatnio użyty należy zaznaczyć komórkę,
+a następnie trzymając wciśnięty klawisz Shift kliknąć przycisk Wybierz kolor tła na pasku narzędzi 
+formatowania.</p>
+
+<p class="returnToSection">[ <a
+href="#adding_tables_to_your_web_page">Powrót do początku rozdziału</a> ]</p>
+
+<h3 id="adding_and_deleting_rows_columns_and_cells">Dodawanie i usuwanie wierszy, kolumn i komórek</h3>
+
+<p>&brandShortName; pozwala na szybkie dodawanie i usuwanie komórek w tabeli.
+Dodatkowo można ustawić opcje, które spowodują zachowywanie oryginalnej 
+struktury tabeli podczas jej edycji.</p>
+
+<p>Aby dodać komórkę, wiersz lub kolumnę do tabeli, należy:</p>
+
+<ol>
+  <li>Ustawić kursor w miejscu gdzie ma się pojawić komórka (komórki).</li>
+
+  <li>Z menu <span class="menuPath">Tabela</span> wybrać pozycję <span class="menuPath">Wstaw</span>.</li>
+
+  <li>Wybrać jedną z dostępnych opcji. Można także wstawić nową tabelę do komórki.</li>
+</ol>
+
+<p>Aby usunąć komórkę, wiersz lub kolumnę, należy:</p>
+
+<ol>
+  <li>Wybrać za pomocą myszy wiersz, kolumnę lub komórkę bądź zaznaczyć 
+  sąsiednie komórki aby usunąć więcej niż jeden wiersz. Aby zaznaczyć sąsiednie 
+  komórki należy podczas przeciągania zaznaczenia myszą trzymać wciśnięty klawisz 
+  Ctrl (Windows i Linux/Unix) lub Command (Macintosh).</li>
+
+  <li>Z menu <span class="menuPath">Tabela</span> wybrać pozycję <span class="menuPath">Usuń</span>.</li>
+
+  <li>Wybrać element do usunięcia.</li>
+</ol>
+
+<p>Aby połączyć komórkę z sąsiednią (z prawej strony), należy:</p>
+
+<ul>
+  <li>Ustawić kursor wewnątrz komórki, z menu <span class="menuPath">Tabela</span>
+  wybrać opcję  <span class="menuPath">Połącz</span> z prawą komórką.</li>
+</ul>
+
+<p>Aby połączyć sąsiednie komórki, należy:</p>
+
+<ul>
+ <li>Zaznaczyć komórki trzymając wciśnięty klawisz Ctrl (Windows i Linux) lub Command (Macintosh).</li>
+ <li>Z menu <span class="menuPath">Tabela</span> wybrać <span class="menuPath">Złącz zaznaczone komórki</span>.</li>
+</ul>
+
+<p>Aby rozdzielić połączone komórki, należy:</p>
+
+<ul>
+  <li>Ustawić kursor wewnątrz komórki, a następnie z menu 
+  <span class="menuPath">Tabela</span> wybrać <span class="menuPath">Podziel komórkę</span>.
+  Zawartość połączonej komórki umieszczana jest w pierwszej z podzielonych komórek.</li>
+</ul>
+
+<p>Fragment <a href="#selecting_table_elements">Zaznaczanie fragmentów tabeli</a>
+zawiera informacje o tym jak zaznaczać komórki niesąsiadujące ze sobą.</p>
+
+<h3 id="changing_the_default_table_table_editing_behavior">Zmiana domyślnego 
+zachowania tabeli podczas edycji</h3>
+
+<p>Domyślnie podczas usuwania komórek &brandShortName; zachowuje strukturę tabeli dodając, gdy potrzeba, komórki na końcu. Pozwala to zachować prostokątny kształt tabeli podczas usuwania komórek. 
+W przeciwnym wypadku usuwanie komórek mogłoby doprowadzić do wypełnienia tabeli pustymi miejscami lub nieregularnego kształtu tabeli z powodu nieparzystej liczby komórek.</p>
+
+<p>Aby zmienić domyślne zachowanie tabeli podczas edycji:</p>
+
+<ol>
+  <li>Z menu <span class="menuPath">Narzędzia</span> wybrać <span class="menuPath">Opcje</span>.</li>
+
+  <li>W sekcji ogólne, w części Edycja tabel zaznaczyć lub odznaczyć opcję "Utrzymuj
+  wygląd tabeli podczas dodawania i usuwania komórek."
+
+  <ul>
+    <li>Zaznaczenie opcji zapewnia, że tabela cały czas utrzymuje regularny kształt.</li>
+  </ul>
+  </li>
+
+  <li>Nacisnąć przycisk OK.</li> 
+</ol>
+
+<p>Zob. także <a href="#composer_preferences_general">Opcje &brandShortName;</a>.</p>
+
+<p class="returnToSection">[ <a
+href="#adding_tables_to_your_web_page">Powrót do początku rozdziału</a> ]</p>
+
+<h3 id="selecting_table_elements">Zaznaczanie fragmentów tabeli</h3>
+
+<p>Można szybko zaznaczyć tabelę, komórkę lub grupę komórek stosując jeden 
+z niżej opisanych sposobów:</p>
+
+<ul>
+  <li>Ustawić kursor w tabeli, z menu <span class="menuPath">Tabela</span> 
+  wybrać <span class="menuPath">Zaznacz</span>, a następnie żądaną opcję.</li>
+
+  <li>Korzystając z myszy:</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <ul> 
+      <li>Aby zaznaczyć grupę sąsiadujących komórek należy: kliknąć w komórkę, 
+	  wcisnąć klawisz Ctrl (Windows i Linux) lub Command (Macintosh) i 
+	  przeciągnąć kursor myszy w lewo lub prawo aby zaznaczyć wiersz i w górę 
+	  lub w dół aby zaznaczyć kolumnę.</li>
+
+	  <li>Aby zaznaczyć komórki niesąsiadujące ze sobą należy: wcisnąć klawisz Ctrl 
+	  (Windows i Linux) lub Command (Macintosh) i kliknąć w komórkę. Trzymając 
+	  wciśnięty Ctrl lub Command klikać kolejne komórki.</li>
+	  
+      <li>Aby rozszerzyć zaznaczenie o sąsiadujące komórki należy: wcisnąć 
+	  klawisz Ctrl (Windows i Linux) lub Command (Macintosh) i kliknąć w komórkę, 
+	  a następnie wcisnąć klawisz Shift podczas klikania w kolejne komórki.</li>
+
+      <li>Aby zaznaczyć jedną lub więcej sąsiadujących kolumn/wierszy należy: wcisnąć 
+	  klawisze Ctrl+Shift (Windows i Linux) lub Command+Shift (Macintosh) i przeciągnąć 
+	  zaznaczenie w górę/prawo lub w dół/lewo aby zaznaczyć kolumnę/wiersz, przeciągając 
+	  kursor myszy w prawo/górę lub w lewo/dół można zaznaczyć kolejne sąsiadujące kolumny/wiersze.</li>
+      </ul>
+  </li>
+</ul>
+
+<p class="returnToSection">[ <a
+href="#adding_tables_to_your_web_page">Powrót do początku rozdziału</a> ]</p>
+
+<h3 id="moving_copying_and_deleting_tables">Przenoszenie, kopiowanie i usuwanie tabel</h3>
+
+<p>Przenoszenie tabeli:</p>
+
+<ol>
+  <li>Ustawić kursor wewnątrz tabeli.</li>
+
+  <li>Z menu <span class="menuPath">Tabela</span> wybrać <span class="menuPath">Zaznacz</span>,
+  a następnie <span class="menuPath">Tabelę</span></li>
+</ol>
+
+<ul> 
+  <li>Aby skopiować lub przenieść tabelę, należy skorzystać z poleceń <span class="menuPath">
+  Kopiuj, Wytnij, Wklej</span> z  menu <span class="menuPath">Edycja</span>.</li>
+
+  <li>Aby usunąć tabelę, należy z menu <span class="menuPath">Tabela</span> wybrać 
+  <span class="menuPath">Usuń</span>, a następnie <span class="menuPath">Tabelę</span>.</li>
+</ul>
+
+<h3 id="converting_text_into_a_table">Przekształcanie tekstu w tabelę</h3>
+
+<p>Aby przekształcić tekst w tabelę, należy:</p>
+
+<ol>
+  <li>Zaznaczyć tekst do przekształcenia. (&brandShortName; tworzy nowy 
+  wiersz tabeli dla każdego akapitu zaznaczonego tekstu.)</li>
+
+  <li>Z menu <span class="menuPath">Tabela</span> wybrać opcję
+  <span class="menuPath">Utwórz tabelę z zaznaczenia</span>.</li>
+
+  <li>W oknie dialogowym określić znak rozdzielający kolumny.</li>
+
+  <li>Zaznaczyć "Usuń znak separatora" aby &brandShortName; podczas 
+  tworzenia tabeli usunął znak rozdzielający kolumny.</li>
+
+  <li>Nacisnąć OK.</li>
+</ol>
+
+<p><strong>Uwaga</strong>: Podczas konwersji do tabeli usuwane jest formatowanie 
+konwertowanego tekstu.</p>
+
+<p class="returnToSection">[ <a
+href="#adding_tables_to_your_web_page">Powrót do początku rozdziału</a> ]</p>
+
+<p>[<a href="images.xhtml">Następny</a>] [<a href="css.xhtml">Poprzedni</a>]</p>
+
+<div class="copyrightBox"><em>20 czerwca 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the Nvu
+Help Documentation Project.</p>
+
+<p>Polskie tłumaczenie: Copyright &copy; 2003-2005 Mozillapl.org oraz AviaryPL.</p>
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Tworzenie stron WWW za pomocą &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Pokaż/Ukryj</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Centrum pomocy</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">W tym dokumencie opisano:
+  <a href="composer_help.xhtml#starting_a_new_page">Tworzenie nowej strony</a>
+  
+  <a href="formatting_webpages.xhtml">Formatowanie stron</a>
+  
+  <a href="css.xhtml">Korzystanie z arkuszy stylów</a>
+  
+  <a href="tables.xhtml">Tabele</a>
+  
+  <a href="images.xhtml">Obrazki</a>
+  
+  <a href="toc.xhtml">Automatyczny spis treści dokumentu</a>
+  
+  <a href="templates.xhtml">Szablony</a>
+  
+  <a href="page_properties.xhtml">Ustawianie właściwości strony</a>
+  
+  <a href="links.xhtml">Tworzenie odnośników</a>
+    
+  <a href="customize.xhtml">Dostosowywanie &brandShortName;</a>
+</div>
+
+<h2 id="working_with_table_of_contents_on_your_web_page">Automatyczny spis treści dokumentu</h2>
+
+<h3 id="adding_table_of_contents_to_your_web_page">Tworzenie spisu treści</h3>
+
+<p>W przypadku długiego dokumentu zawierającego rozdziały, podrozdziały itp., aby
+ułatwić nawigację, przydatne może być utworzenie spisu treści. &brandShortName;
+umożliwia automatyczne tworzenie i aktualizowanie spisu treści.
+Aby utworzyć spis treści, należy:</p>
+
+<ol>
+  <li>Korzystać ze znaczników nagłówków (h1, h2, h3, h4, h5 oraz h6) do
+oznaczania kolejnych poziomów nagłówków dokumentów.</li>
+  <li>Zapisać dokument</li>
+
+  <li>Z menu aplikacji wybrać: <span class="menuPath"> Wstaw &gt; Spis treści...</span>,
+  a następnie <span class="menuPath">Wstaw</span>.</li>
+
+  <li>Wybrać poziomy nagłówków, które mają znaleźć się w spisie. W oknie tym można także
+  przypisać elementom spisu klasę arkusza stylów.</li>
+  
+  <li>Nacisnąć przycisk OK, aby utworzyć spis treści.</li>
+</ol>
+
+<p>Pozycje wygenerowanego spisu treści domyślnie są numerowane. Aby 
+utworzyć wypunktowany spis treści wystarczy odznaczyć opcję "Numeruj 
+wszystkie pozycje spisu treści" w oknie tworzenia spisu. Opcja "Utwórz
+spis treści tylko do odczytu" pozwala stworzyć spis treści będący tekstem 
+(a nie odnośnikami).</p>
+
+<p class="returnToSection">[ <a
+href="#working_with_table_of_contents_on_your_web_page">Powrót do początku rozdziału</a> ]</p>
+
+<h3 id="updating_or_removing_table_of_contents">Aktualizacja i usuwanie spisu treści</h3>
+
+<p>W przypadku, gdy po utworzeniu spisu struktura dokumentu została zmieniona,
+spis treści można automatycznie zaktualizować. W tym celu wystarczy
+z menu <span class="menuPath">Wstaw &gt; Spis treści...</span> wybrać
+pozycję <span class="menuPath">Aktualizuj</span>.</p>
+
+<p>Aby usunąć spis treści, należy z menu <span class="menuPath">
+Wstaw &gt; Spis treści...</span> wybrać
+pozycję <span class="menuPath">Usuń</span>.</p>
+
+<p class="returnToSection">[ <a
+href="#working_with_table_of_contents_on_your_web_page">Powrót do początku rozdziału</a> ]</p>
+
+<p>[<a href="templates.xhtml">Następny</a>] [<a href="images.xhtml">Poprzedni</a>]</p>
+
+<div class="copyrightBox"><em>20 czerwca 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the Nvu
+Help Documentation Project.</p>
+
+<p>Polskie tłumaczenie: Copyright &copy; 2003-2005 Mozillapl.org oraz AviaryPL.</p>
+
+</body>
+</html>

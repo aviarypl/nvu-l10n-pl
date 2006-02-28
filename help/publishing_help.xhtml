@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Tworzenie stron WWW za pomocą &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Pokaż/Ukryj</a></small></td><td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Centrum pomocy</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">W tym dokumencie opisano:
+ <a href="#publishing_a_document">Publikacja dokumentu</a>
+ <a href="#publishing_settings">Ustawienia publikacji</a>
+ <a href="#solving_common_publishing_problems">Publikacja - typowe problemy i ich rozwiązania</a>
+</div>
+
+<h1 id="publishing_web_pages_with_nvu">Publikowanie stron WWW za pomocą programu &brandShortName;</h1>
+
+<p>Strony zapisane na dysku twardym mogą być oglądane tylko przez osoby, 
+które mają dostęp do tego komputera. &brandShortName; umożliwia publikację 
+stworzonych stron na zdalnym komputerze, zwanym serwerem.</p>
+
+<p>Publikacja jest procesem, w trakcie którego &brandShortName;
+kopiuje (wysyła) stworzone strony do komputera, który umożliwi ich 
+przeglądanie każdej osobie mającej dostęp do internetu. Większość 
+firm oferujących dostęp do internetu udostępnia na swoich serwerach
+miejsce do publikacji stron internetowych. Jednym ze sposobów na 
+znalezienie serwera do publikacji własnych stron jest zapytanie 
+się o to dostawcy usług internetowych lub administratora systemu.</p>
+
+<h2 id="publishing_a_document">Publikacja dokumentu</h2>
+
+<p>Aby opublikować dokument, należy:</p>
+
+<ol>
+  <li>Otworzyć już istniejący dokument HTML lub stworzyć nowy.</li>
+
+  <li>Gdy dokument będzie gotowy do publikacji, kliknąć przycisk 
+  <q>Publikuj</q> <img src="images/publish.png" width="40" height="40" alt="" />. 
+
+  <p>Jeśli dany dokument był już wcześniej publikowany, wszystkie ustawienia 
+  zostały zapamiętane i od razu rozpocznie się wysyłanie plików.
+  W trakcie publikowania wyświetlane jest okienko dialogowe, 
+  informujące o postępie wysyłania plików.</p>
+
+  <ul>
+    <li>Jeśli dany dokument nigdy wcześniej nie był publikowany, 
+    otwarta zostanie zakładka <q>Ustawienia</q> okna 
+    <q>Opublikuj stronę</q>. Należy wprowadzić w niej informacje 
+    o serwerze, na którym dany dokument ma zostać umieszczony. 
+    Więcej informacji o tej zakładce znajduje się w dziale <a
+    href="#publish_page_settings">Publikuj stronę - Ustawienia</a>. 
+    Po wprowadzeniu niezbędnych informacji, należy kliknąć 
+    przycisk <q>Opublikuj</q>.</li>
+
+    <li>Jeśli dany dokument nigdy nie został zapisany,
+    otwarta zostanie zakładka <q>Opublikuj</q> okna 
+    <q>Opublikuj stronę</q>. Należy w niej wprowadzić nazwę
+    pliku. Więcej informacji o tej zakładce znajduje się 
+    w dziale <a href="#publish_page_publish">Opublikuj stronę - Opublikuj</a>.
+    Po wprowadzeniu nazwy pliku, należy kliknąć przycisk <q>Opublikuj</q>.</li>
+  </ul>
+  </li>
+  
+  <li>Aby obejrzeć opublikowaną stronę, należy kliknąć przycisk 
+  <q>Podgląd</q>. Następną ważną czynnością jest sprawdzenie, czy 
+  wszystkie odnośniki na stronie działają i czy wyświetlają się
+  obrazki.</li>
+
+  <li>W zależności od potrzeb, stronę można dalej edytować. 
+  Po zakończeniu pracy wystarczy kliknąć przycisk 
+  <q>Publikuj</q>, aby wysłać zaktualizowaną wersję na 
+  serwer.</li>
+</ol>
+
+<p>Po opublikowaniu dokumentu po raz pierwszy, zmieniony zostaje 
+adres URL w tytule okna &brandShortName;. Zmiana <tt>file:///</tt> 
+na <tt>http://</tt> ma na celu zasygnalizowanie użytkownikowi, że 
+edytuje dokument, który został już opublikowany. Chcąc zapisać
+dokument na dysku twardym komputera, należy kliknąć przycisk 
+<q>Zapisz</q>. Wyświetlone zostanie wtedy okienko z prośbą o 
+wybranie nazwy dla pliku oraz miejsca, w którym ma on zostać zapisany.</p>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Powrót do początku rozdziału</a> ]</p>
+
+<h3 id="avoiding_broken_links_or_images">Jak unikać problemów z niedziałającymi odnośnikami i niewyświetlającymi się obrazkami</h3>
+
+<ul>
+  <li>Należy upewnić się, że wszystkie pliki stworzone za pomocą
+  &brandShortName; mają nazwy zakończone rozszerzeniem .html lub .htm. 
+  Nazwy obrazków powinny być zakończone odpowiednim rozszerzeniem .JPG, .GIF, lub 
+  .PNG. W nazwach plików nie powinny znajdować się odstępy (spacje)
+  ani żadne inne znaki i symbole specjalne. Warto zadbać o to, aby 
+  nazwy plików były możliwie krótkie i pisane wyłącznie małą lub 
+  dużą literą. Mogą w nich także występować cyfry.</li>
+
+  <li>Jeśli mimo spełnienia powyższych warunków, podczas przeglądania 
+  dokumentu na serwerze jakieś obrazki wciąż się nie wyświetlają, 
+  prawdopodobnie zapomniano je dołączyć podczas publikacji. Aby to
+  naprawić, należy z menu &brandShortName; wybrać 
+  <span class="menuPath">Plik &gt; Opublikuj jako...</span>. Pojawi się 
+  wtedy okno <q>Opublikuj stronę</q>. Należy przejść do zakładki 
+  <q>Opublikuj</q> i upewnić się, że zaznaczona jest opcja 
+  <q>Dołącz obrazki oraz inne pliki</q>, a następnie kliknąć na przycisk 
+  <q>Opublikuj</q>.
+  </li>
+</ul>
+
+<p>Więcej porad dotyczących rozwiązywania problemów znajduje się w dziale
+<a href="#solving_common_publishing_problems">Rozwiązywanie często występujach
+ problemów z publikacją</a>.</p>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Powrót do początku rozdziału</a> ]</p>
+
+<h3 id="updating_a_published_document">Aktualizacja opublikowanego dokumentu</h3>
+
+<p>Aby zaktualizować opublikowany dokument, należy:</p>
+
+<ol>
+  <li>W głównym oknie programu z menu &brandShortName; wybrać 
+  <span class="menuPath">Plik &gt; Ostatnio edytowane strony</span>, 
+  a następnie wybrać dokument z listy. 
+  <p>Drugą z możliwości jest wybranie z menu &brandShortName; 
+  <span class="menuPath">Plik &gt; Otwórz adres internetowy...</span> i 
+  wpisanie adresu HTTP strony, którą chce się edytować.</p></li>
+  
+  <li>Zmienić treść dokumentu w zależności od potrzeb.</li>
+
+  <li>Gdy dokument będzie gotowy do wysłania na serwer i zastąpienia
+  poprzedniej wersji, należy kliknąć na przycisk <q>Publikuj</q>.</li>
+</ol>
+
+<p id="deleting_a_published_page_or_image"><strong>Podpowiedź</strong>: 
+Aby usunąć opublikowaną na serwerze stronę lub obrazek, zmienić nazwę
+pliku lub utworzyć podkatalog, należy użyć klienta 
+<abbr title="Protokół transweru plików">FTP</abbr>. Dobrze jest zapytać 
+się swojego dostawcy usług internetowych, czy poleca używanie jakiegoś 
+konkretnego programu. Informacje dotyczące programów FTP można zazwyczaj
+znaleźć z dziale Pomoc na witrynie internetowej swojego dostawcy usług 
+internetowych. Programy tego rodzaju są dostępne na witynach oferujących
+oprogramowanie do pobrania, takich jak CHIP Download.</p>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Powrót do początku rozdziału</a> ]</p>
+
+<h3 id="changing_the_filename_or_publishing_location">Zmiana nazwy pliku 
+lub adresu publikacji</h3>
+
+<p>Aby zmienić nazwę pliku dokumentu lub adres publikacji, należy:</p>
+
+<ol>
+  <li>W głównym oknie programu z menu &brandShortName; wybrać 
+  <span class="menuPath">Plik &gt; Ostatnio edytowane strony</span>, 
+  a następnie wybrać dokument z listy. 
+  <p>Drugą z możliwości jest wybranie z menu &brandShortName;
+  <span class="menuPath">Plik &gt; Otwórz adres internetowy...</span> 
+  i wpisanie adresu HTTP strony, którą chce się edytować.</p></li>
+  
+  <li>Zmienić treść dokumentu w zależności od potrzeb.</li>
+
+  <li>Z menu &brandShortName; wybrać 
+  <span class="menuPath">Plik &gt; Opublikuj jako...</span>. 
+  Pojawi się wtedy okno <q>Opublikuj stronę</q>. 
+  Należy przejść do zakładki <q>Opublikuj</q>.</li>
+  
+  <li>Jeśli zajdzie taka potrzeba, zmienić tytuł strony.</li>
+  
+  <li>Jeśli zajdzie taka potrzeba, zmienić nazwę pliku.</li>
+
+  <li>Z listy miejsc publikacji wybrać adres publikacji. Aby utworzyć nowe miejsce publikacj należy skorzystać z przycisku <q>Nowe miejse</q>. Więcej informacji o 
+  tej zakładce znajduje się w dziale 
+  <a href="#publish_page_settings">Publikuj stronę - Ustawienia</a>. 
+  </li>
+
+  <li>Kliknąć przycisk <q>Opublikuj</q>, aby zapisać dokument pod
+  nowym adresem.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Powrót do początku rozdziału</a> ]</p>
+
+<h3 id="creating_a_new_publishing_site">Tworzenie nowego miejsca publikacji</h3>
+
+<p>Planując publikację dokumentów pod więcej niż jednym adresem, 
+program &brandShortName; można tak skonfigurować, aby przechowywał 
+informacje o każdym miejscu publikacji. Dzięki temu nie będzie
+potrzeby ponownego wprowadzania tych danych przy każdej publikacji.</p>
+
+<p>Aby utworzyć nowe miejsce publikacji, należy:</p>
+
+<ol>
+  <li>Z menu &brandShortName; wybrać 
+  <span class="menuPath">Edycja &gt; Ustawienia miejsc 
+  publikacji...</span>.</li>
+
+  <li>Kliknąć przycisk <q>Nowe miejsce</q>.</li>
+
+  <li>W polu <q>Nazwa miejsca</q> wprowadzić nazwę, pod jaką zapamiętany zostanie zestaw ustawień dotyczących miejsca publikacji.
+
+  <p>Przykładowo, jeśli dane miejsce publikacji będzie wykorzystywana do 
+  publikacji dokumentów związanych z projektem <q>Meteor</q>,
+  informacjom o niej można nadać nazwę <q>Meteor</q>. Nazwa
+  miejsca powinna się kojarzyć z rodzajem 
+  dokumentów, które będą na niej publikowane.</p> </li>
+
+  <li>W polu <q>Informacje o serwerze</q> wpisać adres URL, 
+  który należałoby wprowadzić, aby dostać się na publikowane strony 
+  za pomocą przeglądarki internetowej. Proszę nie umieszczać
+  w tym adresie nazwy pliku ani podkatalogu.
+  
+  <p>Adres ten zawsze musi zaczynać się od <tt>http://</tt>. 
+  W razie wątpliwości, warto jest udać się z pytaniem do dostawcy
+  usług internetowych lub administratora systemu. W ostateczności
+  można pozostawić to pole puste.</p></li>
+
+  <li>W polu <q>Dane logowania</q> wprowadzić adres URL
+  uzyskany od swojego dostawcy usług internetowych, administratora 
+  systemu lub dostawcy usług hostingowych. Powinien się on 
+  zaczynać od <tt>ftp://</tt> lub <tt>http://</tt>. 
+  
+  <p>Adres ten określa miejsce, do którego wysyłane będą dokumenty. 
+  W razie wątpliwości, warto jest udać się z pytaniem do dostawcy
+  usług internetowych lub administratora systemu.</p> </li>
+
+  <li>W polu <q>Nazwa użytkownika</q> wprowadzić nazwę, której
+  używa się do połączenia z internetem lub dostawcą usług 
+  hostingowych.</li>
+
+  <li>W polu <q>Hasło</q> wprowadzić hasło dla wyżej
+  wymienionej nazwy użytkownika.</li>
+
+  <li>Zaznaczyć opcję <q>Zapisz hasło</q>, aby zostało ono 
+  zachowane w menedżerze haseł. Dzięki temu nie będzie potrzeby 
+  jego ponownego wprowadzania przy każdej publikacji w tym miejscu.</li>
+
+  <li>Kliknąć przycisk <q>OK</q>.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Powrót do początku rozdziału</a> ]</p>
+
+<h3 id="changing_the_default_publishing_site">Zmiana domyślnego miejsca publikacji</h3>
+
+<p>Jeśli skonfigurowanych zostało kilka miejsc publikacji, ale 
+zazwyczaj wykorzystywane jest tylko jedno z nich, można je
+ustawić jako domyślne miejsce publikacji. Program &brandShortName; 
+będzie używał tego miejsca do publikacji wszystkich dokumentów,
+chyba że użytkownik świadomie wybierze inne miejsce publikacji dokumentu.</p>
+
+<p>Bez względu na to jak wiele miejsc zostało skonfigurowanych,
+zawsze istnieje możliwość wybrania innego miejsca publikacji 
+dokumentu. Aby tego dokonać, należy z menu &brandShortName; wybrać
+<span class="menuPath">Plik &gt; Opublikuj jako...</span>. Więcej 
+informacji znajduje się w dziale <a
+href="#changing_the_filename_or_publishing_location">Zmiana nazwy pliku 
+lub adresu publikacji</a>.</p>
+
+<p>Aby ustawić domyślne miejsce publikacji, należy:</p>
+
+<ol>
+  <li>Z menu &brandShortName; wybrać 
+  <span class="menuPath">Edycja &gt; Ustawienia miejsc 
+  publikacji...</span>.</li>
+  
+  <li>Wybrać miejsce publikacji z listy.
+
+  <p>Jeśli skonfigurowana zostało tylko jedno miejsce, automatycznie
+  jest ono ustawiane jako domyślne.</p> </li>
+
+  <li>Kliknąć przycisk <q>Ustaw jako domyślne</q>.</li>
+
+<li>Kliknąć przycisk <q>OK</q>, aby zatwierdzić wprowadzone
+zmiany.</li> </ol>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Powrót do początku rozdziału</a> ]</p>
+
+<h3 id="deleting_a_publishing_site">Usuwanie miejsca publikacji</h3>
+
+<p>Usunięcie miejsce publikacji skasuje ustawienia tego miejsca z programu &brandShortName;. Jeśli w późniejszym czasie
+zajdzie potrzeba publikacji w tym miejscu, konieczne będzie
+ponowne wprowadzenie jego ustawień.</p>
+
+<p>Aby usunąć ustawienia miejsca oublikacji, należy:</p>
+
+<ol>
+  <li>Z menu &brandShortName; wybrać 
+  <span class="menuPath">Edycja &gt; Ustawienia miejsc 
+  publikacji...</span>.</li>
+  
+  <li>Wybrać miejsce publikacji z listy.</li>
+  
+  <li>Kliknąć przycisk <q>Usuń miejsce</q>.
+  <p>Usunięte zostaną jedynie ustawienia miejsca 
+  przechowywane przez &brandShortName;. 
+  Dokumenty opublikowane w tym miejscu jak i ono samo 
+  pozostaną nietknięte.</p></li>
+
+  <li>Kliknąć na przycisk <q>OK</q>, aby zatwierdzić wprowadzone
+zmiany.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Powrót do początku rozdziału</a> ]</p>
+
+<h2 id="publishing_settings">Ustawienia publikacji</h2>
+
+<p>Niniejszy rozdział opisuje ustawienia publikacji &brandShortName;. 
+Informacje o innych ustawieniach można znaleźć w rozdziale 
+<a href="composer_help.xhtml#composer_preferences">Opcje &brandShortName;</a>.</p>
+
+<h3 id="publish_page_publish">Opublikuj stronę - opublikuj</h3>
+
+<p>Zakładka Opublikuj pozwala określić lokalizację publikacji dokumentu. 
+Wprowadzone ustawienia odnoszą się do bieżącego dokumentu.</p>
+
+<p>Aby otworzyć zakładkę Opublikuj, należy:</p>
+
+<ol>
+  <li>Z menu &brandShortName; wybrać 
+  <span class="menuPath">Plik &gt; Opublikuj jako...</span>.</li>
+
+  <li>Wybrać zakładkę Opublikuj.</li>
+</ol>
+
+<p>Dostępne są następujące opcje:</p>
+
+<ul> <li><strong>Miejsca publikacji:</strong> jest listą wszystkich wcześniej skonfigurowanych miejsc publikacji. Można z niej wybrać miejsce, w którym zostanie opublikowany dokument. Aby dodać nowe miejsce,
+należy nacisnąć przycisk Nowe miejsce.</li>
+
+<li><strong>Tytuł strony:</strong> określa tytuł dokumentu (wyświetlany
+w pasku tytułowym i zakładkach przeglądarki użytkownika).</li>
+
+<li><strong>Nazwa pliku:</strong> określa nazwę pliku dokumentu. Należy sprawdzić
+czy rozszerzenie pliku jest poprawne (.html lub .htm).</li>
+
+<li style="list-style-type: none; list-style-position: outside;
+    list-style-image: none;"> <p><strong>Uwaga</strong>: W przypadku, gdy
+	plik na serwerze ma taką samą nazwę jak plik wysyłany, plik na serwerze zostanie
+	nadpisany. Okno z ostrzeżeniem nie jest wyświetlane.</p> </li>
+
+<li><strong>Podkatalog dla tej strony:</strong> w przypadku, gdy pole
+to pozostanie puste, publikowana strona zostanie umieszczona w głównym katalogu.
+W przypadku, gdy strona ma być opublikowana w podkatalogu, należy wpisać lub wybrać
+z rozwijanej listy jego nazwę. W nazwach podkatalogów małe i wielkie litery są rozróżniane.</li>
+
+<li style="list-style-type: none; list-style-position: outside;
+    list-style-image: none;"> <p><strong>Uwaga:</strong> dany podkatalog
+	musi istnieć przed wysłaniem strony na serwer.</p>
+</li>
+
+<li><strong>Dołącz obrazki i inne pliki</strong>: gdy opcja jest włączona,
+&brandShortName; publikuje razem ze stroną wszystkie obrazki i inne pliki, do 
+których strona się odwołuje. Można określić, czy obrazki i pliki umieszczone
+będą w katalogu strony, czy w osobnym podkatalogu (podkatalog także musi być
+utworzony przed publikacją strony).</li>
+</ul>
+
+<p><strong>Podpowiedź</strong>: aby tworzyć lub usuwać podkatalogi i pliki
+na serwerze, należy użyć programu FTP. Dostawca usług hostingowych powinien
+udostępnić informacje na temat polecanych programów i danych dla logowania.</p>
+
+<p class="publishing_settings">[ <a
+href="#">Powrót do początku rozdziału</a> ]</p>
+
+<h3 id="publish_page_settings">Opublikuj stronę - ustawienia</h3>
+
+<p>Zakładka Ustawienia okna Opublikuj stronę pozwala określić
+dane logowania dla miejsca publikacji. Ustawienia odnoszą się
+do bieżącego dokumentu i innych plików publikowanych na określonym serwerze.</p>
+
+<p>Aby otworzyć zakładkę Ustawienia, należy:</p>
+
+<ol>
+  <li>Z menu &brandShortName; wybrać 
+  <span class="menuPath">Plik &gt; Opublikuj jako...</span>.</li>
+
+  <li>Wybrać zakładkę Ustawienia.</li>
+</ol>
+
+<p>Dostępne są następujące opcje:</p>
+<ul>
+  <li><strong>Nazwa miejsca</strong>: nazwa zestawu ustawień miejsca publikacji. Krótka nazwa pozwoli na łatwą identyfikację tego miejsca publikacji.</li>
+
+
+  <li><strong>Adres HTTP strony domowej</strong>: 
+  określa kompletny adres internetowy katalogu publikacji stron. Ten sam adres należy wprowadzić w przeglądarce, aby dostać się na stronę główną witryny użytkownika. W adresie tym nie należy umieszczać podkatalogów ani nazw plików.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">
+    <p>Adres URL powinien zaczynać się <tt>http://</tt>. W razie wątpliwości, warto jest udać się z pytaniem do dostawcy usług internetowych lub administratora systemu. W ostateczności można pozostawić to pole puste.</p></li>
+
+ <li id="host_name_for_publishingSDX"><strong>Adres serwera</strong>: 
+   to adres URL serwera uzyskany od dostawcy usług internetowych lub administratora systemu. Adres ten powinien zaczynać się od <tt>ftp://</tt> lub <tt>http://</tt>. Dane te często też są określane jako nazwa hosta lub nazwa serwera hosta.</li>
+  
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">
+    <p>Adres ten określa miejsce, do którego wysyłane będą dokumenty. W razie wątpliwości, warto jest udać się z pytaniem do dostawcy usług internetowych lub administratora systemu.
+  </p></li>
+
+
+  <li><strong>Nazwa użytkownika</strong>: określa nazwę użytkownika używaną do logowania
+się do sieci lub na serwer dostawcy usług internetowych.</li>
+
+  <li><strong>Hasło</strong>: określa hasło dla wprowadzonej wyżej nazwy użytkownika.</li>
+
+  <li><strong>Zapisz hasło</strong>: aby nie wpisywać hasła przy każdej publikowanej stronie,
+  można zaznaczyć opcję i nakazać programowi zapamiętanie i zaszyfrowanie hasła.</li>
+</ul>
+
+<p class="returnToSection">[ <a
+href="#publishing_settings">Powrót do poczatku rozdziału</a> ]</p>
+
+<h3 id="publish_settings">Ustawienia miejsc publikacji</h3>
+
+<p>Okno dialogowe Ustawienia miejsc publikacji pozwala edytować ustawienia
+serwerów dla publikacji stron.</p>
+
+<p>Aby otworzyć okno Ustawień miejsc publikacji, należy z menu programu wybrać: 
+<span class="menuPath">Edycja &gt; Ustawienia miejsc publikacji...</span>.</p>
+
+<p>Dostępne są następujące opcje:</p>
+
+<ul>
+  <li><strong>Nowe miejsce</strong>: pozwala dodać nowy zestaw ustawień mejsca publikacji. Nazwa miesca zostanie dodana do listy.</li>
+
+  <li><strong>Ustaw jako domyślne</strong>: ustawia zaznaczone miejsce jako domyślne.
+  O ile w oknie publikacji nie zostanie wybrana inne miejsce, wszystkie dokumenty będą publikowane
+  w domyślnym miejscu publikacji.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <p>Aby opublikować dokument w innym miejscu,
+	  należy skorzystać z polecenia 
+	  <span class="menuPath">Plik &gt; Opublikuj jako...</span>.</p>
+  </li>
+
+  <li><strong>Usuń miejsce</strong>: usuwa zaznaczone miejsce i jego ustawienia z listy.</li>
+
+  <li><strong>Nazwa miejsca</strong>: nazwa zestawu ustawień miejsca publikacji. Krótka nazwa pozwoli na łatwą identyfikację tego miejsca publikacji.</li>
+
+
+  <li><strong>Adres HTTP strony domowej</strong>: 
+  określa kompletny adres internetowy katalogu publikacji stron. Ten sam adres należy wprowadzić w przeglądarce, aby dostać się na stronę główną witryny użytkownika. W adresie tym nie należy umieszczać podkatalogów ani nazw plików.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">
+    <p>Adres URL powinien zaczynać się <tt>http://</tt>. W razie wątpliwości, warto jest udać się z pytaniem do dostawcy usług internetowych lub administratora systemu. W ostateczności można pozostawić to pole puste.</p></li>
+
+ <li id="host_name_for_publishingSDX"><strong>Adres serwera</strong>: 
+   to adres URL serwera uzyskany od dostawcy usług internetowych lub administratora systemu. Adres ten powinien zaczynać się od <tt>ftp://</tt> lub <tt>http://</tt>. Dane te często też są określane jako nazwa hosta lub nazwa serwera hosta.</li>
+  
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">
+    <p>Adres ten określa miejsce, do którego wysyłane będą dokumenty. W razie wątpliwości, warto jest udać się z pytaniem do dostawcy usług internetowych lub administratora systemu.
+  </p></li>
+
+
+  <li><strong>Nazwa użytkownika</strong>: określa nazwę użytkownika używaną do logowania
+się do sieci lub na serwer dostawcy usług internetowych.</li>
+
+  <li><strong>Hasło</strong>: określa hasło dla wprowadzonej wyżej nazwy użytkownika.</li>
+
+  <li><strong>Zapisz hasło</strong>: aby nie wpisywać hasła przy każdej publikowanej stronie,
+  można zaznaczyć opcję i nakazać programowi zapamiętanie i zaszyfrowanie hasła.</li>
+  
+</ul>
+
+<p>[ <a href="#publishing_settings">Powrót do początku rozdziału</a> ]</p>
+
+
+<h2 id="solving_common_publishing_problems">Publikacja - typowe problemy i ich rozwiązania</h2>
+
+<p>
+W przypadku gdy publikacja któregoś z plików nie powiedzie się wyświetlone
+zostanie okno z informacją na ten temat. Należy nacisnąć przycisk Rozwiązywanie
+problemów, aby uzyskać więcej informacji na temat błędu.</p>
+
+<h3 id="verifying_your_publishing_settings">Sprawdzanie ustawień publikacji</h3>
+
+<p>Aby sprawdzić ustawienia publikacji, należy:</p>
+
+<ol>
+  <li>Zamknąć okno publikowania jeśli jest otwarte.</li>
+
+  <li>Z menu &brandShortName; wybrać <span class="menuPath">Edycja &gt; Ustawienia miejsc publikacji...</span>.</li>
+
+  <li>Sprawdzić wpisane ustawienia dla danego miejsca publikacji.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <ul> <li><strong>Sprawdzić czy dane publikacji wpisane są poprawnie.</strong> 
+	  Możliwe, że w którymś z ustawień wystąpił błąd przy wpisywaniu.</li>
+
+      <li><strong>Sprawdzić poprawność adresów.</strong> 
+	  Usługodawcy często określają nazwę serwera jako 
+      <tt>ftp.dostawca.com.pl/nazwa_użytkownika</tt>.
+
+      <p>Adresy muszą rozpoczynać się od <tt>ftp://</tt> lub
+      <tt>http://</tt>. Poprawny adres dla powyższego przykładu miałby
+	  postać: <tt>ftp://ftp.dostawca.com.pl/nazwa_użytkownika</tt>.</p></li>
+      </ul>
+  </li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#solving_common_publishing_problems">Powrót do początku rozdziału</a> ]</p>
+
+<h3 id="checking_your_filenames">Sprawdzanie nazw plików</h3>
+
+<p>Należy sprawdzić nazwy plików, których publikacja sprawia problemy. 
+Poniższe zalecenia pozwolą uniknąć typowych błędów:</p>
+
+<ul>
+  <li>Używać liczb i tylko małych lub tylko wielkich liter.
+  Używanie małych i wielkich liter naraz jest dopuszczalne, lecz serwery zwykle
+  rozróżniają małe i wielkie litery, co powoduje problemy w odnośnikach i 
+  adresach stron (w przypadku pomylenia małej/wielkiej litery serwer 
+  informuje o błędzie - o nieznalezieniu pliku).
+
+ <!-- wd: to jest lanie wody ;-)
+ 
+ <p>When you publish files to a web server, filenames become
+  case-sensitive on the web server. It may be harder for you to remember
+  files names that use only uppercase letters or that use a mix of
+  uppercase and lowercase letters.</p>
+
+  <p>For example, when you try to locate a published file by typing the
+  filename's web address into Navigator's Location field, you must enter
+  the filename exactly as you created it, using the same combination of
+  uppercase and lowercase letters.</p> --></li>
+
+  <li>Nie używać znaków przestankowych i spacji. Podkreślenia "_"i myślniki "-" są dopuszczalne.</li>
+
+  <li>Używać rozszerzenia .html lub .htm (dla plików &brandShortName;).</li>
+
+  <li>Używać mniej niż 32 znaków w nazwach plików.</li>
+</ul>
+
+<p class="returnToSection">[ <a
+href="#solving_common_publishing_problems">Powrót do początku rozdziału</a> ]</p>
+
+<h3 id="fixing_publishing_errors">Naprawienie błędów publikacji</h3>
+
+<p>W przypadku błędu podczas publikacji &brandShortName; wyświetla
+informacje o błędzie. Na podstawie tych informacji można próbować naprawić
+błąd.</p>
+
+<div class="errorMessage"> <p id="file_not_found"><strong>Komunikat błędu:</strong></p>
+
+<div class="errorBox">
+  <tt>Plik <var>nazwa</var> nie został odnaleziony</tt>
+  <p>lub</p>
+<tt>Publikacja <var>X</var> z wszystkich <var>Y</var> plików nie powiodła się</tt> </div>
+
+<p><strong>Opis błędu:</strong> publikacja plików nie powiodła się
+ponieważ nie zostały one znalezione. Typowe powody błędu to:</p>
+
+<ul>
+  <li>Wpisane położenie pliku jest niepoprawne.</li>
+  
+  <li>Plik jest niedostępny poprzez sieć.</li>
+
+  <li>Plik został przeniesiony lub usunięty.</li>
+</ul>
+
+<p><strong>Rozwiązania:</strong></p>
+
+<ul>
+  <li>Przeszukać publikowany dokument pod kątem uszkodzonych odnośników.
+  Uszkodzone odnośniki zaznaczone są ikoną <img src="images/broken.gif" width="20"
+  height="20" alt="" />. Aby naprawić odnośnik, należy kliknąć na nim dwukrotnie
+  i wpisać poprawny adres.</li>
+
+  <li>Usunąć odnośnik do brakującego pliku.</li>
+
+  <li>W przypadku gdy niedostępny element jest umieszczony na zdalnym serwerze,
+  należy spróbować publikacji za jakiś czas.</li>
+
+  <li>W przypadku gdy brakuje pliku CSS, należy odnaleźć plik i wpisać
+  poprawną ścieżkę do pliku w widoku źródła HTML.</li>
+</ul> </div>
+
+<div class="errorMessage"> <p id="subdir_not_found"><strong>Komunikat błędu:</strong></p>
+
+<div class="errorBox">
+
+  <tt>Podkatalog <var>nazwa</var> nie istnieje w tym miejscu publikacji lub nazwa pliku 
+  <var>nazwa</var> została już użyta w innym podkatalogu.</tt>
+  <p>lub</p>
+  <tt>Nazwa pliku <var>nazwa</var> została już użyta w innym podkatalogu.</tt></div>
+
+<p><strong>Opis błędu:</strong> wprowadzono nazwę katalogu, który nie istnieje na serwerze. 
+Publikacja może odbywać się tylko do istniejących katalogów. 
+Przyczyną błędu może też być nazwa pliku identyczna z nazwą katalogu.</p>
+
+<p>Okno dialogowe Opublikuj stronę, zakładka Opublikuj:</p>
+
+<ul>
+  <li>W polu "podkatalog dla tej strony" może być wpisana nazwa nieistniejącego zdalnego katalogu.</li>
+
+  <li>Zaznaczono "Dołącz obrazki oraz inne pliki" i podano nazwę nieistniejącego
+  katalogu.</li>
+
+  <li>Jeden z publikowanych plików ma nazwę identyczną z istniejącym na serwerze podkatalogiem.</li>
+</ul>
+
+<p><strong>Rozwiązania:</strong></p>
+
+<ul>
+  <li>Używać programu FTP do tworzenia, zmieniania nazw i usuwania
+  podkatalogów na serwerze, na którym dokumenty są publikowane.</li>
+
+  <li>Nie używać nazw podkatalogów kończących się znakami ".html" lub
+  ".htm". Tylko pliki dokumentów &brandShortName; powinny mieć takie rozszerzenia.</li>
+
+  <li>Małe i wielkie litery w nazwach podkatalogów są rozróżniane. Należy upewnić się,
+  że wpisywana jest poprawna nazwa.</li>
+</ul>
+</div>
+
+<div class="errorMessage"> <p id="server_not_found"><strong>Komunikat błędu:</strong></p>
+
+<div class="errorBox">
+  <tt>W chwili obecnej serwer jest niedostępny. Należy sprawdzić
+  połączenie, a następnie spróbować ponownie.</tt> </div>
+
+<p><strong>Opis błędu:</strong> błąd może być spowodowany:</p>
+
+<ul>
+  <li>Niepoprawnymi ustawieniami publikacji.</li>
+
+  <li>Utraconym połączeniem z siecią Internet.</li>
+
+  <li>Niepoprawnym działaniem modemu lub innego sprzętu używanego do łączenia się z siecią.</li>
+
+  <li>Problemami z serwerem publikacji.</li>
+
+  <li>Problemami dostawcy usług internetowych.</li>
+</ul>
+
+<p><strong>Rozwiązania:</strong></p>
+
+<ul>
+  <li>Sprawdzić poprawność ustawień publikacji.
+  Więcej na ten temat napisano w sekcji
+  <a href="#verifying_your_publishing_settings">Sprawdzanie ustawień publikacji</a>.</li>
+
+  <li>Upewnić się, że połączenie internetowe działa. Na przykład
+  otwierając stronę Mozilli (<tt>http://www.mozilla.org</tt>) w przeglądarce.</li>
+
+  <li>Sprawdzić ustawienia sprzętu służącego do połączenia z Internetem (telefon, modem, karty i kable sieciowe).</li>
+
+  <li>Otworzyć w przeglądarce dowolną stronę umieszczoną na serwerze na którym odbywa się publikacja.
+  Serwer może nie działać poprawnie, jeśli strona ta jest niedostępna. Należy skontaktować
+  się z osobą odpowiedzialną za serwer.</li>
+
+  <li>Spróbować publikacji później. Prawdopodobnie problemy dostawcy łącza lub usług
+  hostingowych zostaną usunięte.</li>
+</ul> </div>
+
+<div class="errorMessage"> <p id="no_permission"><strong>Komunikat błędu:</strong></p>
+
+<div class="errorBox">
+  <tt>Brak uprawnień wymaganych do publikowania plików w tym miejscu publikacji.</tt>
+</div>
+
+<p><strong>Opis błędu:</strong> publikacja w miejscu niedozwolonym.</p>
+
+<p><strong>Rozwiązania:</strong></p>
+
+<ul>
+  <li>Sprawdzić poprawność nazwy użytkownika i hasła w oknie ustawień publikacji.</li>
+
+  <li>Skontaktować się dostawcą usług internetowych, aby upewnić się że dozwolona jest
+  publikacja stron w jego witrynie.</li>
+
+</ul>
+</div>
+
+<div class="errorMessage"> <p id="offline_error"><strong>Komunikat błędu:</strong></p>
+
+<div class="errorBox">
+  <tt>W chwili obecnej &brandShortName; pracuje w trybie offline. 
+  Należy kliknąć ikonę połączenia w prawym dolnym rogu okna, aby przejść do trybu online.</tt> </div>
+
+<p><strong>Opis błędu:</strong> próba publikacji, gdy &brandShortName; znajduje się
+w trybie offline (jest odłączony od Internetu).</p>
+
+<p>Należy sprawdzić stan połączenia internetowego.
+Gdy &brandShortName; znajduje się w trybie offline, w prawym dolnym rogu okna
+wyświetlana jest ikona <img src="images/offline.gif" width="32" height="21"
+alt="" />.</p>
+
+<p><strong>Rozwiązania:</strong></p>
+
+<ul>
+  <li>Nacisnąć ikonę w prawym dolnym rogu okna, aby przejść do trybu online.
+  Ikona ta powinna wyglądać tak: <img src="images/online.gif" width="32" height="20"
+  alt="" />.</li>
+
+ <li>Upewnić się, że połączenie internetowe działa. Na przykład
+  otwierając stronę Mozilli (<tt>http://www.mozilla.org</tt>) w przeglądarce.</li>
+
+</ul> </div>
+
+<div class="errorMessage"> <p id="no_disk_space"><strong>Komunikat błędu:</strong></p>
+
+<div class="errorBox">
+  <tt>Zapisanie pliku <var>plik</var> nie było możliwe z powodu braku miejsca na dysku.</tt> </div>
+
+<p><strong>Opis błędu:</strong> dysk twardy serwera jest przepełniony lub
+użytkownik wykorzystał całą dostępną dla siebie przestrzeń dyskową.</p>
+
+<p><strong>Rozwiązania:</strong></p>
+
+<ul>
+  <li>Użyć programu FTP aby usunąć niepotrzebne pliki.</li>
+
+  <li>Zbadać możliwości zwiększenia dostępnej dla użytkownika przestrzeni dyskowej. 
+  Skontaktować się z dostawcą usług lub administratorem.</li>
+
+</ul> </div>
+
+<div class="errorMessage"> <p id="name_too_long"><strong>Komunikat błędu:</strong></p>
+
+<div class="errorBox">
+<tt>Nazwa pliku lub katalogu jest zbyt długa.</tt></div>
+
+<p><strong>Opis błędu:</strong> liczba znaków w nazwie pliku lub katalogu
+jest zbyt długa dla oprogramowania serwera, na którym publikowana jest strona.</p>
+
+<p><strong>Rozwiązania:</strong></p>
+
+<ul>
+  <li>Skrócić nazwy plików/katalogów do mniej niż 32 znaków. 
+  Niektóre systemy nie obsługują dłuższych nazw.</li>
+</ul> </div>
+
+<p class="returnToSection">[ <a
+href="#solving_common_publishing_problems">Powrót do początku rozdziału</a> ]</p>
+
+<div class="copyrightBox"><em>21 marca 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the Nvu
+Help Documentation Project.</p>
+<p>Polskie tłumaczenie: Copyright &copy; 2005 Mozillapl.org oraz AviaryPL.</p>
+
+</body>
+</html>

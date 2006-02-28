@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<!--
+Original Author:
+"KDS Sahambi" <ksahambi AT yahoo DOT com>
+Contributor(s):
+Wadim Dziedzic <nikdo@aviary.pl> (polish translation)
+Piotr Komoda <pitreck@aviary.pl> (polish translation)
+Piotr Pielach <cleriic@aviary.pl> (polish translation)
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+  <title>Dostosowywanie &brandShortName;</title>
+  <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Pokaż/Ukryj</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Centrum pomocy</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">W tym rozdziale:
+  <a href="#toolbar_customization">Modyfikowanie pasków narzędzi</a>
+  <a href="#enhancing_nvu_functionality">Zwiększanie możliwości programu</a>
+</div>
+
+<h1 id="customizing_toolbars">Dostosowywanie &brandShortName;</h1>
+
+<h2 id="toolbar_customization">Modyfikowanie pasków narzędzi</h2>
+
+<p>Paski narzędzi &brandShortName; mogą być dostosowywane do preferencji 
+i wygody użytkownika. Dla przykładu, rzadko używane przyciski mogą zostać 
+usunięte ułatwiając dostep do najczęściej wykorzystywanych funkji programu.</p>
+
+<h3 id="how_to_customize_toolbars">Dostosowywanie pasków narzędzi</h3>
+
+<p>Aby ukryć lub wyświetlić ponownie ukryty pasek narzędzi, należy wybrać z 
+głównego menu pozycję <span class="menuPath">Widok &gt; 
+Paski narzędzi</span>, a następnie kliknąć nazwę ukrywanego paska narzędziowego.<br />
+Aby przywrócić dany pasek, należy powtórzyć powyższe działania.</p>
+
+<p>Zmiana zawartości pasków narzędzi</p>
+
+<p>Elementy paska narzędziowego i ich kolejność można zmienić w oknie dopasowywania
+pasków. Aby wyświetlić okno dopasowywania, należy kliknąć prawym przyciskiem myszy w dowolnym 
+miejscu paska narzędzi (za wyjątkiem pól tekstowych) i z menu kontekstowego wybrać 
+opcję <span class="menuPath">Dostosuj</span>. Okno to można wyświetlić także wybierając z menu
+programu opcję: <span class="menuPath">Widok &gt; Paski narzędzi &gt; Dostosuj...</span></p>
+
+<p>Po wyświetleniu okna dialogowego dopasowywania pasków można zmieniać kolejność elementów paska 
+narzędziowego poprzez przeciąganie ich w żądane miejsce za pomocą myszki. Aby dodać element, 
+należy przeciągnąć go z zasobnika w oknie dopasowywania na dany pasek narzędziowy. W celu usunięcia
+elementu należy przeciągnąć go z paska narzędziowego do okna dopasowywania pasków.<br/>
+Aby zamknąć okno i zatwierdzić zmiany, należy kliknąć przycisk <em>Zakończ</em>.<br/>
+Przycisk <em>Domyślny układ</em> powoduje przywrócenie domyślnej zawartości i ułożenia pasków narzędziowych.</p>
+
+<p class="returnToSection">[ <a href="#customizing_toolbars">Powrót do początku rozdziału</a> ]</p>
+
+<h2 id="enhancing_nvu_functionality">Zwiększanie możliwości programu</h2>
+
+  <p>&brandShortName; posiada wbudowany mechanizm pozwalający na 
+  zwiększanie i tak już niemałych możliwości programu. Nowe 
+  funkcje mogą być dodawane do &brandShortName; poprzez 
+  instalację tzw. <em>rozszerzeń</em>. Rozszerzenia są małymi programami,
+  które po zainstalowaniu w &brandShortName; zwiększają jego możliwości.
+  Każdy użytkownik ma możliwość zdecydowania, czy i jakie rozszerzenia 
+  mają zostać zainstalowane. Aby zainstalować rozszerzenie, należy:</p>
+  
+  <ul> 
+  <li>Pobrać rozszerzenie na dysk twardy komputera, zapisując je
+  w wybranym przez siebie miejscu. Większość rozszerzeń można 
+  pobrać z witryny internetowej &brandShortName;.</li>
+  
+  <li>Otworzyć menedżer rozszerzeń, wybierając z menu &brandShortName; pozycję
+  <span class="menuPath">Narzędzia (Edycja w systemie Linux) &gt; 
+  Rozszerzenia </span>. 
+  Jeśli jakieś rozszerzenia zostały już zainstalowane, będą widoczne 
+  na liście rozszerzeń.</li>
+
+  <li>Kliknąć przycisk <em>Instaluj</em>.</li>
+
+  <li>Korzystając z systemowej przeglądarki plików odnaleźć miejsce,
+  do którego pobrane zostało rozszerzenie, zaznaczyć go, a 
+  następnie kliknąć przycisk <em>Otwórz</em>.</li>
+
+  <li>Kliknąć przycisk <em>Zainstaluj teraz</em> w oknie instalacji 
+  oprogramowania, które się pojawi.</li>
+
+  <li>Po zakończeniu instalacji uruchomić ponownie &brandShortName;,
+  aby móc zacząć korzystać z nowych funkcji i opcji udostępnionych przez zainstalowane
+  rozszerzenie.</li>
+  </ul>
+
+  <p>Warto co jakiś czas sprawdzać, czy nie pojawiły się aktualizacje
+  dla zainstalowanych rozszerzeń. Aktualizacje zazwyczaj zwiększają
+  możliwości rozszerzeń bądź naprawiają błędy wykryte we wcześniejszych 
+  wersjach.</p>
+
+<p>[<a href="links.xhtml">Poprzedni</a>]</p>
+
+<div class="copyrightBox"><em>20 czerwca 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the Nvu Documentation Project.</p>
+<p>Polskie tłumaczenie: Copyright &copy; 2004-2005 Mozillapl.org oraz AviaryPL.</p>
+
+</body>
+</html>

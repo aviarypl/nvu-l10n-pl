@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Tworzenie stron WWW za pomocą &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Pokaż/Ukryj</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Centrum pomocy</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">W tym dokumencie opisano:
+  <a href="#starting_a_new_page">Tworzenie nowej strony</a>
+  
+  <a href="formatting_webpages.xhtml">Formatowanie stron</a>
+  
+  <a href="css.xhtml">Korzystanie z arkuszy stylów</a>
+  
+  <a href="tables.xhtml">Tabele</a>
+  
+  <a href="images.xhtml">Obrazki</a>
+  
+  <a href="toc.xhtml">Automatyczny spis treści dokumentu</a>
+  
+  <a href="templates.xhtml">Szablony</a>
+  
+  <a href="page_properties.xhtml">Ustawianie właściwości strony</a>
+  
+  <a href="links.xhtml">Tworzenie odnośników</a>
+    
+  <a href="customize.xhtml">Dostosowywanie &brandShortName;</a>
+</div>
+
+<h2 id="working_with_templates">Szablony</h2>
+
+<p>Szablony są przydatne w sytuacji gdy trzeba utworzyć kilka stron
+różniących się tylko treścią. Za pomocą &brandShortName; można utworzyć
+szablon i używać go jako podstawy dla kolejnych dokumentów.</p>
+
+<h3 id="creating_a_template">Tworzenie szablonu</h3>
+
+<ol>
+  <li>Aby utworzyć szablon, należy:
+  <ul>
+    <li>Z menu programu wybrać <span class="menPath">Plik &gt; Nowy</span>, lub
+	kliknąć strzałkę obok przycisku "Nowy" na pasku narzędzi i 
+	z menu kontekstowego wybrać pozycję "Więcej opcji..."</li>
+    <li>W oknie dialogowym wybrać opcję <strong>Pusty szablon</strong>, a 
+	następnie nacisnąć przycisk Otwórz</li>
+  </ul></li>
+  <li>Utworzyć i sformatować treść, która będzie niezmienna w szablonie.
+  Edycja jest identyczna jak w przypadku zwykłych stron.</li>
+  <li>Dla treści zmiennej pola edycyjne można wstawiać za pomocą
+  menu: <span class="menPath">Wstaw &gt; Szablony &gt; Wstaw pole edytowalne</span>.
+  Dostępne opcje:
+  <ul>
+    <li>Pole jest opcjonalne</li>
+    <li>Pole jest powtarzalne</li>
+    <li>Pole jest ruchome</li>
+  </ul></li>
+  <li>Zapisać plik jako Szablon HTML (HTML Template).</li>
+</ol>
+
+<p><strong>Podpowiedź</strong>: Za pomocą menu na pasku statusu można
+szybko usunąć lub utworzyć nowe pole edytowalne. Więcej na ten
+temat zawiera rozdział <a href="#using_status_bar_for_formatting_your_web_page">
+Formatowanie stron za pomocą paska statusu</a>.</p>
+
+<p class="returnToSection">[ <a href="#working_with_templates">Powrót do początku rozdziału</a> ]</p>
+
+<h3 id="using_a_template">Korzystanie z szablonu</h3>
+
+<p>Aby utworzyć nową stronę korzystając z szablonu, należy:</p>
+
+<ol>
+  <li>Z menu programu wybrać <span class="menuPath">Plik &gt; Nowy </span> lub
+  skorzystać ze skrótu klawiaturowego "Ctrl+N"</li>
+  <li>Zaznaczyć opcję "Nowy dokument oparty na szablonie" i
+  wybrać szablon w oknie dialogowym otwieranym przyciskiem "Wybierz plik"</li>
+  <li>Nacisnąć przycisk <span class="menuPath">Otwórz</span></li>
+  <li>Wyedytować pola edytowalne.</li>
+  <li>Zapisać plik jako dokument <i>HTML</i>.</li>
+</ol>
+
+<p><strong>Podpowiedź</strong>: Za pomocą opcji <span class="menuPath">Edycja &gt; 
+Odłącz od szablonu</span> można odłączyć dokument od szablonu (pozwala to na
+dowolną edycję dokumentu).</p>
+
+<p><strong>Podpowiedź</strong>: Za pomocą opcji w oknie <span class="menuPath">Format &gt; 
+Właściwości i tytuł strony</span> można przekształcać dokument w szablon i odwrotnie.</p>
+
+<p class="returnToSection">[ <a href="#working_with_templates">Powrót
+do początku rozdziału</a> ]</p>
+
+<p>[<a href="page_properties.xhtml">Następny</a>] [<a href="toc.xhtml">Poprzedni</a>]</p>
+
+<div class="copyrightBox"><em>20 czerwca 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the Nvu
+Help Documentation Project.</p>
+
+<p>Polskie tłumaczenie: Copyright &copy; 2003-2005 Mozillapl.org oraz AviaryPL.</p>
+
+</body>
+</html>

@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+    <!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+    %brandDTD;
+]
+>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Słowniczek</title>
+	<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+
+<p>Hasła zawarte w poniższym słowniczku mają za
+zadanie jedynie pokrótce objaśnić znaczenie poszczególnych pojęć.
+Słowniczek ten nie jest pomyślany jako źródło kompletnego rozwinięcia
+ich znaczeń.
+Przy opracowywaniu tłumaczenia słowniczka skorzystano z zasobów <a
+ href="http://pl.wikipedia.org/wiki/" target="_blank">Wikipedii, wolnej
+encyklopedii</a>.</p>
+<hr/>
+
+<h1 id="glossary">Słowniczek</h1>
+
+<dl>
+
+<dt id="Internet_protocol_address">adres IP</dt>
+<dd>(ang. <i>Internet
+Protocol</i>) Adres komputera w sieci komputerowej opartej na <a
+ href="#TCP_IP">protokole TCP/IP</a>. Każdy komputer podpięty do sieci
+Internet posiada swój własny adres IP. <a href="#client">Komputery-klienty</a>
+mogą mieć adres IP przyznany na stałe lub mogą go uzyskiwać
+dynamicznie przy każdym połączeniu z siecią.<br/>
+Adresy IP w ich czwartej wersji są zapisywane jako cztery oddzielone
+kropkami liczby z zakresu 0-255, np. 204.171.64.2.
+Ponieważ pula adresów czwartej wersji IP jest obecnie w znacznym
+stopniu wyczerpana, w niedalekiej przyszłości planowane jest przejście
+do adresów IP szóstej wersji. Dodatkowo, szósta wersja IP eliminuje wady czwartej, wprowadza nowe rozszerzenia (<a
+ href="#authentication">uwierzytelnianie</a>, kompresję i inne), a także
+minimalizuje czynności wymagane do podłączenia nowego węzła do
+Internetu (autokonfiguracja).
+Adres IP szóstej wersji zwiększył swój rozmiar z 32 na 128 bity.
+Reprezentowany jest w postaci heksadecymalnej, z dwukropkiem co 16
+bitów, np:
+0123:5678:abcd:00ef:0000:0000:1234:5678
+Specyfikacje IP wersji szóstej pozwalają na opuszczanie początkowych
+zer oraz zamianę bloków zer na podwójny dwukropek. Powyższy adres może
+więc być zapisany jako:
+123:5678:abcd:ef::1234:5678</dd>
+
+<dt id="Uniform_Resource_Locator">adres URL</dt>
+<dd>(ang. <i>Uniform
+Resource Locator</i>) Ustandaryzowany format odnośników do zasobów
+sieciowych (głównie Internetu), przykładowo: <tt>http://www.mozillapl.org</tt>
+Zwyczajowo adres URL jest wpisywany do paska lokalizacji przeglądarki.
+Adresy URL są również używane jako odnośniki na stronach internetowych
+prowadzące do innych stron i zasobów. Adres URL jest także nazywany
+adresem internetowym lub adresem sieciowym.
+ Adres URL składa się z rodzaju zasobu, dwukropka i części zależnej
+od rodzaju zasobu. Nazwy rodzaju zasobu mogą składać się z małych
+liter, plusa, myślnika oraz kropki. Duże litery są akceptowane, przy
+czym muszą być zamieniane na małe przez oprogramowanie.
+Część zależna od rodzaju usługi zwykle przybiera jedną z postaci:<br/>
+<ul>
+  <li>W przypadku zasobów będących plikami:<br/>
+  </li>
+  <ul>
+    <li><tt>//adres_serwera/scieżka_dostępu</tt><br/>
+    </li>
+    <li><tt>//nazwa_użytkownika@adres_serwera/scieżka_dostępu</tt><br/>
+    </li>
+    <li><tt>//nazwa_użytkownika:hasło@adres_serwera/scieżka_dostępu</tt></li>
+  </ul>
+</ul>
+<ul>
+  <li>&nbsp; W przypadku zasobów niebędących plikami (konta shellowe,
+adresy poczty elektronicznej, itd.):<br/>
+  </li>
+  <ul>
+    <li><tt>nazwa_użytkownika@adres_serwera</tt><br/>
+    </li>
+  </ul>
+</ul>
+Często oprogramowanie pozwala na różne niewłaściwe formy adresów
+URL, np. pomijanie <tt>//</tt>, lub formy typu <tt>adres_serwera/scieżka_dostępu</tt>.
+Popularniejsze rodzaje zasobów to:<br/>
+<ul>
+  <li><a href="#File_Transfer_Protocol">FTP</a></li>
+  <li>HTTP</li>
+  <li>HTTPS</li>
+  <li>MAILTO</li>
+  <li>telnet</li>
+  <li>file</li>
+  <li>news</li>
+  <li>NNTP</li>
+</ul>
+<p></p>
+<p>Przykładowy adres URL: <tt>http://www.mozillapl.org/forum</tt>,
+gdzie:<br/>
+</p>
+<ul>
+  <li><tt>http:</tt> to protokół</li>
+  <li><tt>//www.mozillapl.org</tt> to adres serwera</li>
+  <li><tt>/forum</tt> to ścieżka dostępu</li>
+</ul></dd>
+
+<dt id="helper_application">aplikacja pomocnicza</dt>
+<dd>Dowolny
+program używany do otwarcia lub podglądu pliku pobranego przez
+przeglądarkę. <a href="#plug-in">Wtyczka</a> jest specjalnym rodzajem
+aplikacji pomocniczej, instalowanym w katalogu wtyczek (podkatalog
+Plugins w katalogu Mozilla). Z reguły wtyczki pozwalają na otwieranie
+plików bezpośrednio w oknie przeglądarki. Programy typu Microsoft Word,
+Adobe Photoshop, czy inne zewnętrzne aplikacje są uważane jako
+aplikacje pomocnicze (nie wtyczki), gdyż nie instalują się one w
+katalogu wtyczek przeglądarki. Aplikacje te mogą zostać wywołane przez
+odpowiednie ustawienie właściwości działania przeglądarki z pobranym
+typem plików.</dd>
+
+<dt id="secure_site">bezpieczna witryna</dt>
+<dd>Witryna, która używa <a href="#encryption">szyfrowania połączenia</a>,
+  aby uchronić przesyłane informacje przed podejrzeniem ich przez osoby trzecie.
+  Podczas połączenia z bezpieczną witryną w <a href="#Status_Bar">pasku statusu</a> i 
+  <a href="#location_bar">pasku adresu</a> wyświetlana jest ikona kłódki, a tło 
+  paska adresu zmienia kolor na żółty.</dd>
+
+<dt id="certificate">certyfikat</dt>
+<dd>Cyfrowy odpowiednik dokumentu
+tożsamości. Jest to mały dokument cyfrowy, zawierający nazwę osoby lub
+innej organizacji i zaświadczający, że klucz publiczny (zawarty w tym
+certyfikacie) należy do niej. Przy cyfrowym podpisywaniu wiadomości
+poczty elektronicznej lub innych danych, podpis cyfrowy jest tworzony
+przy użyciu klucza prywatnego, powiązanego z kluczem publicznym
+certyfikatu.</dd>
+
+
+<dt id="digital_ID">cyfrowy dowód tożsamości</dt>
+<dd>Zobacz <a
+ href="#certyfikat">certyfikat</a>.</dd>
+
+<dt id="FIPS_PUBS_140-1">FIPS PUBS 140-1.</dt>
+<dd>(ang. <i>Federal
+Information Processing Standards Publications 140-1</i>) Amerykańskie
+standardy rządowe opracowane w celu wprowadzenia do użytku modułów
+kryptograficznych (programowych lub sprzętowych). Moduły te mogą
+szyfrować i odszyfrowywać informacje lub wykonywać inne czynności
+kryptograficzne (jak tworzenie lub weryfikacja podpisów cyfrowych).
+Wiele takich rozwiązań zamawianych przez rząd amerykański musi spełniać
+wymogi jednego lub więcej standardu FIPS.</dd>
+
+<dt id="master_password">główne hasło</dt>
+<dd>Hasło używane przez
+menedżera certyfikatów do zabezpieczania klucza głównego (i/lub kluczy
+prywatnych) przechowywanego w <a href="#security_device">urządzeniu
+zabezpieczającym</a>.<br/>
+Menedżer certyfikatów musi uzyskać dostęp do kluczy prywatnych
+użytkownika, kiedy ten podpisuje wiadomość poczty elektronicznej lub
+poświadcza swoją tożsamość na stronie WWW przy użyciu swojego
+certyfikatu.<br/>
+Podobnie wymagany jest dostęp do głównego klucza w chwili, gdy
+menedżer haseł lub formularzy odczytuje bądź dodaje odpowiednie
+informacje poufne użytkownika.<br/>
+Użytkownik ma możliwość ustawienia lub zmiany hasła głównego w
+panelu preferencji tego hasła. Każde urządzenie zabezpieczające wymaga
+osobnego hasła głównego.<br/>
+Zobacz też: <a href="#private_key">klucz prywatny</a>, <a
+ href="#master_key">główny klucz</a>.</dd>
+
+<dt id="Internet">Internet</dt>
+<dd>Ogólnoświatowa sieć komputerowa
+łącząca sieci lokalne, sieci rozległe i wszystkie komputery do nich
+podłączone. Do komunikacji pomiędzy komputerami wykorzystywanych jest
+wiele ustandaryzowanych protokołów. Spośród najbardziej
+rozpowszechnionych można wymienić:<br/>
+<ul>
+  <li> IP</li>
+  <li> <a href="#TCP_IP">TCP/IP</a>, UDP i ICMP</li>
+  <li> HTTP, <a href="#File_Transfer_Protocol">FTP</a>, SMTP.</li>
+</ul>
+<br/>
+Początki Internetu sięgają roku 1969. W pierwotnych zamiarach był
+pomyślany do wykorzystywania przez armię Stanów Zjednoczonych. W miarę
+rozwoju skupiał coraz więcej ośrodków akademickich i naukowych.
+Gwałtowny rozwój Internetu nastąpił w latach 90-tych XX wieku. Obecnie
+główne wykorzystanie Internetu to:<br/>
+<ul>
+  <li> transfer plików - <a href="#File_Transfer_Protocol">FTP</a></li>
+  <li> poczta elektroniczna</li>
+  <li> grupy dyskusyjne - dostępne w ramach Usenetu, mailowych list
+dyskusyjnych oraz forów dyskusyjnych na stronach WWW</li>
+  <li> rozmowy w czasie rzeczywistym - IRC oraz różne komunikatory
+internetowe takie jak Jabber, ICQ czy Gadu-Gadu</li>
+  <li> przeglądanie stron umieszczonych <a href="#World_Wide_Web">sieć
+WWW</a></li>
+  <li> usługi mulitmedialne: radio i telewizja internetowa</li>
+  <li> telekonferencje</li>
+  <li> sklepy internetowe i bankowość elektroniczna</li>
+</ul></dd>
+
+<dt id="Hypertext_Markup_Language">język HTML</dt>
+<dd>(ang. <i>Hypertext
+Markup Language</i>) Język znaczników (ang. <i>tags</i>)
+stosowany do pisania stron WWW.<br/>
+Standard HTML definiuje znaczniki odpowiedzialne za definiowanie
+wyglądu strony i zawartych w niej elementów (czcionki, kodowanie
+znaków, obrazki, i inne). HTML jest formalnie aplikacją SGML-a,
+zestandaryzowanego nadrzędnego języka znaczników (ang. <i>Standard
+Generalized Markup Language</i>) służącego do ujednolicania struktury i
+formatu wszelkich informacji dających się zapisać w formie dokumentu
+tekstowego tak, aby dało się je łatwo przenosić i wyświetlać lub
+drukować w różnych systemach elektronicznego przekazu danych.<br/>
+Pierwsza wersja języka HTML została opracowana przez Tima
+Bernersa-Lee, który w tym czasie był fizykiem pracującym w europejskiej
+organizacji badań nuklearnych CERN. Pierwotnie składał się on z
+kilkunastu znaczników umożliwiających wyświetlanie tekstu wraz z
+odsyłaczami do innych tekstów. Rewolucyjność pomysłu polegała na tym,
+że użytkownik przeskakujący do innego tekstu nie musiał w ogóle
+wiedzieć gdzie fizycznie znajduje się interesujący go tekst. Była to
+tzw. "zerowa wersja HTML".<br/>
+Wraz z rozwojem sieci WWW, a zwłaszcza jej upowszechnianiem,
+pojawiła się potrzeba dołączania do tekstów tabel, grafiki i plików
+multimedialnych, w wyniku czego zaczęły powstawać kolejne wersje
+HTML-a. Wersje te były rozwijane przez firmy produkujące przeglądarki
+stron WWW, bez wzajemnych konsultacji, co doprowadziło do częściowej
+niekompatybilności wersji HTML-a zaimplementowanych w przeglądarkach
+różnych producentów.<br/>
+Próbą odpowiedzi na tę sytuację było stworzenie W3C czyli World Wide
+Web Consortium, organizacji która zajmuje się ustanawianiem wspólnych
+standardów HTML-a, a także innych spraw związanych z pisaniem stron WWW.<br/>
+Kolejne "oficjalne" wersje HTML-a są uzgadnianie przez szeroką dyskusję
+ekspertów i przedstawicieli zainteresowanych firm i następnie
+definiowane za pomocą języka SGML-a. Pierwszą taką oficjalną wersją
+HTML-a był HTML 2, którego niewątpliwym sukcesem było to, że wszystkie
+ważniejsze przeglądarki są w zasadzie z nim zgodne.<br/>
+Drugą wersją HTML-a, którą udało się uzgodnić w trakcie tzw. wojny
+przeglądarek, czyli ostrej i nie zawsze uczciwej konkurencji między
+firmami Microsoft i Netscape, była wersja 3.2.<br/>
+Ostatnią wersją HTML-a jest wersja 4.01, która próbuje wydzielić
+zarządzanie wyglądem strony do kaskadowych arkuszy stylów (CSS). HTML
+4.01 okazał się jedynie częściowym sukcesem w dziedzinie standaryzacji,
+gdyż wsparcie dla CSS w większości przeglądarek było przez wiele lat
+niepełne i zawierało wiele mniejszych i większych niekompatybilności.
+Niekompatybilności te stają się jednak z czasem coraz mniejsze, przez co
+pisanie stron obsługiwanych poprawnie przez wiele przeglądarek jest
+łatwiejsze niż w czasach wojen edytorowych.<br/>
+Obecnie organizacja W3C zaprzestała rozwoju HTML i postanowiła
+dostosować go do języka <a href="#XML">XML</a>, w wyniku czego powstał język
+XHTML, zgodny z HTML i możliwy do wyświetlenia w przeglądarkach
+zgodnych z HTML 4. Zmiana ta ma zapewnić większą rozszerzalność i
+dostępność języka. Z tego powodu właśnie XHTML jest obecnym zalecanym
+standardem tworzenia stron WWW. Trwają prace nad wersją 2.0, w
+przeciwieństwie do 1.0 niekompatybilną z wcześniejszymi wersjami i
+wnoszącą wiele zmian.</dd>
+
+<dt id="Java">język Java</dt>
+<dd>Obiektowy język programowania
+stworzony przez firmę Sun Microsystems. Główną zaletą Javy jest
+niezależność od systemu operacyjnego. Tę właściwość Java posiada dzięki
+temu, że kod źródłowy programów pisanych w Javie poddany jest
+kompilacji na kod pośredni (tzw. bytecode), który z kolei jest
+interpretowany (wykonywany) przez tak zwaną maszynę wirtualną. Maszyna
+wirtualna Javy została obecnie zaimplementowana na większości systemów
+operacyjnych. Mozilla umożliwia automatyczne pobieranie i uruchamianie
+programów napisanych w Javie (zwanych też apletami).</dd>
+
+<dt id="JavaScript">język JavaScript</dt>
+<dd>Stworzony przez firmę
+Netscape, zorientowany obiektowo skryptowy język programowania,
+najczęściej stosowany na stronach WWW. Przy jego pomocy wykonywane są
+niektóre elementy stron WWW, jak pokazywanie przycisków czy
+formularzy. JavaScript może być używana razem z językiem Java, ale z
+formalnego punktu widzenia są to dwa zupełnie różne języki
+programowania. Java nie jest wymagana do poprawnej pracy języka
+JavaScript.</dd>
+
+<dt id="XML">język XML</dt>
+<dd>(ang. <i>Extensible Markup Language</i>).
+Sposób opisu znacznikami, umożliwiający wygodniejsze, szybsze i mniej
+sformalizowane przygotowywanie wszelkich dokumentów
+tekstowo-graficznych, które można bez większych problemów przenosić i
+adaptować do różnych form przekazu elektronicznego.<br/>
+XML to język znaczników umożliwiający tworzenie swoich własnych
+znaczników formatujących definiowanych w definicji typu dokumentu (ang.
+<i>Document Type Definition (DTD))</i> lub w tzw. schematach XML. W XML
+możliwe jest także stosowanie kaskadowych arkuszy stylów CSS, a także
+programowalnych arkuszy stylów specjalnie zaprojektowanych dla XML-a o
+nazwie XSL i innych interaktywnych elementów często stosowanych przy
+pisaniu stron WWW.<br/>
+XML wymaga znacznie większej dyscypliny przy pisaniu dokumentów niż
+HTML, gdyż zasadą interpretacji XML-a jest najpierw kontrola
+poprawności składniowej, a dopiero później ew. wyświetlenie/wykonanie
+dokumentu. Zatem błędnie napisane dokumenty XML nie będą w ogóle
+wyświetlane przez przeglądarki. Z drugiej jednak strony, dzięki
+restrykcyjnej składni, dokumenty XML mogą być automatycznie
+przekształcane na inne formaty języków, przez programy zwane parserami.<br/>
+XML i jego zastosowania prawdopodobnie w przyszłości zastąpią
+całkowicie HTML, gdyż XML w wersji 1.0 został uznany za standard przez
+organizację W3C i jego rozwój jest silnie wspierany przez prawie
+wszystkie najważniejsze firmy produkujące oprogramowanie, takie jak:
+Microsoft, Oracle, Silicon Graphics, Sun Microsystems, Netscape i wiele
+innych. Od 4 lutego 2004 r. najnowszą wersją XML jest XML 1.1, która w
+porównaniu do XML 1.0 jest bardziej elastyczna pod względem stosowania
+różnych znaków standardu Unicode.<br/>
+XML jest jednak czymś znacznie więcej niż HTML, gdyż umożliwia
+pisanie dokumentów, które będą mogły być obsługiwane przez
+najróżniejsze urządzenia i programy. XML umożliwia też tworzenie tzw.
+aplikacji - czyli zestawów znaczników do konkretnych zastosowań, z
+których obecnie najbardziej znane są: XHTML, MathML, SVG, ChemXL.
+Zaletą XML-a jest możliwość dowolnego mieszania tych aplikacji, co
+umożliwia np. włączanie fragmentów MathML czy SVG w dokumenty napisane
+w XHTML-u, tworząc jeden, poprawny składniowo dokument XML.<br/>
+Więcej informacji o języku XML można znaleźć na stronie organizacji
+W3C <a href="http://www.w3.org/XML/" target="_blank">Extensible Markup
+Language (XML)</a> (witryna w języku angielskim).</dd>
+
+<dt id="css">kaskadowe arkusze stylów (CSS)</dt>
+<dd>Standard określania wyglądu dokumentu HTML (czcionek, kolorów,
+pozycjonowania i innych). CSS pozwala na oddzielenie treści od
+wyglądu dokumentu.</dd>
+
+<dt id="client">klient</dt>
+<dd>Oprogramowanie (np. przeglądarka
+internetowa), które wysyła żądania do <a href="#server">serwera</a> i
+odbiera od niego informacje. Serwerem jest z reguły inny komputer.
+Komputer, na którym jest zainstalowane i uruchomione oprogramowanie
+klienckie jest również nazywany klientem.</dd>
+
+<dt id="private_key">klucz prywatny</dt>
+<dd>Jeden z pary <a
+ href="#key">kluczy</a> używanych w kryptografii asymetrycznej. Służy
+do wykonywania zastrzeżonych czynności (odszyfrowywanie danych -
+odpowiadający klucz publiczny szyfruje, podpisywanie - odpowiadający
+klucz publiczny weryfikuje podpisy), dlatego jego rozpowszechnianie
+może w poważnym stopniu zagrażać bezpieczeństwu systemu.</dd>
+
+<dt id="cryptography">kryptografia</dt>
+<dd>Nauka zajmująca się
+układaniem szyfrów. Wyróżniane są dwa główne nurty kryptografii:
+kryptografia symetryczna i kryptografia asymetryczna.<br/>
+Zobacz też: <a href="#public-key_cryptography">kryptografia przy
+użyciu klucza publicznego</a>.</dd>
+
+<dt id="Password_Manager">menedżer haseł</dt>
+<dd>Część przeglądarki
+odpowiedzialna za kontrolę i zapisywanie haseł dostępowych do skrzynek
+poczty elektronicznej czy serwisów WWW. Menedżer haseł zapisuje te
+informacje na dysku twardym komputera i przywołuje je automatycznie w
+razie potrzeby.</dd>
+
+<dt id="site_manager">menedżer stron</dt>
+<dd>Część &brandShortName;, która pozwala na wysyłanie na <a href="#web_server">serwer</a>
+dokumentów utworzonych w &brandShortName;. Do wysyłania plików stosowany jest
+<a href="#file_transfer_protocol">protokół FTP</a>.</dd>
+
+
+<dt id="PKCS_11">moduł PKCS #11</dt>
+<dd>Program
+zainstalowany na komputerze użytkownika zarządzający usługami
+kryptograficznymi (szyfrowanie, odszyfrowywanie) przy użyciu standardu
+PKCS #11. Zwany również <i>modułem kryptograficznym</i>, <i>dostawcą
+usług kryptograficznych</i> lub <i>modułem zabezpieczającym</i>.
+Moduły PKCS #11 mogą kontrolować zarówno urządzenia programowe, jak i
+sprzętowe. Moduł PKCS #11 zawsze kontroluje jeden lub więcej slot,
+które mogą być w formie sprzętowej (jak np. czytnik kart
+inteligentnych), jak i programowej. Każdy slot modułu może zawierać <a
+ href="#security_device">urządzenie zabezpieczające</a> (zwane również <i>tokenem</i>),
+w którym umieszczane są certyfikaty i klucze kryptograficzne
+użytkownika. Domyślny menedżer certyfikatów wbudowany do przeglądarki
+zawiera dwa moduły PKCS #11. Użytkownik ma możliwość instalacji
+dodatkowych modułów.</dd>
+
+<dt id="cache">pamięć podręczna</dt>
+<dd>Zbiór kopii odwiedzonych w
+przeszłości stron WWW umieszczony na dysku twardym komputera
+użytkownika lub w pamięci RAM jego komputera. Przyspiesza to
+wyświetlanie często odwiedzanych lub wcześniej odwiedzonych stron, gdyż
+przeglądarka może otworzyć je z dysku twardego zamiast pobierać z
+sieci Internet. Po kliknięciu odnośnika (lub wpisania <a
+ href="#Uniform_Resource_Locator">adresu URL</a>) strony, przeglądarka
+porównuje jej zawartość przechowywaną (jeżeli strona była wcześniej
+odwiedzona) w pamięci podręcznej z zawartością strony znajdującą się w
+Internecie. Jeżeli obydwie strony są identyczne, użytkownikowi zostanie
+wyświetlona zawartość strony pochodząca z pamięci podręcznej
+przeglądarki.</dd>
+
+<dt id="navigation_toolbar">pasek narzędzi nawigacyjnych</dt>
+<dd>Pasek narzędzi umieszczony w okolicach góry okna przeglądarki,
+zawierający m. in. przyciski Wstecz i Do przodu.</dd>
+
+<dt id="Status_Bar">pasek stanu</dt>
+<dd>Pasek narzędzi obecny na
+dole każdego okna programu &brandShortName;. Zawiera między innym <a
+ href="#Component_Bar">pasek komponentów</a> po lewej stronie i ikony
+stanu po prawej.</dd>
+
+<dt id="File_Transfer_Protocol">protokół FTP</dt>
+<dd>(ang. <i>File
+Transfer Protocol</i>). Protokół typu klient-serwer, umożliwiający
+przesyłanie plików z i na serwer poprzez sieć TCP/IP.<br/>
+Protokół FTP wykorzystuje do komunikacji dwa połączenia TCP. Jedno z
+nich jest połączeniem kontrolnym, za pomocą którego przesyłane są np.
+polecenia do serwera, drugie natomiast służy do transmisji danych (
+m.in. plików).<br/>
+FTP działa w dwóch trybach: aktywnym i pasywnym. W zależności od tego, w
+jakim jest trybie, używa innych portów do komunikacji:<br/>
+<ul>
+  <li> Jeżeli FTP pracuje w trybie aktywnym, korzysta z portów nr 20 do
+przesyłu danych i 21 dla poleceń.</li>
+  <li> Natomiast jeżeli pracuje w trybie pasywnym wykorzystuje porty nr
+21 do poleceń i port o numerze &gt; 1024 do transmisji danych.</li>
+</ul></dd>
+
+<dt id="secure_shell_file_transfer_protocol">protokół sFTP</dt>
+<dd>Secure Shell File Transfer Protocol(sFTP) to protokół podobny do <a
+href="#file_transfer_protocol">FTP</a> - różnica polega na
+tym, że transmisja jest szyfrowana.</dd>
+
+<dt id="SSL">protokół SSL</dt>
+<dd>(ang. <i>Secure
+Sockets Layer</i>). Protokół, w swojej pierwotnej wersji zaprojektowany
+przez firmę Netscape Communication Corporation, zapewniający poufność i
+integralność transmisji danych oraz zapewnienie uwierzytelnienia.
+Opiera się szyfrach asymetrycznych oraz tzw. certyfikatach. Zaletą
+protokołu SSL jest fakt, że działa on na warstwie TCP, a więc można
+łatwo zastosować do zabezpieczenia protokołów warstwy aplikacyjnej
+(np.: telnet, HTTP, gopher, POP3). Na protokole SSL oparty jest nowy
+standard tego protokołu, zwany TLS (ang. <i>Transport Layer Security</i>).<br/>
+Zobacz też: <a href="#authentication">uwierzytelnianie</a>, <a
+ href="#encryption">szyfrowanie</a>.</dd>
+ 
+<dt id="TCP_IP">protokół TCP/IP</dt>
+<dd>(ang. <i>Transmission
+Control Protocol/Internet Protocol</i>). To wspólna nazwa dwóch
+podstawowych protokołów sieci Internet. Powstała przez połączenie nazw
+protokołów TCP i IP.<br/>
+TCP/IP udostępnia metody transmisji informacji pomiędzy poszczególnymi
+komputerami w sieci, obsługując pojawiające się błędy oraz tworząc
+wymagane do transmisji informacje dodatkowe.<br/>
+TCP/IP zwane jest także stosem protokołów ze względu na strukturę
+warstwową. Tymi warstwami są:
+<ul>
+  <li> warstwa programów użytkowych</li>
+  <li> warstwa transportowa</li>
+  <li> warstwa intersieci</li>
+  <li> warstwa interfejsu sieciowego</li>
+  <li> warstwa sprzętowa</li>
+</ul></dd>
+
+<dt id="proxy">proxy</dt>
+<dd>Program lub usługa pośrednicząca w
+komunikacji pomiędzy <a href="#server">serwerem</a> a <a
+ href="#client">klientem</a> w celu skrócenia czasu oczekiwania na
+wykonanie żądanej czynności (np. wczytanie strony WWW - HTTP proxy).</dd>
+
+<dt id="publish">Publikowanie</dt>
+<dd>Proces <em>wysyłania</em> dokumentu na <a href="#web_server">serwer WWW</a>.
+Dopiero po umieszczeniu dokumentu na serwerze, staje się on dostępny dla
+czytelinków z sieci. W &brandShortName; do publikacji służy <a
+href="#site_manager">Menedżer stron</a>.</dd>
+
+<dt id="decryption">rozszyfrowywanie</dt>
+<dd>Proces dekodowania
+zaszyfrowanych danych.<br/>
+Zobacz też: <a href="#encryption">szyfrowanie</a>.</dd>
+
+<dt id="server">serwer</dt>
+<dd>Oprogramowanie (np. zarządzające
+stronami internetowymi), które odbiera żądania od <a href="#client">klientów</a>
+i wysyła do nich informacje. Klientem z reguły jest inny komputer.
+Komputer, na którym jest zainstalowane i uruchomione oprogramowanie
+serwerowe, również nazywany jest serwerem.</dd>
+
+<dt id="web_server">serwer WWW</dt>
+<dd>Komputer podłączony do sieci, na którym uruchomione jest oprogramowanie
+(np. <a href="http://httpd.apache.org">Apache</a>) służące do udostępniania
+dokumentów <a href="#client">klientom</a>.</dd>
+
+<dt id="World_Wide_Web">sieć WWW</dt>
+<dd>(ang. <i>World Wide Web</i>)
+Znana również jako sieć. Część zasobów Internetu wykorzystująca witryny
+przechowywane na <a href="#server">serwerach</a> i pokazywane przez <a
+ href="#client">klientów</a> zwanych przeglądarkami (jak Mozilla).</dd>
+
+
+<dt id="web_page">strona internetowa</dt>
+<dd>Pojedynczy dokument
+używany w sieci Internet, posiadający unikalny adres URL i mogący
+zawierać tekst, treści multimedialne i odnośniki do innych stron lub
+witryn internetowych.</dd>
+ 
+ <dt id="encryption">szyfrowanie</dt>
+<dd>Procedura takiego
+przekształcania informacji, żeby była ona niemożliwa (lub bardzo
+trudna) do odczytania przez każdego, kto nie posiada odpowiedniego
+klucza.<br/>
+Zobacz też: <a href="#public-key_cryptography">kryptografia przy
+użyciu klucza publicznego</a>.</dd>
+
+<dt id="TLS">TLS</dt>
+<dd>Zobacz <a
+ href="#Secure_Sockets_Layer">protokół SSL</a>.</dd>
+ 
+<dt id="authentication">uwierzytelnianie</dt>
+<dd>Używanie hasła,
+certyfikatu, osobistego numeru identyfikującego (numeru PIN) lub innej
+informacji do uwierzytelnienia swej tożsamości w sieci komputerowej.</dd>
+
+<dt id="w3c">W3C</dt>
+<dd>World Wide Web Consortium(W3C) to organizacja zajmująca się tworzeniem
+rekomendacji standardów dla sieci <a href="world_wide_web">WWW</a>. 
+Rekomendacje te (np. HTML 4.01, XHTML 1.1, CSS 2.1) nazywane są zwykle
+<em>standardami sieciowymi</em>.</dd>
+
+<dt id="web_site">witryna internetowa</dt>
+<dd>Grupa powiązanych ze
+sobą za pomocą odnośników i zarządzanych przez jedną firmę (osobę,
+organizację) stron WWW. Witryna internetowa może zawierać tekst, treści
+multimedialne, jak i odnośniki do innych witryn.</dd>
+
+<dt id="plug-in">wtyczka</dt>
+<dd>Typ <a href="#helper_application">aplikacji
+pomocniczej</a>, rozszerzający możliwości przeglądarki w zakresie
+obsługi pewnych rodzajów plików (np. pliki audio, czy video). W
+przeciwieństwie do aplikacji pomocniczych, wtyczki instalują się do
+katalogu wtyczek (katalog Plugins w katalogu Mozilla) i z reguły są
+uruchamiane w oknie przeglądarki. Typowymi przykładami są wtyczki Javy
+i Macromedia Flash Player.</dd>
+
+<dt id="search_engine">wyszukiwarka</dt>
+<dd>Program lub strona
+internetowa, którego zadaniem jest ułatwienie użytkownikom Internetu
+znalezienie informacji w sieci. Zasada działania wyszukiwarek może
+opierać się na:<br/>
+<ul>
+  <li> katalogowaniu stron zgłaszanych przez ich autorów</li>
+  <li> analizie treści strony</li>
+  <li> analizie topologii sieci</li>
+  <li> zasadzie aukcji miejsc</li>
+</ul>
+</dd>
+</dl>
+<p>
+[&nbsp;<a href="#glossary">Powrót do początku Słowniczka</a>&nbsp;]
+</p>
+
+<div class="contentsBox"><em>14 sierpnia 2004</em></div>
+<p>Copyright &copy; 2003-2004 Contributors to the Mozilla Help Viewer Project.</p>
+</body>
+</html>

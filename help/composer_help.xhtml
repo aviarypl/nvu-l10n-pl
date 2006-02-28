@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Tworzenie stron WWW za pomocą &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Pokaż/Ukryj</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Centrum pomocy</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">W tym dokumencie opisano:
+  <a href="#starting_a_new_page">Tworzenie nowej strony</a>
+  
+  <a href="formatting_webpages.xhtml">Formatowanie stron</a>
+  
+  <a href="css.xhtml">Korzystanie z arkuszy stylów</a>
+  
+  <a href="tables.xhtml">Tabele</a>
+  
+  <a href="images.xhtml">Obrazki</a>
+  
+  <a href="toc.xhtml">Automatyczny spis treści dokumentu</a>
+  
+  <a href="templates.xhtml">Szablony</a>
+  
+  <a href="page_properties.xhtml">Ustawianie właściwości strony</a>
+  
+  <a href="links.xhtml">Tworzenie odnośników</a>
+    
+  <a href="customize.xhtml">Dostosowywanie &brandShortName;</a>
+</div>
+
+<h1 id="creating_web_pages_with_composer">Tworzenie stron WWW za pomocą &brandShortName;</h1>
+
+<p>&brandShortName; pozwala tworzyć i publikować strony www. Znajomość
+języka HTML nie jest konieczna, aby korzystać z &brandShortName;.  
+&brandShortName; jest tak prosty w użyciu jak edytor tekstu.</p>
+
+<p>Za pomocą przycisków na paskach narzędzi można dodawać listy, obrazki, odnośniki i zmieniać style tekstu.
+Edytowaną stronę na bieżąco widać tak jak będzie wyświetlana w przeglądarce. Utworzone dokumenty będą
+dostępne dla każdego, niezależnie od programu używanego do odczytu HTML.</p>
+
+<h2 id="starting_a_new_page">Tworzenie nowej strony</h2>
+
+<h3 id="creating_a_new_page">Tworzenie nowej strony</h3>
+
+<p>&brandShortName; to edytor HTML (HyperText Markup Language), który pozwala tworzyć i modyfikować strony internetowe.
+&brandShortName; jest edytorem typu <em>WYSIWYG</em> (What You See Is What You Get), co oznacza że
+edytowaną stronę na bieżąco widać tak jak będzie wyświetlana w przeglądarce. Nie trzeba
+znać języka HTML, ponieważ większość podstawowych elementów języka dostępna jest poprzez polecenia
+z paska narzędzi i menu.</p>
+
+<p>&brandShortName; pozwala także na edycję źródła strony w języku HTML.
+Aby zobaczyć lub edytować kod źródłowy HTML, należy z menu Widok wybrać
+pozycję Źródło HTML lub wybrać panel Źródło u dołu okna głównego &brandShortName;.</p>
+
+<p>Aby utworzyć nową stronę należy użyć jednej z poniżej opisanych metod. 
+Po utworzeniu strony można wpisywać tekst tak jak w edytorze tekstu.</p>
+
+<p><strong>Aby utworzyć nową stronę należy</strong>:</p>
+
+<ul>
+  <li>Nacisnąć przycisk Nowa na pasku narzędzi &brandShortName;.</li>
+</ul>
+
+<p><strong>Aby otworzyć do edycji plik HTML z dysku twardego należy</strong>:</p>
+
+<ol>
+  <li>Z menu <span class="menuPath">Plik</span> wybrać pozycję <span class="menuPath">
+  Otwórz plik</span>.</li>
+
+  <li>W oknie wyboru pliku znaleźć i zaznaczyć żądany plik.</li>
+
+  <li>Kliknąć przycisk Otwórz, aby wyświetlić plik w oknie &brandShortName;.</li>
+</ol>
+
+<p><strong>Aby dokonać edycji strony z internetu należy</strong>:</p>
+
+<ol>
+  <li>Z menu <span class="menuPath">Plik</span> wybrać <span class="menuPath">
+  Otwórz adres internetowy</span>.</li>
+
+  <li>W oknie Otwórz adres internetowy wpisać URL strony (przykładowo
+  <tt>http://www.mozillapl.org/</tt>), a następnie nacisnąć przycisk Otwórz. 
+  Strona zostanie otwarta w oknie &brandShortName;.</li> 
+</ol>
+
+<p><strong>Podpowiedź</strong>: Aby szybko otworzyć ostatnio edytowane w
+&brandShortName; strony, należy z menu <span class="menuPath">Plik</span> wybrać 
+<span class="menuPath">Ostatnio edytowane strony</span> i zaznaczyć w liście żądany plik.
+</p>
+
+<p>[ <a href="#starting_a_new_page">Powrót do początku rozdziału</a>]</p>
+
+<h3 id="tabs_editing_multiple_documents">Panele - edycja wielu dokumentów</h3>
+
+<p>&brandShortName; pozwala na edycję wielu dokumentów w jednym oknie.
+Aby nie przełączać się pomiędzy wieloma oknami programu, wystarczy otwierać
+kolejne dokumenty do edycji w osobnych <strong>Panelach</strong>.</p>
+
+<p>Panele można otwierać za pomocą skrótu klawiaturowego <kbd>Ctrl+T</kbd>
+lub za pomocą opcji w oknie tworzenia nowego dokumentu - menu 
+<span class="menuPath">Plik &gt; Nowy</span>. Każdy dokument w panelu traktowany jest
+jako osobny np. gdy jest zmieniony przy nazwie panelu wyświetla się odpowiednia ikona.</p>
+
+<p>[ <a href="#starting_a_new_page">Powrót do początku rozdziału</a>
+]</p>
+
+<h3 id="saving_and_browsing_your_new_page">Zapisywanie i przeglądanie utworzonej strony</h3>
+
+<p>&brandShortName; potrafi zapisywać dokumenty w formacie HTML i w formacie tekstowym.
+Zapisanie dokumentu w formacie HTML pozwala zachować formatowanie strony takie jak: style tekstu 
+(np. pogrubiony lub pochylony), tabele, odnośniki i obrazki.
+Zapisanie w formacie tekstowym usuwa wszystkie znaczniki HTML zachowując tekst dokumentu.
+</p>
+
+<p>Aby zapisać dokument w formacie HTML należy:</p>
+
+<ul> 
+  <li>Z menu <span class="menuPath">Plik</span> wybrać pozycję <span class="menuPath">Zapisz</span>
+  lub nacisnąć ikonę Zapisz na pasku narzędzi. 
+  
+  <p>Jeśli strona nie ma jeszcze tytułu, wyświetlone zostanie okienko
+   z prośbą o jego wpisanie. Tytuł strony wyświetlany jest w pasku tytułowym okna przeglądarki 
+   gdy strona jest otwarta lub w liście zakładek (gdy czytelnik doda stronę do zakładek).</p>
+
+  <p>Następnie &brandShortName; zapyta o nazwę i położenie docelowego pliku. 
+  Należy zachować rozszerzenie .html..</p>
+  
+  </li>
+</ul>
+
+<p>Aby zachować dokument pod inną nazwą lub w innym miejscu, należy:</p>
+
+<ul>
+  <li>wybrać polecenie <span class="menuPath">Zapisz jako</span>  z menu <span class="menuPath">Plik</span>.</li>
+</ul>
+
+<p>Podczas zapisywania strony, wszystkie jej składniki (kod HTML,
+obrazki i inne pliki) zapisywane są razem na lokalnym dysku twardym. Aby zapisywać
+tylko HTML, należy zmienić opcje zapisu stron. Więcej informacji na ten
+temat znajduje się w części <a href="#composer_preferences">
+Opcje &brandShortName;</a>.</p>
+<!--
+<p>If an image location is absolute (starts with "http://") and you
+are connected to the Internet, you will still see that image in the
+document in &brandShortName; and Navigator. However, if the image
+location is relative to the page location (starts with "file:///"),
+then you won't see the image in the local version of the document.</p>
+-->
+<p>Aby zachować dokument w formacie tekstowym należy:</p>
+
+<ol>
+  <li>Z menu <span class="menuPath">Plik</span> wybrać pozycję <span class="menuPath">Eksportuj do formatu tekstowego</span>.</li>
+
+  <li>Podać nazwę, wybrać położenie pliku docelowego i nacisnąć przycisk Zapisz.</li>
+</ol>
+
+<p><strong>Uwaga</strong>: Dokumenty w formacie tekstowym nie mogą zawierać obrazków ani innych obiektów.</p>
+
+<p><strong>Podpowiedź</strong>: Aby przywrócić dokument do ostatnio zapisanej 
+wersji należy wydać polecenie <span class="menuPath">Plik &gt; Przywróć</span>.
+Uwaga: ostatnio wprowadzone zmiany zostaną utracone.</p>
+
+<p>Aby wyświetlić stronę w oknie przeglądarki należy:</p>
+
+<ul>
+  <li>Z menu <span class="menuPath">Plik</span> wybrać pozycję <span class="menuPath">Otwórz stronę w przeglądarce</span> (lub kliknąć przycisk Podgląd na pasku
+narzędzi). Jeśli dokument nie jest jeszcze zachowany &brandShortName; zapyta o tytuł, nazwę i położenie
+pliku strony. Okno &brandShortName; pozostaje otwarte pod nowo otwartym oknem przeglądarki.</li>
+</ul>
+
+<p>[ <a href="#starting_a_new_page">Powrót do początku rozdziału</a> ]</p>
+
+<p>[<a href="formatting_webpages.xhtml">Następny</a>]</p>
+
+	<div class="copyrightBox"><em>20 czerwca 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the Nvu
+Help Documentation Project.</p>
+
+<p>Polskie tłumaczenie: Copyright &copy; 2003-2005 Mozillapl.org oraz AviaryPL.</p>
+
+</body>
+</html>

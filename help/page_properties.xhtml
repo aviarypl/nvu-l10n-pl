@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Tworzenie stron WWW za pomocą &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Pokaż/Ukryj</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Centrum pomocy</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">W tym dokumencie opisano:
+  <a href="composer_help.xhtml#starting_a_new_page">Tworzenie nowej strony</a>
+  
+  <a href="formatting_webpages.xhtml">Formatowanie stron</a>
+  
+  <a href="css.xhtml">Korzystanie z arkuszy stylów</a>
+  
+  <a href="tables.xhtml">Tabele</a>
+  
+  <a href="images.xhtml">Obrazki</a>
+  
+  <a href="toc.xhtml">Automatyczny spis treści dokumentu</a>
+  
+  <a href="templates.xhtml">Szablony</a>
+  
+  <a href="page_properties.xhtml">Ustawianie właściwości strony</a>
+  
+  <a href="links.xhtml">Tworzenie odnośników</a>
+    
+  <a href="customize.xhtml">Dostosowywanie &brandShortName;</a>
+</div>
+
+<h2 id="setting_page_properties">Ustawianie właściwości strony</h2>
+
+<h3 id="setting_page_properties_and_meta_tags">Ustawianie właściwości stron i znaczników meta</h3>
+
+<p>Okno Właściwości strony pozwala podać tytuł, autora i opis strony. 
+Informacje te są przydatne podczas publikowania strony w sieci Internet, ponieważ 
+wykorzystywane są przez wyszukiwarki do indeksowana zawartości stron. Informacje te 
+można także podejrzeć w przeglądarce otwierając okno "Informacje o stronie".
+</p>
+
+<ol> 
+  <li>Aby wyświetlić okno Właściwości strony należy z menu <span class="menuPath">Format</span> 
+  wybrać pozycję <span class="menuPath">Właściwości i tytuł strony</span>.</li>
+
+  <li>Dostępne opcje:</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <ul> <li><strong>Tytuł</strong>: należy wpisać tekst, 
+	  który ma pokazać się podczas przeglądania strony w pasku tytułowym okna 
+	  przeglądarki. Większość wyszukiwarek znajduje strony po tytule, więc 
+	  należy wybrać tytuł odpowiedni do treści.</li>
+
+      <li><strong>Autor</strong>: należy wpisać osobę, która stworzyła stronę. 
+	  Informacja może być pomocna, gdy ktoś chciałby znaleźć dokument używając danych twórcy.
+
+      <blockquote> <p><strong>Podpowiedź</strong>: aby ustalić domyślnego autora stron 
+	  należy skorzystać z <a href="#composer_preferences_new_page_settings">Opcji &brandShortName;</a>.</p>
+      </blockquote> </li>
+
+      <li><strong>Opis</strong>: można podać krótki opis zawartości dokumentu.</li>
+      </ul>
+  </li>
+</ol>
+
+<p class="returnToSection">[ <a href="#setting_page_properties">Powrót do początku rozdziału</a> ]</p>
+
+<h3 id="setting_page_colors_and_backgrounds">Kolory i tło strony</h3>
+
+<p>Można zmienić kolor tła lub podać obrazek wyświetlony w tle strony. 
+Zmiany te wpływają na wygląd strony w przeglądarce.
+</p>
+
+<p>Aby ustawić kolory i tło edytowanej strony, należy:</p>
+
+<ol>
+  <li>Z menu <span class="menuPath">Format</span> wybrać pozycję 
+  <span class="menuPath">Kolory strony i tła</span>.</li>
+
+  <li>Dostępne opcje:</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <ul> <li><strong>Użyj domyślnych kolorów czytelnika</strong>: 
+	  strona wyświetlana jest w kolorach ustawionych w przeglądarce użytkownika.</li>
+
+      <li><strong>Użyj własnych kolorów</strong>: po zaznaczeniu tej opcji można 
+	  wybrać z rozwijalnych menu kolory tekstu i odnośników. Podgląd wskazanych 
+	  kolorów znajduje się po prawej stronie okna.</li>
+
+      <li><strong>Obrazek tła</strong>: pozwala wybrać obrazek wyświetlany 
+	  w tle strony. Należy wpisać nazwę obrazka lub kliknąć przycisk Wybierz 
+	  plik aby znaleźć plik na dysku lub w sieci.
+
+      <p><strong>Uwaga</strong>: Obrazek tła wyświetlany jest sąsiadująco 
+	  i przykrywa ustalony kolor tła strony.</p> </li>
+
+      </ul>
+  </li>
+</ol>
+
+<p><strong>Uwaga</strong>: Aby nadać inne atrybuty lub zdarzenia 
+	JavaScript należy kliknąć przycisk <a href="#using_the_advanced_property_editor">
+	Edycja zaawansowana</a>.</p>
+
+<p>W Opcjach &brandShortName; można ustalić <a href="#composer_preferences_new_page_settings">
+domyślne kolory dla nowotworzonych stron</a>.</p>
+
+<p class="returnToSection">[ <a href="#setting_page_properties">
+Powrót do początku rozdziału</a> ]</p>
+
+<p>[<a href="links.xhtml">Następny</a>] [<a href="templates.xhtml">Poprzedni</a>]</p>
+
+	<div class="copyrightBox"><em>20 czerwca 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the Nvu
+Help Documentation Project.</p>
+
+<p>Polskie tłumaczenie: Copyright &copy; 2003-2005 Mozillapl.org oraz AviaryPL.</p>
+
+</body>
+</html>
