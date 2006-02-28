@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+    <!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+    %brandDTD;
+]
+>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Korzystanie z okna Pomocy</title>
+	<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Pokaż/Ukryj</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Centrum pomocy</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">W tym rozdziale:
+    <li><a href="#finding_the_topic_you_want">Szukanie wybranego tematu</a></li>
+    <li><a href="#retracing_your_steps">Nawigacja</a></li>
+    <li><a href="#search_tips">Wskazówki dotyczące szukania</a></li>
+</div>
+
+<h1 id="help_window_top">Korzystanie z okna Pomocy</h1>
+
+<p>Niniejszy rozdział wyjaśnia, jak korzystać z okna Pomocy (okno, w którym znajdują się: 
+Sidebar po lewej oraz ten tekst).</p>
+
+<h2 id="finding_the_topic_you_want">Szukanie wybranego tematu</h2>
+
+	<p>Podczas przeglądania okna Pomocy można użyć zakładek w lewej ramce, by przejrzeć dostępne tematy:</p>
+	<ul>
+		<li><strong>Spis treści</strong> pokazuje listę głównych tematów.<br/> By dowiedzieć się więcej o danym temacie, należy kliknąć jego nazwę. By zobaczyć listę dostępnych podtematów, należy kliknąć podwójnie.</li>
+		 <li><strong>Znajdź</strong> umożliwia przeszukiwanie plików Pomocy.<br/>
+		  Należy wpisać słowo lub wyrażenie i nacisnąć Enter, by zobaczyć listę związanych z zapytaniem tematów. Następnie trzeba kliknąć wybrany temat, by przeczytać więcej.<br/>
+		  Jeśli wyszukiwanie nie znajdzie żadnych tematów, można spróbować wpisać mniej słów lub inną ich kombinację.</li>
+		 <li><strong>Indeks</strong> jest alfabetyczną listą tematów.<br/>By dowiedzieć się więcej o wybranym zagadnieniu, należy kliknąć odpowiednią pozycję w skorowidzu.</li>
+		 <li><strong>Słowniczek</strong> jest alfabetyczną listą definicji.<br/>By przeczytać definicję wybranego pojęcia, należy kliknąć jego nazwę.</li>
+	</ul>
+
+	<p>By przeczytać więcej informacji związanych z aktualnie czytanym tematem,
+	należy przyciskiem myszy wybrać odpowiedni odnośnik - tak jak na zwykłych stronach internetowych.</p>
+
+
+<h2 id="retracing_your_steps">Nawigacja</h2>
+	<p>Do poruszania się między już przeczytanymi tematami służą przyciski w lewym górnym rogu okna Pomocy:</p>
+
+	<p><img src="images/buttons.png" /></p>
+
+	<ul>
+		<li>Przycisk Wstecz służy do cofnięcia się do stron już odwiedzonych. Działa tak samo jak przycisk "Przejdź do poprzedniej strony" w programie Firefox.</li>
+		<li>Przycisk Do Przodu służy do nawigacji wprzód po stronach już odwiedzonych. Działa tak samo jak przycisk "Przejdź do następnej strony" w programie Firefox.</li>
+		<li><strong>Przycisk strony głównej (symbolizowanej ikoną domku) pozwala wrócić użytkownikowi na główną stronę Pomocy, gdzie znajdują się odnośniki do stron internetowych związanych z używaniem oraz ze wsparciem technicznym programu &brandShortName;.</strong>.</li>
+	</ul>
+
+	<p>Można także wydrukować opis wybranego tematu:</p>
+
+	<ul>
+		<li>By wydrukować całą stronę, która jest wyświetlana w oknie Pomocy, należy nacisnąć przycisk Drukuj znajdujący się w prawym górnym rogu tego okna.<br/>
+
+		<img src="images/print.png" /></li>
+
+		<li>By wydrukować tylko część strony, należy najpierw kliknąć lewym przyciskiem myszy w wybranym miejscu na stronie i trzymająć wciśnięty przycisk przeciągnąć mysz tak, by zaznaczyć fragment, który ma zostać wydrukowany a następnie nacisnąć przycisk Drukuj.</li>
+	</ul>
+
+<h2 id="search_tips">Wskazówki dotyczące szukania</h2>
+	<p>Jeśli poszukiwania odpowiedzi nie przynoszą rezultatów:</p>
+
+	<ul>
+		<li>Należy upewnić się, że poszukiwane zagadnienie dotyczy &brandShortName;. Pomoc nie odpowie na pytania ogólnie związane z Internetem.</li>
+        	<li>Należy starać się poszerzyć zakres poszukiwanego zagadnienia - należy unikać zbyt szczegółowych i dokładnych zapytań; dodatkowo należy pamiętać, że problem może być opisany innymi słowami niż te, których użyto przy wyszukiwaniu.</li>
+		<li>Z drugiej strony należy unikać zbyt ogólnych zapytań: takie słowa jak "&brandShortName;" czy "&vendorShortName;" pasują prawdopodobnie do wszystkich tematów w systemie Pomocy.</li>
+	</ul>
+
+<div class="copyrightBox"><em>29 marca 2005</em></div>
+<p>Copyright &copy; 2003-2004 Contributors to the Nvu Help Documentation Project.</p>
+<p>Polskie tłumaczenie: Copyright &copy; 2004-2005 Mozillapl.org oraz AviaryPL.</p>
+
+</body>
+</html>

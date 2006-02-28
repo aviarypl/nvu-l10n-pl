@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Tworzenie stron WWW za pomocą &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Pokaż/Ukryj</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Centrum pomocy</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">W tym dokumencie opisano:
+  <a href="composer_help.xhtml#starting_a_new_page">Tworzenie nowej strony</a>
+  
+  <a href="formatting_webpages.xhtml">Formatowanie stron</a>
+  
+  <a href="css.xhtml">Korzystanie z arkuszy stylów</a>
+  
+  <a href="tables.xhtml">Tabele</a>
+  
+  <a href="images.xhtml">Obrazki</a>
+  
+  <a href="toc.xhtml">Automatyczny spis treści dokumentu</a>
+  
+  <a href="templates.xhtml">Szablony</a>
+  
+  <a href="page_properties.xhtml">Ustawianie właściwości strony</a>
+  
+  <a href="links.xhtml">Tworzenie odnośników</a>
+    
+  <a href="customize.xhtml">Dostosowywanie &brandShortName;</a>
+</div>
+
+<h2 id="creating_links_in_composer">Tworzenie odnośników</h2>
+
+<h3 id="creating_links_within_the_same_page">Tworzenie odnośników wewnątrz strony</h3>
+
+<p>Aby utworzyć odnośnik wewnątrz strony (na przykład tak aby czytelnik mógł 
+przeskoczyć między częściami strony) należy utworzyć <em>kotwicę</em> 
+(cel odnośnika), a następnie utworzyć odnośnik wskazujący na stworzoną kotwicę. 
+Aby utworzyć kotwicę należy:</p>
+
+<ol>
+  <li>Ustawić kursor w miejscu gdzie ma pojawić się kotwica lub 
+  zaznaczyć fragment tekstu.</li>
+  
+  <li>Nacisnąć przycisk <img src="images/anchor.png" alt="" /> Kotwica lub wybrać z menu programu 
+  pozycję <span class="menuPath">Wstaw &gt; Kotwicę...</span>.</li>
+  
+  <li>Wpisać unikalną nazwę dla kotwicy (do 30 znaków)
+  W przypadku gdy w pierwszym kroku zaznaczono tekst, nazwa zostanie
+  wygenerowana automatycznie.</li>
+  
+  <li>Nacisnąć przycisk OK. W dokumencie pojawi się ikona kotwicy: 
+  <img src="images/anchor-in-doc.gif" alt="" /></li>
+</ol>
+
+<p>Aby utworzyć odnośnik do kotwicy lub pliku, należy:</p>
+
+<ol>
+  <li>Zaznaczyć tekst lub obrazek, który ma być odnośnikiem.</li>
+
+  <li>Nacisnąć przycisk Odnośnik na pasku narzędzi lub 
+  wybrać pozycję <span class="menuPath">Odnośnik</span> 
+  z menu <span class="menuPath">Wstaw</span> (klawisze Ctrl+L)</li>
+  
+  <li>
+  <ul>
+    <li>W przypadku tworzenia odnośnika do pliku skorzystać z przycisku
+	Wybierz plik.</li>
+    
+    <li>W przypadku tworzenia odnośnika do kotwicy wybrać jej nazwę
+	z listy rozwijalnej.</li>
+    
+    <li>W przypadku tworzenia odnośnika do nagłówka (h1 - h6) wybrać jego nazwę
+	z listy rozwijalnej.</li>
+    
+  </ul>
+  </li>
+  
+  <li>Nacisnąć OK.</li> 
+</ol>
+
+<p><strong>Podpowiedź</strong>: aby przetestować działanie utworzonego odnośnika,
+należy z menu <span class="menuPath">Plik</span> wybrać pozycję 
+<span class="menuPath">Otwórz stronę w przeglądarce</span>.</p>
+
+<p><strong>Podpowiedź</strong>: można tworzyć odnośniki do nagłówków znajdujących się
+w dokumencie (nie trzeba tworzyć kotwic).</p>
+
+<p class="returnToSection">[ <a
+href="#creating_links_in_composer">Powrót do początku rozdziału</a>
+]</p>
+
+<h3 id="creating_links_to_other_pages">Tworzenie odnośników do innych stron</h3>
+
+<p>Za pomocą &brandShortName; można tworzyć odnośniki do stron na 
+lokalnym komputerze, w sieci lokalnej lub do stron w sieci Internet.
+</p>
+
+<p><strong>Podpowiedź</strong>: przed tworzeniem odnośników
+najlepiej jest zapisać dokument. Pozwoli to na stosowanie
+odnośników względnych (relatywnych).</p>
+
+<p id="to_create_a_link_to_another_page">Aby utworzyć odnośnik do innej strony, należy:</p>
+
+<ol>
+  <li>Ustawić kursor w miejscu gdzie ma pojawić się odnośnik lub 
+  zaznaczyć obiekt (tekst, obrazek), który ma być odnośnikiem.</li>
+  
+  <li>Nacisnąć przycisk Odnośnik na pasku narzędzi.</li>
+  
+  <li>Zdefiniować odnośnik:
+  
+  <ul>
+    <li><strong>Tekst odnośnika</strong>: jeśli w punkcie 1. zaznaczono 
+	tekst to pojawia się on tutaj. W przeciwnym wypadku należy wpisać tekst, 
+	który ma być użyty jako odnośnik.</li>
+
+    <li><strong>Cel odnośnika</strong>: wpisać ścieżkę lub URL strony 
+	do której tworzony jest odnośnik. Można także użyć okna dialogowego wyboru 
+	pliku klikając przycisk Wybierz plik lub wkleić adres URL z okna przeglądarki.</li>
+
+	<li><strong>Adres URL jest relatywny do adresu strony</strong>: gdy opcja jest zaznaczona
+	&brandShortName; automatycznie przekształca adres pliku obrazka na adres relatywny (względny).
+	Adresy względne pozwalają na łatwe przenoszenie dokumentu i obrazków w nim zawartych.
+	<p>Opcja dostępna jest tylko w zapisanych wcześniej dokumentach.</p></li>
+	    
+  </ul>
+  </li>
+  <li>Aby nadać inne atrybuty lub zdarzenia 
+	JavaScript należy kliknąć przycisk <a href="#using_the_advanced_property_editor">
+	Edycja zaawansowana</a>.</li>
+  
+  <li>Nacisnąć przycisk OK.</li>
+  
+  <li><strong>Podpowiedź</strong>: aby przetestować działanie utworzonego odnośnika,
+   należy z menu <span class="menuPath">Plik</span> wybrać pozycję 
+   <span class="menuPath">Otwórz stronę w przeglądarce</span>.
+  </li>
+</ol>
+
+<p><strong>Podpowiedź</strong>: Aby szybko utworzyć odnośnik do strony, zakładki, 
+wiadomości pocztowej lub grup dyskusyjnych należy przenieść dany 
+odnośnik lub ikonę strony do okna &brandShortName;.</p>
+
+<p class="returnToSection">[ <a
+href="#creating_links_in_composer">Powrót do początku rozdziału</a>
+]</p>
+
+<h3 id="adding_xfn_information_within_your_links">Informacje XFN w odnośnikach</h3>
+
+<p>Odnośniki do stron innych osób tworzone w &brandShortName; mogą zawierać
+informacje <a target="_blank" href="http://gmpg.org/xfn/">XFN</a> (XHTML Friends Network).
+XFN pozwala zamieścić informację o stosunkach międzyludzkich w odnośnikach.
+Aby dodać informację XFN do odnośnika:</p>
+
+<ol>
+  <li>Kliknąć prawym klawiszem na dany odnośnik.</li>
+  <li>Z menu kontekstowego wybrać Właściwości odnośnika.</li>
+  <li>W oknie dialogowym nacisnąć przycisk Więcej właściwości.</li>
+  <li>Zaznaczyć odpowiednie opcje w sekcji Zaprzyjaźnienie.</li>
+  <li>Nacisnąć przycisk OK.</li>
+</ol>
+
+<p><strong>Uwaga:</strong> Niektóre właściwości XFN wykluczają inne.</p>
+
+<p class="returnToSection">[ <a
+href="#creating_links_in_composer">Powrót do początku rozdziału</a>
+]</p>
+
+<h3 id="using_images_as_links">Obrazki jako odnośniki</h3>
+
+<p>Obrazki (JPEG, GIF, PNG) mogą także zachowywać się jak odnośniki. Kiedy użytkownik
+  strony kliknie na taki obrazek przeglądarka wyświetli stronę wskazywaną przez odnośnik.
+  Aby utworzyć obrazek-odnośnik należy:</p>
+
+<ol>
+  <li>Zaznaczyć obrazek na stronie.</li>
+
+  <li>Nacisnąć przycisk <img src="images/link.png" alt="" /> Odnośnik na pasku narzędzi lub 
+  wybrać pozycję <span class="menuPath">Odnośnik</span> 
+  z menu <span class="menuPath">Wstaw</span>.</li>
+
+  <li>Skorzystać z okna dialogowego aby utworzyć odnośnik do <a
+  href="#creating_links_within_the_same_page">kotwicy lub nagłówka na stronie</a>
+  lub <a href="#creating_links_to_other_pages">odnośnik do innej strony</a>.</li>
+</ol>
+
+<p><strong>Podpowiedź</strong>: Przeciągnięcie obrazka z przeglądarki do okna
+&brandShortName; utworzy obrazek-odnośnik.</p>
+
+<p><strong>Uwaga</strong>: aby usunąć obramowanie obrazka, należy
+odznaczyć opcję "Pokaż obramowanie wokół obrazka z odnośnikiem" w 
+oknie właściwości obrazka.</p>
+
+<p class="returnToSection">[ <a
+href="#creating_links_in_composer">Powrót do początku rozdziału</a>
+]</p>
+
+<h3 id="removing_or_discontinuing_links">Usuwanie i kończenie wprowadzania odnośników</h3>
+
+<p>Aby usunąć odnośnik, należy:</p>
+
+<ol>
+  <li>Zaznaczyć tekst odnośnika.</li>
+
+  <li>Z menu <span class="menuPath">Format</span> wybrać opcję <span class="menuPath">Usuń odnośnik</span>.</li>
+</ol>
+
+<p>Aby kontynuować pisanie za odnośnikiem, należy:</p>
+
+<ol>
+  <li>Ustawić kursor za odnośnikiem.</li>
+
+  <li>Z menu <span class="menuPath">Format</span> wybrać opcję <span class="menuPath">Zakończ odnośnik</span>.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#creating_links_in_composer">Powrót do początku rozdziału</a>
+]</p>
+
+<p>[<a href="customize.xhtml">Następny</a>] [<a href="page_properties.xhtml">Poprzedni</a>]</p>
+
+<div class="copyrightBox"><em>20 czerwca 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the Nvu
+Help Documentation Project.</p>
+
+<p>Polskie tłumaczenie: Copyright &copy; 2003-2005 Mozillapl.org oraz AviaryPL.</p>
+
+</body>
+</html>

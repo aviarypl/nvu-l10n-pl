@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<!--
+Contributor(s):
+"KDS Sahambi" <kds.sahambi AT gmail DOT com>
+Wadim Dziedzic <nikdo@aviary.pl> (polish translation)
+Piotr Pielach <cleriic@aviary.pl (polish translation)
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Opcje &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Pokaż/Ukryj</a></small></td><td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Centrum pomocy</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">
+
+<a href="#preferences_general_settings">Opcje ogólne</a>
+
+<a href="#preferences_fonts">Czcionki</a>
+
+<a href="#preferences_new_page_settings">Ustawienia nowej stron</a>
+
+<a href="#preferences_advanced_settings">Opcje zaawansowane</a>
+</div>
+
+<h1 id="preferences">Opcje &brandShortName;</h1>
+
+<p>Okno opcji &brandShortName; pozwala zmieniać najważniejsze ustawienia dotyczące 
+programu. Ustawione opcje będą pamiętane i stosowane podczas każdego uruchomienia programu.</p>
+
+<p>Aby otworzyć okno opcji &brandShortName; należy z
+menu <span class="menuPath">Narzędzia</span> wybrać pozycję 
+<span class="menuPath">Opcje</span></p>
+
+<p>Ustawienia publikacji stron opisano w rozdziale <a
+href="publishing_help.xhtml#publishing_settings">Ustawienia publikacji stron</a>.</p>
+
+<h2 id="preferences_general_settings">Opcje ogólne</h2>
+
+<p>Opcje te pozwalają określić ustawienia dla zapisywania plików
+i edycji tabel. Ustawienia będą stosowane do wszystkich tworzonych dokumentów.</p>
+
+<h3 id="preferences_general_settings_recent">Lista ostatnio edytowanych stron</h3>
+
+<p><strong>Lista ostatnio edytowanych stron</strong>: określa liczbę 
+  stron pokazywanych w podmenu "Ostatnio edytowane strony" w menu Plik.</p>
+
+<h3 id="preferences_general_settings_saving_publishing">Zapisywanie i publikowanie stron</h3>
+
+<ul>
+
+<li><strong>Zachowaj formatowanie źródła</strong>: opcja powoduje 
+  zachowanie "białych znaków" (spacje, znaki tabulatora i nowych linii) w 
+  źródle HTML, co pozwala utrzymać bardziej czytelny kod HTML. Opcja ta nie 
+  wpływa na wygląd strony w przeglądarce.</li>
+  
+  <li><strong>Przeformatuj źródło HTML</strong>: opcja powoduje automatyczne 
+  formatowanie źródła HTML w celu uzyskania lepszej czytelności kodu 
+  (dodatkowe linie i wcięcia). Opcja ta nie wpływa na wygląd 
+  strony w przeglądarce.</li>
+
+  <li><strong>Zachowaj obrazki i inne powiązane pliki podczas zapisywania strony</strong>: 
+  określa czy obrazki , JavaScript (JS), arkusze stylów (CSS) oraz inne
+  powiązane z dokumentem pliki będą zapisane w tym samym miejscu gdzie plik HTML.
+  Opcja dotyczy pierwszego zapisu pliku i zmiany lokalizacji pliku.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <p>Przykładowo: przy zapisie podczas
+	  edycji strony z Internetu mając włączoną ww. opcję wszystkie
+	  powiązane ze stroną pliki zostaną pobrane i zapisane na lokalnym
+	  dysku.</p> </li>
+
+  <li><strong>Zawsze pokazuj ustawienia publikacji podczas publikowania stron</strong>:
+  gdy opcja jest zaznaczona okno publikacji pokazywane jest zawsze, gdy opcja
+  jest wyłączona okno pojawia się tylko gdy &brandShortName; brakuje jakiejś informacji.</li>
+
+</ul>
+
+[<a href="#preferences_general_settings">Powrót do początku rozdziału</a>]
+
+<h3 id="preferences_general_settings_table_editing">Edycja tabel</h3>
+
+  <p><strong>Utrzymuj układ tabeli podczas wstawiania i usuwania komórek</strong>:  
+  włączenie opcji powoduje, że &brandShortName; będzie automatycznie dodawał komórki tabeli 
+  aby utrzymać jej prostokątny kształt. Wyłączona opcja może doprowadzić do uzyskania 
+  tabeli z pustymi miejscami lub o nieregularnym kształcie.</p>
+
+[<a href="#preferences_general_settings">Powrót do początku rozdziału</a>]
+
+<h3
+id="preferences_general_settings_cascading_style_sheets_editing">Edycja stylów CSS</h3>
+
+<p><strong>Użyj stylów CSS zamiast elementów 
+   HTML i atrybutów</strong>: włącza użycie formatowania poprzez 
+   kaskadowe arkusze stylów (CSS). &brandShortName; generuje wtedy kod 
+   zgodny z HTML 4.01 ze stylami wewnątrz znaczników.</p>
+
+<p>Gdy opcja jest wyłączona &brandShortName; generuje kod HTML
+	 4.01 bez użycia stylów CSS.</p>
+
+<p>W porównaniu do HTML, HTML z formatowaniem CSS jest bardziej 
+	 przenośny, łatwiejszy w utrzymaniu i bardziej kompatybilny z
+	 nowoczesnymi przeglądarkami. W przypadku edycji dokumentu bez CSS
+	 &brandShortName; zamienia kod edytowanych fragmentów na kod korzystający 
+	 ze stylów CSS.</p>
+
+<p>Mając włączone style CSS można zmienić tło tekstu za pomocą
+	 przycisku na pasku narzędzi. CSS umożliwia także zmianę koloru
+	 tła dla każdego elementu na stronie. (Funkcje te są niedostępne
+	 przy wyłączonym CSS).</p>
+
+[<a href="#preferences_general_settings">Powrót do początku rozdziału</a>]
+
+<h3 id="preferences_general_settings_site_manager">Otwieranie stron</h3>
+
+<p><strong>Zawsze otwieraj dokument w nowym panelu</strong>: 
+	   włączenie opcji powoduje otwieranie kolejnych dokumentów w nowych panelach,
+	   wyłączenie spowoduje, że nowe dokumenty otwierane będą w osobnych oknach.</p>
+
+<p class="returnToSection">[ <a href="#preferences">Powrót do początku rozdziału</a> ]</p>
+
+<h2 id="preferences_fonts">Czcionki</h2>
+
+<!-- The documentation for the Fonts section has been blatantly copied
+     from Firefox Help and then an attempt was made to conform it to
+     Nvu realm. -->
+
+<h3 id="preferences_fonts_fonts_for">Czcionki</h3>
+
+<p>Aby zmienić domyślne czcionki dla danej strony kodowej należy:</p>
+
+<ol>
+
+  <li>Wybrać z menu rozwijalnego żądaną stronę kodową (np. <em>Środkowoeuropejskie</em>.</li>
+
+  <li>Określić typ czcionki (szeryfowa/bezszeryfowa) lub wybrać konkretną nazwę, a następnie wybrać rozmiar tekstu.</li>
+
+  <li>Określić czcionki szeryfowe, bezszeryfowe, kursywę itp.</li>
+
+</ol>
+
+<p>Można także określić <em>Minimalny rozmiar czcionki</em>. Zapobiega to używaniu
+trudnych do odczytania rozmiarów czcionek.</p>
+
+<p>Za pomocą menu rozwijalnego u dołu okna można określić 
+rozdzielczość ekranu (zwykle jest to 96dpi).</p>
+
+<p class="returnToSection">[ <a href="#preferences">
+Powrót do początku rozdziału</a> ]</p>
+
+<h2 id="preferences_new_page_settings">Ustawienia nowej strony</h2>
+
+<p>Fragment ten opisuje jak ustawić preferencje kolorów i tła dla nowo tworzonych stron.</p>
+
+<h3 id="preferences_new_page_settings_author">Autor</h3>
+
+<p>Należy wpisać autora. Wpisana wartość będzie
+  domyślna dla każdej tworzonej strony.</p>
+
+[<a href="#preferences_new_page_settings">Powrót do początku rozdziału</a>]
+
+<h3 id="preferences_new_page_settings_markup">Kod</h3>
+
+<ul>
+
+  <li><strong>Język</strong>: określa domyślny język dla tworzonych stron.
+  Dostępne opcje to
+  <acronym title="Hyper Text Document Language">HTML</acronym>4.0 oraz
+  <acronym title="Xtensible Hyper Text
+  Language">XHTML</acronym>1.0.</li>
+
+  <li><strong>DTD</strong>: określa <acronym title="Document Type
+  Definition">DTD</acronym> używany jako domyślny przy tworzeniu nowych stron.
+  Dostępne opcje to 
+  <em>Transitional</em> i <em>Strict</em>.</li>
+
+</ul>
+
+[<a href="#preferences_new_page_settings">Powrót do początku rozdziału</a>]
+
+<h3 id="preferences_new_page_settings_default_page_appearance">Domyślny wygląd strony</h3>
+
+<ul>
+
+  <li><strong>Domyślne kolory przeglądarki</strong>: zaznaczenie
+  opcji spowoduje, że strony będą wyświetlane z użyciem ustawień przeglądarki 
+  czytelnika strony.</li>
+
+  <li><strong>Użyj własnych kolorów</strong>: opcja pozwala zdefiniować kolory 
+  strony; należy wybrać żądane kolory klikając na przyciski.</li>
+
+  <li><strong>Obrazek tła</strong>:  należy wpisać (lub użyć przycisku 
+  Wybierz plik) nazwę pliku z domyślnym tłem strony.
+
+  <p><strong>Uwaga</strong>: Obrazek tła wyświetlany jest sąsiadująco 
+  i przykrywa ustalony kolor tła strony.</p> </li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">
+
+   <p>Aby zmienić autora pojedynczej strony należy wybrać pozycję 
+	<span class="menuPath">Właściwości i tytuł strony</span>
+	z menu <span class="menuPath">Format</span>.</p>
+
+
+    <p>Aby zmienić kolory strony i obrazek tła dla pojedynczej strony 
+	należy skorzystać z opcji <span class="menuPath">Kolory strony i tła</span>
+	z menu <span class="menuPath">Format</span>.</p></li>
+
+</ul>
+
+[<a href="#preferences_new_page_settings">Powrót do początku rozdziału</a>]
+
+<h3
+id="preferences_new_page_settings_internationalization">Ustawienia językowe</h3>
+
+<ul>
+
+  <li><strong>Ustawienia językowe: Język</strong>: należy
+  wybrać domyślny język dokumentów.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+  list-style-image: none;"> <p>Np. dla dokumentu napisanego w kanadyjskim francuskim 
+  wybór "Francuski/Kanada[fr-ca]" pozwoli na poinformowanie przeglądarki użytkownika
+  o języku dokumentu. Źródło HTML będzie zawierało tekst <tt>&lt;html lang="fr-ca"&gt;</tt> 
+  określający język dokumentu.</p></li>
+
+  <strong>Ustawienia językowe: kierunek tekstu</strong>: należy
+  wybrać kierunek tekstu używany w języku tworzonej strony.
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">
+
+    <p>Aby zmienić język pojedynczej strony należy wybrać pozycję 
+	<span class="menuPath">Właściwości i tytuł strony</span>
+	z menu <span class="menuPath">Format</span>.</p>
+
+     <p>Aby zmienić kierunek tekstu dla pojedynczej strony należy wybrać pozycję 
+	<span class="menuPath">Właściwości i tytuł strony</span>
+	z menu <span class="menuPath">Format</span>.</p>
+	</li>
+
+  <li><strong>Strona kodowa</strong>: określa stronę kodową dokumentu.
+  Domyślnie używana jest <em>ISO-8859-2</em> zawierająca polskie znaki.
+  Można jednak wybrać inną np.
+  <em>UTF-8</em> lub <em>ISO-8859-15</em>.</li>
+
+</ul>
+
+<p class="returnToSection">[ <a
+href="#preferences_settings">Powrót do początku rozdziału</a> ]</p>
+
+<h2 id="preferences_advanced_settings">Opcje zaawansowane</h2>
+
+<h3
+ id="preferences_advanced_settings_connection">Ustawienia połączenia</h3>
+
+
+
+
+<p><strong>Uwaga:</strong> przed ustawieniem proxy należy uzyskać informacje
+od administratora na temat ustawień w sieci użytkownika.</p>
+
+<ul>
+
+    <dl>
+      <dt>Bezpośrednie połączenie z Internetem</dt>
+      <dd>Opcja domyślna. Należy wybrać ją w przypadku niekorzystania z serwera proxy.</dd>
+
+      <dt>Własna konfiguracja proxy</dt>
+      <dd>W przypadku wyboru tej opcji należy wypełnić pola adresu serwera i numeru portu
+	  dla żądanych protokołów. (Informacje te można uzyskać od administratora sieci.)<br/>
+	  W polu <em>Nie używaj proxy dla</em> można wpisać adresy serwerów, z którymi połączenia
+	  odbywać się będą z pominięciem powyższych ustawień.</dd>
+
+      <dt>Automatyczna konfiguracja proxy</dt>
+      <dd>Opcję tą należy wybrać w przypadku możliwości automatycznej konfiguracji serwerów 
+	  proxy (należy podać adres URL pliku .PAC). Aby pobrać ustawienia, należy nacisnąć przycisk
+	  <em>Odśwież</em>
+	</dd>
+    </dl>
+
+</ul>
+
+<p class="returnToSection">[ <a href="#preferences_advanced_settings">Powrót
+do początku rozdziału</a> ]</p>
+
+<h3 id="preferences_advanced_settings_return_key_behaviour">Działanie klawisza enter</h3>
+
+<p>Opcja "Naciśnięcie klawisza Enter tworzy nowy akapit" określa
+działanie klawisza Enter. Przy włączonej opcji każde naciśnięcie
+klawisza Enter utworzy nowy akapit. Gdy opcja jest wyłączona
+naciśnięcie klawisza Enter powoduje wstawienie znacznika &lt;br&gt;.</p>
+
+<p class="returnToSection">[ <a href="#preferences_advanced_settings">Powrót do początku rozdziału</a> ]</p>
+
+<h3 id="preferences_advanced_settings_spellcheck">Sprawdzanie pisowni</h3>
+
+<p>Zaznaczenie opcji "Podkreślaj błędnie napisane wyrazy" powoduje
+włączenie automatycznego sprawdzania pisowni podczas tworzenia dokumentu.</p>
+
+<p class="returnToSection">[ <a href="#preferences_advanced_settings">Powrót do początku rozdziału</a> ]</p>
+
+<h3 id="preferences_advanced_settings_special_characters">Znaki specjalne</h3>
+
+<p>Opcja pozwala określić, które znaki zapisywane będą jako encje:</p>
+
+<ul><li>Tylko &amp; &lt; &gt; &apos; i twarde spacje</li>
+
+<li>Powyższe oraz litery z zestawu Latin-1</li>
+
+<li>Wszystkie znaki, które wg specyfikacji HTML 4.0 można zapisać jako encje</li>
+
+<li>Użyj notacji &amp;#..; dla wszystkich znaków spoza tablicy ASCII</li>
+</ul>
+
+<p class="returnToSection">[ <a href="#preferences">Powrót do początku rozdziału</a> ]</p>
+
+<div class="copyrightBox"><em>29 marca 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the Nvu
+Help Documentation Project.</p>
+
+<p>Polskie tłumaczenie: Copyright &copy; 2003-2005 Mozillapl.org oraz AviaryPL.</p>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!ENTITY printCmd.commandkey            "p">
+  
+<!ENTITY viewCustomizeToolbar.label     "Dostosuj...">
+<!ENTITY viewCustomizeToolbar.accesskey "D">
+  
+<!ENTITY findOnCmd.commandkey           "F">
+<!ENTITY findAgainCmd.commandkey        "G">
+<!ENTITY findAgainCmd.commandkey        "G">
+<!ENTITY findAgainCmd.commandkey2       "VK_F3">
+<!ENTITY findDialog.title "Znadź na stronie">
+<!ENTITY findDialogFrame.title "Znajdź w ramce">
+<!ENTITY findField.label "Szukany tekst:">
+<!ENTITY findField.accesskey "n">
+<!ENTITY caseSensitiveCheckbox.label "Uwzględniaj wielkość liter">
+<!ENTITY caseSensitiveCheckbox.accesskey "U">
+<!ENTITY wrapCheckbox.label "W całym dokumencie">
+<!ENTITY wrapCheckbox.accesskey "W">
+<!ENTITY backwardsCheckbox.label "Szukaj wstecz">
+<!ENTITY backwardsCheckbox.accesskey "t">
+<!ENTITY findField.tooltip "Wpisz szukaną frazę">
+<!ENTITY findButton.label "Znajdź następny">
+<!ENTITY findButton.accesskey "Z">
+<!ENTITY cancelButton.label "Anuluj">
+<!ENTITY up.label "W górę">
+<!ENTITY up.accesskey "g">
+<!ENTITY down.label "W dół">
+<!ENTITY down.accesskey "d">
+<!ENTITY direction.label "Kierunek szukania">
+
+<!ENTITY find.label "Znajdź:">
+<!ENTITY findNext.label "Znajdź następne">
+<!ENTITY findNext.tooltip "Znajdź następne wystąpienie tekstu">
+<!ENTITY findPrevious.label "Znajdź poprzednie">
+<!ENTITY findPrevious.tooltip "Znjadź poprzednie wystąpienie tekstu">
+<!ENTITY findCloseButton.tooltip "Zamknij pasek wyszukiwania">
+<!ENTITY highlight.label "Podświetl">
+<!ENTITY highlight.tooltip "Podświetl wszystkie wystąpienia tekstu (Ctrl+Enter)">
+
+<!ENTITY backButton.label               "Wstecz">
+<!ENTITY backButton.accesskey           "W">
+<!ENTITY backButton.tooltip             "Przejdź do poprzedniej strony">
+<!ENTITY forwardButton.label            "Do przodu">
+<!ENTITY forwardButton.accesskey        "D">
+<!ENTITY forwardButton.tooltip          "Przejdź do następnej strony">
+<!ENTITY homeButton.label               "Początek">
+<!ENTITY homeButton.tooltip             "Strona startowa Pomocy">
+<!ENTITY printButton.label              "Drukuj">
+<!ENTITY printButton.tooltip            "Drukuj bieżącą stronę">
+<!ENTITY findBtn.label                                  "Znajdź">
+<!ENTITY sidebarBtn.label               "Włącz/Wyłącz sidebar">
+<!ENTITY sidebarBtn.tooltip             "Pokaż lub ukryj sidebar Pomocy">
+<!ENTITY textZoomReduceBtn.label                "Zmniejsz rozmiar tekstu">
+<!ENTITY textZoomReduceBtn.accesskey    "Z">
+<!ENTITY textZoomReduceBtn.tooltip      "Zmniejsz rozmiar tekstu w oknie Pomocy">
+<!ENTITY textZoomEnlargeBtn.label               "Zwiększ rozmiar tekstu">
+<!ENTITY textZoomEnlargeBtn.accesskey   "w">
+<!ENTITY textZoomEnlargeBtn.tooltip     "Zwiększ rozmiar tekstu w oknie Pomocy">
+<!ENTITY customizeButton.tooltip        "Dostosuj pasek narzędzi okna Pomocy">
+<!ENTITY reloadCmd.label                "Odśwież">
+<!ENTITY reloadCmd.accesskey            "O">
+<!ENTITY closeWindow.commandkey         "W">
+<!ENTITY copyCmd.label                  "Kopiuj">
+<!ENTITY copyCmd.accesskey              "K">
+ 
+<!ENTITY throbberItem.title             "Wskaźnik aktywności">
+ 
+<!ENTITY cmd_CustomizeToolbars.label    "Dostosuj" >
+ 
+<!ENTITY searchtab.label                "Znajdź">
+<!ENTITY searchtab.accesskey            "Z">
+<!ENTITY searchbtn.label                "Znajdź">
+<!ENTITY toctab.label                   "Spis treści">
+<!ENTITY toctab.accesskey               "S">
+<!ENTITY indextab.label                 "Indeks">
+<!ENTITY indextab.accesskey             "I">
+<!ENTITY ixname.label                   "Nazwa">
+<!ENTITY glossarytab.label              "Słowniczek">
+<!ENTITY glossarytab.accesskey          "o">
+<!ENTITY glossname.label                "Nazwa">
+<!ENTITY gobtn.label                    "Znajdź">
+<!ENTITY name.label                     "Temat">
+ 
+<!ENTITY textZoomReduceCmd.commandkey   "-">
+<!ENTITY textZoomEnlargeCmd.commandkey  "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
+<!ENTITY textZoomResetCmd.commandkey    "0">

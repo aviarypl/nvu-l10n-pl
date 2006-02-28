@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Tworzenie stron WWW za pomocą &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Pokaż/Ukryj</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Centrum pomocy</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">W tym dokumencie opisano:
+  <a href="composer_help.xhtml#starting_a_new_page">Tworzenie nowej strony</a>
+  
+  <a href="formatting_webpages.xhtml">Formatowanie stron</a>
+  
+  <a href="css.xhtml">Korzystanie z arkuszy stylów</a>
+  
+  <a href="tables.xhtml">Tabele</a>
+  
+  <a href="images.xhtml">Obrazki</a>
+  
+  <a href="toc.xhtml">Automatyczny spis treści dokumentu</a>
+  
+  <a href="templates.xhtml">Szablony</a>
+  
+  <a href="page_properties.xhtml">Ustawianie właściwości strony</a>
+  
+  <a href="links.xhtml">Tworzenie odnośników</a>
+    
+  <a href="customize.xhtml">Dostosowywanie &brandShortName;</a>
+</div>
+
+<h2 id="formatting_your_web_pages">Formatowanie stron</h2>
+
+<h3 id="formatting_paragraphs_heading_and_lists">Formatowanie akapitów, nagłówków i list</h3>
+
+<p>Aby ustawić styl akapitu należy:</p>
+
+<ol>
+  <li>Ustawić kursor w miejscu, które będzie formatowane lub zaznaczyć żądany tekst.</li>
+
+  <li>Wybrać styl akapitu za pomocą rozwijalnego menu na pasku narzędzi:</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <ul> <li><strong>Treść</strong>: stosuje domyślną 
+	  czcionkę aplikacji dla zwykłego tekstu, bez wpływu na odstępy przed i za tekstem.</li>
+
+      <li><strong>Akapit</strong>: wstawia znacznik akapitu (stosowane aby rozpocząć nowy akapit). 
+	  Akapit obejmuje margines górny i dolny.</li>
+
+      <li><strong>Nagłówek 1</strong> - <strong>Nagłówek 6</strong>: ustawia
+	  akapit jako nagłówek. Nagłówek 1 to nagłówek najwyższego poziomu, a Nagłówek 
+	  6 to nagłówek najniższego poziomu.</li>
+
+      <li><strong>Adres</strong>: styl używany jest do 'podpisu' strony, który wskazuje 
+	  autora lub osobę, z którą można się skontaktować aby uzyskać 
+	  więcej informacji np: <tt>user@example.com.pl</tt>
+
+      <p>Można także dołączyć datę i informację o prawach autorskich. Tekst taki 
+	  pojawia się zwykle u dołu strony oddzielony poziomą linią. Przeglądarki zwykle 
+	  wyświetlają tekst typu adres czcionką pochyloną.</p>
+      </li>
+
+      <li><strong>Wstępnie sformatuj</strong>: styl ten jest przydatny dla elementów takich 
+	  jak przykłady kodu, dane w kolumnach lub wiadomości pocztowych, które powinny być 
+	  wyświetlone za pomocą czcionki o stałej szerokości. W zwykłym tekście HTML przeglądarki 
+	  usuwają dodatkowe spacje, znaki tabulatora i nowych linii. Tekst o stylu Preformatowanym 
+	  wyświetlany jest z zachowaniem białych znaków (spacje, znaki tabulatora i nowych linii) 
+	  i rozkładu oryginalnego tekstu.</li>
+      </ul>
+  </li>
+</ol>
+
+<p>Aby sformatować tekst jako nagłówek należy:</p>
+
+<ol>
+  <li>Ustawić kursor w tekście, który będzie formatowany.</li>
+
+  <li>Za pomocą rozwijalnego menu w pasku narzędzi wybrać poziom nagłówka, od 
+  1 (największy) do 6 (najmniejszy). Przykładowo 'Nagłówek 1' dla głównego 
+  tytułu, 'Nagłówek 2' dla kolejnego poziomu i tak dalej.</li>
+</ol>
+
+<p>Aby sformatować tekst jako element listy należy:</p>
+
+<ol>
+  <li>Ustawić kursor w tekście, który będzie formatowany.</li>
+
+  <li>Z menu programu wybrać <span class="menuPath">Format > Lista</span>.</li>
+
+  <li>Wybrać typ listy:</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <ul> <li><strong>Wypunktowana</strong>: każdy 
+	  element poprzedzony jest kropką (jak ta lista).</li>
+
+      <li><strong>Numerowana</strong>: elementy są numerowane.</li>
+
+      <li><strong>Pojęcie</strong> i <strong>Definicja</strong>: style te stosuje 
+	  się razem, aby uzyskać wygląd słownika. Styl Pojęcia stosuje się dla 
+	  definiowanego słowa (terminu), a Definicji dla objaśnienia - definicji terminu. 
+	  Tekst Kategorii jest wyrównany do lewej strony, a tekst Definicji jest wcięty.
+	  </li>
+      </ul>
+  </li>
+</ol>
+
+<p><strong>Podpowiedź</strong>: Zaznaczając tekst i klikając przycisk 
+listy numerowanej <img src="images/numbers.png"  alt="" />
+lub wypunktowanej <img src="images/bullets.png"  alt="" /> 
+na paku narzędzi można szybko włączyć/wyłączyć żądany styl listy.
+</p>
+
+<p>Aby zmienić wygląd wypunktowania lub numerowania należy:</p>
+
+<ol>
+  <li>Ustawić kursor w liście, która będzie zmieniana lub zaznaczyć
+  jeden lub więcej elementów listy, gdy chcemy zmienić styl dla pojedynczych elementów.</li>
+
+  <li>Z menu <span class="menuPath">Format</span> wybrać polecenie 
+  <span class="menuPath">Właściwości: Lista</span>.</li>
+
+  <li>Wybrać typ listy z menu rozwijalnego. Dla list numerowanych 
+  można ustawić numer początkowy. Dla list wypunktowanych można wybrać 
+  styl wypunktowania.</li>
+</ol>
+
+<p><strong>Podpowiedź</strong>: Aby szybko wyświetlić okno właściwości listy,
+należy kliknąć dwukrotnie na wypunktowaniu lub numerze elementu listy.</p>
+
+<p>Aby wyrównać akapit lub tekst na stronie należy:</p>
+
+<ol>
+  <li>Ustawić kursor wewnątrz akapitu lub linii, która będzie wyrównywana.</li>
+
+  <li>Z menu Format wybrać Wyrównaj; następnie wybrać typ wyrównania (Do lewej, Do środka, Do prawej, Wyjustuj).</li>
+</ol>
+
+<p><strong>Podpowiedź</strong>: Typ wyrównania można również wybrać za pomocą przycisków 
+na pasku narzędzi.</p>
+
+<p class="returnToSection">[ <a href="#formatting_your_web_pages">Powrót do początku rozdziału </a>
+]</p>
+
+<h3 id="working_with_lists">Praca z listami</h3>
+
+<p>Aby zakończyć listę i kontynuować pisanie zwykłego tekstu, należy:</p>
+
+<ul>
+  <li>Ustawić kursor na końcu ostatniego elementu listy.</li>
+  <li>Przycisnąć dwukrotnie klawisz Enter. Za każdym następnym naciśnięciem &brandShortName; 
+  zmniejszy wcięcie o jeden poziom.</li>
+</ul>
+
+<p>Aby zamienić jeden lub więcej elementów listy na zwykły tekst, należy:</p>
+
+<ol>
+  <li>Ustawić kursor w elemencie listy lub zaznaczyć więcej elementów.</li>
+
+  <li>Kliknąć przycisk Lista numerowana lub Lista wypunktowana na pasku narzędzi. 
+  Przyciski działają jak przełączniki.</li>
+</ol>
+
+<p>Aby wpisać wcięty tekst poniżej elementu listy, należy:</p>
+
+<ol>
+  <li>Ustawić kursor na końcu elementu listy.</li>
+
+  <li>Przycisnąć klawisze Shift+Enter, aby przejść do nowej linii.</li>
+
+  <li>Wpisać tekst, który ma być wcięty.</li>
+
+  <li>Przycisnąć klawisze Shift+Enter, aby utworzyć kolejny wcięty akapit 
+  lub klawisz Enter, aby utworzyć nowy element listy.</li>
+</ol>
+
+<p id="increase_or_decrease_the_indentation_of_list_items"><strong>Podpowiedź</strong>:
+Aby zwiększyć lub zmniejszyć wcięcie elementu listy, należy skorzystać z przycisków
+Zmniejsz/Zwiększ wcięcie na pasku narzędzi. (Odpowiednie skróty klawiaturowe to Tab i 
+Shift+Tab.)</p>
+
+<p>Aby połączyć dwie sąsiadujące listy, należy:</p>
+
+<ol>
+  <li>Zaznaczyć obie listy. Upewnić się, że zaznaczone są wszystkie elementy
+  z obu list. Uwaga: tekst znajdujący się pomiędzy listami także zostanie 
+  częścią połączonej listy.</li>
+
+  <li>Kliknąć przycisk wypunktowanej lub numerowanej listy na pasku narzędzi.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Powrót do początku rozdziału</a>
+]</p>
+
+<h3 id="changing_text_color_style_and_font">Zmiana koloru, stylu i czcionki tekstu</h3>
+
+<p>Aby zmienić styl, kolor lub czcionkę zaznaczonego tekstu, należy:</p>
+
+<ol>
+  <li>Zaznaczyć tekst do formatowania.</li>
+
+  <li>Z menu <span class="menuPath">Format</span> wybrać jedną z poniższych pozycji:</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">
+    <ul>
+      <li><strong>Czcionka</strong>: zmiana czcionki. Aby użyć czcionek definiowanych przez
+	przeglądarkę czytelnika, należy wybrać opcje Zmienna szerokość lub Stała szerokość.
+	
+	
+	<p><strong>Uwaga</strong>: Nie wszystkie czcionki zainstalowane na lokalnym komputerze 
+	pojawiają się w menu. Zamiast wybierać czcionkę, która może być niedostępna dla innych osób 
+	przeglądających stronę, lepiej wybrać jedną spośród czcionek dostępnych w menu, ponieważ 
+	powinne one być dostępne na każdym komputerze. Przykładowo czcionki Helvetica, Arial, Times 
+	i Courier wyglądają tak samo na różnych systemach. W przypadku wyboru innej czcionki
+	strona może nie wyglądać tak samo na innym komputerze.</p> </li>
+
+      <li><strong>Rozmiar</strong>: służy do wyboru <em>względnego</em> rozmiaru czcionki. 
+	  Można także wybrać opcję zmniejszenia lub zwiększenie rozmiaru czcionki 
+	  (względem otaczającego tekstu).</li>
+
+      <li><strong>Styl tekstu</strong>: służy do wyboru stylu tekstu jak pochylenie, 
+	  pogrubienie lub podkreślenie lub do zastosowania strukturalnego stylu np. styl 
+	  kodu lub cytatu.</li>
+
+      <li><strong>Kolor tekstu</strong>: otwiera okno, gdzie można wybrać kolor 
+	  z palety, wpisać kod HTML koloru lub nazwę koloru (np. "blue").
+	  Poręczny konwerter kolorów można także znaleźć 
+	  <a href="http://builder.com.com/1200-31-5087779.html" target="_blank">tutaj</a>.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>Aby zmienić kolor tła strony, należy:</p>
+
+<ol>
+  <li>Ustawić kursor na stronie.</li>
+
+  <li>Nacisnąć przycisk koloru tła (kolorowy kwadrat) na pasku narzędzi.</li>
+
+  <li>Wybrać kolor w oknie dialogowym.</li>
+
+  <li>Nacisnąć przycisk OK.</li>
+</ol>
+
+<p><strong>Podpowiedź</strong>: Aby szybko zmienić kolor tekstu na ostatnio użyty należy zaznaczyć
+tekst i trzymając wciśnięty klawisz Shift kliknąć ikonę wyboru koloru na pasku narzędzi.
+Może to być przydatne gdy chce się użyć jednego koloru dla pojedynczych linii tekstu.</p>
+
+<p>Można użyć obrazka jako tła strony. Więcej we fragmencie <a
+href="#setting_page_colors_and_backgrounds">Kolory i tło strony</a>.</p>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Powrót do początku rozdziału</a>
+]</p>
+
+<h3 id="removing_or_discontinuing_text_styles">Usuwanie styli tekstu</h3>
+
+<p>Aby usunąć style (pogrubienie, pochylenie, itp.) z zaznaczonego tekstu, należy:</p>
+
+<ol>
+  <li>Zaznaczyć tekst.</li>
+
+  <li>Z menu <span class="menuPath">Format</span> wybrać pozycję <span class="menuPath">Usuń wszystkie style tekstu</span>.</li>
+
+</ol>
+
+<p>Aby kontynuować pisanie tekstu bez żadnego stylu, należy:</p>
+
+<ol>
+  <li>Ustawić kursor w miejscu końca tekstu ze stylami.</li>
+
+  <li>Z menu <span class="menuPath">Format</span> wybrać pozycję <span class="menuPath">Usuń wszystkie style tekstu</span>.</li>
+
+  <li>Kontynuować pisanie.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Powrót do początku rozdziału</a>
+]</p>
+
+<h3 id="finding_and_replacing_text">Szukanie i zamiana tekstu</h3>
+
+<p>Aby znaleźć tekst w bieżącym dokumencie, należy:</p>
+
+<ol>
+  <li>Ustawić kursor w miejscu rozpoczęcia szukania.</li>
+
+  <li>Z menu <span class="menuPath">Edycja</span> wybrać pozycję 
+  <span class="menuPath">Znajdź i zamień</span>.</li>
+
+  <li>Wpisać szukany tekst. Zaznaczyć jedną lub więcej z poniższych opcji aby zawęzić szukanie:
+
+  <ul>
+    <li><strong>Uwzględniaj wielkość liter</strong>: służy do określenia czy poszukiwanie 
+	ma uwzględniać wielkość liter w szukanym tekście. Aby uzyskać dokładne trafienie 
+	należy zaznaczyć tę opcję.</li>
+
+    <li><strong>W całym dokumencie</strong>: ustala czy kontynuować szukanie od początku 
+	dokumentu, gdy zostanie osiągnięty koniec (lub odwrotnie, gdy zaznaczone jest Szukaj wstecz).</li>
+
+    <li><strong>Szukaj wstecz</strong>: ustawia szukanie od pozycji kursora do początku dokumentu.</li>
+
+  </ul>
+  </li>
+  <li>Nacisnąć przycisk Znajdź następny aby zacząć szukanie. &brandShortName; znajdzie pierwsze 
+  wystąpienie tekstu. Naciskać Znajdź następny aby szukać kolejnych wystąpień tekstu.</li>
+  <li>Nacisnąć przycisk Zamknij po zlokalizowaniu właściwego tekstu.</li>
+</ol>
+
+<p>Aby znaleźć i zamienić tekst w bieżącym dokumencie, należy:</p>
+<ol>
+  <li>Ustawić kursor w miejscu rozpoczęcia szukania.</li>
+
+  <li>Z menu <span class="menuPath">Edycja</span> wybrać pozycję 
+  <span class="menuPath">Znajdź i zamień</span>.</li>
+
+  <li>Wpisać szukany tekst. Zaznaczyć jedną lub więcej z poniższych opcji aby zawęzić szukanie:
+
+  <ul>
+    <li><strong>Uwzględniaj wielkość liter</strong>: służy do określenia czy poszukiwanie 
+	ma uwzględniać wielkość liter w szukanym tekście. Aby uzyskać dokładne trafienie 
+	należy zaznaczyć tę opcję.</li>
+
+    <li><strong>W całym dokumencie</strong>: ustala czy kontynuować przeszukiwanie od początku 
+	dokumentu, gdy zostanie osiągnięty koniec (lub odwrotnie, gdy zaznaczone jest Szukaj wstecz).</li>
+
+    <li><strong>Szukaj wstecz</strong>: ustawia szukanie od pozycji kursora do początku dokumentu.</li>
+
+  </ul>
+  </li>
+  <li>Nacisnąć przycisk Znajdź następny aby zacząć szukanie. &brandShortName; podświetli znaleziony tekst.</li>
+  
+    <li>Nacisnąć Zamień aby zamienić zaznaczony tekst wpisaną zawartością pola Zamień na. 
+  Nacisnąć przycisk Zamień wszystko aby zamienić wszystkie wystąpienia szukanego tekstu w dokumencie.</li>
+
+</ol>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Powrót do początku rozdziału </a>
+]</p>
+
+<h3 id="inserting_horizontal_lines">Wstawianie linii poziomych</h3>
+
+<p>Linie poziome stosowane są zwykle aby oddzielić optycznie różne części dokumentu.
+Aby wstawić linię do dokumentu, należy:</p>
+
+<ol>
+  <li>Ustawić kursor w miejscu gdzie ma pojawić się linia.</li>
+
+  <li>Kliknąć przycisk Wstaw linię w pasku narzędzi lub z menu <span class="menuPath">Wstaw</span>
+  wybrać pozycję <span class="menuPath">Linię poziomą</span>.</li>
+</ol>
+
+<h3 id="setting_horizontal_line_properties">Ustawianie właściwości linii poziomej</h3>
+
+<p>Można zmienić długość, szerokość, wyrównanie i cieniowanie linii.</p>
+
+<ol>
+  <li>Aby wyświetlić okno właściwości linii, należy dwukrotnie kliknąć na linii.</li>
+
+  <li>Następnie ustalić właściwości:
+
+  <ul>
+    <li><strong>Szerokość</strong>: wybrać jednostkę (piksele lub procenty 
+	szerokości okna) i wpisać szerokość.</li>
+
+    <li><strong>Wysokość</strong>: wpisać wysokość linii (w pikselach).</li>
+
+    <li><strong>Cień 3-D</strong>: zaznaczyć, aby dodać cień rzucany przez linię.</li>
+
+    <li><strong>Wyrównanie</strong>: określić położenie linii.</li>
+  </ul>
+  </li>
+
+  <li>Można także nacisnąć przycisk Użyj jako domyślnych, aby używać ustalonych właściwości 
+  dla każdej tworzonej linii.</li>
+
+  <li>Aby ręcznie edytować właściwości linii, należy nacisnąć przycisk Edycja zaawansowana.
+  Więcej na ten temat znajduje się we fragmencie <a
+  href="#using_the_advanced_property_editor">Zaawansowany edytor właściwości</a>.</li>
+</ol>
+
+<p><strong>Podpowiedź:</strong> Aby schematycznie wyświetlić wszystkie znaczniki HTML
+w edytowanej stronie, należy przełączyć widok w tryb "Znaczniki". Podwójne kliknięcie
+na znaczniku (żółte pudełka) powoduje wyświetlenie okna <a
+href="#using_the_advanced_property_editor">Zaawansowanego edytora właściwości</a> 
+dla danego znacznika HTML.</p>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Powrót do początku rozdziału</a>
+]</p>
+
+<h3 id="inserting_special_characters">Wstawianie symboli i znaków specjalnych</h3>
+
+<p>Aby wstawić znaki specjalne (jak akcenty lub znaki walut) należy:</p>
+
+<ol>
+  <li>Ustawić kursor w miejscu gdzie ma pojawić się znak.</li>
+
+  <li>Z menu Wstaw wybrać pozycję Znaki i symbole.</li>
+
+  <li>Wybrać kategorię znaku.
+
+  <ul> <li>W przypadku wyboru "Znak diakrytyczny - małe litery" lub "Znak diakrytyczny - duże litery" należy wybrać znak
+z rozwijalnego menu Litery. Aby wstawić inne znaki, jak ułamki czy znak "copyright", należy zaznaczyć kategorię "Typowe symbole".</li>
+  </ul>
+  </li>
+
+  <li>Z menu rozwijalnego Znak wybrać żądany znak.</li>
+
+  <li>Nacisnąć przycisk Wstaw.
+
+  <p>Można kontynuować pisanie w dokumencie, podczas 
+  gdy okno to jest otwarte, w przypadku
+  gdy będzie ono jeszcze potrzebne.</p> </li>
+
+  <li>Nacisnąć przycisk Zamknij, gdy znaki specjalne są wstawione do dokumentu.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Powrót do początku rozdziału</a>
+]</p>
+
+<h3 id="inserting_html_elements_and_attributes">Wstawianie elementów HTML</h3>
+
+<p>Gdy użytkownik zna HTML, można dodawać do strony znaczniki, 
+atrybuty stylów i JavaScript. W przeciwnym przypadku lepiej jednak 
+tego nie robić. Aby pisać bezpośrednio w języku HTML, należy użyć jednej z poniższych metod:</p>
+
+<ul>
+  <li>Ustawić kursor w miejscu gdzie ma być wstawiony kod HTML. 
+  Następnie z menu Wstaw wybrać pozycję HTML. W oknie Wstaw HTML 
+  wpisać tekst i znaczniki HTML, a następnie nacisnąć przycisk Wstaw.</li>
+
+  <li>Zaznaczyć element (tabela, kotwica, obrazek, odnośnik lub linia). 
+  Kliknąć dwukrotnie na zaznaczonym elemencie, aby otworzyć okienko właściwości. 
+  Następnie kliknąć przycisk Zaawansowana edycja, aby otworzyć okno 
+  Zaawansowanego edytora właściwości, gdzie można dodać do elementu 
+  atrybuty HTML lub skrypty JavaScript.</li>
+
+  <li>Z menu Widok wybrać pozycję Źródło HTML lub wybrać zakładkę Źródło 
+  u dołu okna &brandShortName; (Jeśli nie widać zakładek należy otworzyć 
+  menu Widok, wybrać pozycję Pokaż/Ukryj i upewnić się, że opcja Pasek 
+  narzędzi trybu edycji jest zaznaczona.)</li>
+</ul>
+
+<h3 id="using_the_advanced_property_editor">Korzystanie z Zaawansowanego edytora właściwości</h3>
+
+<p>Aby dodać atrybuty HTML i zdarzenia JavaScript do elementów jak tabele, 
+obrazki i linie można użyć Zaawansowanego edytora właściwości.</p>
+
+<p><strong>Uwaga</strong>: Jeśli użytkownik nie rozumie jak dodać usunąć 
+lub zmodyfikować atrybuty znaczników HTML i skojarzone z nimi wartości, 
+najlepiej jest ich nie modyfikować.</p>
+
+<p>Jeśli okno Zaawansowanego edytora właściwości nie jest jeszcze widoczne należy:</p>
+
+<ol>
+  <li>Z menu Widok (lub paska narzędzi trybu edycji) wybrać pozycję Pokaż znaczniki.</li>
+
+Dwukrotnie kliknąć element do modyfikacji, aby otworzyć okno Właściwości,
+  a następnie kliknąć przycisk Zaawansowana edycja, które otworzy okno Zaawansowanego 
+  edytora właściwości. Okno to ma trzy zakładki, z których każda wyświetla właściwości
+  zaznaczonego elementu:
+
+  <li>Dwukrotnie kliknąć element do modyfikacji, aby otworzyć okno Właściwości.</li>
+
+  <li>Nacisnąć przycisk Zaawansowana edycja, aby otworzyć okno Zaawansowanego 
+  edytora właściwości. Okno to ma trzy zakładki, z których każda wyświetla 
+  właściwości zaznaczonego elementu:
+  <ul>
+    <li><strong>Atrybuty HTML</strong>: na tej zakładce można podejrzeć i 
+	dodać dodatkowe atrybuty znacznika HTML.</li>
+
+    <li><strong>Styl w znaczniku</strong>: zakładka wyświetla i pozwala na modyfikację 
+	właściwości stylów CSS (kaskadowe arkusze stylów) poprzez atrybut &lt;style&gt; znacznika.
+	Więcej o obsłudze CSS w &brandShortName;, zamieszczono w rozdziale <a
+    href="#composer_preferences">Opcje &brandShortName;</a>.</li>
+
+    <li><strong>Zdarzenia JavaScript</strong>: zakładka wyświetla i pozwala na modyfikacje 
+	zdarzeń JavaScript dla wybranego elementu.</li>
+  </ul>
+  </li>
+
+  <li>Aby edytować właściwość lub atrybut z listy należy zaznaczyć go na liście.
+  Następnie można dokonać edycji nazwy i wartości atrybutu wypełniając odpowiednie 
+  pola u dołu okna. Aby dodać nowy atrybut należy wpisać jego nazwę w pole u dołu okna.
+  Jest on automatycznie dodawany do listy podczas przejścia do pola Wartość.
+  Aby usunąć atrybut należy go zaznaczyć na liście i kliknąć przycisk Usuń.
+
+  <p><strong>Uwaga</strong>: Wymagane atrybuty są podświetlone na liście atrybutów.</p></li>
+
+  <li>Nacisnąć OK, aby zatwierdzić zmiany wprowadzone w oknie Zaawansowanego edytora.</li>
+  <li>Nacisnąć ponownie OK, aby zamknąć okno Właściwości.</li>
+</ol>
+
+<p>&brandShortName; automatycznie wstawia znaki cudzysłowu wokół wartości atrybutów.</p>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Powrót do początku rozdziału</a>
+]</p>
+
+<h3 id="validating_the_html">Sprawdzanie poprawności kodu HTML</h3>
+
+<p>Dobrym zwyczajem jest, aby sprawdzić zgodność utworzonego dokumentu
+ze standardem HTML przed umieszczeniem go na serwerze. Dokumenty
+zgodne ze standardami zwykle nie powodują problemów podczas wyświetlania 
+ich w różnych przeglądarkach.</p>
+
+<p>&brandShortName; umożliwia sprawdzenie czy edytowany dokument
+jest zgodny ze standardami opracowanymi przez organizację W3C 
+(World Wide Web Consortium). &brandShortName; korzysta z udostępnionego
+przez W3C serwisu, który służy do weryfikacji dokumentów zgodnie ze standardem
+HTML 4.01. Serwis ten udostępnia także informacje o tym jak poprawiać ewentualne błędy.</p>
+
+<p><strong>Uwaga</strong>: Aby korzystać z wersyfikacji, komputer musi być
+połączony z siecią Internet.</p>
+
+<p>Aby sprawdzić składnię dokumentu, należy:</p>
+
+<ol>
+  <li>Z menu <span class="menuPath">Narzędzia</span> wybrać pozycję 
+  <span class="menuPath">Weryfikuj poprawność kodu HTML</span>. W przypadku
+  gdy w dokumencie znajdą się niezapisane zmiany, zostanie wyświetlone
+  okno z pytaniem o zapis dokumentu.</li>
+
+  <li>Wyniki weryfikacji zostaną wyświetlone w osobnym oknie.</li>
+
+</ol>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Powrót do początku rozdziału</a>
+]</p>
+
+<h3 id="choosing_the_right_editing_mode">Wybór właściwego trybu edycji</h3>
+
+<p>Zazwyczaj nie ma potrzeby zmiany Normalnego trybu edycji na inny. 
+Jeśli istnieje potrzeba pracy ze źródłem HTML tryb pracy można zmienić. 
+&brandShortName; pozwala na szybkie przełączanie się pomiędzy czterema 
+trybami edycji lub widokami. Każdy z nich pozwala pracować nad dokumentem, 
+a różnica polega na sposobie wyświetlania znaczników HTML.</p>
+
+<p>Przed wybraniem trybu edycji należy:</p>
+
+<ul>
+  <li>Z menu <span class="menuPath">Widok</span> wybrać <span class="menuPath">
+  Pokaż/Ukryj</span> i upewnić się że pozycja <span class="menuPath">Pasek trybu 
+  edycji</span> jest zaznaczona.</li>
+</ul>
+
+<p>Pasek trybu edycji (u dołu okna &brandShortName;) zawiera cztery zakładki:
+
+</p>
+
+<ul>
+  <li><strong>Normalny</strong>: Tryb WYSIWYG, który pokazuje końcowy wygląd 
+  strony podczas jej tworzenia. W trybie tym widoczne są krawędzie tabel i 
+  ikony kotwic. Pozostałe znaczniki HTML są ukryte.</li>
+
+  <li><strong>Znaczniki</strong>: Pokazuje krawędzie tabel i ikony wszystkich 
+  znaczników HTML.</li>
+
+  <li><strong>Źródło</strong>: Pokazuje i pozwala na edycję dokumentu poprzez 
+  kod źródłowy HTML. Po wykonaniu komendy &brandShortName; powraca do 
+  trybu Normalnego.</li>
+
+  <li><strong>Podgląd</strong>: Pokazuje i pozwala na edycję dokumentu wyglądającego 
+  dokładnie tak jak w oknie przeglądarki. Odnośniki i JavaScript są nieaktywne.</li>
+</ul>
+
+<p><strong>Uwaga</strong>: 
+Skrypty JavaScript, odnośniki, ramki i animowane pliki GIF są nieaktywne w każdym 
+z trybów edycji. Aby podejrzeć je w stanie aktywnym w oknie przeglądarki należy kliknąć 
+przycisk Podgląd na pasku narzędzi.</p>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Powrót do początku rozdziału</a>
+]</p>
+
+<h3 id="using_status_bar_for_formatting_your_web_page">Formatowanie stron
+za pomocą paska statusu</h3>
+
+<p>&brandShortName; udostępnia innowacyjną metodę stosowania i edycji
+stylów, klas lub identyfikatorów id poprzez pasek stanu. Funkcja ta dostępna
+jest we wszystkich trybach edycji za wyjątkiem trybu <strong>Źródło</strong>.
+</p>
+
+<p>Po kliknięciu na nazwie znacznika prawym klawiszem myszy dostępne jest
+menu kontekstowe:</p>
+<ul>
+  <li>Opcja <span class="menuPath">Zaznacz</span> zaznacza cały tekst zawarty w danym znaczniku.</li>
+  <li>Opcja <span class="menuPath">Usuń znacznik</span> - usuwa dany znacznik oraz wszystkie style z nim 
+  związane (zawartość znacznika nie jest usuwana).</li>
+
+  <li>Opcja <span class="menuPath">Zmień znacznik</span> pozwala na zmianę wskazanego znacznika. Po
+  wybraniu opcji, nazwę znacznika w pasku statusu można edytować.</li>
+
+  <li>Opcja <span class="menuPath">Styl w znaczniku</span> umożliwia zmianę stylu danego znacznika
+  prosto z menu kontekstowego:
+
+  <ol>
+    <li>Dostępne opcje:
+    <ul>
+      <li>Właściwości tekstu</li>
+      <li>Właściwości obramowania</li>
+      <li>Właściwości tła</li>
+      <li>Właściwości obiektów blokowych</li>
+      <li>Właściwości dźwiękowe</li>
+      <li>Wyeksportuj i stwórz styl</li>
+    </ul></li>
+  </ol>
+  <p>Wybranie dowolnej z powyższych opcji (poza ostatnią) spowoduje
+  otwarcie okna edytora stylów CSS (więcej o edytorze
+ w rozdziale <a href="#using_style_sheets_for_your_web_pages">Korzystanie
+ z arkuszy stylów</a>), gdzie można zdefiniować styl elementu.</p>
+
+  <p>Opcja <span class="menuPath">Wyeksportuj i utwórz arkusz stylów</span> 
+  pozwala na przeniesienie informacji o stylu elementu do wewnętrznego lub
+  zewnętrznego arkusza stylów.</p></li>
+
+  <li>Pozycja <span class="menuPath">Szablony</span> zawiera dwie opcje -
+  <span class="menuPath">Ustaw pole jako edytowalne</span> oraz 
+  <span class="menuPath">Usuń pole edytowalne</span>, które wykorzystywane
+  są podczas pracy z szablonami. Więcej informacji na ten temat zawiera
+  rozdział <a href="#working_with_templates">Szablony</a>.</li>
+
+  <li>Podmenu <span class="menuPath">ID</span> zawiera dostępne znaczniki
+  ID z bieżącego arkusza stylów. Aby zastosować dany znacznik do zaznaczonego
+  tekstu, wystarczy wybrać go w menu.</li>
+
+  <li>Podmenu <span class="menuPath">Klasy</span> zawiera dostępne w arkuszu 
+  stylów klasy, które można przypisać do zaznaczonego obiektu.</li>
+
+  <li>Pozycja <span class="menuPath">Zaawansowane właściwości</span> 
+  otwiera okno <a href="#using_the_advanced_property_editor">Zaawansowanego
+  edytora właściwości</a>.</li>
+
+</ul>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Powrót do początku rozdziału</a>
+]</p>
+
+<p>[<a href="css.xhtml">Następny</a>] [<a href="composer_help.xhtml">Poprzedni</a>]</p>
+
+<div class="copyrightBox"><em>20 czerwca 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the Nvu
+Help Documentation Project.</p>
+
+<p>Polskie tłumaczenie: Copyright &copy; 2003-2005 Mozillapl.org oraz AviaryPL.</p>
+
+</body>
+</html>

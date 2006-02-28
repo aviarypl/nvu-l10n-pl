@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:nc="http://home.netscape.com/NC-rdf#">
+
+  <rdf:Description about="urn:root">
+    <nc:subheadings>
+      <rdf:Seq>
+    <!--<rdf:li> <rdf:Description ID="a" nc:name="A"/></rdf:li>
+        <rdf:li> <rdf:Description ID="b" nc:name="B"/></rdf:li>
+        <rdf:li> <rdf:Description ID="c" nc:name="C"/></rdf:li>
+        <rdf:li> <rdf:Description ID="d" nc:name="D"/></rdf:li>
+        <rdf:li> <rdf:Description ID="e" nc:name="E"/></rdf:li>-->
+        <rdf:li> <rdf:Description ID="f" nc:name="F"/></rdf:li>
+    <!--<rdf:li> <rdf:Description ID="g" nc:name="G"/></rdf:li>-->
+        <rdf:li> <rdf:Description ID="h" nc:name="H"/></rdf:li>
+        <rdf:li> <rdf:Description ID="i" nc:name="I"/></rdf:li>
+    <!--<rdf:li> <rdf:Description ID="j" nc:name="J"/></rdf:li>-->
+        <rdf:li> <rdf:Description ID="k" nc:name="K"/></rdf:li>
+        <rdf:li> <rdf:Description ID="l" nc:name="L"/></rdf:li>
+    <!--<rdf:li> <rdf:Description ID="m" nc:name="M"/></rdf:li>-->
+        <rdf:li> <rdf:Description ID="n" nc:name="N"/></rdf:li>
+        <rdf:li> <rdf:Description ID="o" nc:name="O"/></rdf:li>
+        <rdf:li> <rdf:Description ID="p" nc:name="P"/></rdf:li>
+    <!--<rdf:li> <rdf:Description ID="q" nc:name="Q"/></rdf:li>
+        <rdf:li> <rdf:Description ID="r" nc:name="R"/></rdf:li>-->
+        <rdf:li> <rdf:Description ID="s" nc:name="S"/></rdf:li>
+        <rdf:li> <rdf:Description ID="t" nc:name="T"/></rdf:li>
+        <rdf:li> <rdf:Description ID="u" nc:name="U"/></rdf:li>
+    <!--<rdf:li> <rdf:Description ID="v" nc:name="V"/></rdf:li>
+        <rdf:li> <rdf:Description ID="w" nc:name="W"/></rdf:li>
+        <rdf:li> <rdf:Description ID="x" nc:name="X"/></rdf:li>
+        <rdf:li> <rdf:Description ID="y" nc:name="Y"/></rdf:li>-->
+        <rdf:li> <rdf:Description ID="z" nc:name="Z"/></rdf:li>
+      </rdf:Seq>
+    </nc:subheadings>
+  </rdf:Description>
+  
+    <rdf:Description about="#a">
+        <nc:subheadings>
+            <rdf:Seq>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#b">
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#c">
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#d">
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#e">
+        <nc:subheadings>
+            <rdf:Seq>
+		
+          </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+    
+    <rdf:Description about="#f">
+        <nc:subheadings>
+        <rdf:Seq>
+		<rdf:li> <rdf:Description ID="formatting_paragraphs" nc:name="formatowanie akapitów" nc:link="formatting_webpages.xhtml#formatting_paragraphs_heading_and_lists" /> </rdf:li>
+		<rdf:li><rdf:Description nc:name="formatowanie stron" nc:link="formatting_webpages.xhtml"/></rdf:li>
+		</rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+    
+    <rdf:Description about="#g">
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#h">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="html" nc:name="HTML" nc:link="glossary.xhtml#Hypertext_Markup_Language"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#help-viewer">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="help-viewer:how-to-use" nc:name="korzystanie z" nc:link="welcome.xhtml"/></rdf:li>
+                <rdf:li><rdf:Description ID="help-viewer:finding-a-topic" nc:name="wyszukiwanie tematu" nc:link="welcome.xhtml#finding_the_topic_you_want"/></rdf:li>
+                <rdf:li><rdf:Description ID="help-viewer:search-tips" nc:name="podpowiedzi" nc:link="welcome.xhtml#search_tips"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#i">
+        <nc:subheadings>
+            <rdf:Seq>
+				<rdf:li><rdf:Description nc:name="interfejs użytkownika" nc:link="composer_tutorial.xhtml#introduction_to_the_user_interface"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+    
+    <rdf:Description about="#images">
+	<nc:subheadings>
+	    <rdf:Seq>
+                <rdf:li> <rdf:Description ID="images_edit" nc:name="edycja właściwości" nc:link="images.xhtml#editing_image_properties" /> </rdf:li>
+                <rdf:li> <rdf:Description ID="images_insert" nc:name="wstawiane" nc:link="images.xhtml#inserting_an_image_into_your_page" /> </rdf:li>
+	    </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#k">
+        <nc:subheadings>
+            <rdf:Seq>
+				<rdf:li><rdf:Description nc:name="kaskadowe arkusze stylów" nc:link="css.xhtml"/></rdf:li>
+				<rdf:li><rdf:Description nc:name="kopiowanie tabel" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#l">
+        <nc:subheadings>
+            <rdf:Seq>
+				<rdf:li><rdf:Description nc:name="linie poziome" nc:link="formatting_webpages.xhtml#inserting_horizontal_lines"/></rdf:li>
+		<rdf:li> <rdf:Description ID="lists" nc:name="listy" nc:link="formatting_webpages.xhtml#formatting_your_web_pages" /> </rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#links">
+	<nc:subheadings>
+	    <rdf:Seq>
+	    <rdf:li> <rdf:Description ID="links_images" nc:name="obrazki jako odnośniki" nc:link="links.xhtml#using_images_as_links" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="links_external" nc:name="tworzenie odnośników do zewnętrznych stron" nc:link="links.xhtml#creating_links_to_other_pages" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="links_creating" nc:name="tworzenie odnośników w obrębie strony" nc:link="links.xhtml#creating_links_within_the_same_page" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="links_removing" nc:name="usuwanie odnośników" nc:link="links.xhtml#removing_or_discontinuing_links" /> </rdf:li>
+	    </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#lists">
+	<nc:subheadings>
+	    <rdf:Seq>
+		<rdf:li> <rdf:Description ID="lists_list_item" nc:name="elementy" nc:link="formatting_webpages.xhtml#formatting_paragraphs_heading_and_lists" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="lists_work" nc:name="praca z" nc:link="formatting_webpages.xhtml#working_with_lists" /> </rdf:li>
+	    </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+    
+    <rdf:Description about="#m">
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+    
+    <rdf:Description about="#n">
+        <nc:subheadings>
+            <rdf:Seq>
+            <rdf:li><rdf:Description nc:name="nowy dokument" nc:link="composer_tutorial.xhtml#starting_a_new_document"/></rdf:li>
+	    </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#o">
+        <nc:subheadings>
+        <rdf:Seq>
+			<rdf:li><rdf:Description ID="images" nc:name="obrazki" nc:link="images.xhtml" /> </rdf:li>
+			<rdf:li><rdf:Description ID="links" nc:name="odnośniki" nc:link="links.xhtml" /> </rdf:li>
+			<rdf:li><rdf:Description ID="preferences" nc:name="opcje" nc:link="preferences.xhtml" /> </rdf:li>
+			<rdf:li><rdf:Description nc:name="opcje zaawansowane" nc:link="preferences.xhtml#preferences_advanced_settings"/></rdf:li>
+	    </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#p">
+        <nc:subheadings>
+            <rdf:Seq>
+		<rdf:li><rdf:Description ID="toolbars" nc:name="paski narzędzi" nc:link="composer_tutorial.xhtml#introduction_to_the_user_interface"/></rdf:li>		
+		<rdf:li><rdf:Description ID="help-viewer" nc:name="pomoc" nc:link="welcome.xhtml"/></rdf:li>
+		<rdf:li><rdf:Description nc:name="przenoszenie tabel" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></rdf:li>
+		<rdf:li><rdf:Description nc:name="przeglądanie strony" nc:link="composer_help.xhtml#saving_and_browsing_your_new_page"/></rdf:li>
+		<rdf:li><rdf:Description ID="tutorial" nc:name="przewodnik" nc:link="composer_tutorial.xhtml"/></rdf:li>
+		<rdf:li> <rdf:Description ID="publishing" nc:name="publikowanie" nc:link="publishing_help.xhtml" /> </rdf:li>
+	    </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#page">
+	<nc:subheadings>
+	    <rdf:Seq>
+		<rdf:li> <rdf:Description ID="page-color-background" nc:name="kolory i tło" nc:link="page_properties.xhtml#setting_page_colors_and_backgrounds" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="page-create" nc:name="tworzenie nowej" nc:link="composer_help.xhtml#creating_a_new_page" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="page-properties" nc:name="właściwości" nc:link="page_properties.xhtml#setting_page_properties_and_meta_tags" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="page-save" nc:name="zapisywanie" nc:link="composer_help.xhtml#saving_and_browsing_your_new_page" /> </rdf:li>
+	    </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#preferences">
+	<nc:subheadings>
+	    <rdf:Seq>
+		<rdf:li> <rdf:Description ID="preferences_fonts" nc:name="czcionki" nc:link="preferences.xhtml#preferences_fonts" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="preferences-new-page-settings" nc:name="nowe strony" nc:link="preferences.xhtml#preferences_new_page_settings" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="preferences_general_settings" nc:name="ogólne" nc:link="preferences.xhtml#preferences_general_settings" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="preferences-advanced-settings" nc:name="zaawansowane" nc:link="preferences.xhtml#preferences_advanced_settings" /> </rdf:li>
+	    </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#r">
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#s">
+        <nc:subheadings>
+            <rdf:Seq>
+			<rdf:li> <rdf:Description ID="keyboard_shortcuts" nc:name="skróty klawiaturowe" nc:link="shortcuts.xhtml" /> </rdf:li>
+			<rdf:li> <rdf:Description ID="toc" nc:name="spis treści dokumentu" nc:link="toc.xhtml#working_with_table_of_contents_on_your_web_page" /> </rdf:li>
+			<rdf:li> <rdf:Description ID="validate" nc:name="sprawdzanie poprawności kodu HTML" nc:link="formatting_webpages.xhtml#validating_the_html" /> </rdf:li>
+			<rdf:li> <rdf:Description ID="page" nc:name="strona" nc:link="page_properties.xhtml" /> </rdf:li>
+			<rdf:li><rdf:Description nc:name="szukanie tekstu" nc:link="formatting_webpages.xhtml#finding_and_replacing_text"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+
+    <rdf:Description about="#t">
+        <nc:subheadings>
+            <rdf:Seq>
+		<rdf:li><rdf:Description ID="tables" nc:name="tabele" nc:link="tables.xhtml#adding_tables_to_your_web_page"/></rdf:li>
+		<rdf:li><rdf:Description ID="text" nc:name="tekst" nc:link="formatting_webpages.xhtml#formatting_your_web_pages"/></rdf:li>
+		<rdf:li> <rdf:Description ID="editing_modes" nc:name="tryby edycji" nc:link="formatting_webpages.xhtml#choosing_the_right_editing_mode" /> </rdf:li>
+		<rdf:li><rdf:Description nc:name="tworzenie arkuszy stylów" nc:link="css.xhtml#creating_style_sheets_with_nvu"/></rdf:li>
+		<rdf:li><rdf:Description nc:name="tworzenie stron www" nc:link="composer_help.xhtml"/></rdf:li>
+		<rdf:li><rdf:Description nc:name="tworzenie szablonów" nc:link="templates.xhtml#creating_a_template"/></rdf:li>
+	
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#tables">
+	<nc:subheadings>
+	   <rdf:Seq>
+		<rdf:li><rdf:Description nc:name="kopiowanie" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></rdf:li>
+		<rdf:li><rdf:Description nc:name="przenoszenie" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></rdf:li>
+		<rdf:li><rdf:Description nc:name="usuwanie" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></rdf:li>
+		<rdf:li><rdf:Description ID="adding-tables-to-your-web-page" nc:name="wstawiane" nc:link="tables.xhtml#adding_tables_to_your_web_page"/></rdf:li>
+	   </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#text">
+	<nc:subheadings>
+	   <rdf:Seq>
+		<rdf:li> <rdf:Description ID="finding-replacing-text" nc:name="szukanie/zamiana" nc:link="formatting_webpages.xhtml#finding_and_replacing_text"/></rdf:li>
+		<rdf:li> <rdf:Description ID="removing-or-discontinuing-text-styles" nc:name="usuwanie/kończenie stylu" nc:link="formatting_webpages.xhtml#removing_or_discontinuing_text_styles"/></rdf:li>
+		<rdf:li><rdf:Description ID="changing-text-font" nc:name="zmiana czcionki" nc:link="formatting_webpages.xhtml#changing_text_color_style_and_font"/></rdf:li>	
+		<rdf:li><rdf:Description ID="changing-text-color" nc:name="zmiana koloru" nc:link="formatting_webpages.xhtml#changing_text_color_style_and_font"/></rdf:li>
+		<rdf:li><rdf:Description ID="changing-text-style" nc:name="zmiana stylu" nc:link="formatting_webpages.xhtml#changing_text_color_style_and_font"/></rdf:li>
+	   </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+    
+    <rdf:Description about="#toolbars">
+	<nc:subheadings>
+	    <rdf:Seq>
+			<rdf:li><rdf:Description nc:name="pasek paneli" nc:link="composer_tutorial.xhtml#tab_browser_toolbar"/></rdf:li>
+			<rdf:li><rdf:Description nc:name="pasek narzędzi edycji" nc:link="composer_tutorial.xhtml#composition_toolbar"/></rdf:li>
+			<rdf:li><rdf:Description nc:name="pasek narzędzi formatowania" nc:link="composer_tutorial.xhtml#format_toolbar"/></rdf:li>
+			<rdf:li> <rdf:Description nc:name="pasek trybu edycji" nc:link="composer_tutorial.xhtml#edit_mode_toolbar" /> </rdf:li>
+			<rdf:li><rdf:Description nc:name="pasek statusu" nc:link="composer_tutorial.xhtml#status_toolbar"/></rdf:li>
+	    </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+    
+    <rdf:Description about="#u">
+        <nc:subheadings>
+            <rdf:Seq>
+				<rdf:li><rdf:Description nc:name="usuwanie odnośników" nc:link="links.xhtml#removing_or_discontinuing_links"/></rdf:li>
+				<rdf:li><rdf:Description nc:name="usuwanie styli tekstu" nc:link="formatting_webpages.xhtml#removing_or_discontinuing_text_styles"/></rdf:li>
+				<rdf:li><rdf:Description nc:name="usuwanie tabel" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+    
+    <rdf:Description about="#v">
+        <nc:subheadings>
+            <rdf:Seq>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#w">
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#z">
+        <nc:subheadings>
+            <rdf:Seq>
+				<rdf:li><rdf:Description nc:name="zaawansowany edytor właściwości" nc:link="formatting_webpages.xhtml#using_the_advanced_property_editor"/></rdf:li>
+				<rdf:li><rdf:Description nc:name="zamiana tekstu" nc:link="formatting_webpages.xhtml#finding_and_replacing_text"/></rdf:li>
+				<rdf:li><rdf:Description nc:name="zapisywanie strony" nc:link="composer_help.xhtml#saving_and_browsing_your_new_page"/></rdf:li>
+				<rdf:li><rdf:Description nc:name="zaznaczanie tabeli" nc:link="tables.xhtml#selecting_table_elements"/></rdf:li>
+				<rdf:li><rdf:Description nc:name="zmiana koloru, stylu i czcionki tekstu" nc:link="formatting_webpages.xhtml#changing_text_color_style_and_font"/></rdf:li>
+				<rdf:li> <rdf:Description ID="special-characters" nc:name="znaki specjalne" nc:link="formatting_webpages.xhtml#inserting_special_characters" /> </rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+	
+
+</rdf:RDF>
